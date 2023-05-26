@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- CSS only -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+    crossorigin="anonymous"
+    />
+    <title>COLIVING VIBES</title>
+</head>
+<body>
+    <!-- INICIA HEADER -->
+    <header id="header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div id="navBarContainer" class="container-fluid">
+              <a id="navBar__logo" class="navbar-brand" href="./index.html"><img src="./img/logo.png" height="60px" width="60px" alt="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul id="navBar" class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a data-section="navBar" data-value="home" class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a data-section="navBar" data-value="aboutUs" class="nav-link" href="#">Sobre nosotros</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a data-section="navBar" data-value="properties" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Propiedades
+                    </a>
+                    <ul id="navBar__dropdown" class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Rosselló</a></li>
+                      <li><a class="dropdown-item" href="#">Bonsoms</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a data-section="navBar" data-value="soon" class="dropdown-item" href="#">Proximamente</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">FAQ's</a>
+                  </li>
+                  <li class="nav-item">
+                    <a data-section="navBar" data-value="contact" class="nav-link" href="#">Contacto</a>
+                  </li>
+                  <form id="navBar__button" class="d-flex" role="search">
+                    <button data-section="navBar" data-value="requestAccess" class="btn btn-outline-success" type="submit">Solicitar acceso</button>
+                  </form>
+                  
+                </ul>
+                <div id="flags" class="flags">
+                    <div class="flags__item" data-language="es">
+                      <img class="flags__img" src="./img/es.svg" alt="español">
+                    </div>
+                    <div class="flags__item" data-language="en">
+                      <img class="flags__img" src="./img/gb.svg" alt="english">
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!-- FIN HEADER -->
+    <!-- INICIA MAIN -->
+    <main>
+      <div class="mainTitle">
+        <h1>Coliving Vibes</h1>
+        <h2>Life made easy</h2>
+        <button data-section="wrapper" data-value="button">Contacto</button>
+      </div>
+    </main>
+    <!-- INICIA NUESTROS COLIVINGS -->
+    <article>
+      <h2 data-section="colivings" data-value="title">Nuestros Colivings</h2>
+      <h3 data-section="colivings" data-value="subtitle">Conoce nuestras propiedades y habitaciones</h3>
+      <div class="cards">
+        <div class="cards__rossello">
+          <h4>Rosselló</h4>
+        </div>
+        <div class="cards__bonsoms">
+          <h4>Bonsoms</h4>
+        </div>
+      </div>
+    </article>
+    <section>
+      <h2 data-section="reviews" data-value="title">Reseñas</h2>
+      <h4 data-section="reviews" data-value="subtitle" >Conozca la opinión de nuestros inquilinos</h4>
+      <!-- INICIA SLIDER -->
+      <div class="slider">
+        <div class="slide-track">
+          <div class="slide">
+            <h3>Javier Gonzalez-Quijano</h3>
+            <a href="https://www.google.com/search?hl=es-ES&gl=es&q=Coliving+Vibes+Collblanc,+C/+del+Rossell%C3%B3,+7,+08903+L%27Hospitalet+de+Llobregat,+Barcelona&ludocid=10089152796388911723&lsig=AB86z5VqJ5yH0tlyP798sRQIP5Dq#lrd=0x12a4990cdd4b24cf:0x8c03df0381666a6b,1" target="_blank">
+            <img src="./img/cincoEstrellas.png" alt="valoracion cinco estrellas">
+              <p>Increible el trabajo de renovacion completa que han hecho Ana y Jo en lo  que era una casa en semi ruinas. Lo han convertido en un increible espacio coliving y escojido un modelo de negocio que funciona porque lo han desarrollado durante los últimos años con la experiencia de otros exitosos proyectos. Bravo!</p>
+            </a>
+          </div>
+          <div class="slide">
+            <h3>Carolina Gonzalez</h3>
+            <a href="https://www.google.com/search?hl=es-ES&gl=es&q=Coliving+Vibes+Collblanc,+C/+del+Rossell%C3%B3,+7,+08903+L%27Hospitalet+de+Llobregat,+Barcelona&ludocid=10089152796388911723&lsig=AB86z5VqJ5yH0tlyP798sRQIP5Dq#lrd=0x12a4990cdd4b24cf:0x8c03df0381666a6b,1" target="_blank">
+            <img src="./img/cincoEstrellas.png" alt="valoracion cinco estrellas">
+              <p>Me hospedo en Coliving Vibes desde noviembre y tengo que decir que lo estoy disfrutando mucho. Jo & Ana responden tan rápido a las inquietudes sobre el mantenimiento y me hace sentir muy a gusto. La señora de la limpieza, Irina mantiene el espacio súper limpio y viene casi todos los días. Todo es súper moderno, desde el diseño hasta las comodidades. ¡Altamente recomendado!</p>
+            </a>
+          </div>
+          <div class="slide">
+            <h3>Luca Fagiani</h3>
+            <a href="https://www.google.com/search?hl=es-ES&gl=es&q=Coliving+Vibes+Collblanc,+C/+del+Rossell%C3%B3,+7,+08903+L%27Hospitalet+de+Llobregat,+Barcelona&ludocid=10089152796388911723&lsig=AB86z5VqJ5yH0tlyP798sRQIP5Dq#lrd=0x12a4990cdd4b24cf:0x8c03df0381666a6b,1" target="_blank">
+            <img src="./img/cincoEstrellas.png" alt="valoracion cinco estrellas">
+              <p>Me quedé en este coliving con mi novia durante un mes. Fue absolutamente la elección correcta. Las habitaciones y la zona común son muy modernas y están completamente equipadas. ¡La señora de la limpieza viene todos los días!
+              Todo el equipamiento de la casa lo proporciona íntegramente la casa.
+              Y Jo y Ana son muy simpáticas y siempre disponibles para cualquier pequeño inconveniente.
+              ¡Absolutamente recomendado!</p>
+            </a>
+          </div>
+          <div class="slide">
+            <h3>Lara Lambrechts</h3>
+            <a href="https://www.google.com/search?hl=es-ES&gl=es&q=Coliving+Vibes+Collblanc,+C/+del+Rossell%C3%B3,+7,+08903+L%27Hospitalet+de+Llobregat,+Barcelona&ludocid=10089152796388911723&lsig=AB86z5VqJ5yH0tlyP798sRQIP5Dq#lrd=0x12a4990cdd4b24cf:0x8c03df0381666a6b,1" target="_blank">
+            <img src="./img/cincoEstrellas.png" alt="valoracion cinco estrellas">
+              <p>Estuve aquí un tiempo y todo estuvo muy bien organizado. La cocina está totalmente equipada, la casa se limpia 5 días a la semana. Los propietarios son muy serviciales. Jo seguramente te ayudará con cualquier pregunta que puedas tener. Entonces, definitivamente recomendaría este lugar.</p>
+            </a>
+          </div>
+          <div class="slide">
+            <h3>Małgorzata Balcerzak</h3>
+            <a href="https://www.google.com/search?hl=es-ES&gl=es&q=Coliving+Vibes+Collblanc,+C/+del+Rossell%C3%B3,+7,+08903+L%27Hospitalet+de+Llobregat,+Barcelona&ludocid=10089152796388911723&lsig=AB86z5VqJ5yH0tlyP798sRQIP5Dq#lrd=0x12a4990cdd4b24cf:0x8c03df0381666a6b,1" target="_blank">
+            <img src="./img/cincoEstrellas.png" alt="valoracion cinco estrellas">
+              <p>¡Pasé el mejor momento! Alquilé la habitación sin verla y la alquilé por internet y era todo lo que necesitaba. Habitación espaciosa y bien iluminada con baño privado, Internet excelente (trabajo desde casa), aire acondicionado/calefacción, cocina bien equipada, propietarios súper serviciales y colivers increíbles que crean una atmósfera que hace que quieras quedarte para siempre.</p>
+            </a>
+          </div>
+          <div class="slide">
+            <h3>Mads Boye Nilsen</h3>
+            <a href="https://www.google.com/search?hl=es-ES&gl=es&q=Coliving+Vibes+Collblanc,+C/+del+Rossell%C3%B3,+7,+08903+L%27Hospitalet+de+Llobregat,+Barcelona&ludocid=10089152796388911723&lsig=AB86z5VqJ5yH0tlyP798sRQIP5Dq#lrd=0x12a4990cdd4b24cf:0x8c03df0381666a6b,1" target="_blank">
+            <img src="./img/cincoEstrellas.png" alt="valoracion cinco estrellas">
+              <p>Estuve allí durante unos 2 meses y medio mientras me instalaba en España. El lugar es muy moderno y elegante, y las instalaciones compartidas siempre estaban limpias. Un lugar muy cómodo para quedarse, ¡y los propietarios también son extremadamente amables!</p>
+            </a>
+          </div>
+          <div class="slide">
+            <h3>Ksenia Novikova</h3>
+            <a href="https://www.google.com/search?hl=es-ES&gl=es&q=Coliving+Vibes+Collblanc,+C/+del+Rossell%C3%B3,+7,+08903+L%27Hospitalet+de+Llobregat,+Barcelona&ludocid=10089152796388911723&lsig=AB86z5VqJ5yH0tlyP798sRQIP5Dq#lrd=0x12a4990cdd4b24cf:0x8c03df0381666a6b,1" target="_blank">
+            <img src="./img/cincoEstrellas.png" alt="valoracion cinco estrellas">
+              <p>Un lugar muy cómodo y fresco para quedarse. Los propietarios son muy amables y serviciales, y las áreas comunes se limpian muy bien. Cerca del transporte público y la zona tiene muchos supermercados, etc. ¡Definitivamente me quedaría aquí de nuevo!</p>
+            </a>
+          </div>
+          <div class="slide">
+            <h3>Greta Olivares</h3>
+            <a href="https://www.google.com/search?hl=es-ES&gl=es&q=Coliving+Vibes+Collblanc,+C/+del+Rossell%C3%B3,+7,+08903+L%27Hospitalet+de+Llobregat,+Barcelona&ludocid=10089152796388911723&lsig=AB86z5VqJ5yH0tlyP798sRQIP5Dq#lrd=0x12a4990cdd4b24cf:0x8c03df0381666a6b,1" target="_blank">
+            <img src="./img/cincoEstrellas.png" alt="valoracion cinco estrellas">
+              <p>Excelente experiencia durante casi dos años. He estado muy cómoda. Si buscas compartir piso es una opción excelente, ya que se mira por una convivencia armoniosa, con limpieza y organización. Durante mi estancia conocí a muchas personas de diferentes partes del mundo, mi inglés mejoró muchísimo, tuve la oportunidad de sentirme como en casa, descansar y socializar. Hay un ambiente de respeto mutuo. La estancia en Barcelona fue sin duda reconfortante en parte por haber elegido este piso. Ana y Jo están en constante mantenimiento de las instalaciones y la convivencia.</p>
+            </a>
+          </div>
+          <div class="slide">
+            <h3>Claudia de la Cruz</h3>
+            <a href="https://www.google.com/search?hl=es-ES&gl=es&q=Coliving+Vibes+Collblanc,+C/+del+Rossell%C3%B3,+7,+08903+L%27Hospitalet+de+Llobregat,+Barcelona&ludocid=10089152796388911723&lsig=AB86z5VqJ5yH0tlyP798sRQIP5Dq#lrd=0x12a4990cdd4b24cf:0x8c03df0381666a6b,1" target="_blank">
+            <img src="./img/cincoEstrellas.png" alt="valoracion cinco estrellas">
+              <p>Estuve cerca de 3 meses en el piso y la experiencia fue muy buena, primero que nada que me sentí 100% segura, tener una persona que se ocupe de la limpieza de las áreas comunes es un valor agregado y la calidad de los rommies también, espero regresar pronto!</p>
+            </a>
+          </div>
+          <div class="slide">
+            <h3>Marc Roigé</h3>
+            <a href="https://www.google.com/search?hl=es-ES&gl=es&q=Coliving+Vibes+Collblanc,+C/+del+Rossell%C3%B3,+7,+08903+L%27Hospitalet+de+Llobregat,+Barcelona&ludocid=10089152796388911723&lsig=AB86z5VqJ5yH0tlyP798sRQIP5Dq#lrd=0x12a4990cdd4b24cf:0x8c03df0381666a6b,1" target="_blank">
+            <img src="./img/cincoEstrellas.png" alt="valoracion cinco estrellas">
+              <p>Mi experiencia en Bonsoms ha sido muy positiva, desde el primer día el trato de Ana ha sido muy atento y agradable y además vivir allí me ha permitido hacer muchas amistades de diferentes partes del mundo y compartir momentos inolvidables. Si volviera dos años y medio atrás en el tiempo  repetiría la experiencia sin dudarlo.</p>
+            </a>
+          </div>
+          <div class="slide">
+            <h3>Priscila Jaime</h3>
+            <a href="https://www.google.com/search?hl=es-ES&gl=es&q=Coliving+Vibes+Collblanc,+C/+del+Rossell%C3%B3,+7,+08903+L%27Hospitalet+de+Llobregat,+Barcelona&ludocid=10089152796388911723&lsig=AB86z5VqJ5yH0tlyP798sRQIP5Dq#lrd=0x12a4990cdd4b24cf:0x8c03df0381666a6b,1" target="_blank">
+            <img src="./img/cincoEstrellas.png" alt="valoracion cinco estrellas">
+              <p>Una experiencia inigualable Ana y Jo siempre están pendientes de lo que se necesita y de mejorar cada día. Si vienes a Barcelona no dudes en alojarte en Barcelona room rental. Además tienes la parada de metro de badal a solo 7 minutos caminando y la de Mercat nou a 12 min. Estas muy cerca de todo. Mercados cerca para hacer la compra. Gracias a Ania y Jo por hacer mi experiencia tan gratificante.</p>
+            </a>
+          </div>
+          <div class="slide">
+            <h3>Ana Alvarez</h3>
+            <a href="https://www.google.com/search?hl=es-ES&gl=es&q=Coliving+Vibes+Collblanc,+C/+del+Rossell%C3%B3,+7,+08903+L%27Hospitalet+de+Llobregat,+Barcelona&ludocid=10089152796388911723&lsig=AB86z5VqJ5yH0tlyP798sRQIP5Dq#lrd=0x12a4990cdd4b24cf:0x8c03df0381666a6b,1" target="_blank">
+            <img src="./img/cincoEstrellas.png" alt="valoracion cinco estrellas">
+              <p>La habitacion comoda y muy bien equipada.
+                El piso bien organizado y muy limpio
+                Lo recomiendo</p>
+            </a>
+          </div>
+          <div class="slide">
+            <h3>Javier Gonzalez-Quijano</h3>
+            <a href="https://www.google.com/search?hl=es-ES&gl=es&q=Coliving+Vibes+Collblanc,+C/+del+Rossell%C3%B3,+7,+08903+L%27Hospitalet+de+Llobregat,+Barcelona&ludocid=10089152796388911723&lsig=AB86z5VqJ5yH0tlyP798sRQIP5Dq#lrd=0x12a4990cdd4b24cf:0x8c03df0381666a6b,1" target="_blank">
+            <img src="./img/cincoEstrellas.png" alt="valoracion cinco estrellas">
+              <p>Increible el trabajo de renovacion completa que han hecho Ana y Jo en lo  que era una casa en semi ruinas. Lo han convertido en un increible espacio coliving y escojido un modelo de negocio que funciona porque lo han desarrollado durante los últimos años con la experiencia de otros exitosos proyectos. Bravo!</p>
+            </a>
+          </div>
+          <div class="slide">
+            <h3>Carolina Gonzalez</h3>
+            <a href="https://www.google.com/search?hl=es-ES&gl=es&q=Coliving+Vibes+Collblanc,+C/+del+Rossell%C3%B3,+7,+08903+L%27Hospitalet+de+Llobregat,+Barcelona&ludocid=10089152796388911723&lsig=AB86z5VqJ5yH0tlyP798sRQIP5Dq#lrd=0x12a4990cdd4b24cf:0x8c03df0381666a6b,1" target="_blank">
+            <img src="./img/cincoEstrellas.png" alt="valoracion cinco estrellas">
+              <p>Me hospedo en Coliving Vibes desde noviembre y tengo que decir que lo estoy disfrutando mucho. Jo & Ana responden tan rápido a las inquietudes sobre el mantenimiento y me hace sentir muy a gusto. La señora de la limpieza, Irina mantiene el espacio súper limpio y viene casi todos los días. Todo es súper moderno, desde el diseño hasta las comodidades. ¡Altamente recomendado!</p>
+            </a>
+          </div>
+          <div class="slide">
+            <h3>Luca Fagiani</h3>
+            <a href="https://www.google.com/search?hl=es-ES&gl=es&q=Coliving+Vibes+Collblanc,+C/+del+Rossell%C3%B3,+7,+08903+L%27Hospitalet+de+Llobregat,+Barcelona&ludocid=10089152796388911723&lsig=AB86z5VqJ5yH0tlyP798sRQIP5Dq#lrd=0x12a4990cdd4b24cf:0x8c03df0381666a6b,1" target="_blank">
+            <img src="./img/cincoEstrellas.png" alt="valoracion cinco estrellas">
+              <p>Me quedé en este coliving con mi novia durante un mes. Fue absolutamente la elección correcta. Las habitaciones y la zona común son muy modernas y están completamente equipadas. ¡La señora de la limpieza viene todos los días!
+              Todo el equipamiento de la casa lo proporciona íntegramente la casa.
+              Y Jo y Ana son muy simpáticas y siempre disponibles para cualquier pequeño inconveniente.
+              ¡Absolutamente recomendado!</p>
+            </a>
+          </div>
+          <div class="slide">
+            <h3>Lara Lambrechts</h3>
+            <a href="https://www.google.com/search?hl=es-ES&gl=es&q=Coliving+Vibes+Collblanc,+C/+del+Rossell%C3%B3,+7,+08903+L%27Hospitalet+de+Llobregat,+Barcelona&ludocid=10089152796388911723&lsig=AB86z5VqJ5yH0tlyP798sRQIP5Dq#lrd=0x12a4990cdd4b24cf:0x8c03df0381666a6b,1" target="_blank">
+            <img src="./img/cincoEstrellas.png" alt="valoracion cinco estrellas">
+              <p>Estuve aquí un tiempo y todo estuvo muy bien organizado. La cocina está totalmente equipada, la casa se limpia 5 días a la semana. Los propietarios son muy serviciales. Jo seguramente te ayudará con cualquier pregunta que puedas tener. Entonces, definitivamente recomendaría este lugar.</p>
+            </a>
+          </div>
+          <div class="slide">
+            <h3>Małgorzata Balcerzak</h3>
+            <a href="https://www.google.com/search?hl=es-ES&gl=es&q=Coliving+Vibes+Collblanc,+C/+del+Rossell%C3%B3,+7,+08903+L%27Hospitalet+de+Llobregat,+Barcelona&ludocid=10089152796388911723&lsig=AB86z5VqJ5yH0tlyP798sRQIP5Dq#lrd=0x12a4990cdd4b24cf:0x8c03df0381666a6b,1" target="_blank">
+            <img src="./img/cincoEstrellas.png" alt="valoracion cinco estrellas">
+              <p>¡Pasé el mejor momento! Alquilé la habitación sin verla y la alquilé por internet y era todo lo que necesitaba. Habitación espaciosa y bien iluminada con baño privado, Internet excelente (trabajo desde casa), aire acondicionado/calefacción, cocina bien equipada, propietarios súper serviciales y colivers increíbles que crean una atmósfera que hace que quieras quedarte para siempre.</p>
+            </a>
+          </div>
+          <div class="slide">
+            <h3>Mads Boye Nilsen</h3>
+            <a href="https://www.google.com/search?hl=es-ES&gl=es&q=Coliving+Vibes+Collblanc,+C/+del+Rossell%C3%B3,+7,+08903+L%27Hospitalet+de+Llobregat,+Barcelona&ludocid=10089152796388911723&lsig=AB86z5VqJ5yH0tlyP798sRQIP5Dq#lrd=0x12a4990cdd4b24cf:0x8c03df0381666a6b,1" target="_blank">
+            <img src="./img/cincoEstrellas.png" alt="valoracion cinco estrellas">
+              <p>Estuve allí durante unos 2 meses y medio mientras me instalaba en España. El lugar es muy moderno y elegante, y las instalaciones compartidas siempre estaban limpias. Un lugar muy cómodo para quedarse, ¡y los propietarios también son extremadamente amables!</p>
+            </a>
+          </div>
+          <div class="slide">
+            <h3>Ksenia Novikova</h3>
+            <a href="https://www.google.com/search?hl=es-ES&gl=es&q=Coliving+Vibes+Collblanc,+C/+del+Rossell%C3%B3,+7,+08903+L%27Hospitalet+de+Llobregat,+Barcelona&ludocid=10089152796388911723&lsig=AB86z5VqJ5yH0tlyP798sRQIP5Dq#lrd=0x12a4990cdd4b24cf:0x8c03df0381666a6b,1" target="_blank">
+            <img src="./img/cincoEstrellas.png" alt="valoracion cinco estrellas">
+              <p>Un lugar muy cómodo y fresco para quedarse. Los propietarios son muy amables y serviciales, y las áreas comunes se limpian muy bien. Cerca del transporte público y la zona tiene muchos supermercados, etc. ¡Definitivamente me quedaría aquí de nuevo!</p>
+            </a>
+          </div>
+          <div class="slide">
+            <h3>Greta Olivares</h3>
+            <a href="https://www.google.com/search?hl=es-ES&gl=es&q=Coliving+Vibes+Collblanc,+C/+del+Rossell%C3%B3,+7,+08903+L%27Hospitalet+de+Llobregat,+Barcelona&ludocid=10089152796388911723&lsig=AB86z5VqJ5yH0tlyP798sRQIP5Dq#lrd=0x12a4990cdd4b24cf:0x8c03df0381666a6b,1" target="_blank">
+            <img src="./img/cincoEstrellas.png" alt="valoracion cinco estrellas">
+              <p>Excelente experiencia durante casi dos años. He estado muy cómoda. Si buscas compartir piso es una opción excelente, ya que se mira por una convivencia armoniosa, con limpieza y organización. Durante mi estancia conocí a muchas personas de diferentes partes del mundo, mi inglés mejoró muchísimo, tuve la oportunidad de sentirme como en casa, descansar y socializar. Hay un ambiente de respeto mutuo. La estancia en Barcelona fue sin duda reconfortante en parte por haber elegido este piso. Ana y Jo están en constante mantenimiento de las instalaciones y la convivencia.</p>
+            </a>
+          </div>
+          <div class="slide">
+            <h3>Claudia de la Cruz</h3>
+            <a href="https://www.google.com/search?hl=es-ES&gl=es&q=Coliving+Vibes+Collblanc,+C/+del+Rossell%C3%B3,+7,+08903+L%27Hospitalet+de+Llobregat,+Barcelona&ludocid=10089152796388911723&lsig=AB86z5VqJ5yH0tlyP798sRQIP5Dq#lrd=0x12a4990cdd4b24cf:0x8c03df0381666a6b,1" target="_blank">
+            <img src="./img/cincoEstrellas.png" alt="valoracion cinco estrellas">
+              <p>Estuve cerca de 3 meses en el piso y la experiencia fue muy buena, primero que nada que me sentí 100% segura, tener una persona que se ocupe de la limpieza de las áreas comunes es un valor agregado y la calidad de los rommies también, espero regresar pronto!</p>
+            </a>
+          </div>
+          <div class="slide">
+            <h3>Marc Roigé</h3>
+            <a href="https://www.google.com/search?hl=es-ES&gl=es&q=Coliving+Vibes+Collblanc,+C/+del+Rossell%C3%B3,+7,+08903+L%27Hospitalet+de+Llobregat,+Barcelona&ludocid=10089152796388911723&lsig=AB86z5VqJ5yH0tlyP798sRQIP5Dq#lrd=0x12a4990cdd4b24cf:0x8c03df0381666a6b,1" target="_blank">
+            <img src="./img/cincoEstrellas.png" alt="valoracion cinco estrellas">
+              <p>Mi experiencia en Bonsoms ha sido muy positiva, desde el primer día el trato de Ana ha sido muy atento y agradable y además vivir allí me ha permitido hacer muchas amistades de diferentes partes del mundo y compartir momentos inolvidables. Si volviera dos años y medio atrás en el tiempo  repetiría la experiencia sin dudarlo.</p>
+            </a>
+          </div>
+          <div class="slide">
+            <h3>Priscila Jaime</h3>
+            <a href="https://www.google.com/search?hl=es-ES&gl=es&q=Coliving+Vibes+Collblanc,+C/+del+Rossell%C3%B3,+7,+08903+L%27Hospitalet+de+Llobregat,+Barcelona&ludocid=10089152796388911723&lsig=AB86z5VqJ5yH0tlyP798sRQIP5Dq#lrd=0x12a4990cdd4b24cf:0x8c03df0381666a6b,1" target="_blank">
+            <img src="./img/cincoEstrellas.png" alt="valoracion cinco estrellas">
+              <p>Una experiencia inigualable Ana y Jo siempre están pendientes de lo que se necesita y de mejorar cada día. Si vienes a Barcelona no dudes en alojarte en Barcelona room rental. Además tienes la parada de metro de badal a solo 7 minutos caminando y la de Mercat nou a 12 min. Estas muy cerca de todo. Mercados cerca para hacer la compra. Gracias a Ania y Jo por hacer mi experiencia tan gratificante.</p>
+            </a>
+          </div>
+          <div class="slide">
+            <h3>Ana Alvarez</h3>
+            <a href="https://www.google.com/search?hl=es-ES&gl=es&q=Coliving+Vibes+Collblanc,+C/+del+Rossell%C3%B3,+7,+08903+L%27Hospitalet+de+Llobregat,+Barcelona&ludocid=10089152796388911723&lsig=AB86z5VqJ5yH0tlyP798sRQIP5Dq#lrd=0x12a4990cdd4b24cf:0x8c03df0381666a6b,1" target="_blank">
+            <img src="./img/cincoEstrellas.png" alt="valoracion cinco estrellas">
+              <p>La habitacion comoda y muy bien equipada.
+                El piso bien organizado y muy limpio
+                Lo recomiendo</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- FIN SLIDER -->
+      <div class="buttonSlider">
+        <button>
+          <a data-section="reviews" data-value="button1" href="https://www.google.com/search?hl=es-ES&gl=es&q=Coliving+Vibes+Collblanc,+C/+del+Rossell%C3%B3,+7,+08903+L%27Hospitalet+de+Llobregat,+Barcelona&ludocid=10089152796388911723&lsig=AB86z5VqJ5yH0tlyP798sRQIP5Dq#lrd=0x12a4990cdd4b24cf:0x8c03df0381666a6b,1" target="_blank">Ver más</a>
+        </button>
+        <button>
+          <a data-section="reviews" data-value="button2" href="https://www.google.com/search?hl=es-ES&gl=es&q=Coliving+Vibes+Collblanc,+C/+del+Rossell%C3%B3,+7,+08903+L%27Hospitalet+de+Llobregat,+Barcelona&ludocid=10089152796388911723&lsig=AB86z5VqJ5yH0tlyP798sRQIP5Dq#lrd=0x12a4990cdd4b24cf:0x8c03df0381666a6b,3" target="_blank">Escribe una reseña</a>
+        </button>
+      </div>
+    </section>
+    <!-- FIN MAIN -->
+    <!-- INICIA FOOTER -->
+    <footer class="footer">
+        <div class="footer__nav">
+            <ul>
+                <li>
+                    <a href="">Inicio</a>
+                </li>
+                <li>
+                    <a href="">Sobre nosotros</a>
+                </li>
+                <li>
+                    <a href="">Propiedades</a>
+                </li>
+                <li>
+                    <a href="">FAQ's</a>
+                </li>
+                <li>
+                    <a href="">Contacto</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__redes">
+          <h5>Síguenos en nuestras redes!</h5>
+          <img src="./img/instagram.png" height="25px" width="25px" alt="">
+          <img src="./img/facebook.png" height="25px" width="25px" alt="">
+          <img src="./img/linkedin.png" height="25px" width="25px" alt="">
+          <img src="./img/gmail.png" height="23px" width="23px" alt="">
+        </div>
+        <div class="footer__logo">
+          <img src="./img/logo2.png" width="140px" height="180px" alt="">
+      </div>
+        <div class="maps">
+          <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2994.0584560283437!2d2.1215668757955566!3d41.37281467130166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a498f2bfed1933%3A0x133ced941ce2dc45!2sC%2F%20del%20Rossell%C3%B3%2C%207%2C%2008903%20L&#39;Hospitalet%20de%20Llobregat%2C%20Barcelona!5e0!3m2!1ses!2ses!4v1685103835252!5m2!1ses!2ses" width="200" height="120" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <p>Carrer del Rosselló 7, L'Hospitalet de Llobregat</p>
+          </div>
+          <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2994.045900109492!2d2.123781375795522!3d41.37308747130171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4988d380747e3%3A0xd6dce697bfd91799!2sCarrer%20de%20Bonsoms%2C%2019%2C%2008028%20Barcelona!5e0!3m2!1ses!2ses!4v1685104021274!5m2!1ses!2ses" width="200" height="120" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <p>Carrer de Bonsoms 9, L'Hospitalet de Llobregat</p>
+          </div>
+          
+          
+        </div>
+    </footer>
+    <!-- FIN FOOTER -->
+    <script src="./js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>

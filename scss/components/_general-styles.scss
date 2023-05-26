@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li{
+    list-style: none;
+}
+
+@font-face {
+    font-family: "dazzle-bold";
+    src: url(/fonts/dazzle-bold.ttf);
+    font-style:bold;
+    font-weight:bold;
+}

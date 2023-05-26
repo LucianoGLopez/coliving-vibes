@@ -1,0 +1,23 @@
+{
+    "wrapper":{
+        "button": "Contacto"
+    },
+    "colivings":{
+        "title": "Nuestros Colivings",
+        "subtitle": "Conoce nuestras propiedades y habitaciones"
+    },
+    "reviews":{
+        "title":"Reseñas",
+        "subtitle": "Conozca la opinión de nuestros inquilinos",
+        "button1": "Ver más",
+        "button2": "Escribe una reseña"
+    },
+    "navBar":{
+        "home": "Inicio",
+        "aboutUs": "Sobre nosotros",
+        "properties": "Propiedades",
+        "soon": "Proximamente",
+        "contact": "Contacto",
+        "requestAccess": "Solicitar acceso"
+    }
+}

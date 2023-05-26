@@ -1,0 +1,23 @@
+{
+    "wrapper":{
+        "button": "Contact"
+    },
+    "colivings":{
+        "title": "Our Colivings",
+        "subtitle": "Know our properties and rooms"
+    },
+    "reviews":{
+        "title":"Reviews",
+        "subtitle": "Know the opinion of our tenants",
+        "button1": "See more",
+        "button2": "Write a review"
+    },
+    "navBar":{
+        "home": "Home",
+        "aboutUs": "About Us",
+        "properties": "Properties",
+        "soon": "Soon",
+        "contact": "Contact",
+        "requestAccess": "Request Access"
+    }
+}

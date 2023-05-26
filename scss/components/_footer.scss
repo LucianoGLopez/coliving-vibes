@@ -1,0 +1,36 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(139, 139, 139);
+    padding: 5px;
+    
+    a{
+        text-decoration: none;
+        color: rgb(58, 57, 57);
+        &:hover{
+            color: rgb(14,14,14);
+        }
+    }
+    h5{
+        font-size: .7rem;
+    }
+    &__nav{
+        ul{
+            
+            
+            gap: 20px;
+            align-self: center;
+        }
+    }
+}
+
+.maps{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    p{
+        font-size: .7rem;
+    }
+}
+
