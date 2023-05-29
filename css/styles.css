@@ -8,7 +8,7 @@ ul li {
 
 @font-face {
   font-family: "dazzle-bold";
-  src: url(/fonts/dazzle-bold.ttf);
+  src: url(../fonts/dazzle-bold.ttf);
   font-style: bold;
   font-weight: bold; }
 
@@ -123,14 +123,53 @@ main {
   width: 40vw;
   height: 100vh; }
 
-article {
+.containerOurConcept {
+  background-color: #272727;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 100px;
+  gap: 100px;
+  align-items: center; }
+  .containerOurConcept h2 {
+    text-align: center;
+    color: #ffff6a; }
+  .containerOurConcept p {
+    color: #d1d1d1; }
+  .containerOurConcept img {
+    border-radius: 7px;
+    height: 350px;
+    width: auto;
+    box-shadow: 8px 5px 30px -3px rgba(7, 7, 7, 0.781);
+    -webkit-box-shadow: 8px 5px 30px -3px rgba(0, 0, 0, 0.741);
+    -moz-box-shadow: 8px 5px 30px -3px rgba(2, 2, 2, 0.603); }
+  .containerOurConcept button {
+    margin: 0 auto;
+    font-size: 1.2rem;
+    font-weight: 500;
+    background: none;
+    color: #ffff6a;
+    border: none;
+    border-bottom: 1px solid #ffff6a;
+    padding: 5px 20px; }
+    .containerOurConcept button:hover {
+      background-color: #d1d1d1;
+      border-bottom: none;
+      color: #272727;
+      border-radius: 7px;
+      transition: .6s; }
+
+.textContainerOurConcept {
+  display: flex;
+  flex-direction: column; }
+
+.ourColivings {
   height: max-content;
   background-color: #8b8b8b;
   padding: 30px;
   text-align: center; }
-  article h2 {
+  .ourColivings h2 {
     color: #ffff6a; }
-  article h3 {
+  .ourColivings h3 {
     font-size: 1.2rem; }
 
 .cards {
@@ -145,12 +184,12 @@ article {
     padding: 10px;
     color: #272727;
     background-color: rgba(255, 255, 106, 0.71);
-    margin-right: 260px;
+    margin-right: 300px;
     border-bottom-right-radius: 20px;
     border-top-left-radius: 7px; }
   .cards__rossello {
-    height: 250px;
-    width: 350px;
+    height: 300px;
+    width: 400px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/cardsRossello.jpg);
     background-size: cover;
     border-radius: 7px;
@@ -159,8 +198,8 @@ article {
     -webkit-box-shadow: 8px 5px 30px -3px rgba(0, 0, 0, 0.41);
     -moz-box-shadow: 8px 5px 30px -3px rgba(2, 2, 2, 0.41); }
   .cards__bonsoms {
-    height: 250px;
-    width: 350px;
+    height: 300px;
+    width: 400px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/cardsBonsoms.jpg);
     background-size: cover;
     border-radius: 7px;
@@ -168,14 +207,14 @@ article {
     -webkit-box-shadow: 8px 5px 30px -3px rgba(0, 0, 0, 0.41);
     -moz-box-shadow: 8px 5px 30px -3px rgba(2, 2, 2, 0.41); }
 
-section {
+.reviews {
   height: max-content;
   background-color: #272727;
-  padding: 20px;
+  padding: 40px 0;
   text-align: center; }
-  section h2 {
+  .reviews h2 {
     color: #ffff6a; }
-  section h4 {
+  .reviews h4 {
     color: #dbdbdb;
     font-size: 1.2rem; }
 
@@ -184,6 +223,7 @@ section {
   justify-content: center;
   gap: 20px; }
   .buttonSlider button {
+    font-size: 1.2rem;
     background: none;
     color: #ffff6a;
     padding: 5px;

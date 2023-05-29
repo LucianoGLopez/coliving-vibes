@@ -36,17 +36,61 @@ main{
     }
 }
 
-
-
-
 .mainTitle{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     width: 40vw;
     height: 100vh;
 }
 
+// INICIA OUR CONCEPT
+.containerOurConcept{
+    background-color: $darkgray;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+    gap: 100px;
+    align-items: center;
+    h2{
+        text-align: center;
+        color: $yellow;
+    }
+    p{
+        color: $lightgraytext;
+    }
+    img{
+        border-radius: 7px;
+        height: 350px;
+        width: auto;
+        box-shadow: 8px 5px 30px -3px rgba(7, 7, 7, 0.781);
+        -webkit-box-shadow: 8px 5px 30px -3px rgba(0, 0, 0, 0.741);
+        -moz-box-shadow: 8px 5px 30px -3px rgba(2, 2, 2, 0.603);
+    }
+    button{
+        margin: 0 auto;
+        font-size: 1.2rem;
+        font-weight: 500;
+        background: none;
+        color: $yellow;
+        border: none;
+        border-bottom: 1px solid $yellow;
+        padding: 5px 20px;
+        &:hover{
+            background-color: $lightgraytext;
+            border-bottom: none;
+            color: $darkgray;
+            border-radius: 7px;
+            transition: .6s;
+        }
+    }
+}
+
+.textContainerOurConcept{
+    display: flex;
+    flex-direction: column;
+}
+
 // INICIA CARDS
-article{
+.ourColivings{
     height: max-content;
     background-color:rgb(139, 139, 139);
     padding: 30px;
@@ -71,13 +115,13 @@ article{
         padding: 10px;
         color:rgb(39, 39, 39);
         background-color:rgba(255, 255, 106, 0.71);
-        margin-right: 260px;
+        margin-right: 300px;
         border-bottom-right-radius: 20px;
         border-top-left-radius: 7px;
     }
     &__rossello{
-        height: 250px;
-        width: 350px;
+        height: 300px;
+        width: 400px;
         background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/cardsRossello.jpg);
         background-size: cover;
         border-radius: 7px;
@@ -87,8 +131,8 @@ article{
         -moz-box-shadow: 8px 5px 30px -3px rgba(2, 2, 2, 0.41);
     }
     &__bonsoms{
-        height: 250px;
-        width: 350px;
+        height: 300px;
+        width: 400px;
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/cardsBonsoms.jpg);
         background-size: cover;
         border-radius: 7px;
@@ -99,10 +143,10 @@ article{
 }
 
 // INICIA RESEÑAS
-section{
+.reviews{
     height: max-content;
     background-color:rgb(39, 39, 39);
-    padding: 20px;
+    padding: 40px 0;
     text-align: center;
     h2{
         color:rgb(255, 255, 106);
@@ -119,12 +163,12 @@ section{
     justify-content: center;
     gap: 20px;
     button{
+        font-size: 1.2rem;
         background: none;
         color:rgb(255, 255, 106);
         padding: 5px;
-        
         border: none;
-        border-bottom: 1px solid rgb(255, 255, 106);;
+        border-bottom: 1px solid rgb(255, 255, 106);
     }
     a{
         text-decoration: none;
