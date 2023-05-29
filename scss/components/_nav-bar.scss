@@ -32,11 +32,10 @@
     padding-left: 100px;
     z-index: 100000;
     a{
-        color:rgb(255, 255, 93);
-        font-weight:300;
+        color:rgb(246, 246, 246);
+        font-weight:400;
         &:hover{
-            color:  rgb(171, 171, 72);
-            
+            color:  rgb(255, 255, 93);
         }
     }
     &__dropdown{

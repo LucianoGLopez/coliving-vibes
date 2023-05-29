@@ -10,28 +10,33 @@ main{
     
     h1{
         padding-top: 300px;
-        color: rgb(255, 255, 106);
+        color: $yellow;
         font-size: 3.2rem;
         font-family: "dazzle-bold";
         font-weight: 100;
         letter-spacing: .8rem;
     }
     h2{
-        color:rgb(186, 186, 186);
+        color:$lightgraytext;
         font-size: 1.8rem;
         font-weight: 100;
         padding-bottom: 10px;
     }
     button{
         font-size: 1.5rem;
-        font-weight: 500;
+        font-weight: 400;
         background: none;
-        color:rgb(255, 255, 106);
-        border: none;
-        border-bottom: 1px solid rgb(255, 255, 106);;
+        color:$yellow;
+        border: 1px solid $yellow;
+        border-radius: 7px;
+        // border: none;
+        // border-bottom: 1px solid $yellow;
         padding: 5px 20px;
         &:hover{
-            color: rgb(171, 171, 72);
+            background-color: $yellow;
+            color: $darkgray;
+            transition: .5s;
+            // border-bottom: 1px solid $yellowhover;
         }
     }
 }
@@ -67,23 +72,20 @@ main{
     }
     button{
         margin: 0 auto;
-        font-size: 1.2rem;
-        font-weight: 500;
+        font-size: 1rem;
+        font-weight: 400;
         background: none;
         color: $yellow;
         border: none;
         border-bottom: 1px solid $yellow;
-        padding: 5px 20px;
+        padding: 10px 10px 5px;
         &:hover{
-            background-color: $lightgraytext;
-            border-bottom: none;
-            color: $darkgray;
-            border-radius: 7px;
-            transition: .6s;
+            border-bottom: 1px solid $yellowhover;
+            color: $yellowhover;
+            transition: .2s
         }
     }
 }
-
 .textContainerOurConcept{
     display: flex;
     flex-direction: column;
@@ -92,11 +94,11 @@ main{
 // INICIA CARDS
 .ourColivings{
     height: max-content;
-    background-color:rgb(139, 139, 139);
+    background-color:$lightgray;
     padding: 30px;
     text-align: center;
     h2{
-        color:rgb(255, 255, 106);
+        color:$yellow;
     }
     h3{
         font-size: 1.2rem;
@@ -125,7 +127,6 @@ main{
         background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/cardsRossello.jpg);
         background-size: cover;
         border-radius: 7px;
-        background-color: rgb(186, 186, 186);
         box-shadow: 8px 5px 30px -3px rgba(7, 7, 7, 0.41);
         -webkit-box-shadow: 8px 5px 30px -3px rgba(0, 0, 0, 0.41);
         -moz-box-shadow: 8px 5px 30px -3px rgba(2, 2, 2, 0.41);
@@ -145,14 +146,14 @@ main{
 // INICIA RESEÑAS
 .reviews{
     height: max-content;
-    background-color:rgb(39, 39, 39);
+    background-color:$darkgray;
     padding: 40px 0;
     text-align: center;
     h2{
-        color:rgb(255, 255, 106);
+        color:$yellow;
     }
     h4{
-        color:rgb(219, 219, 219);
+        color:$lightgraytext;
         font-size: 1.2rem;
     }
 }
@@ -163,19 +164,22 @@ main{
     justify-content: center;
     gap: 20px;
     button{
-        font-size: 1.2rem;
+        font-size: 1rem;
         background: none;
-        color:rgb(255, 255, 106);
+        color:$yellow;
         padding: 5px;
         border: none;
-        border-bottom: 1px solid rgb(255, 255, 106);
-    }
-    a{
-        text-decoration: none;
-        color:rgb(255, 255, 106);
+        border-bottom: 1px solid $yellow;
         &:hover{
-            color:rgb(171, 171, 72);
-            
+            color: $yellowhover;
+            border-bottom: 1px solid $yellowhover;
+        }
+        a{
+            text-decoration: none;
+            color: $yellow;
+            &:hover{
+                color: $yellowhover;
+            }
         }
     }
 }

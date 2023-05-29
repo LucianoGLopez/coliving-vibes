@@ -42,10 +42,10 @@ ul li {
   padding-left: 100px;
   z-index: 100000; }
   #navBar a {
-    color: #ffff5d;
-    font-weight: 300; }
+    color: #f6f6f6;
+    font-weight: 400; }
     #navBar a:hover {
-      color: #abab48; }
+      color: #ffff5d; }
   #navBar__dropdown {
     background-color: rgba(0, 0, 0, 0.39); }
     #navBar__dropdown a:hover {
@@ -103,20 +103,22 @@ main {
     font-weight: 100;
     letter-spacing: .8rem; }
   main h2 {
-    color: #bababa;
+    color: #d1d1d1;
     font-size: 1.8rem;
     font-weight: 100;
     padding-bottom: 10px; }
   main button {
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 400;
     background: none;
     color: #ffff6a;
-    border: none;
-    border-bottom: 1px solid #ffff6a;
+    border: 1px solid #ffff6a;
+    border-radius: 7px;
     padding: 5px 20px; }
     main button:hover {
-      color: #abab48; }
+      background-color: #ffff6a;
+      color: #272727;
+      transition: .5s; }
 
 .mainTitle {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
@@ -144,19 +146,17 @@ main {
     -moz-box-shadow: 8px 5px 30px -3px rgba(2, 2, 2, 0.603); }
   .containerOurConcept button {
     margin: 0 auto;
-    font-size: 1.2rem;
-    font-weight: 500;
+    font-size: 1rem;
+    font-weight: 400;
     background: none;
     color: #ffff6a;
     border: none;
     border-bottom: 1px solid #ffff6a;
-    padding: 5px 20px; }
+    padding: 10px 10px 5px; }
     .containerOurConcept button:hover {
-      background-color: #d1d1d1;
-      border-bottom: none;
-      color: #272727;
-      border-radius: 7px;
-      transition: .6s; }
+      border-bottom: 1px solid #fafa2b;
+      color: #fafa2b;
+      transition: .2s; }
 
 .textContainerOurConcept {
   display: flex;
@@ -193,7 +193,6 @@ main {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/cardsRossello.jpg);
     background-size: cover;
     border-radius: 7px;
-    background-color: #bababa;
     box-shadow: 8px 5px 30px -3px rgba(7, 7, 7, 0.41);
     -webkit-box-shadow: 8px 5px 30px -3px rgba(0, 0, 0, 0.41);
     -moz-box-shadow: 8px 5px 30px -3px rgba(2, 2, 2, 0.41); }
@@ -215,7 +214,7 @@ main {
   .reviews h2 {
     color: #ffff6a; }
   .reviews h4 {
-    color: #dbdbdb;
+    color: #d1d1d1;
     font-size: 1.2rem; }
 
 .buttonSlider {
@@ -223,17 +222,20 @@ main {
   justify-content: center;
   gap: 20px; }
   .buttonSlider button {
-    font-size: 1.2rem;
+    font-size: 1rem;
     background: none;
     color: #ffff6a;
     padding: 5px;
     border: none;
     border-bottom: 1px solid #ffff6a; }
-  .buttonSlider a {
-    text-decoration: none;
-    color: #ffff6a; }
-    .buttonSlider a:hover {
-      color: #abab48; }
+    .buttonSlider button:hover {
+      color: #fafa2b;
+      border-bottom: 1px solid #fafa2b; }
+    .buttonSlider button a {
+      text-decoration: none;
+      color: #ffff6a; }
+      .buttonSlider button a:hover {
+        color: #fafa2b; }
 
 .slider {
   width: 100%;
