@@ -12,102 +12,28 @@ ul li {
   font-style: bold;
   font-weight: bold; }
 
-.flags {
-  width: 75px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-right: 30px; }
-
-.flags__item {
-  width: 30px; }
-
-.flags__img {
-  cursor: pointer;
-  display: block;
-  width: 20px;
-  height: 20px; }
-
-#header {
-  background-color: rgba(0, 0, 0, 0.241);
-  backdrop-filter: blur(10px);
-  position: fixed;
-  width: 100vw;
-  z-index: 10000; }
-
-#navBar {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  padding-left: 100px;
-  z-index: 100000; }
-  #navBar a {
-    color: #f6f6f6;
-    font-weight: 400; }
-    #navBar a:hover {
-      color: #ffff5d; }
-  #navBar__dropdown {
-    background-color: rgba(0, 0, 0, 0.39); }
-    #navBar__dropdown a:hover {
-      background-color: rgba(14, 14, 14, 0.577);
-      color: #ffff5d;
-      font-weight: 500; }
-  #navBar__button button {
-    color: #f0f0f0;
-    border-color: #f0f0f0; }
-    #navBar__button button:hover {
-      color: #0e0e0e;
-      border-color: #ffff5d;
-      background-color: #ffff5d; }
-  #navBar__logo {
-    margin-left: 30px; }
-
-.footer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #8b8b8b;
-  padding: 5px; }
-  .footer a {
-    text-decoration: none;
-    color: #3a3939; }
-    .footer a:hover {
-      color: #0e0e0e; }
-  .footer h5 {
-    font-size: .7rem; }
-  .footer__nav ul {
-    gap: 20px;
-    align-self: center; }
-
-.maps {
-  display: flex;
-  gap: 20px;
-  padding-top: 20px; }
-  .maps p {
-    font-size: .7rem; }
-
-main {
+.indexMain {
   height: 100vh;
   text-align: center;
   align-content: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/portada2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/portada2_1.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-position-y: top; }
-  main h1 {
+  .indexMain h1 {
     padding-top: 300px;
     color: #ffff6a;
     font-size: 3.2rem;
     font-family: "dazzle-bold";
     font-weight: 100;
     letter-spacing: .8rem; }
-  main h2 {
+  .indexMain h2 {
     color: #d1d1d1;
     font-size: 1.8rem;
     font-weight: 100;
     padding-bottom: 10px; }
-  main button {
+  .indexMain button {
     font-size: 1.5rem;
     font-weight: 400;
     background: none;
@@ -115,7 +41,7 @@ main {
     border: 1px solid #ffff6a;
     border-radius: 7px;
     padding: 5px 20px; }
-    main button:hover {
+    .indexMain button:hover {
       background-color: #ffff6a;
       color: #272727;
       transition: .5s; }
@@ -136,7 +62,10 @@ main {
     text-align: center;
     color: #ffff6a; }
   .containerOurConcept p {
-    color: #d1d1d1; }
+    color: #f6f6f6;
+    font-weight: 300;
+    font-size: 1rem;
+    padding-top: 10px; }
   .containerOurConcept img {
     border-radius: 7px;
     height: 350px;
@@ -190,7 +119,7 @@ main {
   .cards__rossello {
     height: 300px;
     width: 400px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/cardsRossello.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/cardsRossello_1.webp);
     background-size: cover;
     border-radius: 7px;
     box-shadow: 8px 5px 30px -3px rgba(7, 7, 7, 0.41);
@@ -199,7 +128,7 @@ main {
   .cards__bonsoms {
     height: 300px;
     width: 400px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/cardsBonsoms.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/cardsBonsoms_1.webp);
     background-size: cover;
     border-radius: 7px;
     box-shadow: 8px 5px 30px -3px rgba(7, 7, 7, 0.41);
@@ -286,3 +215,132 @@ main {
   100% {
     transform: translateX(calc(-300px *12));
     -webkit-transform: translateX(-3600px); } }
+
+.contactMain {
+  height: max-content;
+  background-image: url(../img/contactBackground2.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 110px 0 20px; }
+
+.formContact {
+  background-color: rgba(0, 0, 0, 0.241);
+  backdrop-filter: blur(30px);
+  width: 90%;
+  max-width: 400px;
+  border-radius: 8px;
+  padding: 3.5em 1.5em;
+  margin: auto; }
+  .formContact img {
+    margin: auto;
+    height: 100px;
+    width: auto; }
+
+.formContact__container {
+  width: 100%;
+  display: grid;
+  gap: .8em;
+  grid-auto-columns: 100%; }
+
+.form__input {
+  background-color: rgba(0, 0, 0, 0.074);
+  color: #272727;
+  font-size: 1rem;
+  padding: .6em 1em;
+  outline: none;
+  border: none;
+  border-bottom: solid 1.5px #272727; }
+  .form__input::placeholder {
+    color: black; }
+
+.form__input--message {
+  resize: none;
+  padding: 1.8em 1em;
+  margin-bottom: .5em;
+  font-family: inherit;
+  color: black; }
+
+.form__cta {
+  background: rgba(0, 0, 0, 0.1);
+  color: black;
+  border: none;
+  border-bottom: 1px solid #272727;
+  padding: .7em 0;
+  cursor: pointer; }
+  .form__cta:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #d1d1d1; }
+
+.flags {
+  width: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 30px; }
+
+.flags__item {
+  width: 30px; }
+
+.flags__img {
+  cursor: pointer;
+  display: block;
+  width: 20px;
+  height: 20px; }
+
+#header {
+  background-color: rgba(0, 0, 0, 0.241);
+  backdrop-filter: blur(10px);
+  position: fixed;
+  width: 100vw;
+  z-index: 10000; }
+
+#navBar {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding-left: 100px;
+  z-index: 100000; }
+  #navBar a {
+    color: #f6f6f6;
+    font-weight: 400; }
+    #navBar a:hover {
+      color: #ffff5d; }
+  #navBar__dropdown {
+    background-color: rgba(0, 0, 0, 0.39); }
+    #navBar__dropdown a:hover {
+      background-color: rgba(14, 14, 14, 0.577);
+      color: #ffff5d;
+      font-weight: 500; }
+  #navBar__button button {
+    color: #f0f0f0;
+    border-color: #f0f0f0; }
+    #navBar__button button:hover {
+      color: #0e0e0e;
+      border-color: #ffff5d;
+      background-color: #ffff5d; }
+  #navBar__logo {
+    margin-left: 30px; }
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #8b8b8b;
+  padding: 5px; }
+  .footer a {
+    text-decoration: none;
+    color: #3a3939; }
+    .footer a:hover {
+      color: #0e0e0e; }
+  .footer h5 {
+    font-size: .7rem; }
+  .footer__nav ul {
+    gap: 20px;
+    align-self: center; }
+
+.maps {
+  display: flex;
+  gap: 20px;
+  padding-top: 20px; }
+  .maps p {
+    font-size: .7rem; }

@@ -1,8 +1,8 @@
-main{
+.indexMain{
     height: 100vh;
     text-align: center;
     align-content: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/portada2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/portada2_1.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -60,7 +60,10 @@ main{
         color: $yellow;
     }
     p{
-        color: $lightgraytext;
+        color: $light;
+        font-weight: 300;
+        font-size: 1rem;
+        padding-top: 10px;
     }
     img{
         border-radius: 7px;
@@ -124,7 +127,7 @@ main{
     &__rossello{
         height: 300px;
         width: 400px;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/cardsRossello.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/cardsRossello_1.webp);
         background-size: cover;
         border-radius: 7px;
         box-shadow: 8px 5px 30px -3px rgba(7, 7, 7, 0.41);
@@ -134,7 +137,7 @@ main{
     &__bonsoms{
         height: 300px;
         width: 400px;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/cardsBonsoms.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/cardsBonsoms_1.webp);
         background-size: cover;
         border-radius: 7px;
         box-shadow: 8px 5px 30px -3px rgba(7, 7, 7, 0.41);

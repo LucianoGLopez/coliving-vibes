@@ -1,0 +1,66 @@
+.contactMain{
+    height: max-content;
+    background-image: url(../img/contactBackground2.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 110px 0 20px;
+}
+
+.formContact{
+    background-color: rgba(0, 0, 0, 0.241);
+    backdrop-filter: blur(30px);
+    width: 90%;
+    max-width: 400px;
+    border-radius: 8px;
+    padding: 3.5em 1.5em;
+    margin: auto;
+    img{
+        margin: auto;
+        height: 100px;
+        width: auto;
+    }
+}
+
+.formContact__container{
+    width: 100%;
+    display: grid;
+    gap: .8em;
+    grid-auto-columns: 100%;
+}
+
+.form__input{
+    background-color: rgba(0, 0, 0, 0.074);
+    color: $darkgray;
+    font-size: 1rem;
+    padding: .6em 1em;
+    outline: none;
+    border:none;
+    border-bottom: solid 1.5px $darkgray;
+    &::placeholder{
+        color: black;
+    }
+}
+
+
+.form__input--message{
+    resize: none;
+    padding: 1.8em 1em;
+    margin-bottom: .5em;
+    font-family: inherit;
+    color: black;
+}
+
+.form__cta{
+    background: rgba(0, 0, 0, 0.1);
+    color: black;
+    border: none;
+    border-bottom: 1px solid $darkgray;
+    padding: .7em 0;
+    cursor: pointer;
+    &:hover{
+        background-color: rgba(0, 0, 0, 0.5);
+        color: $lightgraytext;
+    }
+}
+
+

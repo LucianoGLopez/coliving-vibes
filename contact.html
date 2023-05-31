@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- CSS only -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+    crossorigin="anonymous"
+    />
+    <title>CONTACTO</title>
+</head>
+
+<body>
+    <!-- INICIA HEADER -->
+    <header id="header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div id="navBarContainer" class="container-fluid">
+                <a id="navBar__logo" class="navbar-brand" href="./index.html"><img src="./img/logo.png" height="60px"
+                        width="60px" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul id="navBar" class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a data-section="navBar" data-value="home" class="nav-link active" aria-current="page"
+                                href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a data-section="navBar" data-value="ourConcept" class="nav-link" href="#">Nuestro
+                                concepto</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a data-section="navBar" data-value="properties" class="nav-link dropdown-toggle" href="#"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Propiedades
+                            </a>
+                            <ul id="navBar__dropdown" class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Rosselló</a></li>
+                                <li><a class="dropdown-item" href="#">Bonsoms</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a data-section="navBar" data-value="soon" class="dropdown-item"
+                                        href="#">Proximamente</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FAQ's</a>
+                        </li>
+                        <li class="nav-item">
+                            <a data-section="navBar" data-value="contact" class="nav-link" href="contact.html">Contacto</a>
+                        </li>
+                        <form id="navBar__button" class="d-flex" role="search">
+                            <button data-section="navBar" data-value="requestAccess" class="btn btn-outline-success"
+                                type="submit">Solicitar acceso</button>
+                        </form>
+                    </ul>
+                    <div id="flags" class="flags">
+                        <div class="flags__item" data-language="es">
+                            <img class="flags__img" src="./img/es.svg" alt="español">
+                        </div>
+                        <div class="flags__item" data-language="en">
+                            <img class="flags__img" src="./img/gb.svg" alt="english">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+<!-- FIN HEADER -->
+    <main class="contactMain">
+        <form class="formContact">
+            <div class="formContact__container">
+                Fecha de ingreso:
+                <input type="date" class="form__input" >
+                Fecha de egreso: 
+                <input type="date" class="form__input" >
+                <input type="text" class="form__input" placeholder="Nombre:">
+                <input type="email" class="form__input" placeholder="E-mail:">
+                
+                <textarea class="form__input form__input--message" placeholder="Mensaje:"></textarea>
+                <input type="submit" value="Enviar" class="form__cta">
+            </div>
+        </form>
+    </main>
+<!-- INICIA FOOTER -->
+    <footer class="footer">
+        <div class="footer__nav">
+            <ul>
+                <li>
+                    <a href="">Inicio</a>
+                </li>
+                <li>
+                    <a href="">Sobre nosotros</a>
+                </li>
+                <li>
+                    <a href="">Propiedades</a>
+                </li>
+                <li>
+                    <a href="">FAQ's</a>
+                </li>
+                <li>
+                    <a href="">Contacto</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__redes">
+            <h5>Síguenos en nuestras redes!</h5>
+            <img src="./img/instagram.png" height="25px" width="25px" alt="">
+            <img src="./img/facebook.png" height="25px" width="25px" alt="">
+            <img src="./img/linkedin.png" height="25px" width="25px" alt="">
+            <img src="./img/gmail.png" height="23px" width="23px" alt="">
+        </div>
+        <div class="footer__logo">
+            <img src="./img/logo2.png" width="140px" height="180px" alt="">
+        </div>
+        <div class="maps">
+            <div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2994.0584560283437!2d2.1215668757955566!3d41.37281467130166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a498f2bfed1933%3A0x133ced941ce2dc45!2sC%2F%20del%20Rossell%C3%B3%2C%207%2C%2008903%20L&#39;Hospitalet%20de%20Llobregat%2C%20Barcelona!5e0!3m2!1ses!2ses!4v1685103835252!5m2!1ses!2ses"
+                    width="230" height="120" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                <p>Carrer del Rosselló 7, L'Hospitalet de Llobregat</p>
+            </div>
+            <div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2994.045900109492!2d2.123781375795522!3d41.37308747130171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4988d380747e3%3A0xd6dce697bfd91799!2sCarrer%20de%20Bonsoms%2C%2019%2C%2008028%20Barcelona!5e0!3m2!1ses!2ses!4v1685104021274!5m2!1ses!2ses"
+                    width="230" height="120" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                <p>Carrer de Bonsoms 9, L'Hospitalet de Llobregat</p>
+            </div>
+        </div>
+    </footer>
+<!-- FIN FOOTER -->
+    <script src="./js/translate.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+
+</html>
