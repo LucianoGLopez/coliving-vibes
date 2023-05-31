@@ -3,7 +3,9 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/contactBackground2.svg);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 110px 0 20px;
+    padding: 110px 100px 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .formContact{
@@ -14,7 +16,16 @@
     border-radius: 7px;
     border: 1px solid rgba(59, 59, 59, 0.64);
     padding: 2em 1.5em;
-    margin: auto;
+    
+    h2{
+        font-size: 2rem;
+        text-align: center;
+        color: $darkgray;
+        
+        margin: 0 10px;
+        border-radius: 7px;
+        padding: .7em 0;
+    }
     img{
         margin: auto;
         height: 100px;
@@ -36,7 +47,6 @@
 }
 
 .calendar__input{
-    // background-color: rgba(0, 0, 0, 0.074);
     background: none;
     color: $darkgray;
     font-size: 1rem;
@@ -46,7 +56,6 @@
 }
 
 .form__input{
-    // background-color: rgba(0, 0, 0, 0.074);
     background: none;
     color: $darkgray;
     font-size: 1rem;
@@ -83,7 +92,6 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .form__cta{
-    // background: rgba(0, 0, 0, 0.1);
     background-color: rgba(59, 59, 59, 0.663);
     color: $yellowhover;
     border: none;
@@ -91,13 +99,16 @@ input[type=number]::-webkit-outer-spin-button {
     border-radius: 7px;
     cursor: pointer;
     &:hover{
-        // background-color: rgba(0, 0, 0, 0.5);
-        // color: $lightgraytext;
-        // background-color: rgba(255, 255, 106, 0.849);
         background-color: rgba(250, 250, 43, 0.716);;
         color: $darkgray;
         transition: .4s;
     }
 }
 
+.infoContact{
+    text-align: start;
+    h2{
+        font-size: 1.4rem;
+    }
+}
 
