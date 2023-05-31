@@ -1,18 +1,19 @@
 .contactMain{
     height: max-content;
-    background-image: url(../img/contactBackground2.svg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/contactBackground2.svg);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 110px 0 20px;
 }
 
 .formContact{
-    background-color: rgba(0, 0, 0, 0.241);
-    backdrop-filter: blur(30px);
+    background-color: rgba(209, 209, 209, 0.368);
+    backdrop-filter: blur(7px);
     width: 90%;
-    max-width: 400px;
-    border-radius: 8px;
-    padding: 3.5em 1.5em;
+    max-width: 600px;
+    border-radius: 7px;
+    border: 1px solid rgba(59, 59, 59, 0.64);
+    padding: 2em 1.5em;
     margin: auto;
     img{
         margin: auto;
@@ -28,8 +29,25 @@
     grid-auto-columns: 100%;
 }
 
+.formContact__calendar{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+
+.calendar__input{
+    // background-color: rgba(0, 0, 0, 0.074);
+    background: none;
+    color: $darkgray;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    border-bottom: solid 1.5px $darkgray;
+}
+
 .form__input{
-    background-color: rgba(0, 0, 0, 0.074);
+    // background-color: rgba(0, 0, 0, 0.074);
+    background: none;
     color: $darkgray;
     font-size: 1rem;
     padding: .6em 1em;
@@ -39,6 +57,17 @@
     &::placeholder{
         color: black;
     }
+    &:focus{
+        border: 1px solid $darkgray;
+        border-radius: 7px;
+    }
+}
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
 }
 
 
@@ -48,18 +77,26 @@
     margin-bottom: .5em;
     font-family: inherit;
     color: black;
+    &:focus{
+        border: 1px solid $darkgray;
+    }
 }
 
 .form__cta{
-    background: rgba(0, 0, 0, 0.1);
-    color: black;
+    // background: rgba(0, 0, 0, 0.1);
+    background-color: rgba(59, 59, 59, 0.663);
+    color: $yellowhover;
     border: none;
-    border-bottom: 1px solid $darkgray;
     padding: .7em 0;
+    border-radius: 7px;
     cursor: pointer;
     &:hover{
-        background-color: rgba(0, 0, 0, 0.5);
-        color: $lightgraytext;
+        // background-color: rgba(0, 0, 0, 0.5);
+        // color: $lightgraytext;
+        // background-color: rgba(255, 255, 106, 0.849);
+        background-color: rgba(250, 250, 43, 0.716);;
+        color: $darkgray;
+        transition: .4s;
     }
 }
 

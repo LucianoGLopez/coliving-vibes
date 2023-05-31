@@ -218,18 +218,19 @@ ul li {
 
 .contactMain {
   height: max-content;
-  background-image: url(../img/contactBackground2.svg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/contactBackground2.svg);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 110px 0 20px; }
 
 .formContact {
-  background-color: rgba(0, 0, 0, 0.241);
-  backdrop-filter: blur(30px);
+  background-color: rgba(209, 209, 209, 0.368);
+  backdrop-filter: blur(7px);
   width: 90%;
-  max-width: 400px;
-  border-radius: 8px;
-  padding: 3.5em 1.5em;
+  max-width: 600px;
+  border-radius: 7px;
+  border: 1px solid rgba(59, 59, 59, 0.64);
+  padding: 2em 1.5em;
   margin: auto; }
   .formContact img {
     margin: auto;
@@ -242,8 +243,21 @@ ul li {
   gap: .8em;
   grid-auto-columns: 100%; }
 
+.formContact__calendar {
+  display: flex;
+  justify-content: space-around;
+  color: black; }
+
+.calendar__input {
+  background: none;
+  color: #272727;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  border-bottom: solid 1.5px #272727; }
+
 .form__input {
-  background-color: rgba(0, 0, 0, 0.074);
+  background: none;
   color: #272727;
   font-size: 1rem;
   padding: .6em 1em;
@@ -252,6 +266,14 @@ ul li {
   border-bottom: solid 1.5px #272727; }
   .form__input::placeholder {
     color: black; }
+  .form__input:focus {
+    border: 1px solid #272727;
+    border-radius: 7px; }
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0; }
 
 .form__input--message {
   resize: none;
@@ -259,17 +281,20 @@ ul li {
   margin-bottom: .5em;
   font-family: inherit;
   color: black; }
+  .form__input--message:focus {
+    border: 1px solid #272727; }
 
 .form__cta {
-  background: rgba(0, 0, 0, 0.1);
-  color: black;
+  background-color: rgba(59, 59, 59, 0.663);
+  color: #fafa2b;
   border: none;
-  border-bottom: 1px solid #272727;
   padding: .7em 0;
+  border-radius: 7px;
   cursor: pointer; }
   .form__cta:hover {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #d1d1d1; }
+    background-color: rgba(250, 250, 43, 0.716);
+    color: #272727;
+    transition: .4s; }
 
 .flags {
   width: 75px;
