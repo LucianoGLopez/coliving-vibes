@@ -247,7 +247,7 @@ h1 {
     -webkit-transform: translateX(-3600px); } }
 
 .contactMain {
-  height: max-content;
+  height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/contactBackground2.svg);
   background-size: cover;
   background-repeat: no-repeat;
