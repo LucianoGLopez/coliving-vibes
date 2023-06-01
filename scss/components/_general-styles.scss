@@ -8,9 +8,41 @@ ul li{
     list-style: none;
 }
 
+h1{
+    font-size: 3rem
+}
+
 @font-face {
     font-family: "dazzle-bold";
     src: url(../fonts/dazzle-bold.ttf);
     font-style:bold;
     font-weight:bold;
+}
+
+@font-face {
+    font-family: "futura-bold";
+    src: url(/fonts/futura-bold.ttf);
+    font-style: bold;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "futura-bold2";
+    src: url(/fonts/futura-bold.ttf);
+    font-style:italic;
+    font-weight:bolder;
+}
+
+@font-face {
+    font-family: "futura-medium";
+    src: url(/fonts/futura-medium.ttf);
+    font-style: normal;
+    font-weight:500;
+}
+
+@font-face {
+    font-family: "futura-light";
+    src: url(/fonts/futura-light.ttf);
+    font-style:normal;
+    font-weight: lighter;
 }

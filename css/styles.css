@@ -6,11 +6,38 @@
 ul li {
   list-style: none; }
 
+h1 {
+  font-size: 3rem; }
+
 @font-face {
   font-family: "dazzle-bold";
   src: url(../fonts/dazzle-bold.ttf);
   font-style: bold;
   font-weight: bold; }
+
+@font-face {
+  font-family: "futura-bold";
+  src: url(/fonts/futura-bold.ttf);
+  font-style: bold;
+  font-weight: bold; }
+
+@font-face {
+  font-family: "futura-bold2";
+  src: url(/fonts/futura-bold.ttf);
+  font-style: italic;
+  font-weight: bolder; }
+
+@font-face {
+  font-family: "futura-medium";
+  src: url(/fonts/futura-medium.ttf);
+  font-style: normal;
+  font-weight: 500; }
+
+@font-face {
+  font-family: "futura-light";
+  src: url(/fonts/futura-light.ttf);
+  font-style: normal;
+  font-weight: lighter; }
 
 .indexMain {
   height: 100vh;
@@ -22,27 +49,30 @@ ul li {
   background-position: center;
   background-position-y: top; }
   .indexMain h1 {
-    padding-top: 300px;
+    text-align: center;
+    padding-top: 230px;
     color: #ffff6a;
-    font-size: 3.2rem;
-    font-family: "dazzle-bold";
-    font-weight: 100;
-    letter-spacing: .8rem; }
+    font-size: 5.5rem;
+    font-family: "futura-bold";
+    letter-spacing: .5rem; }
   .indexMain h2 {
+    font-family: "futura-light";
+    letter-spacing: .5rem;
     color: #d1d1d1;
     font-size: 1.8rem;
     font-weight: 100;
     padding-bottom: 10px; }
   .indexMain button {
+    letter-spacing: .2rem;
+    font-family: "futura-light";
     font-size: 1.5rem;
-    font-weight: 400;
     background: none;
     color: #ffff6a;
     border: 1px solid #ffff6a;
     border-radius: 7px;
     padding: 5px 20px; }
     .indexMain button:hover {
-      background-color: #ffff6a;
+      background-color: #fafa2b;
       color: #272727;
       transition: .5s; }
 
@@ -221,9 +251,38 @@ ul li {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/contactBackground2.svg);
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 110px 100px 20px;
+  padding: 110px 150px 40px;
   display: flex;
   justify-content: space-between; }
+  .contactMain h1 {
+    font-family: "futura-bold";
+    letter-spacing: .3rem;
+    font-size: 3.5rem;
+    text-align: start;
+    color: #272727; }
+  .contactMain h2 {
+    font-family: "futura-medium"; }
+  .contactMain h3 {
+    font-family: "futura-medium";
+    font-size: 1.3rem;
+    font-weight: 300;
+    letter-spacing: .1rem; }
+
+.infoContact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px; }
+  .infoContact__redesSociales {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px; }
+    .infoContact__redesSociales img:nth-child(1):hover {
+      filter: invert(21%) sepia(98%) saturate(7440%) hue-rotate(332deg) brightness(87%) contrast(105%); }
+    .infoContact__redesSociales img:nth-child(2):hover {
+      filter: invert(14%) sepia(82%) saturate(5669%) hue-rotate(357deg) brightness(95%) contrast(113%); }
+    .infoContact__redesSociales img:nth-child(3):hover {
+      filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(100%); }
 
 .formContact {
   background-color: rgba(209, 209, 209, 0.368);
@@ -233,13 +292,6 @@ ul li {
   border-radius: 7px;
   border: 1px solid rgba(59, 59, 59, 0.64);
   padding: 2em 1.5em; }
-  .formContact h2 {
-    font-size: 2rem;
-    text-align: center;
-    color: #272727;
-    margin: 0 10px;
-    border-radius: 7px;
-    padding: .7em 0; }
   .formContact img {
     margin: auto;
     height: 100px;

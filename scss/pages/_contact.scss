@@ -3,9 +3,54 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/contactBackground2.svg);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 110px 100px 20px;
+    padding: 110px 150px 40px;
     display: flex;
     justify-content: space-between;
+    h1{
+        font-family: "futura-bold";
+        letter-spacing: .3rem;
+        font-size: 3.5rem;
+        text-align: start;
+        color: $darkgray;
+    }
+    h2{
+        font-family: "futura-medium";
+    }
+    h3{
+        font-family: "futura-medium";
+        font-size: 1.3rem;
+        font-weight: 300;
+        letter-spacing: .1rem;
+    }
+}
+
+.infoContact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    &__redesSociales{
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+        img{
+            &:nth-child(1){
+                &:hover{
+                    filter: invert(21%) sepia(98%) saturate(7440%) hue-rotate(332deg) brightness(87%) contrast(105%);
+                }
+            }
+            &:nth-child(2){
+                &:hover{
+                    filter: invert(14%) sepia(82%) saturate(5669%) hue-rotate(357deg) brightness(95%) contrast(113%);
+                }
+            }
+            &:nth-child(3){
+                &:hover{
+                    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(100%);
+                }
+            }
+        }
+    }
 }
 
 .formContact{
@@ -16,16 +61,6 @@
     border-radius: 7px;
     border: 1px solid rgba(59, 59, 59, 0.64);
     padding: 2em 1.5em;
-    
-    h2{
-        font-size: 2rem;
-        text-align: center;
-        color: $darkgray;
-        
-        margin: 0 10px;
-        border-radius: 7px;
-        padding: .7em 0;
-    }
     img{
         margin: auto;
         height: 100px;
