@@ -199,6 +199,10 @@ h1 {
       border-bottom: 1px solid #fafa2b;
       color: #fafa2b;
       transition: .2s; }
+  .containerOurConcept__separador {
+    border-top: 1px solid #ffff6a;
+    height: 2px;
+    margin: 0 300px 20px; }
 
 .textContainerOurConcept {
   display: flex;
@@ -216,6 +220,10 @@ h1 {
   .ourColivings h3 {
     font-size: 1.2rem;
     font-family: "futura-medium"; }
+  .ourColivings__separador {
+    border-top: 1px solid #272727;
+    height: 2px;
+    margin: 0 300px 20px; }
 
 .cards {
   display: flex;
@@ -223,19 +231,20 @@ h1 {
   gap: 80px;
   padding-top: 20px; }
   .cards h4 {
-    font-size: 1rem;
-    font-weight: 400;
-    text-align: start;
+    font-size: 1.1rem;
+    font-family: "futura-light";
+    font-weight: 600;
+    letter-spacing: 3px;
     padding: 10px;
     color: #272727;
     background-color: rgba(255, 255, 106, 0.71);
-    margin-right: 300px;
-    border-bottom-right-radius: 20px;
-    border-top-left-radius: 7px; }
+    margin-top: 10px;
+    margin-right: 290px;
+    border-bottom-right-radius: 20px; }
   .cards__rossello {
     height: 300px;
     width: 400px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/cardsRossello_1.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/cardsRossello_1.webp);
     background-size: cover;
     border-radius: 7px;
     box-shadow: 8px 5px 30px -3px rgba(7, 7, 7, 0.41);
@@ -244,7 +253,7 @@ h1 {
   .cards__bonsoms {
     height: 300px;
     width: 400px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/cardsBonsoms_1.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/cardsBonsoms_1.webp);
     background-size: cover;
     border-radius: 7px;
     box-shadow: 8px 5px 30px -3px rgba(7, 7, 7, 0.41);
@@ -264,6 +273,10 @@ h1 {
     color: #e7e7e7;
     font-size: 1.2rem;
     font-family: "futura-medium"; }
+  .reviews__separador {
+    border-top: 1px solid #ffff6a;
+    height: 2px;
+    margin: 0 500px 20px; }
 
 .buttonSlider {
   display: flex;
@@ -345,8 +358,7 @@ h1 {
     font-family: "futura-bold";
     font-size: 3.5rem;
     letter-spacing: .3rem;
-    color: #272727;
-    padding-bottom: 20px; }
+    color: #272727; }
   .ourConceptMain h2 {
     text-align: center;
     color: #272727;
@@ -354,6 +366,10 @@ h1 {
   .ourConceptMain p {
     font-size: 1.1rem;
     font-family: "futura-light"; }
+  .ourConceptMain__separador {
+    border-top: 1px solid #272727;
+    height: 2px;
+    margin: 0 300px 20px; }
 
 .containerOurConceptHome {
   display: flex;
@@ -373,7 +389,8 @@ h1 {
   align-items: center;
   height: max-content;
   padding: 20px 100px;
-  gap: 20px; }
+  gap: 20px;
+  background-color: #f6f6f6; }
   .containerOurConceptDesign img {
     border-radius: 7px; }
   .containerOurConceptDesign__image {
@@ -396,19 +413,19 @@ h1 {
 .faqsMain {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(/img/colivingVibesNeon.jpg);
   background-size: cover;
+  background-attachment: fixed;
   height: max-content;
   padding-bottom: 40px; }
   .faqsMain h1 {
     padding-top: 120px;
-    padding-bottom: 20px;
     text-align: center;
     font-family: "futura-bold";
     font-size: 3.5rem;
     letter-spacing: .5rem;
     color: #ffff6a; }
   .faqsMain h3 {
-    text-align: center;
-    padding: 20px 0;
+    text-align: start;
+    padding: 20px 300px;
     font-family: "futura-medium";
     font-size: 1.5rem;
     letter-spacing: 3px;
@@ -420,22 +437,21 @@ h1 {
   .faqsMain p {
     font-family: "futura-light";
     font-size: 1.1rem; }
+  .faqsMain__separador {
+    border-top: 1px solid #ffff6a;
+    height: 2px;
+    margin: 0 300px 20px; }
 
 #accordion-item1 {
-  margin: 0 200px; }
+  margin: 10px 300px; }
 
 #accordionButton {
-  background-color: #272727;
-  color: #ffff6a; }
-  #accordionButton::after {
-    filter: invert(99%) sepia(58%) saturate(1553%) hue-rotate(333deg) brightness(112%) contrast(101%); }
-
-.accordion-button:not(.collapsed)::after {
-  background-image: none !important;
-  transform: var(--bs-accordion-btn-icon-transform); }
+  background-color: #f6f6f6;
+  color: #272727; }
 
 .accordion-body {
-  background-color: #e7e7e7; }
+  background-color: #272727;
+  color: #e7e7e7; }
 
 .contactMain {
   height: 100vh;

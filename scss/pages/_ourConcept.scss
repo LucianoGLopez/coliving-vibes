@@ -8,7 +8,6 @@
         font-size: 3.5rem;
         letter-spacing: .3rem;
         color: $darkgray;
-        padding-bottom: 20px;
     }
     h2{
         text-align: center;
@@ -18,6 +17,11 @@
     p{
         font-size: 1.1rem;
         font-family: "futura-light";
+    }
+    &__separador{
+        border-top: 1px solid $darkgray;
+        height: 2px;
+        margin: 0 300px 20px;
     }
 }
 
@@ -48,6 +52,7 @@
     height: max-content;
     padding: 20px 100px;
     gap: 20px;
+    background-color: $light;
     img{
         border-radius: 7px;
     }

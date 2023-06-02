@@ -90,6 +90,11 @@
             transition: .2s
         }
     }
+    &__separador{
+        border-top: 1px solid $yellow;
+        height: 2px;
+        margin: 0 300px 20px;
+    }
 }
 .textContainerOurConcept{
     display: flex;
@@ -111,6 +116,11 @@
         font-size: 1.2rem;
         font-family: "futura-medium";
     }
+    &__separador{
+        border-top: 1px solid $darkgray;
+        height: 2px;
+        margin: 0 300px 20px;
+    }
 }
 
 .cards{
@@ -119,20 +129,21 @@
     gap: 80px;
     padding-top: 20px;
     h4{
-        font-size: 1rem;
-        font-weight: 400;
-        text-align: start;
+        font-size: 1.1rem;
+        font-family: "futura-light";
+        font-weight: 600;
+        letter-spacing: 3px;
         padding: 10px;
         color:rgb(39, 39, 39);
         background-color:rgba(255, 255, 106, 0.71);
-        margin-right: 300px;
+        margin-top: 10px;
+        margin-right: 290px;
         border-bottom-right-radius: 20px;
-        border-top-left-radius: 7px;
     }
     &__rossello{
         height: 300px;
         width: 400px;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/cardsRossello_1.webp);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/cardsRossello_1.webp);
         background-size: cover;
         border-radius: 7px;
         box-shadow: 8px 5px 30px -3px rgba(7, 7, 7, 0.41);
@@ -142,7 +153,7 @@
     &__bonsoms{
         height: 300px;
         width: 400px;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/cardsBonsoms_1.webp);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/cardsBonsoms_1.webp);
         background-size: cover;
         border-radius: 7px;
         box-shadow: 8px 5px 30px -3px rgba(7, 7, 7, 0.41);
@@ -166,6 +177,11 @@
         color:$lightgraytext;
         font-size: 1.2rem;
         font-family: "futura-medium";
+    }
+    &__separador{
+        border-top: 1px solid $yellow;
+        height: 2px;
+        margin: 0 500px 20px;
     }
 }
 
