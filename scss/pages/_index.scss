@@ -57,6 +57,8 @@
     h2{
         text-align: center;
         color: $yellow;
+        font-family: "futura-medium";
+        letter-spacing: 3px;
     }
     p{
         color: $light;
@@ -74,6 +76,7 @@
     }
     button{
         margin: 0 auto;
+        font-family: "futura-light";
         font-size: 1rem;
         font-weight: 400;
         background: none;
@@ -100,10 +103,13 @@
     padding: 30px;
     text-align: center;
     h2{
-        color:$yellow;
+        color:$darkgray;
+        font-family: "futura-medium";
+        letter-spacing: 3px;
     }
     h3{
         font-size: 1.2rem;
+        font-family: "futura-medium";
     }
 }
 
@@ -153,10 +159,13 @@
     text-align: center;
     h2{
         color:$yellow;
+        font-family: "futura-medium";
+        letter-spacing: 3px;
     }
     h4{
         color:$lightgraytext;
         font-size: 1.2rem;
+        font-family: "futura-medium";
     }
 }
 
@@ -167,6 +176,7 @@
     gap: 20px;
     button{
         font-size: 1rem;
+        font-family: "futura-light";
         background: none;
         color:$yellow;
         padding: 5px;

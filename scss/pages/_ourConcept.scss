@@ -1,0 +1,79 @@
+.ourConceptMain{
+    height: max-content;
+    padding-top: 150px;
+    background-color: $lightgray;
+    h1{
+        text-align: center;
+        font-family: "futura-bold";
+        font-size: 3.5rem;
+        letter-spacing: .3rem;
+        color: $darkgray;
+        padding-bottom: 20px;
+    }
+    h2{
+        text-align: center;
+        color: $darkgray;
+        font-family: "futura-medium";
+    }
+    p{
+        font-size: 1.1rem;
+        font-family: "futura-light";
+    }
+}
+
+// INICIA FIRST CARD
+.containerOurConceptHome{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: max-content;
+    padding: 20px 100px;
+    gap: 20px;
+    img{
+        border-radius: 7px;
+    }
+    &__image{
+        height: 400px;
+        width: auto;
+    }
+}
+
+
+
+
+// SECOND CARD
+.containerOurConceptDesign{
+    display: flex;
+    align-items: center;
+    height: max-content;
+    padding: 20px 100px;
+    gap: 20px;
+    img{
+        border-radius: 7px;
+    }
+    &__image{
+        height: 400px;
+        width: auto;
+    }
+}
+
+// THIRD CARD
+.containerOurConceptCommon{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: max-content;
+    padding: 20px 100px;
+    gap: 20px;
+    img{
+        border-radius: 7px;
+    }
+    &__image{
+        height: 400px;
+        width: auto;
+    }
+}
+
+
+
+

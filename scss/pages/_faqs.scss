@@ -1,8 +1,7 @@
 .faqsMain{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/contactBackground2.svg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),url(/img/colivingVibesNeon.jpg);
     background-size: cover;
-    background-position:top;
-    background-attachment: fixed;
+    // background-attachment: fixed;
     height: max-content;
     padding-bottom: 40px;
     h1{
@@ -12,21 +11,29 @@
         font-family: "futura-bold";
         font-size: 3.5rem;
         letter-spacing: .5rem;
-        color: $darkgray;
+        color: $yellow;
     }
     h3{
         text-align: center;
         padding: 20px 0;
-        font-family: "futura-bold";
+        font-family: "futura-medium";
         font-size: 1.5rem;
-        letter-spacing: .5rem;
-        color: $darkgray;
+        letter-spacing: 3px;
+        color: $lightgraytext;
+    }
+    h4{
+        font-family: "futura-light";
+        font-size: 1.2rem;
+        letter-spacing: .3rem;
+    }
+    p{
+        font-family: "futura-light";
+        font-size: 1.1rem;
     }
 }
 
-
 #accordion-item1{
-    margin: 10px 200px;
+    margin: 0 200px;
 }
 
 #accordionButton{
@@ -42,13 +49,6 @@
     background-image: none !important;
     transform: var(--bs-accordion-btn-icon-transform);
 }
-
-
-
-
-
-
-
 
 .accordion-body{
     background-color: $lightgraytext;

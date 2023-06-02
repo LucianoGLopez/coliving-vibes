@@ -69,8 +69,11 @@ h1 {
   padding-left: 100px;
   z-index: 100000; }
   #navBar a {
-    color: #f6f6f6;
-    font-weight: 400; }
+    color: #e7e7e7;
+    font-weight: 400;
+    font-family: "futura-light";
+    font-size: 1.1rem;
+    letter-spacing: 2px; }
     #navBar a:hover {
       color: #ffff5d; }
   #navBar__dropdown {
@@ -80,6 +83,9 @@ h1 {
       color: #ffff5d;
       font-weight: 500; }
   #navBar__button button {
+    font-family: "futura-light";
+    font-size: 1.1rem;
+    letter-spacing: 2px;
     color: #f0f0f0;
     border-color: #f0f0f0; }
     #navBar__button button:hover {
@@ -132,7 +138,7 @@ h1 {
   .indexMain h2 {
     font-family: "futura-light";
     letter-spacing: .5rem;
-    color: #d1d1d1;
+    color: #e7e7e7;
     font-size: 1.8rem;
     font-weight: 100;
     padding-bottom: 10px; }
@@ -164,7 +170,9 @@ h1 {
   align-items: center; }
   .containerOurConcept h2 {
     text-align: center;
-    color: #ffff6a; }
+    color: #ffff6a;
+    font-family: "futura-medium";
+    letter-spacing: 3px; }
   .containerOurConcept p {
     color: #f6f6f6;
     font-weight: 300;
@@ -179,6 +187,7 @@ h1 {
     -moz-box-shadow: 8px 5px 30px -3px rgba(2, 2, 2, 0.603); }
   .containerOurConcept button {
     margin: 0 auto;
+    font-family: "futura-light";
     font-size: 1rem;
     font-weight: 400;
     background: none;
@@ -197,13 +206,16 @@ h1 {
 
 .ourColivings {
   height: max-content;
-  background-color: #8b8b8b;
+  background-color: #dbdbdb;
   padding: 30px;
   text-align: center; }
   .ourColivings h2 {
-    color: #ffff6a; }
+    color: #272727;
+    font-family: "futura-medium";
+    letter-spacing: 3px; }
   .ourColivings h3 {
-    font-size: 1.2rem; }
+    font-size: 1.2rem;
+    font-family: "futura-medium"; }
 
 .cards {
   display: flex;
@@ -245,10 +257,13 @@ h1 {
   padding: 40px 0;
   text-align: center; }
   .reviews h2 {
-    color: #ffff6a; }
+    color: #ffff6a;
+    font-family: "futura-medium";
+    letter-spacing: 3px; }
   .reviews h4 {
-    color: #d1d1d1;
-    font-size: 1.2rem; }
+    color: #e7e7e7;
+    font-size: 1.2rem;
+    font-family: "futura-medium"; }
 
 .buttonSlider {
   display: flex;
@@ -256,6 +271,7 @@ h1 {
   gap: 20px; }
   .buttonSlider button {
     font-size: 1rem;
+    font-family: "futura-light";
     background: none;
     color: #ffff6a;
     padding: 5px;
@@ -320,11 +336,66 @@ h1 {
     transform: translateX(calc(-300px *12));
     -webkit-transform: translateX(-3600px); } }
 
+.ourConceptMain {
+  height: max-content;
+  padding-top: 150px;
+  background-color: #dbdbdb; }
+  .ourConceptMain h1 {
+    text-align: center;
+    font-family: "futura-bold";
+    font-size: 3.5rem;
+    letter-spacing: .3rem;
+    color: #272727;
+    padding-bottom: 20px; }
+  .ourConceptMain h2 {
+    text-align: center;
+    color: #272727;
+    font-family: "futura-medium"; }
+  .ourConceptMain p {
+    font-size: 1.1rem;
+    font-family: "futura-light"; }
+
+.containerOurConceptHome {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  height: max-content;
+  padding: 20px 100px;
+  gap: 20px; }
+  .containerOurConceptHome img {
+    border-radius: 7px; }
+  .containerOurConceptHome__image {
+    height: 400px;
+    width: auto; }
+
+.containerOurConceptDesign {
+  display: flex;
+  align-items: center;
+  height: max-content;
+  padding: 20px 100px;
+  gap: 20px; }
+  .containerOurConceptDesign img {
+    border-radius: 7px; }
+  .containerOurConceptDesign__image {
+    height: 400px;
+    width: auto; }
+
+.containerOurConceptCommon {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  height: max-content;
+  padding: 20px 100px;
+  gap: 20px; }
+  .containerOurConceptCommon img {
+    border-radius: 7px; }
+  .containerOurConceptCommon__image {
+    height: 400px;
+    width: auto; }
+
 .faqsMain {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/contactBackground2.svg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(/img/colivingVibesNeon.jpg);
   background-size: cover;
-  background-position: top;
-  background-attachment: fixed;
   height: max-content;
   padding-bottom: 40px; }
   .faqsMain h1 {
@@ -334,17 +405,24 @@ h1 {
     font-family: "futura-bold";
     font-size: 3.5rem;
     letter-spacing: .5rem;
-    color: #272727; }
+    color: #ffff6a; }
   .faqsMain h3 {
     text-align: center;
     padding: 20px 0;
-    font-family: "futura-bold";
+    font-family: "futura-medium";
     font-size: 1.5rem;
-    letter-spacing: .5rem;
-    color: #272727; }
+    letter-spacing: 3px;
+    color: #e7e7e7; }
+  .faqsMain h4 {
+    font-family: "futura-light";
+    font-size: 1.2rem;
+    letter-spacing: .3rem; }
+  .faqsMain p {
+    font-family: "futura-light";
+    font-size: 1.1rem; }
 
 #accordion-item1 {
-  margin: 10px 200px; }
+  margin: 0 200px; }
 
 #accordionButton {
   background-color: #272727;
@@ -357,14 +435,14 @@ h1 {
   transform: var(--bs-accordion-btn-icon-transform); }
 
 .accordion-body {
-  background-color: #d1d1d1; }
+  background-color: #e7e7e7; }
 
 .contactMain {
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/contactBackground2.svg);
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 110px 150px 40px;
+  padding: 110px 150px 25px;
   display: flex;
   justify-content: space-between; }
   .contactMain h1 {

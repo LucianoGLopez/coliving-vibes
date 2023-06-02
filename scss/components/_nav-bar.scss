@@ -32,8 +32,11 @@
     padding-left: 100px;
     z-index: 100000;
     a{
-        color:rgb(246, 246, 246);
+        color: $lightgraytext;
         font-weight:400;
+        font-family: "futura-light";
+        font-size: 1.1rem;
+        letter-spacing: 2px;
         &:hover{
             color:  rgb(255, 255, 93);
         }
@@ -50,6 +53,9 @@
     }
     &__button{
         button{
+            font-family: "futura-light";
+            font-size: 1.1rem;
+            letter-spacing: 2px;
             color:rgb(240, 240, 240);
             border-color:  rgb(240, 240, 240);
             &:hover{
