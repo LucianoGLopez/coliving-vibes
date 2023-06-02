@@ -2,13 +2,13 @@
 @import "./complements/bucles";
 @import "./complements/mixins";
 
-
 @import "./components/general-styles";
-@import "./pages/index";
-@import "./pages/contact";
-
 @import "./components/nav-bar";
 @import "./components/footer";
+
+@import "./pages/index";
+@import "./pages/faqs";
+@import "./pages/contact";
 
 
 

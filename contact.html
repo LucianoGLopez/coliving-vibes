@@ -15,7 +15,6 @@
     />
     <title>CONTACTO</title>
 </head>
-
 <body>
     <!-- INICIA HEADER -->
     <header id="header">
@@ -54,7 +53,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">FAQ's</a>
+                            <a class="nav-link" href="faqs.html">FAQ's</a>
                         </li>
                         <li class="nav-item">
                             <a data-section="navBar" data-value="contact" class="nav-link" href="contact.html">Contacto</a>
@@ -79,19 +78,19 @@
 <!-- FIN HEADER -->
     <main class="contactMain">
         <div class="infoContact">
-            <h1>CONTACTO</h1>
-            <h2>ENVÍANOS TU CONSULTA</h2>
+            <h1 data-section="contact" data-value="title">CONTACTO</h1>
+            <h2 data-section="contact" data-value="subtitle">ENVÍANOS TU CONSULTA</h2>
             <div class="infoContact__datos">
                 <div>
                     <h3>E-mail</h3>
                     <p>info@colivingvibes.com</p>
                 </div>
                 <div>
-                    <h3>Teléfono</h3>
+                    <h3 data-section="contact" data-value="phone">Teléfono</h3>
                     <p>+34 631 30 12 98</p>
                 </div>
             </div>
-                <h3>Nuestras redes sociales:</h3>
+                <h3 data-section="contact" data-value="rrss">Nuestras redes sociales:</h3>
             <div class="infoContact__redesSociales">
                 
                     <img src="/img/instagram.png" height="40px" width="40px" alt=""> 
@@ -105,7 +104,6 @@
         <form class="formContact">
             <div class="formContact__container">
                 <img src="../img/logo2.png" alt="">
-                
                 <div class="formContact__calendar">
                     Fecha de ingreso: 
                     <input type="date" class="calendar__input"  >

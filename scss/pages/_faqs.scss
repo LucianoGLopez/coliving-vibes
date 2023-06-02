@@ -1,0 +1,55 @@
+.faqsMain{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/contactBackground2.svg);
+    background-size: cover;
+    background-position:top;
+    background-attachment: fixed;
+    height: max-content;
+    padding-bottom: 40px;
+    h1{
+        padding-top: 120px;
+        padding-bottom: 20px;
+        text-align: center;
+        font-family: "futura-bold";
+        font-size: 3.5rem;
+        letter-spacing: .5rem;
+        color: $darkgray;
+    }
+    h3{
+        text-align: center;
+        padding: 20px 0;
+        font-family: "futura-bold";
+        font-size: 1.5rem;
+        letter-spacing: .5rem;
+        color: $darkgray;
+    }
+}
+
+
+#accordion-item1{
+    margin: 10px 200px;
+}
+
+#accordionButton{
+    background-color: $darkgray;
+    color: $yellow;
+    &::after{
+        filter: invert(99%) sepia(58%) saturate(1553%) hue-rotate(333deg) brightness(112%) contrast(101%);
+    }
+    
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: none !important;
+    transform: var(--bs-accordion-btn-icon-transform);
+}
+
+
+
+
+
+
+
+
+.accordion-body{
+    background-color: $lightgraytext;
+}

@@ -29,10 +29,11 @@
     flex-direction: column;
     justify-content: center;
     gap: 15px;
+    width: 300px;
     &__redesSociales{
         display: flex;
-        justify-content: space-around;
-        gap: 20px;
+        justify-content: start;
+        gap:40px;
         img{
             &:nth-child(1){
                 &:hover{

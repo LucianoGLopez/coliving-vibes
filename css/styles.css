@@ -39,6 +39,80 @@ h1 {
   font-style: normal;
   font-weight: lighter; }
 
+.flags {
+  width: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 30px; }
+
+.flags__item {
+  width: 30px; }
+
+.flags__img {
+  cursor: pointer;
+  display: block;
+  width: 20px;
+  height: 20px; }
+
+#header {
+  background-color: rgba(0, 0, 0, 0.241);
+  backdrop-filter: blur(10px);
+  position: fixed;
+  width: 100vw;
+  z-index: 10000; }
+
+#navBar {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding-left: 100px;
+  z-index: 100000; }
+  #navBar a {
+    color: #f6f6f6;
+    font-weight: 400; }
+    #navBar a:hover {
+      color: #ffff5d; }
+  #navBar__dropdown {
+    background-color: rgba(0, 0, 0, 0.39); }
+    #navBar__dropdown a:hover {
+      background-color: rgba(14, 14, 14, 0.577);
+      color: #ffff5d;
+      font-weight: 500; }
+  #navBar__button button {
+    color: #f0f0f0;
+    border-color: #f0f0f0; }
+    #navBar__button button:hover {
+      color: #0e0e0e;
+      border-color: #ffff5d;
+      background-color: #ffff5d; }
+  #navBar__logo {
+    margin-left: 30px; }
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #8b8b8b;
+  padding: 5px; }
+  .footer a {
+    text-decoration: none;
+    color: #3a3939; }
+    .footer a:hover {
+      color: #0e0e0e; }
+  .footer h5 {
+    font-size: .7rem; }
+  .footer__nav ul {
+    gap: 20px;
+    align-self: center; }
+
+.maps {
+  display: flex;
+  gap: 20px;
+  padding-top: 20px; }
+  .maps p {
+    font-size: .7rem; }
+
 .indexMain {
   height: 100vh;
   text-align: center;
@@ -246,6 +320,45 @@ h1 {
     transform: translateX(calc(-300px *12));
     -webkit-transform: translateX(-3600px); } }
 
+.faqsMain {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/contactBackground2.svg);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  height: max-content;
+  padding-bottom: 40px; }
+  .faqsMain h1 {
+    padding-top: 120px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: "futura-bold";
+    font-size: 3.5rem;
+    letter-spacing: .5rem;
+    color: #272727; }
+  .faqsMain h3 {
+    text-align: center;
+    padding: 20px 0;
+    font-family: "futura-bold";
+    font-size: 1.5rem;
+    letter-spacing: .5rem;
+    color: #272727; }
+
+#accordion-item1 {
+  margin: 10px 200px; }
+
+#accordionButton {
+  background-color: #272727;
+  color: #ffff6a; }
+  #accordionButton::after {
+    filter: invert(99%) sepia(58%) saturate(1553%) hue-rotate(333deg) brightness(112%) contrast(101%); }
+
+.accordion-button:not(.collapsed)::after {
+  background-image: none !important;
+  transform: var(--bs-accordion-btn-icon-transform); }
+
+.accordion-body {
+  background-color: #d1d1d1; }
+
 .contactMain {
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/contactBackground2.svg);
@@ -272,11 +385,12 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 15px; }
+  gap: 15px;
+  width: 300px; }
   .infoContact__redesSociales {
     display: flex;
-    justify-content: space-around;
-    gap: 20px; }
+    justify-content: start;
+    gap: 40px; }
     .infoContact__redesSociales img:nth-child(1):hover {
       filter: invert(21%) sepia(98%) saturate(7440%) hue-rotate(332deg) brightness(87%) contrast(105%); }
     .infoContact__redesSociales img:nth-child(2):hover {
@@ -360,77 +474,3 @@ input[type=number]::-webkit-outer-spin-button {
   text-align: start; }
   .infoContact h2 {
     font-size: 1.4rem; }
-
-.flags {
-  width: 75px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-right: 30px; }
-
-.flags__item {
-  width: 30px; }
-
-.flags__img {
-  cursor: pointer;
-  display: block;
-  width: 20px;
-  height: 20px; }
-
-#header {
-  background-color: rgba(0, 0, 0, 0.241);
-  backdrop-filter: blur(10px);
-  position: fixed;
-  width: 100vw;
-  z-index: 10000; }
-
-#navBar {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  padding-left: 100px;
-  z-index: 100000; }
-  #navBar a {
-    color: #f6f6f6;
-    font-weight: 400; }
-    #navBar a:hover {
-      color: #ffff5d; }
-  #navBar__dropdown {
-    background-color: rgba(0, 0, 0, 0.39); }
-    #navBar__dropdown a:hover {
-      background-color: rgba(14, 14, 14, 0.577);
-      color: #ffff5d;
-      font-weight: 500; }
-  #navBar__button button {
-    color: #f0f0f0;
-    border-color: #f0f0f0; }
-    #navBar__button button:hover {
-      color: #0e0e0e;
-      border-color: #ffff5d;
-      background-color: #ffff5d; }
-  #navBar__logo {
-    margin-left: 30px; }
-
-.footer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #8b8b8b;
-  padding: 5px; }
-  .footer a {
-    text-decoration: none;
-    color: #3a3939; }
-    .footer a:hover {
-      color: #0e0e0e; }
-  .footer h5 {
-    font-size: .7rem; }
-  .footer__nav ul {
-    gap: 20px;
-    align-self: center; }
-
-.maps {
-  display: flex;
-  gap: 20px;
-  padding-top: 20px; }
-  .maps p {
-    font-size: .7rem; }
