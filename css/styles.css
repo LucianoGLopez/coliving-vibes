@@ -432,6 +432,188 @@ h1 {
     height: 400px;
     width: auto; }
 
+.rosselloMain {
+  height: max-content;
+  background-color: #272727;
+  padding-top: 120px;
+  text-align: center; }
+  .rosselloMain h1 {
+    font-family: "futura-bold";
+    font-size: 3.5rem;
+    letter-spacing: 4px;
+    color: #ffff6a; }
+  .rosselloMain h2 {
+    font-family: "futura-medium";
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color: #e7e7e7; }
+  .rosselloMain__separador {
+    border-top: 1px solid #ffff6a;
+    height: 2px;
+    margin: 0 300px 20px; }
+  .rosselloMain p {
+    font-family: "futura-light";
+    font-size: 1.1rem;
+    text-align: start;
+    padding: 20px 200px;
+    color: #e7e7e7; }
+
+.galeriaRosselloRow {
+  display: flex;
+  padding-top: 50px;
+  background-color: #272727; }
+  .galeriaRosselloRow img {
+    height: 200px;
+    width: 300px;
+    border-radius: 7px;
+    cursor: pointer;
+    filter: brightness(0.6); }
+    .galeriaRosselloRow img:nth-child(4) {
+      filter: brightness(0.2); }
+  .galeriaRosselloRow p {
+    text-align: start;
+    padding: 0 200px 0 20px;
+    color: #e7e7e7; }
+  .galeriaRosselloRow h3 {
+    font-family: "futura-medium";
+    letter-spacing: 3px;
+    text-align: start;
+    padding-left: 20px;
+    color: #ffff6a; }
+
+.imagesGaleriaRosselloRow {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  justify-content: start;
+  padding: 0 20px 50px 200px;
+  gap: 10px; }
+  .imagesGaleriaRosselloRow__seeMore {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/portada.jpg);
+    background-size: cover;
+    border-radius: 7px;
+    cursor: pointer; }
+    .imagesGaleriaRosselloRow__seeMore h4 {
+      color: #ffff6a;
+      padding-top: 80px;
+      font-family: "futura-light";
+      font-size: 1.5rem;
+      letter-spacing: 3px; }
+
+.galeriaRosselloReverseRow {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #ffff92; }
+  .galeriaRosselloReverseRow img {
+    height: 200px;
+    width: 300px;
+    border-radius: 7px;
+    cursor: pointer;
+    filter: brightness(0.6); }
+    .galeriaRosselloReverseRow img:nth-child(4) {
+      filter: brightness(0.2); }
+  .galeriaRosselloReverseRow p {
+    text-align: start;
+    padding: 0px 20px 20px 200px;
+    color: #272727; }
+  .galeriaRosselloReverseRow h3 {
+    font-family: "futura-medium";
+    letter-spacing: 3px;
+    text-align: start;
+    padding-left: 200px;
+    padding-top: 50px;
+    color: #272727; }
+
+.imagesGaleriaRosselloReverseRow {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  justify-content: start;
+  padding: 50px 200px 50px 20px;
+  gap: 10px; }
+  .imagesGaleriaRosselloReverseRow__seeMore {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room1Rossello/room1_4.jpg);
+    background-size: cover;
+    cursor: pointer; }
+    .imagesGaleriaRosselloReverseRow__seeMore h4 {
+      color: #ffff6a;
+      padding-top: 80px;
+      font-family: "futura-light";
+      font-size: 1.5rem;
+      letter-spacing: 3px; }
+
+.imagesGaleriaRosselloRow__seeMoreRoom2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room2Rossello/room2_4.jpg);
+  background-size: cover;
+  border-radius: 7px;
+  cursor: pointer; }
+  .imagesGaleriaRosselloRow__seeMoreRoom2 h4 {
+    color: #ffff6a;
+    padding-top: 80px;
+    font-family: "futura-bold";
+    font-size: 1.8rem;
+    letter-spacing: 3px; }
+
+.imagesGaleriaRosselloRow__seeMoreRoom3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room3Rossello/room3_4.jpg);
+  background-size: cover;
+  cursor: pointer;
+  border-radius: 7px; }
+  .imagesGaleriaRosselloRow__seeMoreRoom3 h4 {
+    color: #ffff6a;
+    padding-top: 80px;
+    font-family: "futura-bold";
+    font-size: 1.8rem;
+    letter-spacing: 3px; }
+
+.imagesGaleriaRosselloRow__seeMoreRoom4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room4Rossello/room4_4.jpg);
+  background-size: cover;
+  border-radius: 7px;
+  cursor: pointer; }
+  .imagesGaleriaRosselloRow__seeMoreRoom4 h4 {
+    color: #ffff6a;
+    padding-top: 80px;
+    font-family: "futura-bold";
+    font-size: 1.8rem;
+    letter-spacing: 3px; }
+
+.imagesGaleriaRosselloRow__seeMoreRoom5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room5Rossello/room5_4.jpg);
+  background-size: cover;
+  border-radius: 7px;
+  cursor: pointer; }
+  .imagesGaleriaRosselloRow__seeMoreRoom5 h4 {
+    color: #ffff6a;
+    padding-top: 80px;
+    font-family: "futura-bold";
+    font-size: 1.8rem;
+    letter-spacing: 3px; }
+
+.imagesGaleriaRosselloRow__seeMoreRoom6 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room6Rossello/room6_4.jpg);
+  background-size: cover;
+  border-radius: 7px;
+  cursor: pointer; }
+  .imagesGaleriaRosselloRow__seeMoreRoom6 h4 {
+    color: #ffff6a;
+    padding-top: 80px;
+    font-family: "futura-bold";
+    font-size: 1.8rem;
+    letter-spacing: 3px; }
+
+.imagesGaleriaRosselloRow__seeMoreRoom7 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room7Rossello/room7_4.jpg);
+  background-size: cover;
+  border-radius: 7px;
+  cursor: pointer; }
+  .imagesGaleriaRosselloRow__seeMoreRoom7 h4 {
+    color: #ffff6a;
+    padding-top: 80px;
+    font-family: "futura-bold";
+    font-size: 1.8rem;
+    letter-spacing: 3px; }
+
 .faqsMain {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(/img/colivingVibesNeon.jpg);
   background-size: cover;
