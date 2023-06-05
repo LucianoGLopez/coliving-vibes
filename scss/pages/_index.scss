@@ -124,9 +124,14 @@
 }
 
 .cards{
-    display: flex;
+    display: grid;
+    grid-template-columns: 450px 450px;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+    "cards__rosello bonsoms"
+    "cards__proximamente";
     justify-content: center;
-    gap: 80px;
+    gap: 20px;
     padding-top: 20px;
     h4{
         font-size: 1.1rem;
@@ -142,23 +147,44 @@
     }
     &__rossello{
         height: 300px;
-        width: 400px;
+        width: 450px;
+        grid-area: "cards__rosello";
         background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/cardsRossello_1.webp);
         background-size: cover;
         border-radius: 7px;
-        box-shadow: 8px 5px 30px -3px rgba(7, 7, 7, 0.41);
-        -webkit-box-shadow: 8px 5px 30px -3px rgba(0, 0, 0, 0.41);
-        -moz-box-shadow: 8px 5px 30px -3px rgba(2, 2, 2, 0.41);
+        box-shadow: 4px 2px 15px -3px rgba(7, 7, 7, 0.41);
+        -webkit-box-shadow: 4px 2px 15px -3px rgba(0, 0, 0, 0.41);
+        -moz-box-shadow: 4px 2px 15px -3px rgba(2, 2, 2, 0.41);
     }
     &__bonsoms{
         height: 300px;
-        width: 400px;
+        width: 450px;
+        grid-area: "cards__bonsoms";
         background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/cardsBonsoms_1.webp);
         background-size: cover;
         border-radius: 7px;
-        box-shadow: 8px 5px 30px -3px rgba(7, 7, 7, 0.41);
-        -webkit-box-shadow: 8px 5px 30px -3px rgba(0, 0, 0, 0.41);
-        -moz-box-shadow: 8px 5px 30px -3px rgba(2, 2, 2, 0.41);
+        box-shadow: 4px 2px 15px -3px rgba(7, 7, 7, 0.41);
+        -webkit-box-shadow: 4px 2px 15px -3px rgba(0, 0, 0, 0.41);
+        -moz-box-shadow: 4px 2px 15px -3px rgba(2, 2, 2, 0.41);
+    }
+    &__proximamente{
+        height: 300px;
+        width: 820px;
+        margin-left: 50px;
+        grid-area: "cards__proximamente cards__proximamente";
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/proximamente.png);
+        background-size: contain;
+        background-position-x: 20px;
+        border-radius: 7px;
+        box-shadow: 4px 2px 15px -3px rgba(7, 7, 7, 0.41);
+        -webkit-box-shadow: 4px 2px 15px -3px rgba(0, 0, 0, 0.41);
+        -moz-box-shadow: 4px 2px 15px -3px rgba(2, 2, 2, 0.41);
+        h2{
+            text-align: center;
+            background-color: rgba(255, 255, 106, 0.71);
+            margin-top: 165px;
+            letter-spacing: 2rem;
+        }
     }
 }
 

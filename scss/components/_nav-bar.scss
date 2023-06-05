@@ -18,7 +18,7 @@
 }
 
 #header {
-    background-color:rgba(0, 0, 0, 0.241);
+    background-color:rgba(0, 0, 0, 0.403);
     backdrop-filter: blur(10px);
     position: fixed;
     width: 100vw;
@@ -35,14 +35,14 @@
         color: $lightgraytext;
         font-weight:400;
         font-family: "futura-light";
-        font-size: 1.1rem;
+        font-size: 1rem;
         letter-spacing: 2px;
         &:hover{
             color:  rgb(255, 255, 93);
         }
     }
     &__dropdown{
-        background-color:rgba(0, 0, 0, 0.39);
+        background-color:rgba(0, 0, 0, 0.59);
         a{
             &:hover{
                 background-color: rgba(14, 14, 14, 0.577);

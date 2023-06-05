@@ -56,7 +56,7 @@ h1 {
   height: 20px; }
 
 #header {
-  background-color: rgba(0, 0, 0, 0.241);
+  background-color: rgba(0, 0, 0, 0.403);
   backdrop-filter: blur(10px);
   position: fixed;
   width: 100vw;
@@ -72,12 +72,12 @@ h1 {
     color: #e7e7e7;
     font-weight: 400;
     font-family: "futura-light";
-    font-size: 1.1rem;
+    font-size: 1rem;
     letter-spacing: 2px; }
     #navBar a:hover {
       color: #ffff5d; }
   #navBar__dropdown {
-    background-color: rgba(0, 0, 0, 0.39); }
+    background-color: rgba(0, 0, 0, 0.59); }
     #navBar__dropdown a:hover {
       background-color: rgba(14, 14, 14, 0.577);
       color: #ffff5d;
@@ -226,9 +226,12 @@ h1 {
     margin: 0 300px 20px; }
 
 .cards {
-  display: flex;
+  display: grid;
+  grid-template-columns: 450px 450px;
+  grid-template-rows: auto auto;
+  grid-template-areas: "cards__rosello bonsoms" "cards__proximamente";
   justify-content: center;
-  gap: 80px;
+  gap: 20px;
   padding-top: 20px; }
   .cards h4 {
     font-size: 1.1rem;
@@ -243,22 +246,41 @@ h1 {
     border-bottom-right-radius: 20px; }
   .cards__rossello {
     height: 300px;
-    width: 400px;
+    width: 450px;
+    grid-area: "cards__rosello";
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/cardsRossello_1.webp);
     background-size: cover;
     border-radius: 7px;
-    box-shadow: 8px 5px 30px -3px rgba(7, 7, 7, 0.41);
-    -webkit-box-shadow: 8px 5px 30px -3px rgba(0, 0, 0, 0.41);
-    -moz-box-shadow: 8px 5px 30px -3px rgba(2, 2, 2, 0.41); }
+    box-shadow: 4px 2px 15px -3px rgba(7, 7, 7, 0.41);
+    -webkit-box-shadow: 4px 2px 15px -3px rgba(0, 0, 0, 0.41);
+    -moz-box-shadow: 4px 2px 15px -3px rgba(2, 2, 2, 0.41); }
   .cards__bonsoms {
     height: 300px;
-    width: 400px;
+    width: 450px;
+    grid-area: "cards__bonsoms";
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/cardsBonsoms_1.webp);
     background-size: cover;
     border-radius: 7px;
-    box-shadow: 8px 5px 30px -3px rgba(7, 7, 7, 0.41);
-    -webkit-box-shadow: 8px 5px 30px -3px rgba(0, 0, 0, 0.41);
-    -moz-box-shadow: 8px 5px 30px -3px rgba(2, 2, 2, 0.41); }
+    box-shadow: 4px 2px 15px -3px rgba(7, 7, 7, 0.41);
+    -webkit-box-shadow: 4px 2px 15px -3px rgba(0, 0, 0, 0.41);
+    -moz-box-shadow: 4px 2px 15px -3px rgba(2, 2, 2, 0.41); }
+  .cards__proximamente {
+    height: 300px;
+    width: 820px;
+    margin-left: 50px;
+    grid-area: "cards__proximamente cards__proximamente";
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/proximamente.png);
+    background-size: contain;
+    background-position-x: 20px;
+    border-radius: 7px;
+    box-shadow: 4px 2px 15px -3px rgba(7, 7, 7, 0.41);
+    -webkit-box-shadow: 4px 2px 15px -3px rgba(0, 0, 0, 0.41);
+    -moz-box-shadow: 4px 2px 15px -3px rgba(2, 2, 2, 0.41); }
+    .cards__proximamente h2 {
+      text-align: center;
+      background-color: rgba(255, 255, 106, 0.71);
+      margin-top: 165px;
+      letter-spacing: 2rem; }
 
 .reviews {
   height: max-content;
@@ -468,7 +490,8 @@ h1 {
     text-align: start;
     color: #272727; }
   .contactMain h2 {
-    font-family: "futura-medium"; }
+    font-family: "futura-medium";
+    text-align: start; }
   .contactMain h3 {
     font-family: "futura-medium";
     font-size: 1.3rem;
@@ -476,11 +499,16 @@ h1 {
     letter-spacing: .1rem; }
 
 .infoContact {
+  background: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 15px;
   width: 300px; }
+  .infoContact__separador {
+    border-top: 1px solid #272727;
+    height: 2px;
+    margin-right: 20px; }
   .infoContact__redesSociales {
     display: flex;
     justify-content: start;

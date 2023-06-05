@@ -15,6 +15,7 @@
     }
     h2{
         font-family: "futura-medium";
+        text-align: start;
     }
     h3{
         font-family: "futura-medium";
@@ -25,11 +26,17 @@
 }
 
 .infoContact{
+    background: none;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 15px;
     width: 300px;
+    &__separador{
+        border-top: 1px solid $darkgray;
+        height: 2px;
+        margin-right: 20px;
+    }
     &__redesSociales{
         display: flex;
         justify-content: start;
