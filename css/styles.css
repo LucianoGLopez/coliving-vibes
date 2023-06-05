@@ -84,7 +84,7 @@ h1 {
       font-weight: 500; }
   #navBar__button button {
     font-family: "futura-light";
-    font-size: 1.1rem;
+    font-size: 1rem;
     letter-spacing: 2px;
     color: #f0f0f0;
     border-color: #f0f0f0; }
@@ -185,6 +185,9 @@ h1 {
     box-shadow: 8px 5px 30px -3px rgba(7, 7, 7, 0.781);
     -webkit-box-shadow: 8px 5px 30px -3px rgba(0, 0, 0, 0.741);
     -moz-box-shadow: 8px 5px 30px -3px rgba(2, 2, 2, 0.603); }
+  .containerOurConcept a {
+    text-align: center;
+    margin: auto; }
   .containerOurConcept button {
     margin: 0 auto;
     font-family: "futura-light";
@@ -233,17 +236,19 @@ h1 {
   justify-content: center;
   gap: 20px;
   padding-top: 20px; }
+  .cards a {
+    text-decoration: none; }
   .cards h4 {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-family: "futura-light";
     font-weight: 600;
     letter-spacing: 3px;
-    padding: 10px;
+    padding: 15px;
     color: #272727;
     background-color: rgba(255, 255, 106, 0.71);
-    margin-top: 10px;
     margin-right: 290px;
-    border-bottom-right-radius: 20px; }
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 7px; }
   .cards__rossello {
     height: 300px;
     width: 450px;
@@ -458,161 +463,341 @@ h1 {
     padding: 20px 200px;
     color: #e7e7e7; }
 
-.galeriaRosselloRow {
+.commonSpace {
   display: flex;
+  flex-direction: row;
   padding-top: 50px;
   background-color: #272727; }
-  .galeriaRosselloRow img {
-    height: 200px;
-    width: 300px;
-    border-radius: 7px;
-    cursor: pointer;
-    filter: brightness(0.6); }
-    .galeriaRosselloRow img:nth-child(4) {
-      filter: brightness(0.2); }
-  .galeriaRosselloRow p {
+  .commonSpace p {
     text-align: start;
     padding: 0 200px 0 20px;
     color: #e7e7e7; }
-  .galeriaRosselloRow h3 {
-    font-family: "futura-medium";
+  .commonSpace h3 {
+    font-family: "futura-bold";
     letter-spacing: 3px;
     text-align: start;
     padding-left: 20px;
     color: #ffff6a; }
+  .commonSpace picture {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: start;
+    padding: 0 20px 50px 200px;
+    gap: 10px; }
+    .commonSpace picture img {
+      height: 200px;
+      width: 300px;
+      border-radius: 7px;
+      cursor: pointer;
+      filter: brightness(0.6); }
+      .commonSpace picture img:nth-child(4) {
+        filter: brightness(0.2); }
+    .commonSpace picture div {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/portada.jpg);
+      background-size: cover;
+      border-radius: 7px;
+      cursor: pointer; }
+      .commonSpace picture div h4 {
+        color: #ffff6a;
+        padding-top: 80px;
+        font-family: "futura-bold";
+        font-size: 1.5rem;
+        letter-spacing: 3px; }
 
-.imagesGaleriaRosselloRow {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto;
-  justify-content: start;
-  padding: 0 20px 50px 200px;
-  gap: 10px; }
-  .imagesGaleriaRosselloRow__seeMore {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/portada.jpg);
-    background-size: cover;
-    border-radius: 7px;
-    cursor: pointer; }
-    .imagesGaleriaRosselloRow__seeMore h4 {
-      color: #ffff6a;
-      padding-top: 80px;
-      font-family: "futura-light";
-      font-size: 1.5rem;
-      letter-spacing: 3px; }
-
-.galeriaRosselloReverseRow {
+.room1Rossello {
   display: flex;
   flex-direction: row-reverse;
+  padding-top: 50px;
   background-color: #ffff92; }
-  .galeriaRosselloReverseRow img {
-    height: 200px;
-    width: 300px;
-    border-radius: 7px;
-    cursor: pointer;
-    filter: brightness(0.6); }
-    .galeriaRosselloReverseRow img:nth-child(4) {
-      filter: brightness(0.2); }
-  .galeriaRosselloReverseRow p {
+  .room1Rossello p {
     text-align: start;
-    padding: 0px 20px 20px 200px;
+    padding: 0 20px 0 200px;
     color: #272727; }
-  .galeriaRosselloReverseRow h3 {
-    font-family: "futura-medium";
+  .room1Rossello h3 {
+    font-family: "futura-bold";
     letter-spacing: 3px;
     text-align: start;
     padding-left: 200px;
-    padding-top: 50px;
     color: #272727; }
+  .room1Rossello picture {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: start;
+    padding: 0 200px 50px 20px;
+    gap: 10px; }
+    .room1Rossello picture img {
+      height: 200px;
+      width: 300px;
+      border-radius: 7px;
+      cursor: pointer;
+      filter: brightness(0.6); }
+      .room1Rossello picture img:nth-child(4) {
+        filter: brightness(0.2); }
+    .room1Rossello picture div {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room1Rossello/room1_4.jpg);
+      background-size: cover;
+      border-radius: 7px;
+      cursor: pointer; }
+      .room1Rossello picture div h4 {
+        color: #ffff6a;
+        padding-top: 80px;
+        font-family: "futura-bold";
+        font-size: 1.5rem;
+        letter-spacing: 3px; }
 
-.imagesGaleriaRosselloReverseRow {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto;
-  justify-content: start;
-  padding: 50px 200px 50px 20px;
-  gap: 10px; }
-  .imagesGaleriaRosselloReverseRow__seeMore {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room1Rossello/room1_4.jpg);
-    background-size: cover;
-    cursor: pointer; }
-    .imagesGaleriaRosselloReverseRow__seeMore h4 {
-      color: #ffff6a;
-      padding-top: 80px;
-      font-family: "futura-light";
-      font-size: 1.5rem;
-      letter-spacing: 3px; }
-
-.imagesGaleriaRosselloRow__seeMoreRoom2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room2Rossello/room2_4.jpg);
-  background-size: cover;
-  border-radius: 7px;
-  cursor: pointer; }
-  .imagesGaleriaRosselloRow__seeMoreRoom2 h4 {
-    color: #ffff6a;
-    padding-top: 80px;
+.room2Rossello {
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+  background-color: #272727; }
+  .room2Rossello p {
+    text-align: start;
+    padding: 0 200px 0 20px;
+    color: #e7e7e7; }
+  .room2Rossello h3 {
     font-family: "futura-bold";
-    font-size: 1.8rem;
-    letter-spacing: 3px; }
+    letter-spacing: 3px;
+    text-align: start;
+    padding-left: 20px;
+    color: #ffff6a; }
+  .room2Rossello picture {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: start;
+    padding: 0 20px 50px 200px;
+    gap: 10px; }
+    .room2Rossello picture img {
+      height: 200px;
+      width: 300px;
+      border-radius: 7px;
+      cursor: pointer;
+      filter: brightness(0.6); }
+      .room2Rossello picture img:nth-child(4) {
+        filter: brightness(0.2); }
+    .room2Rossello picture div {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room2Rossello/room2_4.jpg);
+      background-size: cover;
+      border-radius: 7px;
+      cursor: pointer; }
+      .room2Rossello picture div h4 {
+        color: #ffff6a;
+        padding-top: 80px;
+        font-family: "futura-bold";
+        font-size: 1.5rem;
+        letter-spacing: 3px; }
 
-.imagesGaleriaRosselloRow__seeMoreRoom3 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room3Rossello/room3_4.jpg);
-  background-size: cover;
-  cursor: pointer;
-  border-radius: 7px; }
-  .imagesGaleriaRosselloRow__seeMoreRoom3 h4 {
-    color: #ffff6a;
-    padding-top: 80px;
+.room3Rossello {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 50px;
+  background-color: #ffff92; }
+  .room3Rossello p {
+    text-align: start;
+    padding: 0 20px 0 200px;
+    color: #272727; }
+  .room3Rossello h3 {
     font-family: "futura-bold";
-    font-size: 1.8rem;
-    letter-spacing: 3px; }
+    letter-spacing: 3px;
+    text-align: start;
+    padding-left: 200px;
+    color: #272727; }
+  .room3Rossello picture {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: start;
+    padding: 0 200px 50px 20px;
+    gap: 10px; }
+    .room3Rossello picture img {
+      height: 200px;
+      width: 300px;
+      border-radius: 7px;
+      cursor: pointer;
+      filter: brightness(0.6); }
+      .room3Rossello picture img:nth-child(4) {
+        filter: brightness(0.2); }
+    .room3Rossello picture div {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room3Rossello/room3_4.jpg);
+      background-size: cover;
+      border-radius: 7px;
+      cursor: pointer; }
+      .room3Rossello picture div h4 {
+        color: #ffff6a;
+        padding-top: 80px;
+        font-family: "futura-bold";
+        font-size: 1.5rem;
+        letter-spacing: 3px; }
 
-.imagesGaleriaRosselloRow__seeMoreRoom4 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room4Rossello/room4_4.jpg);
-  background-size: cover;
-  border-radius: 7px;
-  cursor: pointer; }
-  .imagesGaleriaRosselloRow__seeMoreRoom4 h4 {
-    color: #ffff6a;
-    padding-top: 80px;
+.room4Rossello {
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+  background-color: #272727; }
+  .room4Rossello p {
+    text-align: start;
+    padding: 0 200px 0 20px;
+    color: #e7e7e7; }
+  .room4Rossello h3 {
     font-family: "futura-bold";
-    font-size: 1.8rem;
-    letter-spacing: 3px; }
+    letter-spacing: 3px;
+    text-align: start;
+    padding-left: 20px;
+    color: #ffff6a; }
+  .room4Rossello picture {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: start;
+    padding: 0 20px 50px 200px;
+    gap: 10px; }
+    .room4Rossello picture img {
+      height: 200px;
+      width: 300px;
+      border-radius: 7px;
+      cursor: pointer;
+      filter: brightness(0.6); }
+      .room4Rossello picture img:nth-child(4) {
+        filter: brightness(0.2); }
+    .room4Rossello picture div {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room4Rossello/room4_4.jpg);
+      background-size: cover;
+      border-radius: 7px;
+      cursor: pointer; }
+      .room4Rossello picture div h4 {
+        color: #ffff6a;
+        padding-top: 80px;
+        font-family: "futura-bold";
+        font-size: 1.5rem;
+        letter-spacing: 3px; }
 
-.imagesGaleriaRosselloRow__seeMoreRoom5 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room5Rossello/room5_4.jpg);
-  background-size: cover;
-  border-radius: 7px;
-  cursor: pointer; }
-  .imagesGaleriaRosselloRow__seeMoreRoom5 h4 {
-    color: #ffff6a;
-    padding-top: 80px;
+.room5Rossello {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 50px;
+  background-color: #ffff92; }
+  .room5Rossello p {
+    text-align: start;
+    padding: 0 20px 0 200px;
+    color: #272727; }
+  .room5Rossello h3 {
     font-family: "futura-bold";
-    font-size: 1.8rem;
-    letter-spacing: 3px; }
+    letter-spacing: 3px;
+    text-align: start;
+    padding-left: 200px;
+    color: #272727; }
+  .room5Rossello picture {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: start;
+    padding: 0 200px 50px 20px;
+    gap: 10px; }
+    .room5Rossello picture img {
+      height: 200px;
+      width: 300px;
+      border-radius: 7px;
+      cursor: pointer;
+      filter: brightness(0.6); }
+      .room5Rossello picture img:nth-child(4) {
+        filter: brightness(0.2); }
+    .room5Rossello picture div {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room5Rossello/room5_4.jpg);
+      background-size: cover;
+      border-radius: 7px;
+      cursor: pointer; }
+      .room5Rossello picture div h4 {
+        color: #ffff6a;
+        padding-top: 80px;
+        font-family: "futura-bold";
+        font-size: 1.5rem;
+        letter-spacing: 3px; }
 
-.imagesGaleriaRosselloRow__seeMoreRoom6 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room6Rossello/room6_4.jpg);
-  background-size: cover;
-  border-radius: 7px;
-  cursor: pointer; }
-  .imagesGaleriaRosselloRow__seeMoreRoom6 h4 {
-    color: #ffff6a;
-    padding-top: 80px;
+.room6Rossello {
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+  background-color: #272727; }
+  .room6Rossello p {
+    text-align: start;
+    padding: 0 200px 0 20px;
+    color: #e7e7e7; }
+  .room6Rossello h3 {
     font-family: "futura-bold";
-    font-size: 1.8rem;
-    letter-spacing: 3px; }
+    letter-spacing: 3px;
+    text-align: start;
+    padding-left: 20px;
+    color: #ffff6a; }
+  .room6Rossello picture {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: start;
+    padding: 0 20px 50px 200px;
+    gap: 10px; }
+    .room6Rossello picture img {
+      height: 200px;
+      width: 300px;
+      border-radius: 7px;
+      cursor: pointer;
+      filter: brightness(0.6); }
+      .room6Rossello picture img:nth-child(4) {
+        filter: brightness(0.2); }
+    .room6Rossello picture div {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room6Rossello/room6_4.jpg);
+      background-size: cover;
+      border-radius: 7px;
+      cursor: pointer; }
+      .room6Rossello picture div h4 {
+        color: #ffff6a;
+        padding-top: 80px;
+        font-family: "futura-bold";
+        font-size: 1.5rem;
+        letter-spacing: 3px; }
 
-.imagesGaleriaRosselloRow__seeMoreRoom7 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room7Rossello/room7_4.jpg);
-  background-size: cover;
-  border-radius: 7px;
-  cursor: pointer; }
-  .imagesGaleriaRosselloRow__seeMoreRoom7 h4 {
-    color: #ffff6a;
-    padding-top: 80px;
+.room7Rossello {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 50px;
+  background-color: #ffff92; }
+  .room7Rossello p {
+    text-align: start;
+    padding: 0 20px 0 200px;
+    color: #272727; }
+  .room7Rossello h3 {
     font-family: "futura-bold";
-    font-size: 1.8rem;
-    letter-spacing: 3px; }
+    letter-spacing: 3px;
+    text-align: start;
+    padding-left: 200px;
+    color: #272727; }
+  .room7Rossello picture {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: start;
+    padding: 0 200px 50px 20px;
+    gap: 10px; }
+    .room7Rossello picture img {
+      height: 200px;
+      width: 300px;
+      border-radius: 7px;
+      cursor: pointer;
+      filter: brightness(0.6); }
+      .room7Rossello picture img:nth-child(4) {
+        filter: brightness(0.2); }
+    .room7Rossello picture div {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room7Rossello/room7_4.jpg);
+      background-size: cover;
+      border-radius: 7px;
+      cursor: pointer; }
+      .room7Rossello picture div h4 {
+        color: #ffff6a;
+        padding-top: 80px;
+        font-family: "futura-bold";
+        font-size: 1.5rem;
+        letter-spacing: 3px; }
 
 .faqsMain {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(/img/colivingVibesNeon.jpg);

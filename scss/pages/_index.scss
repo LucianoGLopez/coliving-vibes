@@ -74,6 +74,10 @@
         -webkit-box-shadow: 8px 5px 30px -3px rgba(0, 0, 0, 0.741);
         -moz-box-shadow: 8px 5px 30px -3px rgba(2, 2, 2, 0.603);
     }
+    a{
+        text-align: center;
+        margin: auto;
+    }
     button{
         margin: 0 auto;
         font-family: "futura-light";
@@ -133,17 +137,20 @@
     justify-content: center;
     gap: 20px;
     padding-top: 20px;
+    a{
+        text-decoration: none;
+    }
     h4{
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         font-family: "futura-light";
         font-weight: 600;
         letter-spacing: 3px;
-        padding: 10px;
+        padding: 15px;
         color:rgb(39, 39, 39);
         background-color:rgba(255, 255, 106, 0.71);
-        margin-top: 10px;
         margin-right: 290px;
         border-bottom-right-radius: 20px;
+        border-top-left-radius: 7px;
     }
     &__rossello{
         height: 300px;

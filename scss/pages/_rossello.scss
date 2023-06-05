@@ -29,194 +29,35 @@
     }
 }
 
-// COMMON
-.galeriaRosselloRow{
-    display: flex;
-    padding-top: 50px;
-    background-color: $darkgray;
-    img{
-        height: 200px;
-        width: 300px;
-        border-radius: 7px;
-        cursor: pointer;
-        filter: brightness(0.6);
-        &:nth-child(4){
-            filter: brightness(0.2);
-        }
-    }
-    p{
-        text-align: start;
-        padding: 0 200px 0 20px;
-        color: $lightgraytext;
-    }
-    h3{
-        font-family: "futura-medium";
-        letter-spacing: 3px;
-        text-align: start;
-        padding-left: 20px;
-        color: $yellow;
-    }
+// CARDS
+.commonSpace{
+    @include cardRossello (row, $darkgray, $lightgraytext, $yellow, 20px, 0 200px 0 20px, 0 20px 50px 200px, url(/img/portada.jpg));
 }
-.imagesGaleriaRosselloRow{
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-    justify-content: start;
-    padding: 0 20px 50px 200px;
-    gap: 10px;
-    &__seeMore{
-        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/portada.jpg);
-        background-size: cover;
-        border-radius: 7px;
-        cursor: pointer;
-        h4{
-            color: $yellow;
-            padding-top: 80px;
-            font-family: "futura-light";
-            font-size: 1.5rem;
-            letter-spacing: 3px;
-        }
-    }
+    
+.room1Rossello{
+    @include cardRossello (row-reverse, $lightyellow, $darkgray, $darkgray, 200px, 0 20px 0 200px, 0 200px 50px 20px, url(/img/room1Rossello/room1_4.jpg))
 }
 
-
-
-// ROOM 1
-.galeriaRosselloReverseRow{
-    display: flex;
-    flex-direction: row-reverse;
-    background-color: $lightyellow;
-    img{
-        height: 200px;
-        width: 300px;
-        border-radius: 7px;
-        cursor: pointer;
-        filter: brightness(0.6);
-        &:nth-child(4){
-            filter: brightness(0.2);
-        }
-    }
-    p{
-        text-align: start;
-        padding: 0px 20px 20px 200px;
-        color: $darkgray;
-    }
-    h3{
-        font-family: "futura-medium";
-        letter-spacing: 3px;
-        text-align: start;
-        padding-left: 200px;
-        padding-top: 50px;
-        color: $darkgray;
-    }
-}
-.imagesGaleriaRosselloReverseRow{
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-    justify-content: start;
-    padding: 50px 200px 50px 20px;
-    gap: 10px;
-    &__seeMore{
-        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room1Rossello/room1_4.jpg);
-        background-size: cover;
-        cursor: pointer;
-        h4{
-            color: $yellow;
-            padding-top: 80px;
-            font-family: "futura-light";
-            font-size: 1.5rem;
-            letter-spacing: 3px;
-        }
-    }
+.room2Rossello{
+    @include cardRossello (row, $darkgray, $lightgraytext, $yellow, 20px, 0 200px 0 20px, 0 20px 50px 200px, url(/img/room2Rossello/room2_4.jpg));
 }
 
-// ROOM 2
-.imagesGaleriaRosselloRow__seeMoreRoom2{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room2Rossello/room2_4.jpg);
-        background-size: cover;
-        border-radius: 7px;
-        cursor: pointer;
-        h4{
-            color: $yellow;
-            padding-top: 80px;
-            font-family: "futura-bold";
-            font-size: 1.8rem;
-            letter-spacing: 3px;
-}
+.room3Rossello{
+    @include cardRossello (row-reverse, $lightyellow, $darkgray, $darkgray, 200px, 0 20px 0 200px, 0 200px 50px 20px, url(/img/room3Rossello/room3_4.jpg));
 }
 
-// ROOM 3
-.imagesGaleriaRosselloRow__seeMoreRoom3{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room3Rossello/room3_4.jpg);
-        background-size: cover;
-        cursor: pointer;
-        border-radius: 7px;
-        h4{
-            color: $yellow;
-            padding-top: 80px;
-            font-family: "futura-bold";
-            font-size: 1.8rem;
-            letter-spacing: 3px;
-}
+.room4Rossello{
+    @include cardRossello (row, $darkgray, $lightgraytext, $yellow, 20px, 0 200px 0 20px, 0 20px 50px 200px, url(/img/room4Rossello/room4_4.jpg));
 }
 
-// ROOM 4
-.imagesGaleriaRosselloRow__seeMoreRoom4{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room4Rossello/room4_4.jpg);
-        background-size: cover;
-        border-radius: 7px;
-        cursor: pointer;
-        h4{
-            color: $yellow;
-            padding-top: 80px;
-            font-family: "futura-bold";
-            font-size: 1.8rem;
-            letter-spacing: 3px;
-}
+.room5Rossello{
+    @include cardRossello (row-reverse, $lightyellow, $darkgray, $darkgray, 200px, 0 20px 0 200px, 0 200px 50px 20px, url(/img/room5Rossello/room5_4.jpg));
 }
 
-// ROOM 5
-.imagesGaleriaRosselloRow__seeMoreRoom5{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room5Rossello/room5_4.jpg);
-        background-size: cover;
-        border-radius: 7px;
-        cursor: pointer;
-        h4{
-            color: $yellow;
-            padding-top: 80px;
-            font-family: "futura-bold";
-            font-size: 1.8rem;
-            letter-spacing: 3px;
-}
+.room6Rossello{
+    @include cardRossello (row, $darkgray, $lightgraytext, $yellow, 20px, 0 200px 0 20px, 0 20px 50px 200px, url(/img/room6Rossello/room6_4.jpg));
 }
 
-// ROOM 6
-.imagesGaleriaRosselloRow__seeMoreRoom6{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room6Rossello/room6_4.jpg);
-        background-size: cover;
-        border-radius: 7px;
-        cursor: pointer;
-        h4{
-            color: $yellow;
-            padding-top: 80px;
-            font-family: "futura-bold";
-            font-size: 1.8rem;
-            letter-spacing: 3px;
-}
-}
-
-// ROOM 7
-.imagesGaleriaRosselloRow__seeMoreRoom7{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room7Rossello/room7_4.jpg);
-        background-size: cover;
-        border-radius: 7px;
-        cursor: pointer;
-        h4{
-            color: $yellow;
-            padding-top: 80px;
-            font-family: "futura-bold";
-            font-size: 1.8rem;
-            letter-spacing: 3px;
-}
+.room7Rossello{
+    @include cardRossello (row-reverse, $lightyellow, $darkgray, $darkgray, 200px, 0 20px 0 200px, 0 200px 50px 20px, url(/img/room7Rossello/room7_4.jpg));
 }
