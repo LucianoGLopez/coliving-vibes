@@ -239,7 +239,7 @@ h1 {
   .cards a {
     text-decoration: none; }
   .cards h4 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: "futura-light";
     font-weight: 600;
     letter-spacing: 3px;
@@ -468,6 +468,8 @@ h1 {
   flex-direction: row;
   padding-top: 50px;
   background-color: #272727; }
+  .commonSpace a {
+    text-decoration: none; }
   .commonSpace p {
     text-align: start;
     padding: 0 200px 0 20px;
@@ -509,7 +511,9 @@ h1 {
   display: flex;
   flex-direction: row-reverse;
   padding-top: 50px;
-  background-color: #ffff92; }
+  background-color: #dbdbdb; }
+  .room1Rossello a {
+    text-decoration: none; }
   .room1Rossello p {
     text-align: start;
     padding: 0 20px 0 200px;
@@ -552,6 +556,8 @@ h1 {
   flex-direction: row;
   padding-top: 50px;
   background-color: #272727; }
+  .room2Rossello a {
+    text-decoration: none; }
   .room2Rossello p {
     text-align: start;
     padding: 0 200px 0 20px;
@@ -594,6 +600,8 @@ h1 {
   flex-direction: row-reverse;
   padding-top: 50px;
   background-color: #ffff92; }
+  .room3Rossello a {
+    text-decoration: none; }
   .room3Rossello p {
     text-align: start;
     padding: 0 20px 0 200px;
@@ -636,6 +644,8 @@ h1 {
   flex-direction: row;
   padding-top: 50px;
   background-color: #272727; }
+  .room4Rossello a {
+    text-decoration: none; }
   .room4Rossello p {
     text-align: start;
     padding: 0 200px 0 20px;
@@ -678,6 +688,8 @@ h1 {
   flex-direction: row-reverse;
   padding-top: 50px;
   background-color: #ffff92; }
+  .room5Rossello a {
+    text-decoration: none; }
   .room5Rossello p {
     text-align: start;
     padding: 0 20px 0 200px;
@@ -720,6 +732,8 @@ h1 {
   flex-direction: row;
   padding-top: 50px;
   background-color: #272727; }
+  .room6Rossello a {
+    text-decoration: none; }
   .room6Rossello p {
     text-align: start;
     padding: 0 200px 0 20px;
@@ -762,6 +776,8 @@ h1 {
   flex-direction: row-reverse;
   padding-top: 50px;
   background-color: #ffff92; }
+  .room7Rossello a {
+    text-decoration: none; }
   .room7Rossello p {
     text-align: start;
     padding: 0 20px 0 200px;
@@ -798,6 +814,89 @@ h1 {
         font-family: "futura-bold";
         font-size: 1.5rem;
         letter-spacing: 3px; }
+
+.mainGallery {
+  padding-top: 150px;
+  background-color: #272727; }
+  .mainGallery h1 {
+    color: #ffff6a;
+    text-align: center;
+    font-family: "futura-bold";
+    letter-spacing: 3px;
+    font-size: 3.5rem; }
+
+.cardsGalleryRossello {
+  background-color: #272727;
+  height: max-content; }
+  .cardsGalleryRossello h2 {
+    color: #dbdbdb;
+    text-align: center;
+    font-family: "futura-medium";
+    padding-top: 50px; }
+  .cardsGalleryRossello__separador {
+    border-top: 1px solid #ffff6a;
+    height: 2px;
+    margin: 0 300px;
+    padding-bottom: 50px; }
+
+.galleryRossello {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0px 50px 20px 50px;
+  gap: 10px; }
+  .galleryRossello img {
+    width: 300px;
+    height: auto;
+    cursor: pointer; }
+
+#imagen-activa {
+  width: 100%;
+  height: auto; }
+
+#contenedor-principal {
+  position: fixed;
+  margin-top: 20px;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(5px); }
+
+#contenedor-interno {
+  display: flex;
+  justify-content: end;
+  position: relative;
+  width: auto;
+  height: auto; }
+  #contenedor-interno img {
+    max-height: 75vh;
+    max-width: 80vw; }
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none; }
+
+#btn-cierra {
+  position: absolute;
+  top: 15%;
+  right: 10%; }
+
+#btn-retrocede {
+  position: absolute;
+  top: 45%;
+  left: 20%; }
+
+#btn-adelanta {
+  position: absolute;
+  top: 45%;
+  right: 20%; }
 
 .faqsMain {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(/img/colivingVibesNeon.jpg);

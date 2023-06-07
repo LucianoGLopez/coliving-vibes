@@ -3,6 +3,9 @@
         flex-direction: $flex-direction;
         padding-top: 50px;
         background-color: $background-color;
+        a{
+            text-decoration: none;
+        }
         p{
             text-align: start;
             padding: $padding-text;
@@ -47,3 +50,4 @@
         }
     }
 }
+

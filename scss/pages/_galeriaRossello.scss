@@ -1,0 +1,104 @@
+.mainGallery{
+    padding-top: 150px;
+    background-color: $darkgray;
+    h1{
+        color: $yellow;
+        text-align: center;
+        font-family: "futura-bold";
+        letter-spacing: 3px;
+        font-size: 3.5rem;
+    }
+}
+
+.cardsGalleryRossello{
+    background-color: $darkgray;
+    height: max-content;
+    h2{
+        color: $lightgray;
+        text-align: center;
+        font-family: "futura-medium";
+        padding-top: 50px;
+    }
+    &__separador{
+        border-top: 1px solid $yellow;
+        height: 2px;
+        margin: 0 300px;
+        padding-bottom: 50px;
+    }
+}
+
+// GALERIA DE IMAGENES
+
+.galleryRossello{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px 50px 20px 50px;
+    gap: 10px;
+    img{
+        width: 300px;
+        height: auto;
+        cursor: pointer;
+    }
+}
+// FIN GALERIA DE IMAGENES
+
+// INICIA LIGHTBOX
+// LIGHTBOX
+#imagen-activa {
+    width: 100%;
+    height: auto;
+}
+
+#contenedor-principal {
+    position: fixed;
+    margin-top: 20px;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.80);
+    backdrop-filter: blur(5px);
+}
+
+#contenedor-interno {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    width: auto;
+    height: auto;
+
+    img {
+        max-height: 75vh;
+        max-width: 80vw;
+    }
+}
+
+// BUTTONS
+button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+#btn-cierra {
+    position: absolute;
+    top: 15%;
+    right: 10%;
+}
+
+#btn-retrocede {
+    position: absolute;
+    top: 45%;
+    left: 20%;
+}
+
+#btn-adelanta {
+    position: absolute;
+    top: 45%;
+    right: 20%;
+}
