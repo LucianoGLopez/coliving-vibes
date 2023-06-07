@@ -540,7 +540,7 @@ h1 {
       .room1Rossello picture img:nth-child(4) {
         filter: brightness(0.2); }
     .room1Rossello picture div {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room1Rossello/room1_4.jpg);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room1Rossello/room1_4.webp);
       background-size: cover;
       border-radius: 7px;
       cursor: pointer; }
@@ -824,6 +824,12 @@ h1 {
     font-family: "futura-bold";
     letter-spacing: 3px;
     font-size: 3.5rem; }
+  .mainGallery h2 {
+    color: #ffff6a;
+    text-align: center;
+    font-family: "futura-bold";
+    letter-spacing: 3px;
+    font-size: 2rem; }
   .mainGallery h3 {
     text-align: center;
     color: #ffff6a;
@@ -838,15 +844,14 @@ h1 {
     color: #dbdbdb;
     text-align: center;
     font-family: "futura-bold";
-    font-size: 3.2rem;
+    font-size: 2.8rem;
     padding-top: 20px;
     letter-spacing: 3px; }
   .cardsGalleryRossello h3 {
     text-align: center;
     color: #ffff6a;
     font-family: "futura-medium";
-    letter-spacing: 3px;
-    padding-top: 20px; }
+    letter-spacing: 3px; }
   .cardsGalleryRossello__separador {
     border-top: 1px solid #ffff6a;
     height: 2px;
@@ -856,18 +861,18 @@ h1 {
 .gallery__separador {
   border-top: 1px solid #dbdbdb;
   height: 2px;
-  margin: 0 600px;
-  padding-bottom: 30px; }
+  margin: 0 600px; }
 
 .galleryRossello {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
   justify-content: center;
-  flex-wrap: wrap;
-  padding: 0px 50px 20px 50px;
-  gap: 10px; }
+  gap: 15px;
+  padding: 20px; }
   .galleryRossello img {
     width: 300px;
-    height: auto;
+    height: 220px;
     cursor: pointer; }
 
 #imagen-activa {
@@ -919,7 +924,7 @@ button {
   right: 20%; }
 
 .faqsMain {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(/img/colivingVibesNeon.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(/img/common/common_17.jpg);
   background-size: cover;
   background-attachment: fixed;
   height: max-content;
