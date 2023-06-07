@@ -824,20 +824,40 @@ h1 {
     font-family: "futura-bold";
     letter-spacing: 3px;
     font-size: 3.5rem; }
+  .mainGallery h3 {
+    text-align: center;
+    color: #ffff6a;
+    font-family: "futura-medium";
+    letter-spacing: 3px; }
 
 .cardsGalleryRossello {
   background-color: #272727;
-  height: max-content; }
+  height: max-content;
+  padding-top: 50px; }
   .cardsGalleryRossello h2 {
     color: #dbdbdb;
     text-align: center;
+    font-family: "futura-bold";
+    font-size: 3.2rem;
+    padding-top: 20px;
+    letter-spacing: 3px; }
+  .cardsGalleryRossello h3 {
+    text-align: center;
+    color: #ffff6a;
     font-family: "futura-medium";
-    padding-top: 50px; }
+    letter-spacing: 3px;
+    padding-top: 20px; }
   .cardsGalleryRossello__separador {
     border-top: 1px solid #ffff6a;
     height: 2px;
     margin: 0 300px;
-    padding-bottom: 50px; }
+    padding-bottom: 30px; }
+
+.gallery__separador {
+  border-top: 1px solid #dbdbdb;
+  height: 2px;
+  margin: 0 600px;
+  padding-bottom: 30px; }
 
 .galleryRossello {
   display: flex;

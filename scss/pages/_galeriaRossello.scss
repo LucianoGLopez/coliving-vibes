@@ -8,27 +8,51 @@
         letter-spacing: 3px;
         font-size: 3.5rem;
     }
+    h3{
+        text-align: center;
+        color: $yellow;
+        font-family: "futura-medium";
+        letter-spacing: 3px;
+    }
 }
+
+
 
 .cardsGalleryRossello{
     background-color: $darkgray;
     height: max-content;
+    padding-top: 50px;
     h2{
         color: $lightgray;
         text-align: center;
+        font-family: "futura-bold";
+        font-size: 3.2rem;
+        padding-top: 20px;
+        letter-spacing: 3px;
+    }
+    h3{
+        text-align: center;
+        color: $yellow;
         font-family: "futura-medium";
-        padding-top: 50px;
+        letter-spacing: 3px;
+        padding-top: 20px;
     }
     &__separador{
         border-top: 1px solid $yellow;
         height: 2px;
         margin: 0 300px;
-        padding-bottom: 50px;
+        padding-bottom: 30px;
     }
 }
 
-// GALERIA DE IMAGENES
+.gallery__separador{
+    border-top: 1px solid $lightgray;
+    height: 2px;
+    margin: 0 600px;
+    padding-bottom: 30px;
+}
 
+// GALERIA DE IMAGENES
 .galleryRossello{
     display: flex;
     justify-content: center;
@@ -41,6 +65,8 @@
         cursor: pointer;
     }
 }
+
+
 // FIN GALERIA DE IMAGENES
 
 // INICIA LIGHTBOX
