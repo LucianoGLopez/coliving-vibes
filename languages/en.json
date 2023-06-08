@@ -4,7 +4,8 @@
     },
     "colivings":{
         "title": "Our Colivings",
-        "subtitle": "Know our properties and rooms"
+        "subtitle": "Know our properties and rooms",
+        "soon": "SOON"
     },
     "reviews":{
         "title":"Reviews",
@@ -22,8 +23,19 @@
     },
     "ourConcept":{
         "title": "Concept",
-        "text": "Our colivings are modern and designed by professionals focused on the comfort and well-being of their tenants. They are built in fully renovated homes and have all the necessary amenities to provide a harmonious and enriching living experience.The design of the coliving is based on principles of order, open space and light. The common spaces, such as the kitchen, dining room and rest areas, are carefully designed by professionals, taking care of every detail, to promote the tranquility and well-being of our residents. Sustainability is also an integral part of our coliving concept in Barcelona. The building has renewable energy systems, such as solar panels and efficient water and waste management systems. In summary, our colivings in Barcelona are presented as a modern space with a focus on design, community, sustainability and health, providing a welcoming and stimulating environment where residents can live in a balanced and enriching way, making their stay an unforgettable experience. pleasant experience.",
-        "button": "See more"
+        "text": "Our colivings are modern and designed by professionals focused on the comfort and well-being of their tenants. They are built in fully renovated homes and have all the necessary amenities to provide a harmonious and enriching living experience. The design of the coliving is based on principles of order, open space and light. The common spaces, such as the kitchen, the dining room and the rest areas, are carefully designed by professionals, taking care of every detail, to promote the tranquility and well-being of our residents. Sustainability is also an integral part of our coliving concept in Barcelona. The building has renewable energy systems, such as solar panels and efficient water and waste management systems. In summary, our colivings in Barcelona are presented as a modern space with a focus on design, community, sustainability and health, providing a welcoming and stimulating environment where residents can live in a balanced and enriching way, making their stay an unforgettable experience, pleasant experience.",
+        "button": "See more",
+        "titleH1": "OUR CONCEPT",
+        "titleHome": "HOME",
+        "home": "The bases of our Colivings have been designed with every detail in mind to offer a unique and warm experience, creating a well-being, cozy and homely environment for its tenants, so that they feel immediately at ease, as if they were in their own homes. Being able in this way to be comfortable at all times and enjoy the stay at Coliving to the fullest, either enjoying the common spaces, as well as the privacy and comforts offered by our spacious private rooms.",
+        "titleDesign": "DESIGN",
+        "design": "Every corner of our homes is designed to transmit warmth and generate a sense of peace and belonging. Upon entering, you will be greeted by a modern decoration and carefully selected furniture, based on functionality and comfort, transmitting a sense of calm and well-being from the first moment, creating suitable environments to rest, work, study in silence and/or make the most of your creativity.",
+        "titleCommon": "COMMON SPACES",
+        "common": "Our common areas are designed to encourage interaction and coexistence among residents. The main living room is the heart of the coliving, where you can meet your flatmates, share talks, eat and enjoy a movie on the big screen. You can also enjoy our outdoor spaces with their comfortable armchairs, chairs and tables. You will meet people from all over the world, their cultures, their customs and you will make friends.",
+        "titleSustainability": "SUSTAINABILITY",
+        "sustainability": "We have designed every aspect of the home with a focus on sustainability and reducing environmental impact, without compromising comfort and quality of life. Our sustainable home has a series of characteristics that make it unique. Our rooftop solar panels generate renewable electricity, allowing our home to run on clean energy and reducing dependency on non-renewable energy sources. In addition, natural lighting is maximized through strategically placed large windows, which not only reduces the need for electricity during the day, but also improves the well-being and mood of the residents.",
+        "titleClean": "HOUSEKEEPING",
+        "clean": "A cleaning service is included in our Colivings -Monday to Friday- to guarantee that our residents enjoy a clean and tidy environment at all times. We recognize the importance of maintaining a clean and pleasant space for the well-being of all. Our cleaning service is designed to cover all the common areas and shared spaces of the coliving. Our professional cleaning team takes care of regular cleaning of common areas such as living rooms, kitchens, dining rooms, and shared bathrooms. They make sure that these spaces are always immaculate and ready to be enjoyed by all."
     },
     "contact":{
         "title": "CONTACT",

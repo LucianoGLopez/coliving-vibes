@@ -4,7 +4,8 @@
     },
     "colivings":{
         "title": "Nuestros Colivings",
-        "subtitle": "Conoce nuestras propiedades y habitaciones"
+        "subtitle": "Conoce nuestras propiedades y habitaciones",
+        "soon": "PROXIMAMENTE"
     },
     "reviews":{
         "title":"Reseñas",
@@ -22,8 +23,19 @@
     },
     "ourConcept":{
         "title": "Concepto",
-        "text": "Nuestros colivings son modernos y diseñados por profesionales enfocados en la comodidad y bienestar de sus inquilinos. Se encuentran construidos en viviendas totalmente renovadas y cuentan con todas las comodidades necesarias para brindar una experiencia de vida armoniosa y enriquecedora. El diseño del coliving se basa en principios de orden, espacio  abierto y luminosidad. Los espacios comunes, como la cocina, el comedor y las áreas de descanso, están cuidadosamente diseñados por profesionales, cuidando cada detalle, para fomentar la tranquilidad y bienestar de nuestros residentes. La sostenibilidad también es una parte integral de nuestro concepto de colivings en Barcelona. El edificio cuenta con sistemas de energía renovable, como paneles solares y sistemas de gestión eficiente de agua y residuos. En resumen, nuestros colivings en Barcelona se presentan como un espacio moderno con enfoque en el diseño, la comunidad, la sostenibilidad y la salud, brindando un ambiente acogedor y estimulante donde los residentes pueden vivir de manera equilibrada y enriquecedora, haciendo de su estadía una experiencia placentera.",
-        "button": "Ver más"
+        "text": "Nuestros colivings son modernos y diseñados por profesionales enfocados en la comodidad y bienestar de sus inquilinos. Se encuentran construidos en viviendas totalmente renovadas y cuentan con todas las comodidades necesarias para brindar una experiencia de vida armoniosa y enriquecedora. El diseño del coliving se basa en principios de orden, espacio abierto y luminosidad. Los espacios comunes, como la cocina, el comedor y las áreas de descanso, están cuidadosamente diseñados por profesionales, cuidando cada detalle, para fomentar la tranquilidad y bienestar de nuestros residentes. La sostenibilidad también es una parte integral de nuestro concepto de colivings en Barcelona. El edificio cuenta con sistemas de energía renovable, como paneles solares y sistemas de gestión eficiente de agua y residuos. En resumen, nuestros colivings en Barcelona se presentan como un espacio moderno con enfoque en el diseño, la comunidad, la sostenibilidad y la salud, brindando un ambiente acogedor y estimulante donde los residentes pueden vivir de manera equilibrada y enriquecedora, haciendo de su estadía una experiencia placentera.",
+        "button": "Ver más",
+        "titleH1": "NUESTRO CONCEPTO",
+        "titleHome": "HOGAR",
+        "home": "Las bases de nuestros Colivings han sido diseñadas pensando en cada detalle para ofrecer una experiencia única y cálida, creando un ambiente de bienestar, acogedor y hogareño para sus inquilinos, para que se sientan inmediatamente a gusto, como si estuvieran en sus propias casas. Pudiendo de esta manera estar a gusto en todo momento y disfrutar al máximo la estadía en el Coliving, ya sea disfrutando de los espacios comunes, como también, de la privacidad y las comodidades que ofrecen nuestras amplias habitaciones privadas.",
+        "titleDesign": "DISEÑO",
+        "design": "Cada rincón de nuestras viviendas están diseñados para transmitir calidez y generar una sensación de paz y pertenencia. Al ingresar, serás recibido por una decoración moderna y un mobiliario cuidadosamente seleccionado, basado en la funcionalidad y comodidad, transmitiendo desde un primer momento sensación de calma y bienestar, generando ambientes adecuados para descansar, trabajar, estudiaren silencio y/o explotar al máximo tu creatividad.",
+        "titleCommon": "ESPACIOS COMUNES",
+        "common": "Nuestras áreas comunes están diseñadas para fomentar la interacción y la convivencia entre los residentes. El salón principal es el corazón del coliving, donde podrás reunirte con tus compañeros de piso, compartir charlas, comidas y disfrutar de una película en pantalla grande. También podrás disfrutar de nuestros espacios al aire libre con sus cómodos sillones, sillas y mesas. Conocerás gente de todas partes del mundo, sus culturas, sus costumbres y harás amigos.",
+        "titleSustainability": "SUSTENTABILIDAD",
+        "sustainability": "Hemos diseñado cada aspecto de la vivienda con un enfoque en la sostenibilidad y la reducción del impacto ambiental, sin comprometer el confort y la calidad de vida. Nuestro hogar sustentable cuenta con una serie de características que lo hacen único. Contamos con paneles solares en el techo generan electricidad renovable, permitiendo que nuestro hogar funcione con energía limpia y reduciendo la dependencia de fuentes de energía no renovables. Ademas, la iluminación natural se maximiza a través de grandes ventanales estratégicamente ubicados, lo que no solo reduce la necesidad de electricidad durante el día, sino que también mejora el bienestar y el estado de ánimo de los residentes.",
+        "titleClean": "SERVICIO DE LIMPIEZA",
+        "clean": "En nuestros Colivings se incluye un servicio de limpieza -de lunes a viernes- para garantizar que nuestros residentes disfruten de un entorno limpio y ordenado en todo momento. Reconocemos la importancia de mantener un espacio limpio y agradable para el bienestar de todos. Nuestro servicio de limpieza está diseñado para cubrir todas las áreas comunes y espacios compartidos del coliving. Nuestro equipo de limpieza profesional se encarga de la limpieza regular de las áreas comunes, como salas de estar, cocinas, comedores y baños compartidos. Se aseguran de que estos espacios estén siempre impecables y listos para ser disfrutados por todos."
     },
     "contact":{
         "title": "CONTACTO",

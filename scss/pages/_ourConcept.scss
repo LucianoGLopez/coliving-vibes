@@ -15,7 +15,7 @@
         font-family: "futura-medium";
     }
     p{
-        font-size: 1.1rem;
+        font-size: 1rem;
         font-family: "futura-light";
     }
     &__separador{
@@ -25,39 +25,36 @@
     }
 }
 
-// INICIA FIRST CARD
+// INICIA HOME CARD
 .containerOurConceptHome{
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
     height: max-content;
-    padding: 20px 100px;
-    gap: 20px;
+    padding: 20px 200px;
+    gap: 80px;
     img{
         border-radius: 7px;
     }
     &__image{
-        height: 400px;
+        height: 300px;
         width: auto;
     }
 }
 
-
-
-
-// SECOND CARD
+// INICIA DESIGN CARD
 .containerOurConceptDesign{
     display: flex;
     align-items: center;
     height: max-content;
-    padding: 20px 100px;
-    gap: 20px;
+    padding: 20px 200px;
+    gap: 80px;
     background-color: $light;
     img{
         border-radius: 7px;
     }
     &__image{
-        height: 400px;
+        height: 300px;
         width: auto;
     }
 }
@@ -68,13 +65,13 @@
     flex-direction: row-reverse;
     align-items: center;
     height: max-content;
-    padding: 20px 100px;
-    gap: 20px;
+    padding: 20px 200px;
+    gap: 80px;
     img{
         border-radius: 7px;
     }
     &__image{
-        height: 400px;
+        height: 300px;
         width: auto;
     }
 }

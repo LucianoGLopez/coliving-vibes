@@ -393,7 +393,7 @@ h1 {
     color: #272727;
     font-family: "futura-medium"; }
   .ourConceptMain p {
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-family: "futura-light"; }
   .ourConceptMain__separador {
     border-top: 1px solid #272727;
@@ -405,25 +405,25 @@ h1 {
   flex-direction: row-reverse;
   align-items: center;
   height: max-content;
-  padding: 20px 100px;
-  gap: 20px; }
+  padding: 20px 200px;
+  gap: 80px; }
   .containerOurConceptHome img {
     border-radius: 7px; }
   .containerOurConceptHome__image {
-    height: 400px;
+    height: 300px;
     width: auto; }
 
 .containerOurConceptDesign {
   display: flex;
   align-items: center;
   height: max-content;
-  padding: 20px 100px;
-  gap: 20px;
+  padding: 20px 200px;
+  gap: 80px;
   background-color: #f6f6f6; }
   .containerOurConceptDesign img {
     border-radius: 7px; }
   .containerOurConceptDesign__image {
-    height: 400px;
+    height: 300px;
     width: auto; }
 
 .containerOurConceptCommon {
@@ -431,12 +431,12 @@ h1 {
   flex-direction: row-reverse;
   align-items: center;
   height: max-content;
-  padding: 20px 100px;
-  gap: 20px; }
+  padding: 20px 200px;
+  gap: 80px; }
   .containerOurConceptCommon img {
     border-radius: 7px; }
   .containerOurConceptCommon__image {
-    height: 400px;
+    height: 300px;
     width: auto; }
 
 .rosselloMain {
