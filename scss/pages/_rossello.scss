@@ -27,10 +27,25 @@
         padding: 20px 200px;
         color: $lightgraytext;
     }
+    button{
+        letter-spacing: .2rem;
+        font-family: "futura-light";
+        font-size: 1.2rem;
+        background: none;
+        color: $yellow;
+        border: 1px solid $yellow;
+        border-radius: 7px;
+        padding: 5px 20px;
+        &:hover{
+            background-color: $yellow;
+            color: $darkgray;
+            transition: .5s;
+        }
+    }
 }
 
 // CARDS
-.commonSpace{
+.commonSpaceRossello{
     @include cardRossello (row, $darkgray, $lightgraytext, $yellow, 20px, 0 200px 0 20px, 0 20px 50px 200px, url(/img/portada.jpg));
 }
     

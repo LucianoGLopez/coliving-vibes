@@ -1,0 +1,137 @@
+.mainGallery{
+    padding-top: 150px;
+    background-color: $darkgray;
+    h1{
+        color: $yellow;
+        text-align: center;
+        font-family: "futura-bold";
+        letter-spacing: 3px;
+        font-size: 3.5rem;
+    }
+    h2{
+        text-align: center;
+        color: $lightgray;
+    }
+    h3{
+        text-align: center;
+        color: $yellow;
+        font-family: "futura-medium";
+        letter-spacing: 3px;
+    }
+}
+
+.cardsGalleryRossello{
+    background-color: $darkgray;
+    height: max-content;
+    padding-top: 50px;
+    h2{
+        color: $lightgray;
+        text-align: center;
+        font-family: "futura-bold";
+        font-size: 2.8rem;
+        padding-top: 20px;
+        letter-spacing: 3px;
+    }
+    h3{
+        text-align: center;
+        color: $yellow;
+        font-family: "futura-medium";
+        letter-spacing: 3px;
+        
+    }
+    &__separador{
+        border-top: 1px solid $yellow;
+        height: 2px;
+        margin: 0 300px;
+        padding-bottom: 30px;
+    }
+}
+
+.gallery__separador{
+    border-top: 1px solid $lightgray;
+    height: 2px;
+    margin: 0 600px;
+    
+}
+
+// GALERIA DE IMAGENES
+.galleryRossello{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+    img{
+        width: 300px;
+        height: 220px;
+        cursor: pointer;
+        image-rendering: optimizeSpeed;
+    }
+}
+
+
+// FIN GALERIA DE IMAGENES
+
+// INICIA LIGHTBOX
+// LIGHTBOX
+#imagen-activa {
+    width: 100%;
+    height: auto;
+}
+
+#contenedor-principal {
+    position: fixed;
+    margin-top: 20px;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.80);
+    backdrop-filter: blur(5px);
+}
+
+#contenedor-interno {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    width: auto;
+    height: auto;
+    padding-top: 50px;
+    img {
+        max-height: 75vh;
+        max-width: 80vw;
+    }
+}
+
+// BUTTONS
+button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+#btn-cierra {
+    position: absolute;
+    top: 12%;
+    right: 5%;
+    border: 2px solid $yellow;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+#btn-retrocede {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+}
+
+#btn-adelanta {
+    position: absolute;
+    top: 45%;
+    right: 10%;
+}

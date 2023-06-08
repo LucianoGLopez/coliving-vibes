@@ -18,7 +18,7 @@
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div id="navBarContainer" class="container-fluid">
                 <a id="navBar__logo" class="navbar-brand" href="./index.html"><img src="./img/logo.png" height="60px"
-                        width="60px" alt="logo" /></a>
+                        width="60px" alt="logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -31,24 +31,22 @@
                                 href="index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a data-section="navBar" data-value="ourConcept" class="nav-link" href="ourConcept.html">Nuestro
-                                concepto</a>
+                            <a data-section="navBar" data-value="ourConcept" class="nav-link"
+                                href="/ourConcept.html">Nuestro concepto</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a data-section="navBar" data-value="properties" class="nav-link dropdown-toggle" href="#"
                                 role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Propiedades
+                                Nuestros Colivings
                             </a>
                             <ul id="navBar__dropdown" class="dropdown-menu">
                                 <li><a class="dropdown-item" href="rossello.html">Rosselló</a></li>
                                 <li><a class="dropdown-item" href="bonsoms.html">Bonsoms</a></li>
                                 <li>
-                                    <hr class="dropdown-divider" />
+                                    <hr class="dropdown-divider">
                                 </li>
-                                <li>
-                                    <a data-section="navBar" data-value="soon" class="dropdown-item"
-                                        href="#">Proximamente</a>
-                                </li>
+                                <li><a data-section="navBar" data-value="soon" class="dropdown-item"
+                                        href="index.html#cards__proximamente">Proximamente</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -56,21 +54,21 @@
                         </li>
                         <li class="nav-item">
                             <a data-section="navBar" data-value="contact" class="nav-link"
-                                href="contact.html">Contacto</a>
+                                href="/contact.html">Contacto</a>
                         </li>
-                        <form id="navBar__button" class="d-flex" role="search">
-                            <button data-section="navBar" data-value="requestAccess" class="btn btn-outline-success"
-                                type="submit">
+                        <a id="navBar__button" href="https://app.rentger.com/es/index/login" target="_blank">
+                            <button data-section="navBar" data-value="requestAccess"
+                                class="btn btn-outline-success nav-link">
                                 Solicitar acceso
                             </button>
-                        </form>
+                        </a>
                     </ul>
                     <div id="flags" class="flags">
                         <div class="flags__item" data-language="es">
-                            <img class="flags__img" src="./img/es.svg" alt="español" />
+                            <img class="flags__img" src="./img/es.svg" alt="español">
                         </div>
                         <div class="flags__item" data-language="en">
-                            <img class="flags__img" src="./img/gb.svg" alt="english" />
+                            <img class="flags__img" src="./img/gb.svg" alt="english">
                         </div>
                     </div>
                 </div>
@@ -81,27 +79,30 @@
     <!-- INICIA MAIN -->
 
     <main class="faqsMain">
-        
-            <h1>PREGUNTAS FRECUENTES</h1>
-            <div class="faqsMain__separador"></div>
-        
 
-<!-- INICIA ACORDION 1         -->
+        <h1>PREGUNTAS FRECUENTES</h1>
+        <div class="faqsMain__separador"></div>
+
+
+        <!-- INICIA ACORDION 1         -->
         <h3>INFORMACIÓN PREVIA</h3>
         <div class="accordion accordion-flush" id="accordionFlushExample">
 
             <div id="accordion-item1" class="accordion-item">
                 <h2 class="accordion-header">
-                    <button id="accordionButton" class="accordion-button collapsed"  type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                    <h4>PREGUNTA NUMERO UNO</h4>
+                    <button id="accordionButton" class="accordion-button collapsed" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                        aria-controls="flush-collapseOne">
+                        <h4>PREGUNTA NUMERO UNO</h4>
                     </button>
                 </h2>
                 <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body">
                         <p>
-                            Respuesta numero uno: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod officia, aperiam laboriosam voluptatibus nam delectus ratione quaerat adipisci? Dolorum laborum doloribus qui temporibus aliquid eligendi vero debitis quae itaque ea! 
-                        </p>    
+                            Respuesta numero uno: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod officia,
+                            aperiam laboriosam voluptatibus nam delectus ratione quaerat adipisci? Dolorum laborum
+                            doloribus qui temporibus aliquid eligendi vero debitis quae itaque ea!
+                        </p>
                     </div>
                 </div>
             </div>
@@ -109,8 +110,9 @@
 
             <div id="accordion-item1" class="accordion-item">
                 <h2 class="accordion-header">
-                    <button id="accordionButton" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    <button id="accordionButton" class="accordion-button collapsed" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                        aria-controls="flush-collapseTwo">
                         <h4>PREGUNTA NUMERO 2</h4>
                     </button>
                 </h2>
@@ -118,10 +120,10 @@
                     <div class="accordion-body">
                         <p>
                             Placeholder content for this accordion, which is intended to
-                        demonstrate the <code>.accordion-flush</code> class. This is the
-                        second item's accordion body. Let's imagine this being filled with
-                        some actual content.
-                        </p> 
+                            demonstrate the <code>.accordion-flush</code> class. This is the
+                            second item's accordion body. Let's imagine this being filled with
+                            some actual content.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -129,8 +131,9 @@
 
             <div id="accordion-item1" class="accordion-item">
                 <h2 class="accordion-header">
-                    <button id="accordionButton" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    <button id="accordionButton" class="accordion-button collapsed" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false"
+                        aria-controls="flush-collapseThree">
                         <h4>PREGUNTA NUMERO 3</h4>
                     </button>
                 </h2>
@@ -139,23 +142,24 @@
                     <div class="accordion-body">
                         <p>
                             Placeholder content for this accordion, which is intended to
-                        demonstrate the <code>.accordion-flush</code> class. This is the
-                        third item's accordion body. Nothing more exciting happening here
-                        in terms of content, but just filling up the space to make it
-                        look, at least at first glance, a bit more representative of how
-                        this would look in a real-world application.
+                            demonstrate the <code>.accordion-flush</code> class. This is the
+                            third item's accordion body. Nothing more exciting happening here
+                            in terms of content, but just filling up the space to make it
+                            look, at least at first glance, a bit more representative of how
+                            this would look in a real-world application.
                         </p>
-                        
+
                     </div>
                 </div>
             </div>
 
             <h3>COLIVERS</h3>
-<!-- ACORDION 2 -->
+            <!-- ACORDION 2 -->
             <div id="accordion-item1" class="accordion-item">
                 <h2 class="accordion-header">
-                    <button id="accordionButton" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                    <button id="accordionButton" class="accordion-button collapsed" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false"
+                        aria-controls="flush-collapseFour">
                         <h4>PREGUNTA NUMERO 4</h4>
                     </button>
                 </h2>
@@ -164,21 +168,22 @@
                     <div class="accordion-body">
                         <p>
                             Placeholder content for this accordion, which is intended to
-                        demonstrate the <code>.accordion-flush</code> class. This is the
-                        third item's accordion body. Nothing more exciting happening here
-                        in terms of content, but just filling up the space to make it
-                        look, at least at first glance, a bit more representative of how
-                        this would look in a real-world application.
+                            demonstrate the <code>.accordion-flush</code> class. This is the
+                            third item's accordion body. Nothing more exciting happening here
+                            in terms of content, but just filling up the space to make it
+                            look, at least at first glance, a bit more representative of how
+                            this would look in a real-world application.
                         </p>
-                        
+
                     </div>
                 </div>
             </div>
 
             <div id="accordion-item1" class="accordion-item">
                 <h2 class="accordion-header">
-                    <button id="accordionButton" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                    <button id="accordionButton" class="accordion-button collapsed" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false"
+                        aria-controls="flush-collapseFive">
                         <h4>PREGUNTA NUMERO 5</h4>
                     </button>
                 </h2>
@@ -187,36 +192,36 @@
                     <div class="accordion-body">
                         <p>
                             Placeholder content for this accordion, which is intended to
-                        demonstrate the <code>.accordion-flush</code> class. This is the
-                        third item's accordion body. Nothing more exciting happening here
-                        in terms of content, but just filling up the space to make it
-                        look, at least at first glance, a bit more representative of how
-                        this would look in a real-world application.
+                            demonstrate the <code>.accordion-flush</code> class. This is the
+                            third item's accordion body. Nothing more exciting happening here
+                            in terms of content, but just filling up the space to make it
+                            look, at least at first glance, a bit more representative of how
+                            this would look in a real-world application.
                         </p>
-                        
+
                     </div>
                 </div>
             </div>
 
             <div id="accordion-item1" class="accordion-item">
                 <h2 class="accordion-header">
-                    <button id="accordionButton" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                    <button id="accordionButton" class="accordion-button collapsed" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false"
+                        aria-controls="flush-collapseSix">
                         <h4>PREGUNTA NUMERO 6</h4>
                     </button>
                 </h2>
-                <div id="flush-collapseSix" class="accordion-collapse collapse"
-                    data-bs-parent="#accordionFlushExample">
+                <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body">
                         <p>
                             Placeholder content for this accordion, which is intended to
-                        demonstrate the <code>.accordion-flush</code> class. This is the
-                        third item's accordion body. Nothing more exciting happening here
-                        in terms of content, but just filling up the space to make it
-                        look, at least at first glance, a bit more representative of how
-                        this would look in a real-world application.
+                            demonstrate the <code>.accordion-flush</code> class. This is the
+                            third item's accordion body. Nothing more exciting happening here
+                            in terms of content, but just filling up the space to make it
+                            look, at least at first glance, a bit more representative of how
+                            this would look in a real-world application.
                         </p>
-                        
+
                     </div>
                 </div>
             </div>
@@ -224,8 +229,9 @@
             <h3>EX COLIVERS</h3>
             <div id="accordion-item1" class="accordion-item">
                 <h2 class="accordion-header">
-                    <button id="accordionButton" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                    <button id="accordionButton" class="accordion-button collapsed" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false"
+                        aria-controls="flush-collapseSeven">
                         <h4>PREGUNTA NUMERO 7</h4>
                     </button>
                 </h2>
@@ -234,11 +240,11 @@
                     <div class="accordion-body">
                         <p>
                             Placeholder content for this accordion, which is intended to
-                        demonstrate the <code>.accordion-flush</code> class. This is the
-                        third item's accordion body. Nothing more exciting happening here
-                        in terms of content, but just filling up the space to make it
-                        look, at least at first glance, a bit more representative of how
-                        this would look in a real-world application.
+                            demonstrate the <code>.accordion-flush</code> class. This is the
+                            third item's accordion body. Nothing more exciting happening here
+                            in terms of content, but just filling up the space to make it
+                            look, at least at first glance, a bit more representative of how
+                            this would look in a real-world application.
                         </p>
                     </div>
                 </div>
@@ -246,8 +252,9 @@
 
             <div id="accordion-item1" class="accordion-item">
                 <h2 class="accordion-header">
-                    <button id="accordionButton" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                    <button id="accordionButton" class="accordion-button collapsed" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false"
+                        aria-controls="flush-collapseEight">
                         <h4>PREGUNTA NUMERO 8</h4>
                     </button>
                 </h2>
@@ -256,11 +263,11 @@
                     <div class="accordion-body">
                         <p>
                             Placeholder content for this accordion, which is intended to
-                        demonstrate the <code>.accordion-flush</code> class. This is the
-                        third item's accordion body. Nothing more exciting happening here
-                        in terms of content, but just filling up the space to make it
-                        look, at least at first glance, a bit more representative of how
-                        this would look in a real-world application.
+                            demonstrate the <code>.accordion-flush</code> class. This is the
+                            third item's accordion body. Nothing more exciting happening here
+                            in terms of content, but just filling up the space to make it
+                            look, at least at first glance, a bit more representative of how
+                            this would look in a real-world application.
                         </p>
                     </div>
                 </div>
@@ -268,8 +275,9 @@
 
             <div id="accordion-item1" class="accordion-item">
                 <h2 class="accordion-header">
-                    <button id="accordionButton" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                    <button id="accordionButton" class="accordion-button collapsed" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false"
+                        aria-controls="flush-collapseNine">
                         <h4>PREGUNTA NUMERO 9</h4>
                     </button>
                 </h2>
@@ -278,13 +286,13 @@
                     <div class="accordion-body">
                         <p>
                             Placeholder content for this accordion, which is intended to
-                        demonstrate the <code>.accordion-flush</code> class. This is the
-                        third item's accordion body. Nothing more exciting happening here
-                        in terms of content, but just filling up the space to make it
-                        look, at least at first glance, a bit more representative of how
-                        this would look in a real-world application.
+                            demonstrate the <code>.accordion-flush</code> class. This is the
+                            third item's accordion body. Nothing more exciting happening here
+                            in terms of content, but just filling up the space to make it
+                            look, at least at first glance, a bit more representative of how
+                            this would look in a real-world application.
                         </p>
-                        
+
                     </div>
                 </div>
             </div>

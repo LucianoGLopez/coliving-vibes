@@ -26,7 +26,7 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul id="navBar" class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a data-section="navBar" data-value="home" class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    <a data-section="navBar" data-value="home" class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                   </li>
                   <li class="nav-item">
                     <a data-section="navBar" data-value="ourConcept" class="nav-link" href="/ourConcept.html">Nuestro concepto</a>
@@ -39,7 +39,7 @@
                       <li><a class="dropdown-item" href="rossello.html">Rosselló</a></li>
                       <li><a class="dropdown-item" href="bonsoms.html">Bonsoms</a></li>
                       <li><hr class="dropdown-divider"></li>
-                      <li><a data-section="navBar" data-value="soon" class="dropdown-item" href="#">Proximamente</a></li>
+                      <li><a data-section="navBar" data-value="soon" class="dropdown-item" href="index.html#cards__proximamente">Proximamente</a></li>
                     </ul>
                   </li>
                   <li class="nav-item">
@@ -48,10 +48,11 @@
                   <li class="nav-item">
                     <a data-section="navBar" data-value="contact" class="nav-link" href="/contact.html">Contacto</a>
                   </li>
-                  <form id="navBar__button" class="d-flex" role="search">
-                    <button data-section="navBar" data-value="requestAccess" class="btn btn-outline-success" type="submit">Solicitar acceso</button>
-                  </form>
-                  
+                    <a id="navBar__button" href="https://app.rentger.com/es/index/login" target="_blank">
+                      <button data-section="navBar" data-value="requestAccess" class="btn btn-outline-success nav-link">
+                        Solicitar acceso
+                      </button>
+                    </a>
                 </ul>
                 <div id="flags" class="flags">
                     <div class="flags__item" data-language="es">
@@ -115,8 +116,7 @@
             <h4>BONSOMS</h4>
           </div>
         </a>
-
-        <div class="cards__proximamente">
+        <div id="cards__proximamente" class="cards__proximamente">
           <h2>PROXIMAMENTE</h2>
         </div>
       </div>
