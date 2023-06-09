@@ -46,33 +46,33 @@
 
 // CARDS
 .commonSpaceRossello{
-    @include cardRossello (row, $darkgray, $lightgraytext, $yellow, 20px, 0 200px 0 20px, 0 20px 50px 200px, url(/img/portada.jpg));
+    @include cardRossello (row, $darkgray, $lightgraytext, $yellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/portada.jpg));
 }
     
 .room1Rossello{
-    @include cardRossello (row-reverse, $lightyellow, $darkgray, $darkgray, 200px, 0 20px 0 200px, 0 200px 50px 20px, url(/img/room1Rossello/room1_4.webp))
+    @include cardRossello (row-reverse, $lightyellow, $darkgray, $darkgray, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/room1Rossello/room1_4.webp))
 }
 
 .room2Rossello{
-    @include cardRossello (row, $darkgray, $lightgraytext, $yellow, 20px, 0 200px 0 20px, 0 20px 50px 200px, url(/img/room2Rossello/room2-4.webp));
+    @include cardRossello (row, $darkgray, $lightgraytext, $yellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/room2Rossello/room2-4.webp));
 }
 
 .room3Rossello{
-    @include cardRossello (row-reverse, $lightyellow, $darkgray, $darkgray, 200px, 0 20px 0 200px, 0 200px 50px 20px, url(/img/room3Rossello/room3_4.webp));
+    @include cardRossello (row-reverse, $lightyellow, $darkgray, $darkgray, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/room3Rossello/room3_4.webp));
 }
 
 .room4Rossello{
-    @include cardRossello (row, $darkgray, $lightgraytext, $yellow, 20px, 0 200px 0 20px, 0 20px 50px 200px, url(/img/room4Rossello/room4_10.webp));
+    @include cardRossello (row, $darkgray, $lightgraytext, $yellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/room4Rossello/room4_10.webp));
 }
 
 .room5Rossello{
-    @include cardRossello (row-reverse, $lightyellow, $darkgray, $darkgray, 200px, 0 20px 0 200px, 0 200px 50px 20px, url(/img/room5Rossello/room5_4.webp));
+    @include cardRossello (row-reverse, $lightyellow, $darkgray, $darkgray, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/room5Rossello/room5_4.webp));
 }
 
 .room6Rossello{
-    @include cardRossello (row, $darkgray, $lightgraytext, $yellow, 20px, 0 200px 0 20px, 0 20px 50px 200px, url(/img/room6Rossello/room6_4.webp));
+    @include cardRossello (row, $darkgray, $lightgraytext, $yellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/room6Rossello/room6_4.webp));
 }
 
 .room7Rossello{
-    @include cardRossello (row-reverse, $lightyellow, $darkgray, $darkgray, 200px, 0 20px 0 200px, 0 200px 50px 20px, url(/img/room7Rossello/room7_4.webp));
+    @include cardRossello (row-reverse, $lightyellow, $darkgray, $darkgray, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/room7Rossello/room7_4.webp));
 }
