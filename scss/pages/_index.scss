@@ -2,7 +2,7 @@
     height: 100vh;
     text-align: center;
     align-content: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/portada2_12.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/portada2_12.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -41,58 +41,154 @@
 }
 
 .mainTitle{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    // background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     width: 40vw;
     height: 100vh;
 }
 
 // INICIA OUR CONCEPT
-.containerOurConcept{
+.ourConcept{
     background-color: $darkgray;
-    display: flex;
-    justify-content: space-between;
-    padding: 40px 100px;
-    gap: 100px;
-    align-items: center;
+    &__separador{
+        border-top: 1px solid $yellow;
+        height: 2px;
+        margin: 0 200px 20px;
+    }
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    padding: 5px 200px;
+    row-gap: 5px;
+    
+    img{
+        height: 350px;
+        width: auto;
+        max-width: 100vw;
+        filter: brightness(70%);
+    }
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 5; }
+    .div3 { grid-area: 2 / 1 / 3 / 3; }
+    .div4 { grid-area: 2 / 3 / 3 / 4; }
+    .div5 { grid-area: 2 / 4 / 3 / 5; }
+    
+
+.div2{
+    text-align: center;
+    align-self: center;
     h2{
-        text-align: center;
         color: $yellow;
+        text-align: center;
         font-family: "futura-medium";
         letter-spacing: 3px;
     }
     p{
-        color: $light;
-        font-weight: 300;
-        font-size: 1rem;
-        padding-top: 10px;
-    }
-    img{
-        border-radius: 7px;
-        height: 350px;
-        width: auto;
-        box-shadow: 8px 5px 30px -3px rgba(7, 7, 7, 0.781);
-        -webkit-box-shadow: 8px 5px 30px -3px rgba(0, 0, 0, 0.741);
-        -moz-box-shadow: 8px 5px 30px -3px rgba(2, 2, 2, 0.603);
-    }
-    a{
-        text-align: center;
-        margin: auto;
+        color: $lightgraytext;
+        padding: 0 80px;
+        font-family: "futura-light";
+        text-align: start;
     }
     button{
-        margin: 0 auto;
         font-family: "futura-light";
         font-size: 1rem;
         font-weight: 400;
-        background: none;
+        letter-spacing: 3px;
         color: $yellow;
-        border: none;
-        border-bottom: 1px solid $yellow;
-        padding: 10px 10px 5px;
+        border: solid 1px $yellow;
+        padding: 5px 10px;
+        border-radius: 7px;
         &:hover{
-            border-bottom: 1px solid $yellowhover;
-            color: $yellowhover;
+            background-color: $yellowhover;
+            color: black;
             transition: .2s
         }
+    }
+}
+
+// .containerOurConcept{
+//     background-color: $darkgray;
+//     display: flex;
+//     justify-content: space-between;
+//     padding: 40px 100px;
+//     gap: 100px;
+//     align-items: center;
+//     h2{
+//         text-align: center;
+//         color: $yellow;
+//         font-family: "futura-medium";
+//         letter-spacing: 3px;
+//     }
+//     p{
+//         color: $light;
+//         font-weight: 300;
+//         font-size: 1rem;
+//         padding-top: 10px;
+//     }
+//     img{
+//         border-radius: 7px;
+//         height: 350px;
+//         width: auto;
+//         box-shadow: 8px 5px 30px -3px rgba(7, 7, 7, 0.781);
+//         -webkit-box-shadow: 8px 5px 30px -3px rgba(0, 0, 0, 0.741);
+//         -moz-box-shadow: 8px 5px 30px -3px rgba(2, 2, 2, 0.603);
+//     }
+//     a{
+//         text-align: center;
+//         margin: auto;
+//     }
+//     button{
+//         margin: 0 auto;
+//         font-family: "futura-light";
+//         font-size: 1rem;
+//         font-weight: 400;
+//         background: none;
+//         color: $yellow;
+//         border: none;
+//         border-bottom: 1px solid $yellow;
+//         padding: 10px 10px 5px;
+//         &:hover{
+//             border-bottom: 1px solid $yellowhover;
+//             color: $yellowhover;
+//             transition: .2s
+//         }
+//     }
+//     &__separador{
+//         border-top: 1px solid $yellow;
+//         height: 2px;
+//         margin: 0 300px 20px;
+//     }
+// }
+// .textContainerOurConcept{
+//     display: flex;
+//     flex-direction: column;
+// }
+
+
+
+
+
+// INICIA CARDS
+.ourColivings{
+    height: max-content;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/img/prueba.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    text-align: center;
+    h2{
+        color:$yellow;
+        font-family: "futura-medium";
+        letter-spacing: 3px;
+    }
+    h3{
+        font-size: 1.2rem;
+        font-family: "futura-medium";
+        color: $lightgraytext;
     }
     &__separador{
         border-top: 1px solid $yellow;
@@ -100,100 +196,163 @@
         margin: 0 300px 20px;
     }
 }
-.textContainerOurConcept{
+
+
+// INICIAN CARDS
+.cardsContainer{
+    display: flex;
+    justify-content: space-around;
+}
+.rosselloCard{
+    background-color: rgb(160, 160, 160);
+    height: 590px;
+    width: 380px;
+    text-align: start;
     display: flex;
     flex-direction: column;
-}
-
-// INICIA CARDS
-.ourColivings{
-    height: max-content;
-    background-color:$lightgray;
-    padding: 30px;
-    text-align: center;
-    h2{
-        color:$darkgray;
-        font-family: "futura-medium";
-        letter-spacing: 3px;
-    }
-    h3{
-        font-size: 1.2rem;
-        font-family: "futura-medium";
-    }
-    &__separador{
-        border-top: 1px solid $darkgray;
-        height: 2px;
-        margin: 0 300px 20px;
-    }
-}
-
-.cards{
-    display: grid;
-    grid-template-columns: 450px 450px;
-    grid-template-rows: auto auto;
-    grid-template-areas:
-    "cards__rosello bonsoms"
-    "cards__proximamente";
-    justify-content: center;
-    gap: 20px;
-    padding-top: 20px;
-    a{
-        text-decoration: none;
+    border-radius: 7px;
+    img{
+        filter: brightness(90%);
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
     }
     h4{
-        font-size: .8rem;
-        font-family: "futura-light";
-        font-weight: 600;
+        font-family: "futura-medium";
         letter-spacing: 3px;
-        padding: 10px;
-        color:rgb(39, 39, 39);
-        background-color:rgba(255, 255, 106, 0.71);
-        margin-right: 290px;
-        border-bottom-right-radius: 20px;
-        border-top-left-radius: 7px;
+        padding: 20px 0 0 30px;
+        font-size: 1.5rem;
+        color: $yellow;
     }
-    &__rossello{
-        height: 300px;
-        width: 450px;
-        grid-area: "cards__rosello";
-        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/cardsRossello_1.webp);
-        background-size: cover;
-        border-radius: 7px;
-        box-shadow: 4px 2px 15px -3px rgba(7, 7, 7, 0.41);
-        -webkit-box-shadow: 4px 2px 15px -3px rgba(0, 0, 0, 0.41);
-        -moz-box-shadow: 4px 2px 15px -3px rgba(2, 2, 2, 0.41);
+    p{
+        font-family: "futura-light";
+        padding: 0px 30px;
+        color: black;
     }
-    &__bonsoms{
-        height: 300px;
-        width: 450px;
-        grid-area: "cards__bonsoms";
-        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/cardsBonsoms_1.webp);
-        background-size: cover;
-        border-radius: 7px;
-        box-shadow: 4px 2px 15px -3px rgba(7, 7, 7, 0.41);
-        -webkit-box-shadow: 4px 2px 15px -3px rgba(0, 0, 0, 0.41);
-        -moz-box-shadow: 4px 2px 15px -3px rgba(2, 2, 2, 0.41);
+    a{
+        margin-left: 30px;
     }
-    &__proximamente{
-        height: 300px;
-        width: 820px;
-        margin-left: 50px;
-        grid-area: "cards__proximamente cards__proximamente";
-        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/proximamente.png);
-        background-size: contain;
-        background-position-x: 20px;
-        border-radius: 7px;
-        box-shadow: 4px 2px 15px -3px rgba(7, 7, 7, 0.41);
-        -webkit-box-shadow: 4px 2px 15px -3px rgba(0, 0, 0, 0.41);
-        -moz-box-shadow: 4px 2px 15px -3px rgba(2, 2, 2, 0.41);
-        h2{
-            text-align: center;
-            background-color: rgba(255, 255, 106, 0.71);
-            margin-top: 165px;
-            letter-spacing: 2rem;
+    button{
+        border: 1px solid $yellow;
+        border-radius: 3px;
+        font-family: "futura-light";
+        font-size: .8rem;
+        letter-spacing: 3px;
+        padding: 5px 10px;
+        margin-top: 20px;
+        background-color: $yellow;
+        color: $darkgray;
+        &:hover{
+            background-color: $darkgray;
+            color: $yellow;
+            border: $darkgray;
+            transition: .2s;
         }
     }
+    &__separador{
+        border-top: 1px solid $yellow;
+        margin: 0 30px 10px;
+    }
+    
 }
+
+#soonButton{
+    background-color: $lightgray;
+    color: $darkgray;
+    border-color: $lightgray;
+    cursor: no-drop;
+    margin-left: 30px;
+    &:hover{
+        background-color: $darkgray;
+        color: $lightgray;
+    }
+}
+
+.iconsCards{
+    p{
+        padding: 0px 30px;
+        font-family: "futura-light";
+        letter-spacing: 3px;
+        font-size: .9rem;
+        margin: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+// CARDS ROSSELLO BONSOMS Y PROXIMAMENTE
+// .cards{
+//     display: grid;
+//     grid-template-columns: 450px 450px;
+//     grid-template-rows: auto auto;
+//     grid-template-areas:
+//     "cards__rosello bonsoms"
+//     "cards__proximamente";
+//     justify-content: center;
+//     gap: 20px;
+//     padding-top: 20px;
+//     a{
+//         text-decoration: none;
+//     }
+//     h4{
+//         font-size: .8rem;
+//         font-family: "futura-light";
+//         font-weight: 600;
+//         letter-spacing: 3px;
+//         padding: 10px;
+//         color:rgb(39, 39, 39);
+//         background-color:rgba(255, 255, 106, 0.71);
+//         margin-right: 290px;
+//         border-bottom-right-radius: 20px;
+//         border-top-left-radius: 7px;
+//     }
+//     &__rossello{
+//         height: 300px;
+//         width: 450px;
+//         grid-area: "cards__rosello";
+//         background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/cardsRossello_1.webp);
+//         background-size: cover;
+//         border-radius: 7px;
+//         box-shadow: 4px 2px 15px -3px rgba(7, 7, 7, 0.41);
+//         -webkit-box-shadow: 4px 2px 15px -3px rgba(0, 0, 0, 0.41);
+//         -moz-box-shadow: 4px 2px 15px -3px rgba(2, 2, 2, 0.41);
+//     }
+//     &__bonsoms{
+//         height: 300px;
+//         width: 450px;
+//         grid-area: "cards__bonsoms";
+//         background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/cardsBonsoms_1.webp);
+//         background-size: cover;
+//         border-radius: 7px;
+//         box-shadow: 4px 2px 15px -3px rgba(7, 7, 7, 0.41);
+//         -webkit-box-shadow: 4px 2px 15px -3px rgba(0, 0, 0, 0.41);
+//         -moz-box-shadow: 4px 2px 15px -3px rgba(2, 2, 2, 0.41);
+//     }
+//     &__proximamente{
+//         height: 300px;
+//         width: 820px;
+//         margin-left: 50px;
+//         grid-area: "cards__proximamente cards__proximamente";
+//         background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/proximamente.png);
+//         background-size: contain;
+//         background-position-x: 20px;
+//         border-radius: 7px;
+//         box-shadow: 4px 2px 15px -3px rgba(7, 7, 7, 0.41);
+//         -webkit-box-shadow: 4px 2px 15px -3px rgba(0, 0, 0, 0.41);
+//         -moz-box-shadow: 4px 2px 15px -3px rgba(2, 2, 2, 0.41);
+//         h2{
+//             text-align: center;
+//             background-color: rgba(255, 255, 106, 0.71);
+//             margin-top: 165px;
+//             letter-spacing: 2rem;
+//         }
+//     }
+// }
 
 // INICIA RESEÑAS
 .reviews{

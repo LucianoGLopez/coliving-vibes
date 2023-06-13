@@ -46,41 +46,41 @@
 
 // CARDS
 .commonSpace{
-    @include cardBonsoms (row, $darkgray, $lightgraytext, $yellow, 20px, 0 200px 0 20px, 0 20px 50px 200px, url(/img/bonsoms/laundry/laundry_1.jpg));
+    @include cardBonsoms (row, $darkgray, $lightgraytext, $yellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/bonsoms/laundry/laundry_1.jpg));
 }
     
 .room1Bonsoms{
-    @include cardBonsoms (row-reverse, $lightyellow, $darkgray, $darkgray, 200px, 0 20px 0 200px, 0 200px 50px 20px, url(/img/bonsoms/room1Bonsoms/room1_4.jpg));
+    @include cardBonsoms (row-reverse, $lightyellow, $darkgray, $darkgray, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/bonsoms/room1Bonsoms/room1_4.jpg));
 }
 
 .room2Bonsoms{
-    @include cardBonsoms (row, $darkgray, $lightgraytext, $yellow, 20px, 0 200px 0 20px, 0 20px 50px 200px, url(/img/bonsoms/room2Bonsoms/room2_4.jpg));
+    @include cardBonsoms (row, $darkgray, $lightgraytext, $yellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/bonsoms/room2Bonsoms/room2_4.jpg));
 }
 
 .room3Bonsoms{
-    @include cardBonsoms (row-reverse, $lightyellow, $darkgray, $darkgray, 200px, 0 20px 0 200px, 0 200px 50px 20px, url(/img/bonsoms/room3Bonsoms/room3_4.jpg));
+    @include cardBonsoms (row-reverse, $lightyellow, $darkgray, $darkgray, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/bonsoms/room3Bonsoms/room3_4.jpg));
 }
 
 .room4Bonsoms{
-    @include cardBonsoms (row, $darkgray, $lightgraytext, $yellow, 20px, 0 200px 0 20px, 0 20px 50px 200px, url(/img/bonsoms/room4Bonsoms/room4_4.jpg));
+    @include cardBonsoms (row, $darkgray, $lightgraytext, $yellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/bonsoms/room4Bonsoms/room4_4.jpg));
 }
 
 .room5Bonsoms{
-    @include cardBonsoms (row-reverse, $lightyellow, $darkgray, $darkgray, 200px, 0 20px 0 200px, 0 200px 50px 20px, url(/img/bonsoms/room5Bonsoms/room5_5.jpg));
+    @include cardBonsoms (row-reverse, $lightyellow, $darkgray, $darkgray, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/bonsoms/room5Bonsoms/room5_5.jpg));
 }
 
 .room6Bonsoms{
-    @include cardBonsoms (row, $darkgray, $lightgraytext, $yellow, 20px, 0 200px 0 20px, 0 20px 50px 200px, url(/img/bonsoms/room6Bonsoms/room6_4.jpg));
+    @include cardBonsoms (row, $darkgray, $lightgraytext, $yellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/bonsoms/room6Bonsoms/room6_4.jpg));
 }
 
 .room7Bonsoms{
-    @include cardBonsoms (row-reverse, $lightyellow, $darkgray, $darkgray, 200px, 0 20px 0 200px, 0 200px 50px 20px, url(/img/bonsoms/room7Bonsoms/room7_4.jpg));
+    @include cardBonsoms (row-reverse, $lightyellow, $darkgray, $darkgray, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/bonsoms/room7Bonsoms/room7_4.jpg));
 }
 
 .room8Bonsoms{
-    @include cardBonsoms (row, $darkgray, $lightgraytext, $yellow, 20px, 0 200px 0 20px, 0 20px 50px 200px, url(/img/bonsoms/room8Bonsoms/room8_2.jpg));
+    @include cardBonsoms (row, $darkgray, $lightgraytext, $yellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/bonsoms/room8Bonsoms/room8_2.jpg));
 }
 
 .room9Bonsoms{
-    @include cardBonsoms (row-reverse, $lightyellow, $darkgray, $darkgray, 200px, 0 20px 0 200px, 0 200px 50px 20px, url(/img/bonsoms/room9Bonsoms/room9_4.jpg));
+    @include cardBonsoms (row-reverse, $lightyellow, $darkgray, $darkgray, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/bonsoms/room9Bonsoms/room9_4.jpg));
 }

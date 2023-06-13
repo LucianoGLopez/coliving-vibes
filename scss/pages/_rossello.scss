@@ -1,78 +1,97 @@
 .rosselloMain{
     height: max-content;
-    background-color: $darkgray;
+    background-color: $lightgraytext;
     padding-top: 120px;
     text-align: center;
     h1{
         font-family: "futura-bold";
         font-size: 3.5rem;
         letter-spacing: 4px;
-        color: $yellow;
+        color: $darkgray;
     }
     h2{
         font-family: "futura-medium";
         font-size: 2rem;
         letter-spacing: 2px;
-        color: $lightgraytext;
+        color: $darkgray;
     }
     &__separador{
-        border-top: 1px solid $yellow;
+        border-top: 1px solid $darkgray;
         height: 2px;
         margin: 0 300px 20px;
     }
     p{
         font-family: "futura-light";
-        font-size: 1.1rem;
         text-align: start;
-        padding: 20px 200px;
         color: $lightgraytext;
-    }
-    button{
-        letter-spacing: .2rem;
-        font-family: "futura-light";
-        font-size: 1.2rem;
-        background: none;
-        color: $yellow;
-        border: 1px solid $yellow;
-        border-radius: 7px;
-        padding: 5px 20px;
-        &:hover{
-            background-color: $yellow;
-            color: $darkgray;
-            transition: .5s;
-        }
     }
 }
 
 // CARDS
 .commonSpaceRossello{
-    @include cardRossello (row, $darkgray, $lightgraytext, $yellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/portada.jpg));
+    @include cardRossello (row, $light, $darkgray, $lightyellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/portada.jpg));
 }
     
 .room1Rossello{
-    @include cardRossello (row-reverse, $lightyellow, $darkgray, $darkgray, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/room1Rossello/room1_4.webp))
+    @include cardRossello (row-reverse, $lightgraytext, $darkgray, $lightyellow, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/room1Rossello/room1_4.webp));
+    
 }
 
 .room2Rossello{
-    @include cardRossello (row, $darkgray, $lightgraytext, $yellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/room2Rossello/room2-4.webp));
+    @include cardRossello (row, $light, $darkgray, $lightyellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/room2Rossello/room2-4.webp));
 }
 
 .room3Rossello{
-    @include cardRossello (row-reverse, $lightyellow, $darkgray, $darkgray, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/room3Rossello/room3_4.webp));
+    @include cardRossello (row-reverse, $lightgraytext, $darkgray, $lightyellow, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/room3Rossello/room3_4.webp));
 }
 
 .room4Rossello{
-    @include cardRossello (row, $darkgray, $lightgraytext, $yellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/room4Rossello/room4_10.webp));
+    @include cardRossello (row, $light, $darkgray, $lightyellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/room4Rossello/room4_10.webp));
 }
 
 .room5Rossello{
-    @include cardRossello (row-reverse, $lightyellow, $darkgray, $darkgray, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/room5Rossello/room5_4.webp));
+    @include cardRossello (row-reverse, $lightgraytext, $darkgray, $lightyellow, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/room5Rossello/room5_4.webp));
 }
 
 .room6Rossello{
-    @include cardRossello (row, $darkgray, $lightgraytext, $yellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/room6Rossello/room6_4.webp));
+    @include cardRossello (row, $light, $darkgray, $lightyellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/room6Rossello/room6_4.webp));
 }
 
 .room7Rossello{
-    @include cardRossello (row-reverse, $lightyellow, $darkgray, $darkgray, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/room7Rossello/room7_4.webp));
-}
+    @include cardRossello (row-reverse, $lightgraytext, $darkgray, $lightyellow, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/room7Rossello/room7_4.webp));
+    }
+
+
+
+
+
+
+    .iconsRossello{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto auto;
+        background-color: $lightgraytext;
+        padding: 20px 100px;
+        justify-content: space-around;
+        gap: 20px;
+        img{
+            height: 70px;
+            width: auto;
+        }
+        p{
+            color: $darkgray;
+            font-family: "futura-light";
+            letter-spacing: 2px;
+            font-size: .9rem;
+        }
+        &__text{
+            p{
+                color: $darkgray;
+                padding: 10px 150px;
+                font-family: "futura-light";
+            }
+        }
+    }
+
+
+

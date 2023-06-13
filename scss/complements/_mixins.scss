@@ -3,6 +3,7 @@
         flex-direction: $flex-direction;
         padding-top: 50px;
         background-color: $background-color;
+        // align-items: center;
         a{
             text-decoration: none;
         }
@@ -13,10 +14,26 @@
         }
         h3{
             font-family: "futura-bold";
-            letter-spacing: 3px;
-            text-align: start;
+            text-align: center;
             padding-left: $padding-title;
             color: $color-title;
+            padding-right: 100px;
+            -webkit-text-stroke: 1px $darkgray;
+            letter-spacing: 5px;
+            font-size: 2.6rem;
+        }
+        button{
+            color: $darkgray;
+            border: solid 1px $darkgray;
+            border-radius: 7px;
+            padding: 5px 10px;
+            font-size: 1rem;
+            letter-spacing: 3px;
+            margin-top: 20px;
+            &:hover{
+                background-color: $lightyellow;
+                color: $darkgray;
+            }
         }
         picture{
         display: grid;
@@ -57,6 +74,7 @@
     flex-direction: $flex-direction;
     padding-top: 50px;
     background-color: $background-color;
+    align-items: center;
     a{
         text-decoration: none;
     }
@@ -68,9 +86,10 @@
     h3{
         font-family: "futura-bold";
         letter-spacing: 3px;
-        text-align: start;
+        text-align: center;
         padding-left: $padding-title;
         color: $color-title;
+        padding-right: 100px;
     }
     picture{
     display: grid;

@@ -125,7 +125,7 @@ h1 {
   height: 100vh;
   text-align: center;
   align-content: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/portada2_12.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/portada2_12.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -159,135 +159,153 @@ h1 {
       transition: .5s; }
 
 .mainTitle {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   width: 40vw;
   height: 100vh; }
 
-.containerOurConcept {
-  background-color: #272727;
-  display: flex;
-  justify-content: space-between;
-  padding: 40px 100px;
-  gap: 100px;
-  align-items: center; }
-  .containerOurConcept h2 {
-    text-align: center;
-    color: #ffff6b;
-    font-family: "futura-medium";
-    letter-spacing: 3px; }
-  .containerOurConcept p {
-    color: #f6f6f6;
-    font-weight: 300;
-    font-size: 1rem;
-    padding-top: 10px; }
-  .containerOurConcept img {
-    border-radius: 7px;
+.ourConcept {
+  background-color: #272727; }
+  .ourConcept__separador {
+    border-top: 1px solid #ffff6b;
+    height: 2px;
+    margin: 0 200px 20px; }
+
+.parent {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto;
+  padding: 5px 200px;
+  row-gap: 5px; }
+  .parent img {
     height: 350px;
     width: auto;
-    box-shadow: 8px 5px 30px -3px rgba(7, 7, 7, 0.781);
-    -webkit-box-shadow: 8px 5px 30px -3px rgba(0, 0, 0, 0.741);
-    -moz-box-shadow: 8px 5px 30px -3px rgba(2, 2, 2, 0.603); }
-  .containerOurConcept a {
+    max-width: 100vw;
+    filter: brightness(70%); }
+
+.div1 {
+  grid-area: 1 / 1 / 2 / 2; }
+
+.div2 {
+  grid-area: 1 / 2 / 2 / 5; }
+
+.div3 {
+  grid-area: 2 / 1 / 3 / 3; }
+
+.div4 {
+  grid-area: 2 / 3 / 3 / 4; }
+
+.div5 {
+  grid-area: 2 / 4 / 3 / 5; }
+
+.div2 {
+  text-align: center;
+  align-self: center; }
+  .div2 h2 {
+    color: #ffff6b;
     text-align: center;
-    margin: auto; }
-  .containerOurConcept button {
-    margin: 0 auto;
+    font-family: "futura-medium";
+    letter-spacing: 3px; }
+  .div2 p {
+    color: #e7e7e7;
+    padding: 0 80px;
+    font-family: "futura-light";
+    text-align: start; }
+  .div2 button {
     font-family: "futura-light";
     font-size: 1rem;
     font-weight: 400;
-    background: none;
+    letter-spacing: 3px;
     color: #ffff6b;
-    border: none;
-    border-bottom: 1px solid #ffff6b;
-    padding: 10px 10px 5px; }
-    .containerOurConcept button:hover {
-      border-bottom: 1px solid #fafa2b;
-      color: #fafa2b;
+    border: solid 1px #ffff6b;
+    padding: 5px 10px;
+    border-radius: 7px; }
+    .div2 button:hover {
+      background-color: #fafa2b;
+      color: black;
       transition: .2s; }
-  .containerOurConcept__separador {
-    border-top: 1px solid #ffff6b;
-    height: 2px;
-    margin: 0 300px 20px; }
-
-.textContainerOurConcept {
-  display: flex;
-  flex-direction: column; }
 
 .ourColivings {
   height: max-content;
-  background-color: #dbdbdb;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/img/prueba.jpg);
+  background-size: cover;
+  background-position: center;
   padding: 30px;
   text-align: center; }
   .ourColivings h2 {
-    color: #272727;
+    color: #ffff6b;
     font-family: "futura-medium";
     letter-spacing: 3px; }
   .ourColivings h3 {
     font-size: 1.2rem;
-    font-family: "futura-medium"; }
+    font-family: "futura-medium";
+    color: #e7e7e7; }
   .ourColivings__separador {
-    border-top: 1px solid #272727;
+    border-top: 1px solid #ffff6b;
     height: 2px;
     margin: 0 300px 20px; }
 
-.cards {
-  display: grid;
-  grid-template-columns: 450px 450px;
-  grid-template-rows: auto auto;
-  grid-template-areas: "cards__rosello bonsoms" "cards__proximamente";
-  justify-content: center;
-  gap: 20px;
-  padding-top: 20px; }
-  .cards a {
-    text-decoration: none; }
-  .cards h4 {
-    font-size: .8rem;
-    font-family: "futura-light";
-    font-weight: 600;
+.cardsContainer {
+  display: flex;
+  justify-content: space-around; }
+
+.rosselloCard {
+  background-color: #a0a0a0;
+  height: 590px;
+  width: 380px;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  border-radius: 7px; }
+  .rosselloCard img {
+    filter: brightness(90%);
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px; }
+  .rosselloCard h4 {
+    font-family: "futura-medium";
     letter-spacing: 3px;
-    padding: 10px;
-    color: #272727;
-    background-color: rgba(255, 255, 106, 0.71);
-    margin-right: 290px;
-    border-bottom-right-radius: 20px;
-    border-top-left-radius: 7px; }
-  .cards__rossello {
-    height: 300px;
-    width: 450px;
-    grid-area: "cards__rosello";
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/cardsRossello_1.webp);
-    background-size: cover;
-    border-radius: 7px;
-    box-shadow: 4px 2px 15px -3px rgba(7, 7, 7, 0.41);
-    -webkit-box-shadow: 4px 2px 15px -3px rgba(0, 0, 0, 0.41);
-    -moz-box-shadow: 4px 2px 15px -3px rgba(2, 2, 2, 0.41); }
-  .cards__bonsoms {
-    height: 300px;
-    width: 450px;
-    grid-area: "cards__bonsoms";
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/cardsBonsoms_1.webp);
-    background-size: cover;
-    border-radius: 7px;
-    box-shadow: 4px 2px 15px -3px rgba(7, 7, 7, 0.41);
-    -webkit-box-shadow: 4px 2px 15px -3px rgba(0, 0, 0, 0.41);
-    -moz-box-shadow: 4px 2px 15px -3px rgba(2, 2, 2, 0.41); }
-  .cards__proximamente {
-    height: 300px;
-    width: 820px;
-    margin-left: 50px;
-    grid-area: "cards__proximamente cards__proximamente";
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/proximamente.png);
-    background-size: contain;
-    background-position-x: 20px;
-    border-radius: 7px;
-    box-shadow: 4px 2px 15px -3px rgba(7, 7, 7, 0.41);
-    -webkit-box-shadow: 4px 2px 15px -3px rgba(0, 0, 0, 0.41);
-    -moz-box-shadow: 4px 2px 15px -3px rgba(2, 2, 2, 0.41); }
-    .cards__proximamente h2 {
-      text-align: center;
-      background-color: rgba(255, 255, 106, 0.71);
-      margin-top: 165px;
-      letter-spacing: 2rem; }
+    padding: 20px 0 0 30px;
+    font-size: 1.5rem;
+    color: #ffff6b; }
+  .rosselloCard p {
+    font-family: "futura-light";
+    padding: 0px 30px;
+    color: black; }
+  .rosselloCard a {
+    margin-left: 30px; }
+  .rosselloCard button {
+    border: 1px solid #ffff6b;
+    border-radius: 3px;
+    font-family: "futura-light";
+    font-size: .8rem;
+    letter-spacing: 3px;
+    padding: 5px 10px;
+    margin-top: 20px;
+    background-color: #ffff6b;
+    color: #272727; }
+    .rosselloCard button:hover {
+      background-color: #272727;
+      color: #ffff6b;
+      border: #272727;
+      transition: .2s; }
+  .rosselloCard__separador {
+    border-top: 1px solid #ffff6b;
+    margin: 0 30px 10px; }
+
+#soonButton {
+  background-color: #dbdbdb;
+  color: #272727;
+  border-color: #dbdbdb;
+  cursor: no-drop;
+  margin-left: 30px; }
+  #soonButton:hover {
+    background-color: #272727;
+    color: #dbdbdb; }
+
+.iconsCards p {
+  padding: 0px 30px;
+  font-family: "futura-light";
+  letter-spacing: 3px;
+  font-size: .9rem;
+  margin: 0; }
 
 .reviews {
   height: max-content;
@@ -441,60 +459,59 @@ h1 {
 
 .rosselloMain {
   height: max-content;
-  background-color: #272727;
+  background-color: #e7e7e7;
   padding-top: 120px;
   text-align: center; }
   .rosselloMain h1 {
     font-family: "futura-bold";
     font-size: 3.5rem;
     letter-spacing: 4px;
-    color: #ffff6b; }
+    color: #272727; }
   .rosselloMain h2 {
     font-family: "futura-medium";
     font-size: 2rem;
     letter-spacing: 2px;
-    color: #e7e7e7; }
+    color: #272727; }
   .rosselloMain__separador {
-    border-top: 1px solid #ffff6b;
+    border-top: 1px solid #272727;
     height: 2px;
     margin: 0 300px 20px; }
   .rosselloMain p {
     font-family: "futura-light";
-    font-size: 1.1rem;
     text-align: start;
-    padding: 20px 200px;
     color: #e7e7e7; }
-  .rosselloMain button {
-    letter-spacing: .2rem;
-    font-family: "futura-light";
-    font-size: 1.2rem;
-    background: none;
-    color: #ffff6b;
-    border: 1px solid #ffff6b;
-    border-radius: 7px;
-    padding: 5px 20px; }
-    .rosselloMain button:hover {
-      background-color: #ffff6b;
-      color: #272727;
-      transition: .5s; }
 
 .commonSpaceRossello {
   display: flex;
   flex-direction: row;
   padding-top: 50px;
-  background-color: #272727; }
+  background-color: #f6f6f6; }
   .commonSpaceRossello a {
     text-decoration: none; }
   .commonSpaceRossello p {
     text-align: start;
     padding: 0 100px 0 20px;
-    color: #e7e7e7; }
+    color: #272727; }
   .commonSpaceRossello h3 {
     font-family: "futura-bold";
-    letter-spacing: 3px;
-    text-align: start;
+    text-align: center;
     padding-left: 20px;
-    color: #ffff6b; }
+    color: #ffff92;
+    padding-right: 100px;
+    -webkit-text-stroke: 1px #272727;
+    letter-spacing: 5px;
+    font-size: 2.6rem; }
+  .commonSpaceRossello button {
+    color: #272727;
+    border: solid 1px #272727;
+    border-radius: 7px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    margin-top: 20px; }
+    .commonSpaceRossello button:hover {
+      background-color: #ffff92;
+      color: #272727; }
   .commonSpaceRossello picture {
     display: grid;
     grid-template-columns: auto auto;
@@ -526,7 +543,7 @@ h1 {
   display: flex;
   flex-direction: row-reverse;
   padding-top: 50px;
-  background-color: #ffff92; }
+  background-color: #e7e7e7; }
   .room1Rossello a {
     text-decoration: none; }
   .room1Rossello p {
@@ -535,10 +552,24 @@ h1 {
     color: #272727; }
   .room1Rossello h3 {
     font-family: "futura-bold";
-    letter-spacing: 3px;
-    text-align: start;
+    text-align: center;
     padding-left: 100px;
-    color: #272727; }
+    color: #ffff92;
+    padding-right: 100px;
+    -webkit-text-stroke: 1px #272727;
+    letter-spacing: 5px;
+    font-size: 2.6rem; }
+  .room1Rossello button {
+    color: #272727;
+    border: solid 1px #272727;
+    border-radius: 7px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    margin-top: 20px; }
+    .room1Rossello button:hover {
+      background-color: #ffff92;
+      color: #272727; }
   .room1Rossello picture {
     display: grid;
     grid-template-columns: auto auto;
@@ -570,19 +601,33 @@ h1 {
   display: flex;
   flex-direction: row;
   padding-top: 50px;
-  background-color: #272727; }
+  background-color: #f6f6f6; }
   .room2Rossello a {
     text-decoration: none; }
   .room2Rossello p {
     text-align: start;
     padding: 0 100px 0 20px;
-    color: #e7e7e7; }
+    color: #272727; }
   .room2Rossello h3 {
     font-family: "futura-bold";
-    letter-spacing: 3px;
-    text-align: start;
+    text-align: center;
     padding-left: 20px;
-    color: #ffff6b; }
+    color: #ffff92;
+    padding-right: 100px;
+    -webkit-text-stroke: 1px #272727;
+    letter-spacing: 5px;
+    font-size: 2.6rem; }
+  .room2Rossello button {
+    color: #272727;
+    border: solid 1px #272727;
+    border-radius: 7px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    margin-top: 20px; }
+    .room2Rossello button:hover {
+      background-color: #ffff92;
+      color: #272727; }
   .room2Rossello picture {
     display: grid;
     grid-template-columns: auto auto;
@@ -614,7 +659,7 @@ h1 {
   display: flex;
   flex-direction: row-reverse;
   padding-top: 50px;
-  background-color: #ffff92; }
+  background-color: #e7e7e7; }
   .room3Rossello a {
     text-decoration: none; }
   .room3Rossello p {
@@ -623,10 +668,24 @@ h1 {
     color: #272727; }
   .room3Rossello h3 {
     font-family: "futura-bold";
-    letter-spacing: 3px;
-    text-align: start;
+    text-align: center;
     padding-left: 100px;
-    color: #272727; }
+    color: #ffff92;
+    padding-right: 100px;
+    -webkit-text-stroke: 1px #272727;
+    letter-spacing: 5px;
+    font-size: 2.6rem; }
+  .room3Rossello button {
+    color: #272727;
+    border: solid 1px #272727;
+    border-radius: 7px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    margin-top: 20px; }
+    .room3Rossello button:hover {
+      background-color: #ffff92;
+      color: #272727; }
   .room3Rossello picture {
     display: grid;
     grid-template-columns: auto auto;
@@ -658,19 +717,33 @@ h1 {
   display: flex;
   flex-direction: row;
   padding-top: 50px;
-  background-color: #272727; }
+  background-color: #f6f6f6; }
   .room4Rossello a {
     text-decoration: none; }
   .room4Rossello p {
     text-align: start;
     padding: 0 100px 0 20px;
-    color: #e7e7e7; }
+    color: #272727; }
   .room4Rossello h3 {
     font-family: "futura-bold";
-    letter-spacing: 3px;
-    text-align: start;
+    text-align: center;
     padding-left: 20px;
-    color: #ffff6b; }
+    color: #ffff92;
+    padding-right: 100px;
+    -webkit-text-stroke: 1px #272727;
+    letter-spacing: 5px;
+    font-size: 2.6rem; }
+  .room4Rossello button {
+    color: #272727;
+    border: solid 1px #272727;
+    border-radius: 7px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    margin-top: 20px; }
+    .room4Rossello button:hover {
+      background-color: #ffff92;
+      color: #272727; }
   .room4Rossello picture {
     display: grid;
     grid-template-columns: auto auto;
@@ -702,7 +775,7 @@ h1 {
   display: flex;
   flex-direction: row-reverse;
   padding-top: 50px;
-  background-color: #ffff92; }
+  background-color: #e7e7e7; }
   .room5Rossello a {
     text-decoration: none; }
   .room5Rossello p {
@@ -711,10 +784,24 @@ h1 {
     color: #272727; }
   .room5Rossello h3 {
     font-family: "futura-bold";
-    letter-spacing: 3px;
-    text-align: start;
+    text-align: center;
     padding-left: 100px;
-    color: #272727; }
+    color: #ffff92;
+    padding-right: 100px;
+    -webkit-text-stroke: 1px #272727;
+    letter-spacing: 5px;
+    font-size: 2.6rem; }
+  .room5Rossello button {
+    color: #272727;
+    border: solid 1px #272727;
+    border-radius: 7px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    margin-top: 20px; }
+    .room5Rossello button:hover {
+      background-color: #ffff92;
+      color: #272727; }
   .room5Rossello picture {
     display: grid;
     grid-template-columns: auto auto;
@@ -746,19 +833,33 @@ h1 {
   display: flex;
   flex-direction: row;
   padding-top: 50px;
-  background-color: #272727; }
+  background-color: #f6f6f6; }
   .room6Rossello a {
     text-decoration: none; }
   .room6Rossello p {
     text-align: start;
     padding: 0 100px 0 20px;
-    color: #e7e7e7; }
+    color: #272727; }
   .room6Rossello h3 {
     font-family: "futura-bold";
-    letter-spacing: 3px;
-    text-align: start;
+    text-align: center;
     padding-left: 20px;
-    color: #ffff6b; }
+    color: #ffff92;
+    padding-right: 100px;
+    -webkit-text-stroke: 1px #272727;
+    letter-spacing: 5px;
+    font-size: 2.6rem; }
+  .room6Rossello button {
+    color: #272727;
+    border: solid 1px #272727;
+    border-radius: 7px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    margin-top: 20px; }
+    .room6Rossello button:hover {
+      background-color: #ffff92;
+      color: #272727; }
   .room6Rossello picture {
     display: grid;
     grid-template-columns: auto auto;
@@ -790,7 +891,7 @@ h1 {
   display: flex;
   flex-direction: row-reverse;
   padding-top: 50px;
-  background-color: #ffff92; }
+  background-color: #e7e7e7; }
   .room7Rossello a {
     text-decoration: none; }
   .room7Rossello p {
@@ -799,10 +900,24 @@ h1 {
     color: #272727; }
   .room7Rossello h3 {
     font-family: "futura-bold";
-    letter-spacing: 3px;
-    text-align: start;
+    text-align: center;
     padding-left: 100px;
-    color: #272727; }
+    color: #ffff92;
+    padding-right: 100px;
+    -webkit-text-stroke: 1px #272727;
+    letter-spacing: 5px;
+    font-size: 2.6rem; }
+  .room7Rossello button {
+    color: #272727;
+    border: solid 1px #272727;
+    border-radius: 7px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    margin-top: 20px; }
+    .room7Rossello button:hover {
+      background-color: #ffff92;
+      color: #272727; }
   .room7Rossello picture {
     display: grid;
     grid-template-columns: auto auto;
@@ -829,6 +944,27 @@ h1 {
         font-family: "futura-bold";
         font-size: 1.5rem;
         letter-spacing: 3px; }
+
+.iconsRossello {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto;
+  background-color: #e7e7e7;
+  padding: 20px 100px;
+  justify-content: space-around;
+  gap: 20px; }
+  .iconsRossello img {
+    height: 70px;
+    width: auto; }
+  .iconsRossello p {
+    color: #272727;
+    font-family: "futura-light";
+    letter-spacing: 2px;
+    font-size: .9rem; }
+  .iconsRossello__text p {
+    color: #272727;
+    padding: 10px 150px;
+    font-family: "futura-light"; }
 
 .bonsomsMain {
   height: max-content;
@@ -873,25 +1009,27 @@ h1 {
   display: flex;
   flex-direction: row;
   padding-top: 50px;
-  background-color: #272727; }
+  background-color: #272727;
+  align-items: center; }
   .commonSpace a {
     text-decoration: none; }
   .commonSpace p {
     text-align: start;
-    padding: 0 200px 0 20px;
+    padding: 0 100px 0 20px;
     color: #e7e7e7; }
   .commonSpace h3 {
     font-family: "futura-bold";
     letter-spacing: 3px;
-    text-align: start;
+    text-align: center;
     padding-left: 20px;
-    color: #ffff6b; }
+    color: #ffff6b;
+    padding-right: 100px; }
   .commonSpace picture {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     justify-content: start;
-    padding: 0 20px 50px 200px;
+    padding: 0 20px 50px 100px;
     gap: 10px; }
     .commonSpace picture img {
       height: 200px;
@@ -917,25 +1055,27 @@ h1 {
   display: flex;
   flex-direction: row-reverse;
   padding-top: 50px;
-  background-color: #ffff92; }
+  background-color: #ffff92;
+  align-items: center; }
   .room1Bonsoms a {
     text-decoration: none; }
   .room1Bonsoms p {
     text-align: start;
-    padding: 0 20px 0 200px;
+    padding: 0 20px 0 100px;
     color: #272727; }
   .room1Bonsoms h3 {
     font-family: "futura-bold";
     letter-spacing: 3px;
-    text-align: start;
-    padding-left: 200px;
-    color: #272727; }
+    text-align: center;
+    padding-left: 100px;
+    color: #272727;
+    padding-right: 100px; }
   .room1Bonsoms picture {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     justify-content: start;
-    padding: 0 200px 50px 20px;
+    padding: 0 100px 50px 20px;
     gap: 10px; }
     .room1Bonsoms picture img {
       height: 200px;
@@ -961,25 +1101,27 @@ h1 {
   display: flex;
   flex-direction: row;
   padding-top: 50px;
-  background-color: #272727; }
+  background-color: #272727;
+  align-items: center; }
   .room2Bonsoms a {
     text-decoration: none; }
   .room2Bonsoms p {
     text-align: start;
-    padding: 0 200px 0 20px;
+    padding: 0 100px 0 20px;
     color: #e7e7e7; }
   .room2Bonsoms h3 {
     font-family: "futura-bold";
     letter-spacing: 3px;
-    text-align: start;
+    text-align: center;
     padding-left: 20px;
-    color: #ffff6b; }
+    color: #ffff6b;
+    padding-right: 100px; }
   .room2Bonsoms picture {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     justify-content: start;
-    padding: 0 20px 50px 200px;
+    padding: 0 20px 50px 100px;
     gap: 10px; }
     .room2Bonsoms picture img {
       height: 200px;
@@ -1005,25 +1147,27 @@ h1 {
   display: flex;
   flex-direction: row-reverse;
   padding-top: 50px;
-  background-color: #ffff92; }
+  background-color: #ffff92;
+  align-items: center; }
   .room3Bonsoms a {
     text-decoration: none; }
   .room3Bonsoms p {
     text-align: start;
-    padding: 0 20px 0 200px;
+    padding: 0 20px 0 100px;
     color: #272727; }
   .room3Bonsoms h3 {
     font-family: "futura-bold";
     letter-spacing: 3px;
-    text-align: start;
-    padding-left: 200px;
-    color: #272727; }
+    text-align: center;
+    padding-left: 100px;
+    color: #272727;
+    padding-right: 100px; }
   .room3Bonsoms picture {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     justify-content: start;
-    padding: 0 200px 50px 20px;
+    padding: 0 100px 50px 20px;
     gap: 10px; }
     .room3Bonsoms picture img {
       height: 200px;
@@ -1049,25 +1193,27 @@ h1 {
   display: flex;
   flex-direction: row;
   padding-top: 50px;
-  background-color: #272727; }
+  background-color: #272727;
+  align-items: center; }
   .room4Bonsoms a {
     text-decoration: none; }
   .room4Bonsoms p {
     text-align: start;
-    padding: 0 200px 0 20px;
+    padding: 0 100px 0 20px;
     color: #e7e7e7; }
   .room4Bonsoms h3 {
     font-family: "futura-bold";
     letter-spacing: 3px;
-    text-align: start;
+    text-align: center;
     padding-left: 20px;
-    color: #ffff6b; }
+    color: #ffff6b;
+    padding-right: 100px; }
   .room4Bonsoms picture {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     justify-content: start;
-    padding: 0 20px 50px 200px;
+    padding: 0 20px 50px 100px;
     gap: 10px; }
     .room4Bonsoms picture img {
       height: 200px;
@@ -1093,25 +1239,27 @@ h1 {
   display: flex;
   flex-direction: row-reverse;
   padding-top: 50px;
-  background-color: #ffff92; }
+  background-color: #ffff92;
+  align-items: center; }
   .room5Bonsoms a {
     text-decoration: none; }
   .room5Bonsoms p {
     text-align: start;
-    padding: 0 20px 0 200px;
+    padding: 0 20px 0 100px;
     color: #272727; }
   .room5Bonsoms h3 {
     font-family: "futura-bold";
     letter-spacing: 3px;
-    text-align: start;
-    padding-left: 200px;
-    color: #272727; }
+    text-align: center;
+    padding-left: 100px;
+    color: #272727;
+    padding-right: 100px; }
   .room5Bonsoms picture {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     justify-content: start;
-    padding: 0 200px 50px 20px;
+    padding: 0 100px 50px 20px;
     gap: 10px; }
     .room5Bonsoms picture img {
       height: 200px;
@@ -1137,25 +1285,27 @@ h1 {
   display: flex;
   flex-direction: row;
   padding-top: 50px;
-  background-color: #272727; }
+  background-color: #272727;
+  align-items: center; }
   .room6Bonsoms a {
     text-decoration: none; }
   .room6Bonsoms p {
     text-align: start;
-    padding: 0 200px 0 20px;
+    padding: 0 100px 0 20px;
     color: #e7e7e7; }
   .room6Bonsoms h3 {
     font-family: "futura-bold";
     letter-spacing: 3px;
-    text-align: start;
+    text-align: center;
     padding-left: 20px;
-    color: #ffff6b; }
+    color: #ffff6b;
+    padding-right: 100px; }
   .room6Bonsoms picture {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     justify-content: start;
-    padding: 0 20px 50px 200px;
+    padding: 0 20px 50px 100px;
     gap: 10px; }
     .room6Bonsoms picture img {
       height: 200px;
@@ -1181,25 +1331,27 @@ h1 {
   display: flex;
   flex-direction: row-reverse;
   padding-top: 50px;
-  background-color: #ffff92; }
+  background-color: #ffff92;
+  align-items: center; }
   .room7Bonsoms a {
     text-decoration: none; }
   .room7Bonsoms p {
     text-align: start;
-    padding: 0 20px 0 200px;
+    padding: 0 20px 0 100px;
     color: #272727; }
   .room7Bonsoms h3 {
     font-family: "futura-bold";
     letter-spacing: 3px;
-    text-align: start;
-    padding-left: 200px;
-    color: #272727; }
+    text-align: center;
+    padding-left: 100px;
+    color: #272727;
+    padding-right: 100px; }
   .room7Bonsoms picture {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     justify-content: start;
-    padding: 0 200px 50px 20px;
+    padding: 0 100px 50px 20px;
     gap: 10px; }
     .room7Bonsoms picture img {
       height: 200px;
@@ -1225,25 +1377,27 @@ h1 {
   display: flex;
   flex-direction: row;
   padding-top: 50px;
-  background-color: #272727; }
+  background-color: #272727;
+  align-items: center; }
   .room8Bonsoms a {
     text-decoration: none; }
   .room8Bonsoms p {
     text-align: start;
-    padding: 0 200px 0 20px;
+    padding: 0 100px 0 20px;
     color: #e7e7e7; }
   .room8Bonsoms h3 {
     font-family: "futura-bold";
     letter-spacing: 3px;
-    text-align: start;
+    text-align: center;
     padding-left: 20px;
-    color: #ffff6b; }
+    color: #ffff6b;
+    padding-right: 100px; }
   .room8Bonsoms picture {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     justify-content: start;
-    padding: 0 20px 50px 200px;
+    padding: 0 20px 50px 100px;
     gap: 10px; }
     .room8Bonsoms picture img {
       height: 200px;
@@ -1269,25 +1423,27 @@ h1 {
   display: flex;
   flex-direction: row-reverse;
   padding-top: 50px;
-  background-color: #ffff92; }
+  background-color: #ffff92;
+  align-items: center; }
   .room9Bonsoms a {
     text-decoration: none; }
   .room9Bonsoms p {
     text-align: start;
-    padding: 0 20px 0 200px;
+    padding: 0 20px 0 100px;
     color: #272727; }
   .room9Bonsoms h3 {
     font-family: "futura-bold";
     letter-spacing: 3px;
-    text-align: start;
-    padding-left: 200px;
-    color: #272727; }
+    text-align: center;
+    padding-left: 100px;
+    color: #272727;
+    padding-right: 100px; }
   .room9Bonsoms picture {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     justify-content: start;
-    padding: 0 200px 50px 20px;
+    padding: 0 100px 50px 20px;
     gap: 10px; }
     .room9Bonsoms picture img {
       height: 200px;
@@ -1413,9 +1569,10 @@ button {
   position: absolute;
   top: 12%;
   right: 5%;
-  border: 2px solid #ffff6b;
+  border: 1px solid #272727;
   padding: 10px;
-  border-radius: 100%; }
+  border-radius: 100%;
+  background-color: #272727; }
 
 #btn-retrocede {
   position: absolute;

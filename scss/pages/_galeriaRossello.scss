@@ -129,9 +129,10 @@ button {
     position: absolute;
     top: 12%;
     right: 5%;
-    border: 2px solid $yellow;
+    border: 1px solid $darkgray;
     padding: 10px;
     border-radius: 100%;
+    background-color: $darkgray;
 }
 
 #btn-retrocede {
