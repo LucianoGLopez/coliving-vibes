@@ -151,10 +151,10 @@ h1 {
     background: none;
     color: #ffff6b;
     border: 1px solid #ffff6b;
-    border-radius: 7px;
+    border-radius: 3px;
     padding: 5px 20px; }
     .indexMain button:hover {
-      background-color: #fafa2b;
+      background-color: #ffff6b;
       color: #272727;
       transition: .5s; }
 
@@ -217,9 +217,9 @@ h1 {
     color: #ffff6b;
     border: solid 1px #ffff6b;
     padding: 5px 10px;
-    border-radius: 7px; }
+    border-radius: 3px; }
     .div2 button:hover {
-      background-color: #fafa2b;
+      background-color: #ffff6b;
       color: black;
       transition: .2s; }
 
@@ -248,57 +248,57 @@ h1 {
   justify-content: space-around; }
 
 .rosselloCard {
-  background-color: #a0a0a0;
+  background-color: rgba(255, 255, 255, 0.196);
+  backdrop-filter: blur(1px);
   height: 590px;
   width: 380px;
   text-align: start;
   display: flex;
   flex-direction: column;
-  border-radius: 7px; }
+  border-radius: 3px; }
   .rosselloCard img {
-    filter: brightness(90%);
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px; }
+    filter: brightness(70%);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px; }
   .rosselloCard h4 {
     font-family: "futura-medium";
-    letter-spacing: 3px;
+    letter-spacing: 5px;
     padding: 20px 0 0 30px;
     font-size: 1.5rem;
-    color: #ffff6b; }
+    color: #f6f6f6; }
   .rosselloCard p {
     font-family: "futura-light";
     padding: 0px 30px;
-    color: black; }
+    color: #f6f6f6; }
   .rosselloCard a {
     margin-left: 30px; }
   .rosselloCard button {
     border: 1px solid #ffff6b;
     border-radius: 3px;
     font-family: "futura-light";
-    font-size: .8rem;
+    font-size: .9rem;
     letter-spacing: 3px;
     padding: 5px 10px;
     margin-top: 20px;
-    background-color: #ffff6b;
-    color: #272727; }
+    color: #ffff6b; }
     .rosselloCard button:hover {
       background-color: #272727;
       color: #ffff6b;
-      border: #272727;
+      border: 1px solid #272727;
       transition: .2s; }
   .rosselloCard__separador {
     border-top: 1px solid #ffff6b;
     margin: 0 30px 10px; }
 
 #soonButton {
-  background-color: #dbdbdb;
-  color: #272727;
-  border-color: #dbdbdb;
+  color: #d1d1d1;
+  border-color: #d1d1d1;
   cursor: no-drop;
   margin-left: 30px; }
   #soonButton:hover {
-    background-color: #272727;
-    color: #dbdbdb; }
+    background-color: none;
+    color: #ffff92;
+    border: 1px solid #272727; }
 
 .iconsCards p {
   padding: 0px 30px;
@@ -306,6 +306,9 @@ h1 {
   letter-spacing: 3px;
   font-size: .9rem;
   margin: 0; }
+
+.iconsCards img {
+  filter: invert(80%) sepia(11%) saturate(1915%) hue-rotate(24deg) brightness(129%) contrast(103%); }
 
 .reviews {
   height: max-content;
@@ -370,7 +373,7 @@ h1 {
 .slide {
   background-color: #f8f8f8;
   color: #272727;
-  border-radius: 7px;
+  border-radius: 3px;
   cursor: pointer; }
   .slide h3 {
     text-decoration: #535353 underline; }
@@ -426,7 +429,7 @@ h1 {
   padding: 20px 200px;
   gap: 80px; }
   .containerOurConceptHome img {
-    border-radius: 7px; }
+    border-radius: 3px; }
   .containerOurConceptHome__image {
     height: 300px;
     width: auto; }
@@ -439,7 +442,7 @@ h1 {
   gap: 80px;
   background-color: #f6f6f6; }
   .containerOurConceptDesign img {
-    border-radius: 7px; }
+    border-radius: 3px; }
   .containerOurConceptDesign__image {
     height: 300px;
     width: auto; }
@@ -452,24 +455,25 @@ h1 {
   padding: 20px 200px;
   gap: 80px; }
   .containerOurConceptCommon img {
-    border-radius: 7px; }
+    border-radius: 3px; }
   .containerOurConceptCommon__image {
     height: 300px;
     width: auto; }
 
 .rosselloMain {
   height: max-content;
-  background-color: #e7e7e7;
+  background-color: #d1d1d1;
   padding-top: 120px;
   text-align: center; }
   .rosselloMain h1 {
     font-family: "futura-bold";
-    font-size: 3.5rem;
-    letter-spacing: 4px;
-    color: #272727; }
+    font-size: 3.8rem;
+    letter-spacing: 7px;
+    color: #ffff6b;
+    -webkit-text-stroke: 1px #272727; }
   .rosselloMain h2 {
     font-family: "futura-medium";
-    font-size: 2rem;
+    font-size: 2.2rem;
     letter-spacing: 2px;
     color: #272727; }
   .rosselloMain__separador {
@@ -480,12 +484,46 @@ h1 {
     font-family: "futura-light";
     text-align: start;
     color: #e7e7e7; }
+  .rosselloMain button {
+    letter-spacing: .2rem;
+    font-family: "futura-light";
+    font-size: 1.2rem;
+    background: none;
+    color: #ffff6b;
+    border: 1px solid #ffff6b;
+    border-radius: 3px;
+    padding: 5px 20px; }
+    .rosselloMain button:hover {
+      background-color: #ffff6b;
+      color: #272727;
+      transition: .5s; }
+
+.iconsRossello {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto;
+  background-color: #d1d1d1;
+  padding: 20px 100px;
+  justify-content: space-around;
+  gap: 20px; }
+  .iconsRossello img {
+    height: 70px;
+    width: auto; }
+  .iconsRossello p {
+    color: #272727;
+    font-family: "futura-light";
+    letter-spacing: 2px;
+    font-size: .9rem; }
+  .iconsRossello__text p {
+    color: #272727;
+    padding: 10px 150px;
+    font-family: "futura-light"; }
 
 .commonSpaceRossello {
   display: flex;
   flex-direction: row;
   padding-top: 50px;
-  background-color: #f6f6f6; }
+  background-color: #bbbbbb; }
   .commonSpaceRossello a {
     text-decoration: none; }
   .commonSpaceRossello p {
@@ -496,7 +534,7 @@ h1 {
     font-family: "futura-bold";
     text-align: center;
     padding-left: 20px;
-    color: #ffff92;
+    color: #ffff6b;
     padding-right: 100px;
     -webkit-text-stroke: 1px #272727;
     letter-spacing: 5px;
@@ -510,7 +548,7 @@ h1 {
     letter-spacing: 3px;
     margin-top: 20px; }
     .commonSpaceRossello button:hover {
-      background-color: #ffff92;
+      background-color: #ffff6b;
       color: #272727; }
   .commonSpaceRossello picture {
     display: grid;
@@ -543,7 +581,7 @@ h1 {
   display: flex;
   flex-direction: row-reverse;
   padding-top: 50px;
-  background-color: #e7e7e7; }
+  background-color: #d1d1d1; }
   .room1Rossello a {
     text-decoration: none; }
   .room1Rossello p {
@@ -554,7 +592,7 @@ h1 {
     font-family: "futura-bold";
     text-align: center;
     padding-left: 100px;
-    color: #ffff92;
+    color: #ffff6b;
     padding-right: 100px;
     -webkit-text-stroke: 1px #272727;
     letter-spacing: 5px;
@@ -568,7 +606,7 @@ h1 {
     letter-spacing: 3px;
     margin-top: 20px; }
     .room1Rossello button:hover {
-      background-color: #ffff92;
+      background-color: #ffff6b;
       color: #272727; }
   .room1Rossello picture {
     display: grid;
@@ -596,12 +634,24 @@ h1 {
         font-family: "futura-bold";
         font-size: 1.5rem;
         letter-spacing: 3px; }
+  .room1Rossello button {
+    color: #272727;
+    border: solid 1px #272727;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    margin-left: 20px; }
+    .room1Rossello button:hover {
+      background-color: #ffff6b;
+      color: #272727; }
 
 .room2Rossello {
   display: flex;
   flex-direction: row;
   padding-top: 50px;
-  background-color: #f6f6f6; }
+  background-color: #bbbbbb; }
   .room2Rossello a {
     text-decoration: none; }
   .room2Rossello p {
@@ -612,7 +662,7 @@ h1 {
     font-family: "futura-bold";
     text-align: center;
     padding-left: 20px;
-    color: #ffff92;
+    color: #ffff6b;
     padding-right: 100px;
     -webkit-text-stroke: 1px #272727;
     letter-spacing: 5px;
@@ -626,7 +676,7 @@ h1 {
     letter-spacing: 3px;
     margin-top: 20px; }
     .room2Rossello button:hover {
-      background-color: #ffff92;
+      background-color: #ffff6b;
       color: #272727; }
   .room2Rossello picture {
     display: grid;
@@ -654,12 +704,24 @@ h1 {
         font-family: "futura-bold";
         font-size: 1.5rem;
         letter-spacing: 3px; }
+  .room2Rossello button {
+    color: #272727;
+    border: solid 1px #272727;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    margin-right: 70px; }
+    .room2Rossello button:hover {
+      background-color: #ffff6b;
+      color: #272727; }
 
 .room3Rossello {
   display: flex;
   flex-direction: row-reverse;
   padding-top: 50px;
-  background-color: #e7e7e7; }
+  background-color: #d1d1d1; }
   .room3Rossello a {
     text-decoration: none; }
   .room3Rossello p {
@@ -670,7 +732,7 @@ h1 {
     font-family: "futura-bold";
     text-align: center;
     padding-left: 100px;
-    color: #ffff92;
+    color: #ffff6b;
     padding-right: 100px;
     -webkit-text-stroke: 1px #272727;
     letter-spacing: 5px;
@@ -684,7 +746,7 @@ h1 {
     letter-spacing: 3px;
     margin-top: 20px; }
     .room3Rossello button:hover {
-      background-color: #ffff92;
+      background-color: #ffff6b;
       color: #272727; }
   .room3Rossello picture {
     display: grid;
@@ -712,12 +774,24 @@ h1 {
         font-family: "futura-bold";
         font-size: 1.5rem;
         letter-spacing: 3px; }
+  .room3Rossello button {
+    color: #272727;
+    border: solid 1px #272727;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    margin-left: 20px; }
+    .room3Rossello button:hover {
+      background-color: #ffff6b;
+      color: #272727; }
 
 .room4Rossello {
   display: flex;
   flex-direction: row;
   padding-top: 50px;
-  background-color: #f6f6f6; }
+  background-color: #bbbbbb; }
   .room4Rossello a {
     text-decoration: none; }
   .room4Rossello p {
@@ -728,7 +802,7 @@ h1 {
     font-family: "futura-bold";
     text-align: center;
     padding-left: 20px;
-    color: #ffff92;
+    color: #ffff6b;
     padding-right: 100px;
     -webkit-text-stroke: 1px #272727;
     letter-spacing: 5px;
@@ -742,7 +816,7 @@ h1 {
     letter-spacing: 3px;
     margin-top: 20px; }
     .room4Rossello button:hover {
-      background-color: #ffff92;
+      background-color: #ffff6b;
       color: #272727; }
   .room4Rossello picture {
     display: grid;
@@ -770,12 +844,24 @@ h1 {
         font-family: "futura-bold";
         font-size: 1.5rem;
         letter-spacing: 3px; }
+  .room4Rossello button {
+    color: #272727;
+    border: solid 1px #272727;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    margin-right: 70px; }
+    .room4Rossello button:hover {
+      background-color: #ffff6b;
+      color: #272727; }
 
 .room5Rossello {
   display: flex;
   flex-direction: row-reverse;
   padding-top: 50px;
-  background-color: #e7e7e7; }
+  background-color: #d1d1d1; }
   .room5Rossello a {
     text-decoration: none; }
   .room5Rossello p {
@@ -786,7 +872,7 @@ h1 {
     font-family: "futura-bold";
     text-align: center;
     padding-left: 100px;
-    color: #ffff92;
+    color: #ffff6b;
     padding-right: 100px;
     -webkit-text-stroke: 1px #272727;
     letter-spacing: 5px;
@@ -800,7 +886,7 @@ h1 {
     letter-spacing: 3px;
     margin-top: 20px; }
     .room5Rossello button:hover {
-      background-color: #ffff92;
+      background-color: #ffff6b;
       color: #272727; }
   .room5Rossello picture {
     display: grid;
@@ -828,12 +914,24 @@ h1 {
         font-family: "futura-bold";
         font-size: 1.5rem;
         letter-spacing: 3px; }
+  .room5Rossello button {
+    color: #272727;
+    border: solid 1px #272727;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    margin-left: 20px; }
+    .room5Rossello button:hover {
+      background-color: #ffff6b;
+      color: #272727; }
 
 .room6Rossello {
   display: flex;
   flex-direction: row;
   padding-top: 50px;
-  background-color: #f6f6f6; }
+  background-color: #bbbbbb; }
   .room6Rossello a {
     text-decoration: none; }
   .room6Rossello p {
@@ -844,7 +942,7 @@ h1 {
     font-family: "futura-bold";
     text-align: center;
     padding-left: 20px;
-    color: #ffff92;
+    color: #ffff6b;
     padding-right: 100px;
     -webkit-text-stroke: 1px #272727;
     letter-spacing: 5px;
@@ -858,7 +956,7 @@ h1 {
     letter-spacing: 3px;
     margin-top: 20px; }
     .room6Rossello button:hover {
-      background-color: #ffff92;
+      background-color: #ffff6b;
       color: #272727; }
   .room6Rossello picture {
     display: grid;
@@ -886,12 +984,24 @@ h1 {
         font-family: "futura-bold";
         font-size: 1.5rem;
         letter-spacing: 3px; }
+  .room6Rossello button {
+    color: #272727;
+    border: solid 1px #272727;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    margin-right: 70px; }
+    .room6Rossello button:hover {
+      background-color: #ffff6b;
+      color: #272727; }
 
 .room7Rossello {
   display: flex;
   flex-direction: row-reverse;
   padding-top: 50px;
-  background-color: #e7e7e7; }
+  background-color: #d1d1d1; }
   .room7Rossello a {
     text-decoration: none; }
   .room7Rossello p {
@@ -902,7 +1012,7 @@ h1 {
     font-family: "futura-bold";
     text-align: center;
     padding-left: 100px;
-    color: #ffff92;
+    color: #ffff6b;
     padding-right: 100px;
     -webkit-text-stroke: 1px #272727;
     letter-spacing: 5px;
@@ -916,7 +1026,7 @@ h1 {
     letter-spacing: 3px;
     margin-top: 20px; }
     .room7Rossello button:hover {
-      background-color: #ffff92;
+      background-color: #ffff6b;
       color: #272727; }
   .room7Rossello picture {
     display: grid;
@@ -944,27 +1054,18 @@ h1 {
         font-family: "futura-bold";
         font-size: 1.5rem;
         letter-spacing: 3px; }
-
-.iconsRossello {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-template-rows: auto auto;
-  background-color: #e7e7e7;
-  padding: 20px 100px;
-  justify-content: space-around;
-  gap: 20px; }
-  .iconsRossello img {
-    height: 70px;
-    width: auto; }
-  .iconsRossello p {
+  .room7Rossello button {
     color: #272727;
-    font-family: "futura-light";
-    letter-spacing: 2px;
-    font-size: .9rem; }
-  .iconsRossello__text p {
-    color: #272727;
-    padding: 10px 150px;
-    font-family: "futura-light"; }
+    border: solid 1px #272727;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    margin-left: 20px; }
+    .room7Rossello button:hover {
+      background-color: #ffff6b;
+      color: #272727; }
 
 .bonsomsMain {
   height: max-content;
@@ -973,12 +1074,12 @@ h1 {
   text-align: center; }
   .bonsomsMain h1 {
     font-family: "futura-bold";
-    font-size: 3.5rem;
-    letter-spacing: 4px;
+    font-size: 3.8rem;
+    letter-spacing: 7px;
     color: #ffff6b; }
   .bonsomsMain h2 {
     font-family: "futura-medium";
-    font-size: 2rem;
+    font-size: 2.2rem;
     letter-spacing: 2px;
     color: #e7e7e7; }
   .bonsomsMain__separador {
@@ -987,10 +1088,7 @@ h1 {
     margin: 0 300px 20px; }
   .bonsomsMain p {
     font-family: "futura-light";
-    font-size: 1.1rem;
-    text-align: start;
-    padding: 20px 200px;
-    color: #e7e7e7; }
+    text-align: start; }
   .bonsomsMain button {
     letter-spacing: .2rem;
     font-family: "futura-light";
@@ -998,19 +1096,40 @@ h1 {
     background: none;
     color: #ffff6b;
     border: 1px solid #ffff6b;
-    border-radius: 7px;
+    border-radius: 3px;
     padding: 5px 20px; }
     .bonsomsMain button:hover {
-      background-color: #ffff6b;
-      color: #272727;
+      background-color: #272727;
+      color: #ffff6b;
       transition: .5s; }
+
+.iconsBonsoms {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto;
+  background-color: #272727;
+  padding: 20px 100px;
+  justify-content: space-around;
+  gap: 20px; }
+  .iconsBonsoms img {
+    height: 70px;
+    width: auto;
+    filter: invert(80%) sepia(11%) saturate(1915%) hue-rotate(24deg) brightness(129%) contrast(103%); }
+  .iconsBonsoms p {
+    color: #e7e7e7;
+    font-family: "futura-light";
+    letter-spacing: 2px;
+    font-size: .9rem; }
+  .iconsBonsoms__text p {
+    color: #e7e7e7;
+    padding: 10px 150px;
+    font-family: "futura-light"; }
 
 .commonSpace {
   display: flex;
   flex-direction: row;
   padding-top: 50px;
-  background-color: #272727;
-  align-items: center; }
+  background-color: #272727; }
   .commonSpace a {
     text-decoration: none; }
   .commonSpace p {
@@ -1023,7 +1142,9 @@ h1 {
     text-align: center;
     padding-left: 20px;
     color: #ffff6b;
-    padding-right: 100px; }
+    padding-right: 100px;
+    letter-spacing: 5px;
+    font-size: 2.6rem; }
   .commonSpace picture {
     display: grid;
     grid-template-columns: auto auto;
@@ -1055,21 +1176,22 @@ h1 {
   display: flex;
   flex-direction: row-reverse;
   padding-top: 50px;
-  background-color: #ffff92;
-  align-items: center; }
+  background-color: #3a3a3a; }
   .room1Bonsoms a {
     text-decoration: none; }
   .room1Bonsoms p {
     text-align: start;
     padding: 0 20px 0 100px;
-    color: #272727; }
+    color: #e7e7e7; }
   .room1Bonsoms h3 {
     font-family: "futura-bold";
     letter-spacing: 3px;
     text-align: center;
     padding-left: 100px;
-    color: #272727;
-    padding-right: 100px; }
+    color: #ffff6b;
+    padding-right: 100px;
+    letter-spacing: 5px;
+    font-size: 2.6rem; }
   .room1Bonsoms picture {
     display: grid;
     grid-template-columns: auto auto;
@@ -1096,13 +1218,24 @@ h1 {
         font-family: "futura-bold";
         font-size: 1.5rem;
         letter-spacing: 3px; }
+  .room1Bonsoms button {
+    color: #ffff6b;
+    border: solid 1px #ffff6b;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    margin-left: 20px; }
+    .room1Bonsoms button:hover {
+      background-color: #272727;
+      color: #ffff6b; }
 
 .room2Bonsoms {
   display: flex;
   flex-direction: row;
   padding-top: 50px;
-  background-color: #272727;
-  align-items: center; }
+  background-color: #272727; }
   .room2Bonsoms a {
     text-decoration: none; }
   .room2Bonsoms p {
@@ -1115,7 +1248,9 @@ h1 {
     text-align: center;
     padding-left: 20px;
     color: #ffff6b;
-    padding-right: 100px; }
+    padding-right: 100px;
+    letter-spacing: 5px;
+    font-size: 2.6rem; }
   .room2Bonsoms picture {
     display: grid;
     grid-template-columns: auto auto;
@@ -1142,26 +1277,39 @@ h1 {
         font-family: "futura-bold";
         font-size: 1.5rem;
         letter-spacing: 3px; }
+  .room2Bonsoms button {
+    color: #ffff6b;
+    border: solid 1px #ffff6b;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    margin-right: 70px; }
+    .room2Bonsoms button:hover {
+      background-color: #3a3a3a;
+      color: #ffff6b; }
 
 .room3Bonsoms {
   display: flex;
   flex-direction: row-reverse;
   padding-top: 50px;
-  background-color: #ffff92;
-  align-items: center; }
+  background-color: #3a3a3a; }
   .room3Bonsoms a {
     text-decoration: none; }
   .room3Bonsoms p {
     text-align: start;
     padding: 0 20px 0 100px;
-    color: #272727; }
+    color: #e7e7e7; }
   .room3Bonsoms h3 {
     font-family: "futura-bold";
     letter-spacing: 3px;
     text-align: center;
     padding-left: 100px;
-    color: #272727;
-    padding-right: 100px; }
+    color: #ffff6b;
+    padding-right: 100px;
+    letter-spacing: 5px;
+    font-size: 2.6rem; }
   .room3Bonsoms picture {
     display: grid;
     grid-template-columns: auto auto;
@@ -1188,13 +1336,24 @@ h1 {
         font-family: "futura-bold";
         font-size: 1.5rem;
         letter-spacing: 3px; }
+  .room3Bonsoms button {
+    color: #ffff6b;
+    border: solid 1px #ffff6b;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    margin-left: 20px; }
+    .room3Bonsoms button:hover {
+      background-color: #272727;
+      color: #ffff6b; }
 
 .room4Bonsoms {
   display: flex;
   flex-direction: row;
   padding-top: 50px;
-  background-color: #272727;
-  align-items: center; }
+  background-color: #272727; }
   .room4Bonsoms a {
     text-decoration: none; }
   .room4Bonsoms p {
@@ -1207,7 +1366,9 @@ h1 {
     text-align: center;
     padding-left: 20px;
     color: #ffff6b;
-    padding-right: 100px; }
+    padding-right: 100px;
+    letter-spacing: 5px;
+    font-size: 2.6rem; }
   .room4Bonsoms picture {
     display: grid;
     grid-template-columns: auto auto;
@@ -1234,26 +1395,39 @@ h1 {
         font-family: "futura-bold";
         font-size: 1.5rem;
         letter-spacing: 3px; }
+  .room4Bonsoms button {
+    color: #ffff6b;
+    border: solid 1px #ffff6b;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    margin-right: 70px; }
+    .room4Bonsoms button:hover {
+      background-color: #3a3a3a;
+      color: #ffff6b; }
 
 .room5Bonsoms {
   display: flex;
   flex-direction: row-reverse;
   padding-top: 50px;
-  background-color: #ffff92;
-  align-items: center; }
+  background-color: #3a3a3a; }
   .room5Bonsoms a {
     text-decoration: none; }
   .room5Bonsoms p {
     text-align: start;
     padding: 0 20px 0 100px;
-    color: #272727; }
+    color: #e7e7e7; }
   .room5Bonsoms h3 {
     font-family: "futura-bold";
     letter-spacing: 3px;
     text-align: center;
     padding-left: 100px;
-    color: #272727;
-    padding-right: 100px; }
+    color: #ffff6b;
+    padding-right: 100px;
+    letter-spacing: 5px;
+    font-size: 2.6rem; }
   .room5Bonsoms picture {
     display: grid;
     grid-template-columns: auto auto;
@@ -1280,13 +1454,24 @@ h1 {
         font-family: "futura-bold";
         font-size: 1.5rem;
         letter-spacing: 3px; }
+  .room5Bonsoms button {
+    color: #ffff6b;
+    border: solid 1px #ffff6b;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    margin-left: 20px; }
+    .room5Bonsoms button:hover {
+      background-color: #272727;
+      color: #ffff6b; }
 
 .room6Bonsoms {
   display: flex;
   flex-direction: row;
   padding-top: 50px;
-  background-color: #272727;
-  align-items: center; }
+  background-color: #272727; }
   .room6Bonsoms a {
     text-decoration: none; }
   .room6Bonsoms p {
@@ -1299,7 +1484,9 @@ h1 {
     text-align: center;
     padding-left: 20px;
     color: #ffff6b;
-    padding-right: 100px; }
+    padding-right: 100px;
+    letter-spacing: 5px;
+    font-size: 2.6rem; }
   .room6Bonsoms picture {
     display: grid;
     grid-template-columns: auto auto;
@@ -1326,26 +1513,39 @@ h1 {
         font-family: "futura-bold";
         font-size: 1.5rem;
         letter-spacing: 3px; }
+  .room6Bonsoms button {
+    color: #ffff6b;
+    border: solid 1px #ffff6b;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    margin-right: 70px; }
+    .room6Bonsoms button:hover {
+      background-color: #3a3a3a;
+      color: #ffff6b; }
 
 .room7Bonsoms {
   display: flex;
   flex-direction: row-reverse;
   padding-top: 50px;
-  background-color: #ffff92;
-  align-items: center; }
+  background-color: #3a3a3a; }
   .room7Bonsoms a {
     text-decoration: none; }
   .room7Bonsoms p {
     text-align: start;
     padding: 0 20px 0 100px;
-    color: #272727; }
+    color: #e7e7e7; }
   .room7Bonsoms h3 {
     font-family: "futura-bold";
     letter-spacing: 3px;
     text-align: center;
     padding-left: 100px;
-    color: #272727;
-    padding-right: 100px; }
+    color: #ffff6b;
+    padding-right: 100px;
+    letter-spacing: 5px;
+    font-size: 2.6rem; }
   .room7Bonsoms picture {
     display: grid;
     grid-template-columns: auto auto;
@@ -1372,13 +1572,24 @@ h1 {
         font-family: "futura-bold";
         font-size: 1.5rem;
         letter-spacing: 3px; }
+  .room7Bonsoms button {
+    color: #ffff6b;
+    border: solid 1px #ffff6b;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    margin-left: 20px; }
+    .room7Bonsoms button:hover {
+      background-color: #272727;
+      color: #ffff6b; }
 
 .room8Bonsoms {
   display: flex;
   flex-direction: row;
   padding-top: 50px;
-  background-color: #272727;
-  align-items: center; }
+  background-color: #272727; }
   .room8Bonsoms a {
     text-decoration: none; }
   .room8Bonsoms p {
@@ -1391,7 +1602,9 @@ h1 {
     text-align: center;
     padding-left: 20px;
     color: #ffff6b;
-    padding-right: 100px; }
+    padding-right: 100px;
+    letter-spacing: 5px;
+    font-size: 2.6rem; }
   .room8Bonsoms picture {
     display: grid;
     grid-template-columns: auto auto;
@@ -1418,26 +1631,39 @@ h1 {
         font-family: "futura-bold";
         font-size: 1.5rem;
         letter-spacing: 3px; }
+  .room8Bonsoms button {
+    color: #ffff6b;
+    border: solid 1px #ffff6b;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    margin-right: 70px; }
+    .room8Bonsoms button:hover {
+      background-color: #3a3a3a;
+      color: #ffff6b; }
 
 .room9Bonsoms {
   display: flex;
   flex-direction: row-reverse;
   padding-top: 50px;
-  background-color: #ffff92;
-  align-items: center; }
+  background-color: #3a3a3a; }
   .room9Bonsoms a {
     text-decoration: none; }
   .room9Bonsoms p {
     text-align: start;
     padding: 0 20px 0 100px;
-    color: #272727; }
+    color: #e7e7e7; }
   .room9Bonsoms h3 {
     font-family: "futura-bold";
     letter-spacing: 3px;
     text-align: center;
     padding-left: 100px;
-    color: #272727;
-    padding-right: 100px; }
+    color: #ffff6b;
+    padding-right: 100px;
+    letter-spacing: 5px;
+    font-size: 2.6rem; }
   .room9Bonsoms picture {
     display: grid;
     grid-template-columns: auto auto;
@@ -1464,6 +1690,18 @@ h1 {
         font-family: "futura-bold";
         font-size: 1.5rem;
         letter-spacing: 3px; }
+  .room9Bonsoms button {
+    color: #ffff6b;
+    border: solid 1px #ffff6b;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    margin-left: 20px; }
+    .room9Bonsoms button:hover {
+      background-color: #272727;
+      color: #ffff6b; }
 
 .mainGallery {
   padding-top: 120px;
@@ -1677,7 +1915,7 @@ button {
   backdrop-filter: blur(7px);
   width: 90%;
   max-width: 600px;
-  border-radius: 7px;
+  border-radius: 3px;
   border: 1px solid rgba(59, 59, 59, 0.64);
   padding: 2em 1.5em; }
   .formContact img {
@@ -1702,7 +1940,8 @@ button {
   font-size: 1rem;
   outline: none;
   border: none;
-  border-bottom: solid 1.5px #272727; }
+  border-bottom: solid 1.5px #272727;
+  cursor: text; }
 
 .form__input {
   background: none;
@@ -1716,7 +1955,7 @@ button {
     color: black; }
   .form__input:focus {
     border: 1px solid #272727;
-    border-radius: 7px; }
+    border-radius: 3px; }
 
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
@@ -1725,7 +1964,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 .form__input--message {
   resize: none;
-  padding: 1.8em 1em;
+  padding: 2.8em 1em;
   margin-bottom: .5em;
   font-family: inherit;
   color: black; }
@@ -1733,12 +1972,11 @@ input[type=number]::-webkit-outer-spin-button {
     border: 1px solid #272727; }
 
 .form__cta {
-  background-color: rgba(59, 59, 59, 0.663);
+  background-color: #3a3a3a;
   color: #fafa2b;
   border: none;
   padding: .7em 0;
-  border-radius: 7px;
-  cursor: pointer; }
+  border-radius: 3px; }
   .form__cta:hover {
     background-color: rgba(250, 250, 43, 0.716);
     color: #272727;

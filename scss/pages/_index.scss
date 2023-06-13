@@ -30,10 +30,10 @@
         background: none;
         color: $yellow;
         border: 1px solid $yellow;
-        border-radius: 7px;
+        border-radius: 3px;
         padding: 5px 20px;
         &:hover{
-            background-color: $yellowhover;
+            background-color: $yellow;
             color: $darkgray;
             transition: .5s;
         }
@@ -101,9 +101,9 @@
         color: $yellow;
         border: solid 1px $yellow;
         padding: 5px 10px;
-        border-radius: 7px;
+        border-radius: 3px;
         &:hover{
-            background-color: $yellowhover;
+            background-color: $yellow;
             color: black;
             transition: .2s
         }
@@ -176,6 +176,7 @@
 .ourColivings{
     height: max-content;
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/img/prueba.jpg);
+    // background-color: $gray;
     background-size: cover;
     background-position: center;
     padding: 30px;
@@ -204,29 +205,30 @@
     justify-content: space-around;
 }
 .rosselloCard{
-    background-color: rgb(160, 160, 160);
+    background-color: rgba(255, 255, 255, 0.196);
+    backdrop-filter: blur(1px);
     height: 590px;
     width: 380px;
     text-align: start;
     display: flex;
     flex-direction: column;
-    border-radius: 7px;
+    border-radius: 3px;
     img{
-        filter: brightness(90%);
-        border-top-left-radius: 7px;
-        border-top-right-radius: 7px;
+        filter: brightness(70%);
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
     }
     h4{
         font-family: "futura-medium";
-        letter-spacing: 3px;
+        letter-spacing: 5px;
         padding: 20px 0 0 30px;
         font-size: 1.5rem;
-        color: $yellow;
+        color: $light;
     }
     p{
         font-family: "futura-light";
         padding: 0px 30px;
-        color: black;
+        color: $light;
     }
     a{
         margin-left: 30px;
@@ -235,16 +237,15 @@
         border: 1px solid $yellow;
         border-radius: 3px;
         font-family: "futura-light";
-        font-size: .8rem;
+        font-size: .9rem;
         letter-spacing: 3px;
         padding: 5px 10px;
         margin-top: 20px;
-        background-color: $yellow;
-        color: $darkgray;
+        color: $yellow;
         &:hover{
             background-color: $darkgray;
             color: $yellow;
-            border: $darkgray;
+            border: 1px solid $darkgray;
             transition: .2s;
         }
     }
@@ -256,14 +257,14 @@
 }
 
 #soonButton{
-    background-color: $lightgray;
-    color: $darkgray;
-    border-color: $lightgray;
+    color: $gray3;
+    border-color: $gray3;
     cursor: no-drop;
     margin-left: 30px;
     &:hover{
-        background-color: $darkgray;
-        color: $lightgray;
+        background-color: none;
+        color: $lightyellow;
+        border: 1px solid $darkgray;
     }
 }
 
@@ -275,6 +276,10 @@
         font-size: .9rem;
         margin: 0;
     }
+    img{
+        filter: invert(80%) sepia(11%) saturate(1915%) hue-rotate(24deg) brightness(129%) contrast(103%);
+    }
+    
 }
 
 
@@ -431,7 +436,7 @@
 .slide{
     background-color:rgb(248, 248, 248);
     color:rgb(39, 39, 39);
-    border-radius: 7px;
+    border-radius: 3px;
     cursor: pointer;
     h3{
         text-decoration: rgb(83, 83, 83) underline;

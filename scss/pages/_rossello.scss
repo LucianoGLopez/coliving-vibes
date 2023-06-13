@@ -1,17 +1,18 @@
 .rosselloMain{
     height: max-content;
-    background-color: $lightgraytext;
+    background-color: $gray3;
     padding-top: 120px;
     text-align: center;
     h1{
         font-family: "futura-bold";
-        font-size: 3.5rem;
-        letter-spacing: 4px;
-        color: $darkgray;
+        font-size: 3.8rem;
+        letter-spacing: 7px;
+        color: $yellow;
+        -webkit-text-stroke: 1px $darkgray;
     }
     h2{
         font-family: "futura-medium";
-        font-size: 2rem;
+        font-size: 2.2rem;
         letter-spacing: 2px;
         color: $darkgray;
     }
@@ -25,73 +26,178 @@
         text-align: start;
         color: $lightgraytext;
     }
+    button{
+        letter-spacing: .2rem;
+        font-family: "futura-light";
+        font-size: 1.2rem;
+        background: none;
+        color: $yellow;
+        border: 1px solid $yellow;
+        border-radius: 3px;
+        padding: 5px 20px;
+        &:hover{
+            background-color: $yellow;
+            color: $darkgray;
+            transition: .5s;
+        }
+    }
+}
+
+// ICONS ROSSELLO
+.iconsRossello{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    background-color: $gray3;
+    padding: 20px 100px;
+    justify-content: space-around;
+    gap: 20px;
+    img{
+        height: 70px;
+        width: auto;
+    }
+    p{
+        color: $darkgray;
+        font-family: "futura-light";
+        letter-spacing: 2px;
+        font-size: .9rem;
+    }
+    &__text{
+        p{
+            color: $darkgray;
+            padding: 10px 150px;
+            font-family: "futura-light";
+        }
+    }
 }
 
 // CARDS
 .commonSpaceRossello{
-    @include cardRossello (row, $light, $darkgray, $lightyellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/portada.jpg));
+    @include cardRossello (row, $gray2, $darkgray, $yellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/portada.jpg));
 }
     
 .room1Rossello{
-    @include cardRossello (row-reverse, $lightgraytext, $darkgray, $lightyellow, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/room1Rossello/room1_4.webp));
-    
+    @include cardRossello (row-reverse, $gray3, $darkgray, $yellow, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/room1Rossello/room1_4.webp));
+    button{
+        color: $darkgray;
+        border: solid 1px $darkgray;
+        border-radius: 3px;
+        padding: 5px 10px;
+        font-size: 1rem;
+        letter-spacing: 3px;
+        margin-top: 20px;
+        margin-left: 20px;
+        &:hover{
+            background-color: $yellow;
+            color: $darkgray;
+        }
+    }
 }
 
 .room2Rossello{
-    @include cardRossello (row, $light, $darkgray, $lightyellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/room2Rossello/room2-4.webp));
+    @include cardRossello (row, $gray2, $darkgray, $yellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/room2Rossello/room2-4.webp));
+    button{
+        color: $darkgray;
+        border: solid 1px $darkgray;
+        border-radius: 3px;
+        padding: 5px 10px;
+        font-size: 1rem;
+        letter-spacing: 3px;
+        margin-top: 20px;
+        margin-right: 70px;
+        &:hover{
+            background-color: $yellow;
+            color: $darkgray;
+        }
+    }
 }
 
 .room3Rossello{
-    @include cardRossello (row-reverse, $lightgraytext, $darkgray, $lightyellow, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/room3Rossello/room3_4.webp));
+    @include cardRossello (row-reverse, $gray3, $darkgray, $yellow, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/room3Rossello/room3_4.webp));
+    button{
+        color: $darkgray;
+        border: solid 1px $darkgray;
+        border-radius: 3px;
+        padding: 5px 10px;
+        font-size: 1rem;
+        letter-spacing: 3px;
+        margin-top: 20px;
+        margin-left: 20px;
+        &:hover{
+            background-color: $yellow;
+            color: $darkgray;
+        }
+    }
 }
 
 .room4Rossello{
-    @include cardRossello (row, $light, $darkgray, $lightyellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/room4Rossello/room4_10.webp));
+    @include cardRossello (row, $gray2, $darkgray, $yellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/room4Rossello/room4_10.webp));
+    button{
+        color: $darkgray;
+        border: solid 1px $darkgray;
+        border-radius: 3px;
+        padding: 5px 10px;
+        font-size: 1rem;
+        letter-spacing: 3px;
+        margin-top: 20px;
+        margin-right: 70px;
+        &:hover{
+            background-color: $yellow;
+            color: $darkgray;
+        }
+    }
 }
 
 .room5Rossello{
-    @include cardRossello (row-reverse, $lightgraytext, $darkgray, $lightyellow, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/room5Rossello/room5_4.webp));
+    @include cardRossello (row-reverse, $gray3, $darkgray, $yellow, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/room5Rossello/room5_4.webp));
+    button{
+        color: $darkgray;
+        border: solid 1px $darkgray;
+        border-radius: 3px;
+        padding: 5px 10px;
+        font-size: 1rem;
+        letter-spacing: 3px;
+        margin-top: 20px;
+        margin-left: 20px;
+        &:hover{
+            background-color: $yellow;
+            color: $darkgray;
+        }
+    }
 }
 
 .room6Rossello{
-    @include cardRossello (row, $light, $darkgray, $lightyellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/room6Rossello/room6_4.webp));
+    @include cardRossello (row, $gray2, $darkgray, $yellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/room6Rossello/room6_4.webp));
+    button{
+        color: $darkgray;
+        border: solid 1px $darkgray;
+        border-radius: 3px;
+        padding: 5px 10px;
+        font-size: 1rem;
+        letter-spacing: 3px;
+        margin-top: 20px;
+        margin-right: 70px;
+        &:hover{
+            background-color: $yellow;
+            color: $darkgray;
+        }
+    }
 }
 
 .room7Rossello{
-    @include cardRossello (row-reverse, $lightgraytext, $darkgray, $lightyellow, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/room7Rossello/room7_4.webp));
-    }
-
-
-
-
-
-
-    .iconsRossello{
-        display: grid;
-        grid-template-columns: auto auto auto auto;
-        grid-template-rows: auto auto;
-        background-color: $lightgraytext;
-        padding: 20px 100px;
-        justify-content: space-around;
-        gap: 20px;
-        img{
-            height: 70px;
-            width: auto;
-        }
-        p{
+    @include cardRossello (row-reverse, $gray3, $darkgray, $yellow, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/room7Rossello/room7_4.webp));
+    button{
+        color: $darkgray;
+        border: solid 1px $darkgray;
+        border-radius: 3px;
+        padding: 5px 10px;
+        font-size: 1rem;
+        letter-spacing: 3px;
+        margin-top: 20px;
+        margin-left: 20px;
+        &:hover{
+            background-color: $yellow;
             color: $darkgray;
-            font-family: "futura-light";
-            letter-spacing: 2px;
-            font-size: .9rem;
-        }
-        &__text{
-            p{
-                color: $darkgray;
-                padding: 10px 150px;
-                font-family: "futura-light";
-            }
         }
     }
-
-
-
+    }
