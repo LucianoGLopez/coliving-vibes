@@ -225,39 +225,40 @@ h1 {
 
 .ourColivings {
   height: max-content;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/img/prueba.jpg);
+  background-color: #f6f6f6;
   background-size: cover;
   background-position: center;
-  padding: 30px;
+  padding: 60px 30px 100px;
   text-align: center; }
   .ourColivings h2 {
-    color: #ffff6b;
+    color: #272727;
     font-family: "futura-medium";
     letter-spacing: 3px; }
   .ourColivings h3 {
     font-size: 1.2rem;
     font-family: "futura-medium";
-    color: #e7e7e7; }
+    color: #272727; }
   .ourColivings__separador {
-    border-top: 1px solid #ffff6b;
+    border-top: 1px solid #272727;
     height: 2px;
-    margin: 0 300px 20px; }
+    margin: 20px 300px 20px;
+    padding-bottom: 40px; }
 
 .cardsContainer {
   display: flex;
   justify-content: space-around; }
 
 .rosselloCard {
-  background-color: rgba(255, 255, 255, 0.196);
-  backdrop-filter: blur(1px);
   height: 590px;
   width: 380px;
   text-align: start;
   display: flex;
   flex-direction: column;
-  border-radius: 3px; }
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 13px 2px #bbbbbb;
+  box-shadow: 0px 0px 13px 2px #bbbbbb; }
   .rosselloCard img {
-    filter: brightness(70%);
+    filter: brightness(75%);
     border-top-left-radius: 3px;
     border-top-right-radius: 3px; }
   .rosselloCard h4 {
@@ -265,34 +266,34 @@ h1 {
     letter-spacing: 5px;
     padding: 20px 0 0 30px;
     font-size: 1.5rem;
-    color: #f6f6f6; }
+    color: #272727; }
   .rosselloCard p {
     font-family: "futura-light";
     padding: 0px 30px;
-    color: #f6f6f6; }
+    color: #272727; }
   .rosselloCard a {
     margin-left: 30px; }
   .rosselloCard button {
-    border: 1px solid #ffff6b;
+    border: 1px solid #272727;
     border-radius: 3px;
     font-family: "futura-light";
     font-size: .9rem;
     letter-spacing: 3px;
     padding: 5px 10px;
     margin-top: 20px;
-    color: #ffff6b; }
+    color: #272727; }
     .rosselloCard button:hover {
       background-color: #272727;
       color: #ffff6b;
       border: 1px solid #272727;
       transition: .2s; }
   .rosselloCard__separador {
-    border-top: 1px solid #ffff6b;
+    border-top: 1px solid #272727;
     margin: 0 30px 10px; }
 
 #soonButton {
-  color: #d1d1d1;
-  border-color: #d1d1d1;
+  color: #bbbbbb;
+  border-color: #bbbbbb;
   cursor: no-drop;
   margin-left: 30px; }
   #soonButton:hover {
@@ -306,9 +307,6 @@ h1 {
   letter-spacing: 3px;
   font-size: .9rem;
   margin: 0; }
-
-.iconsCards img {
-  filter: invert(80%) sepia(11%) saturate(1915%) hue-rotate(24deg) brightness(129%) contrast(103%); }
 
 .reviews {
   height: max-content;
@@ -376,12 +374,13 @@ h1 {
   border-radius: 3px;
   cursor: pointer; }
   .slide h3 {
-    text-decoration: #535353 underline; }
+    text-decoration: #535353 underline;
+    padding-top: 20px; }
   .slide p {
     width: 350px;
     height: 320px;
     text-align: start;
-    padding: 0 10px; }
+    padding: 5px 30px; }
   .slide a {
     text-decoration: none;
     height: 250px;
@@ -523,7 +522,8 @@ h1 {
   display: flex;
   flex-direction: row;
   padding-top: 50px;
-  background-color: #bbbbbb; }
+  background-color: #bbbbbb;
+  align-items: center; }
   .commonSpaceRossello a {
     text-decoration: none; }
   .commonSpaceRossello p {
@@ -542,7 +542,7 @@ h1 {
   .commonSpaceRossello button {
     color: #272727;
     border: solid 1px #272727;
-    border-radius: 7px;
+    border-radius: 3px;
     padding: 5px 10px;
     font-size: 1rem;
     letter-spacing: 3px;
@@ -560,7 +560,7 @@ h1 {
     .commonSpaceRossello picture img {
       height: 200px;
       width: 300px;
-      border-radius: 7px;
+      border-radius: 3px;
       cursor: pointer;
       filter: brightness(0.6); }
       .commonSpaceRossello picture img:nth-child(4) {
@@ -568,7 +568,7 @@ h1 {
     .commonSpaceRossello picture div {
       background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/portada.jpg);
       background-size: cover;
-      border-radius: 7px;
+      border-radius: 3px;
       cursor: pointer; }
       .commonSpaceRossello picture div h4 {
         color: #ffff6b;
@@ -581,7 +581,8 @@ h1 {
   display: flex;
   flex-direction: row-reverse;
   padding-top: 50px;
-  background-color: #d1d1d1; }
+  background-color: #d1d1d1;
+  align-items: center; }
   .room1Rossello a {
     text-decoration: none; }
   .room1Rossello p {
@@ -600,7 +601,7 @@ h1 {
   .room1Rossello button {
     color: #272727;
     border: solid 1px #272727;
-    border-radius: 7px;
+    border-radius: 3px;
     padding: 5px 10px;
     font-size: 1rem;
     letter-spacing: 3px;
@@ -618,7 +619,7 @@ h1 {
     .room1Rossello picture img {
       height: 200px;
       width: 300px;
-      border-radius: 7px;
+      border-radius: 3px;
       cursor: pointer;
       filter: brightness(0.6); }
       .room1Rossello picture img:nth-child(4) {
@@ -626,7 +627,7 @@ h1 {
     .room1Rossello picture div {
       background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room1Rossello/room1_4.webp);
       background-size: cover;
-      border-radius: 7px;
+      border-radius: 3px;
       cursor: pointer; }
       .room1Rossello picture div h4 {
         color: #ffff6b;
@@ -651,7 +652,8 @@ h1 {
   display: flex;
   flex-direction: row;
   padding-top: 50px;
-  background-color: #bbbbbb; }
+  background-color: #bbbbbb;
+  align-items: center; }
   .room2Rossello a {
     text-decoration: none; }
   .room2Rossello p {
@@ -670,7 +672,7 @@ h1 {
   .room2Rossello button {
     color: #272727;
     border: solid 1px #272727;
-    border-radius: 7px;
+    border-radius: 3px;
     padding: 5px 10px;
     font-size: 1rem;
     letter-spacing: 3px;
@@ -688,7 +690,7 @@ h1 {
     .room2Rossello picture img {
       height: 200px;
       width: 300px;
-      border-radius: 7px;
+      border-radius: 3px;
       cursor: pointer;
       filter: brightness(0.6); }
       .room2Rossello picture img:nth-child(4) {
@@ -696,7 +698,7 @@ h1 {
     .room2Rossello picture div {
       background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room2Rossello/room2-4.webp);
       background-size: cover;
-      border-radius: 7px;
+      border-radius: 3px;
       cursor: pointer; }
       .room2Rossello picture div h4 {
         color: #ffff6b;
@@ -721,7 +723,8 @@ h1 {
   display: flex;
   flex-direction: row-reverse;
   padding-top: 50px;
-  background-color: #d1d1d1; }
+  background-color: #d1d1d1;
+  align-items: center; }
   .room3Rossello a {
     text-decoration: none; }
   .room3Rossello p {
@@ -740,7 +743,7 @@ h1 {
   .room3Rossello button {
     color: #272727;
     border: solid 1px #272727;
-    border-radius: 7px;
+    border-radius: 3px;
     padding: 5px 10px;
     font-size: 1rem;
     letter-spacing: 3px;
@@ -758,7 +761,7 @@ h1 {
     .room3Rossello picture img {
       height: 200px;
       width: 300px;
-      border-radius: 7px;
+      border-radius: 3px;
       cursor: pointer;
       filter: brightness(0.6); }
       .room3Rossello picture img:nth-child(4) {
@@ -766,7 +769,7 @@ h1 {
     .room3Rossello picture div {
       background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room3Rossello/room3_4.webp);
       background-size: cover;
-      border-radius: 7px;
+      border-radius: 3px;
       cursor: pointer; }
       .room3Rossello picture div h4 {
         color: #ffff6b;
@@ -791,7 +794,8 @@ h1 {
   display: flex;
   flex-direction: row;
   padding-top: 50px;
-  background-color: #bbbbbb; }
+  background-color: #bbbbbb;
+  align-items: center; }
   .room4Rossello a {
     text-decoration: none; }
   .room4Rossello p {
@@ -810,7 +814,7 @@ h1 {
   .room4Rossello button {
     color: #272727;
     border: solid 1px #272727;
-    border-radius: 7px;
+    border-radius: 3px;
     padding: 5px 10px;
     font-size: 1rem;
     letter-spacing: 3px;
@@ -828,7 +832,7 @@ h1 {
     .room4Rossello picture img {
       height: 200px;
       width: 300px;
-      border-radius: 7px;
+      border-radius: 3px;
       cursor: pointer;
       filter: brightness(0.6); }
       .room4Rossello picture img:nth-child(4) {
@@ -836,7 +840,7 @@ h1 {
     .room4Rossello picture div {
       background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room4Rossello/room4_10.webp);
       background-size: cover;
-      border-radius: 7px;
+      border-radius: 3px;
       cursor: pointer; }
       .room4Rossello picture div h4 {
         color: #ffff6b;
@@ -861,7 +865,8 @@ h1 {
   display: flex;
   flex-direction: row-reverse;
   padding-top: 50px;
-  background-color: #d1d1d1; }
+  background-color: #d1d1d1;
+  align-items: center; }
   .room5Rossello a {
     text-decoration: none; }
   .room5Rossello p {
@@ -880,7 +885,7 @@ h1 {
   .room5Rossello button {
     color: #272727;
     border: solid 1px #272727;
-    border-radius: 7px;
+    border-radius: 3px;
     padding: 5px 10px;
     font-size: 1rem;
     letter-spacing: 3px;
@@ -898,7 +903,7 @@ h1 {
     .room5Rossello picture img {
       height: 200px;
       width: 300px;
-      border-radius: 7px;
+      border-radius: 3px;
       cursor: pointer;
       filter: brightness(0.6); }
       .room5Rossello picture img:nth-child(4) {
@@ -906,7 +911,7 @@ h1 {
     .room5Rossello picture div {
       background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room5Rossello/room5_4.webp);
       background-size: cover;
-      border-radius: 7px;
+      border-radius: 3px;
       cursor: pointer; }
       .room5Rossello picture div h4 {
         color: #ffff6b;
@@ -931,7 +936,8 @@ h1 {
   display: flex;
   flex-direction: row;
   padding-top: 50px;
-  background-color: #bbbbbb; }
+  background-color: #bbbbbb;
+  align-items: center; }
   .room6Rossello a {
     text-decoration: none; }
   .room6Rossello p {
@@ -950,7 +956,7 @@ h1 {
   .room6Rossello button {
     color: #272727;
     border: solid 1px #272727;
-    border-radius: 7px;
+    border-radius: 3px;
     padding: 5px 10px;
     font-size: 1rem;
     letter-spacing: 3px;
@@ -968,7 +974,7 @@ h1 {
     .room6Rossello picture img {
       height: 200px;
       width: 300px;
-      border-radius: 7px;
+      border-radius: 3px;
       cursor: pointer;
       filter: brightness(0.6); }
       .room6Rossello picture img:nth-child(4) {
@@ -976,7 +982,7 @@ h1 {
     .room6Rossello picture div {
       background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room6Rossello/room6_4.webp);
       background-size: cover;
-      border-radius: 7px;
+      border-radius: 3px;
       cursor: pointer; }
       .room6Rossello picture div h4 {
         color: #ffff6b;
@@ -1001,7 +1007,8 @@ h1 {
   display: flex;
   flex-direction: row-reverse;
   padding-top: 50px;
-  background-color: #d1d1d1; }
+  background-color: #d1d1d1;
+  align-items: center; }
   .room7Rossello a {
     text-decoration: none; }
   .room7Rossello p {
@@ -1020,7 +1027,7 @@ h1 {
   .room7Rossello button {
     color: #272727;
     border: solid 1px #272727;
-    border-radius: 7px;
+    border-radius: 3px;
     padding: 5px 10px;
     font-size: 1rem;
     letter-spacing: 3px;
@@ -1038,7 +1045,7 @@ h1 {
     .room7Rossello picture img {
       height: 200px;
       width: 300px;
-      border-radius: 7px;
+      border-radius: 3px;
       cursor: pointer;
       filter: brightness(0.6); }
       .room7Rossello picture img:nth-child(4) {
@@ -1046,7 +1053,7 @@ h1 {
     .room7Rossello picture div {
       background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room7Rossello/room7_4.webp);
       background-size: cover;
-      border-radius: 7px;
+      border-radius: 3px;
       cursor: pointer; }
       .room7Rossello picture div h4 {
         color: #ffff6b;
@@ -1129,7 +1136,8 @@ h1 {
   display: flex;
   flex-direction: row;
   padding-top: 50px;
-  background-color: #272727; }
+  background-color: #272727;
+  align-items: center; }
   .commonSpace a {
     text-decoration: none; }
   .commonSpace p {
@@ -1155,7 +1163,7 @@ h1 {
     .commonSpace picture img {
       height: 200px;
       width: 300px;
-      border-radius: 7px;
+      border-radius: 3px;
       cursor: pointer;
       filter: brightness(0.6); }
       .commonSpace picture img:nth-child(4) {
@@ -1163,7 +1171,7 @@ h1 {
     .commonSpace picture div {
       background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/bonsoms/laundry/laundry_1.jpg);
       background-size: cover;
-      border-radius: 7px;
+      border-radius: 3px;
       cursor: pointer; }
       .commonSpace picture div h4 {
         color: #ffff6b;
@@ -1176,7 +1184,8 @@ h1 {
   display: flex;
   flex-direction: row-reverse;
   padding-top: 50px;
-  background-color: #3a3a3a; }
+  background-color: #3a3a3a;
+  align-items: center; }
   .room1Bonsoms a {
     text-decoration: none; }
   .room1Bonsoms p {
@@ -1202,7 +1211,7 @@ h1 {
     .room1Bonsoms picture img {
       height: 200px;
       width: 300px;
-      border-radius: 7px;
+      border-radius: 3px;
       cursor: pointer;
       filter: brightness(0.6); }
       .room1Bonsoms picture img:nth-child(4) {
@@ -1210,7 +1219,7 @@ h1 {
     .room1Bonsoms picture div {
       background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/bonsoms/room1Bonsoms/room1_4.jpg);
       background-size: cover;
-      border-radius: 7px;
+      border-radius: 3px;
       cursor: pointer; }
       .room1Bonsoms picture div h4 {
         color: #ffff6b;
@@ -1235,7 +1244,8 @@ h1 {
   display: flex;
   flex-direction: row;
   padding-top: 50px;
-  background-color: #272727; }
+  background-color: #272727;
+  align-items: center; }
   .room2Bonsoms a {
     text-decoration: none; }
   .room2Bonsoms p {
@@ -1261,7 +1271,7 @@ h1 {
     .room2Bonsoms picture img {
       height: 200px;
       width: 300px;
-      border-radius: 7px;
+      border-radius: 3px;
       cursor: pointer;
       filter: brightness(0.6); }
       .room2Bonsoms picture img:nth-child(4) {
@@ -1269,7 +1279,7 @@ h1 {
     .room2Bonsoms picture div {
       background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/bonsoms/room2Bonsoms/room2_4.jpg);
       background-size: cover;
-      border-radius: 7px;
+      border-radius: 3px;
       cursor: pointer; }
       .room2Bonsoms picture div h4 {
         color: #ffff6b;
@@ -1294,7 +1304,8 @@ h1 {
   display: flex;
   flex-direction: row-reverse;
   padding-top: 50px;
-  background-color: #3a3a3a; }
+  background-color: #3a3a3a;
+  align-items: center; }
   .room3Bonsoms a {
     text-decoration: none; }
   .room3Bonsoms p {
@@ -1320,7 +1331,7 @@ h1 {
     .room3Bonsoms picture img {
       height: 200px;
       width: 300px;
-      border-radius: 7px;
+      border-radius: 3px;
       cursor: pointer;
       filter: brightness(0.6); }
       .room3Bonsoms picture img:nth-child(4) {
@@ -1328,7 +1339,7 @@ h1 {
     .room3Bonsoms picture div {
       background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/bonsoms/room3Bonsoms/room3_4.jpg);
       background-size: cover;
-      border-radius: 7px;
+      border-radius: 3px;
       cursor: pointer; }
       .room3Bonsoms picture div h4 {
         color: #ffff6b;
@@ -1353,7 +1364,8 @@ h1 {
   display: flex;
   flex-direction: row;
   padding-top: 50px;
-  background-color: #272727; }
+  background-color: #272727;
+  align-items: center; }
   .room4Bonsoms a {
     text-decoration: none; }
   .room4Bonsoms p {
@@ -1379,7 +1391,7 @@ h1 {
     .room4Bonsoms picture img {
       height: 200px;
       width: 300px;
-      border-radius: 7px;
+      border-radius: 3px;
       cursor: pointer;
       filter: brightness(0.6); }
       .room4Bonsoms picture img:nth-child(4) {
@@ -1387,7 +1399,7 @@ h1 {
     .room4Bonsoms picture div {
       background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/bonsoms/room4Bonsoms/room4_4.jpg);
       background-size: cover;
-      border-radius: 7px;
+      border-radius: 3px;
       cursor: pointer; }
       .room4Bonsoms picture div h4 {
         color: #ffff6b;
@@ -1412,7 +1424,8 @@ h1 {
   display: flex;
   flex-direction: row-reverse;
   padding-top: 50px;
-  background-color: #3a3a3a; }
+  background-color: #3a3a3a;
+  align-items: center; }
   .room5Bonsoms a {
     text-decoration: none; }
   .room5Bonsoms p {
@@ -1438,7 +1451,7 @@ h1 {
     .room5Bonsoms picture img {
       height: 200px;
       width: 300px;
-      border-radius: 7px;
+      border-radius: 3px;
       cursor: pointer;
       filter: brightness(0.6); }
       .room5Bonsoms picture img:nth-child(4) {
@@ -1446,7 +1459,7 @@ h1 {
     .room5Bonsoms picture div {
       background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/bonsoms/room5Bonsoms/room5_5.jpg);
       background-size: cover;
-      border-radius: 7px;
+      border-radius: 3px;
       cursor: pointer; }
       .room5Bonsoms picture div h4 {
         color: #ffff6b;
@@ -1471,7 +1484,8 @@ h1 {
   display: flex;
   flex-direction: row;
   padding-top: 50px;
-  background-color: #272727; }
+  background-color: #272727;
+  align-items: center; }
   .room6Bonsoms a {
     text-decoration: none; }
   .room6Bonsoms p {
@@ -1497,7 +1511,7 @@ h1 {
     .room6Bonsoms picture img {
       height: 200px;
       width: 300px;
-      border-radius: 7px;
+      border-radius: 3px;
       cursor: pointer;
       filter: brightness(0.6); }
       .room6Bonsoms picture img:nth-child(4) {
@@ -1505,7 +1519,7 @@ h1 {
     .room6Bonsoms picture div {
       background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/bonsoms/room6Bonsoms/room6_4.jpg);
       background-size: cover;
-      border-radius: 7px;
+      border-radius: 3px;
       cursor: pointer; }
       .room6Bonsoms picture div h4 {
         color: #ffff6b;
@@ -1530,7 +1544,8 @@ h1 {
   display: flex;
   flex-direction: row-reverse;
   padding-top: 50px;
-  background-color: #3a3a3a; }
+  background-color: #3a3a3a;
+  align-items: center; }
   .room7Bonsoms a {
     text-decoration: none; }
   .room7Bonsoms p {
@@ -1556,7 +1571,7 @@ h1 {
     .room7Bonsoms picture img {
       height: 200px;
       width: 300px;
-      border-radius: 7px;
+      border-radius: 3px;
       cursor: pointer;
       filter: brightness(0.6); }
       .room7Bonsoms picture img:nth-child(4) {
@@ -1564,7 +1579,7 @@ h1 {
     .room7Bonsoms picture div {
       background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/bonsoms/room7Bonsoms/room7_4.jpg);
       background-size: cover;
-      border-radius: 7px;
+      border-radius: 3px;
       cursor: pointer; }
       .room7Bonsoms picture div h4 {
         color: #ffff6b;
@@ -1589,7 +1604,8 @@ h1 {
   display: flex;
   flex-direction: row;
   padding-top: 50px;
-  background-color: #272727; }
+  background-color: #272727;
+  align-items: center; }
   .room8Bonsoms a {
     text-decoration: none; }
   .room8Bonsoms p {
@@ -1615,7 +1631,7 @@ h1 {
     .room8Bonsoms picture img {
       height: 200px;
       width: 300px;
-      border-radius: 7px;
+      border-radius: 3px;
       cursor: pointer;
       filter: brightness(0.6); }
       .room8Bonsoms picture img:nth-child(4) {
@@ -1623,7 +1639,7 @@ h1 {
     .room8Bonsoms picture div {
       background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/bonsoms/room8Bonsoms/room8_2.jpg);
       background-size: cover;
-      border-radius: 7px;
+      border-radius: 3px;
       cursor: pointer; }
       .room8Bonsoms picture div h4 {
         color: #ffff6b;
@@ -1648,7 +1664,8 @@ h1 {
   display: flex;
   flex-direction: row-reverse;
   padding-top: 50px;
-  background-color: #3a3a3a; }
+  background-color: #3a3a3a;
+  align-items: center; }
   .room9Bonsoms a {
     text-decoration: none; }
   .room9Bonsoms p {
@@ -1674,7 +1691,7 @@ h1 {
     .room9Bonsoms picture img {
       height: 200px;
       width: 300px;
-      border-radius: 7px;
+      border-radius: 3px;
       cursor: pointer;
       filter: brightness(0.6); }
       .room9Bonsoms picture img:nth-child(4) {
@@ -1682,7 +1699,7 @@ h1 {
     .room9Bonsoms picture div {
       background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/bonsoms/room9Bonsoms/room9_4.jpg);
       background-size: cover;
-      border-radius: 7px;
+      border-radius: 3px;
       cursor: pointer; }
       .room9Bonsoms picture div h4 {
         color: #ffff6b;

@@ -175,26 +175,26 @@
 // INICIA CARDS
 .ourColivings{
     height: max-content;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/img/prueba.jpg);
-    // background-color: $gray;
+    background-color: $light;
     background-size: cover;
     background-position: center;
-    padding: 30px;
+    padding: 60px 30px 100px;
     text-align: center;
     h2{
-        color:$yellow;
+        color:$darkgray;
         font-family: "futura-medium";
         letter-spacing: 3px;
     }
     h3{
         font-size: 1.2rem;
         font-family: "futura-medium";
-        color: $lightgraytext;
+        color: $darkgray;
     }
     &__separador{
-        border-top: 1px solid $yellow;
+        border-top: 1px solid $darkgray;
         height: 2px;
-        margin: 0 300px 20px;
+        margin: 20px 300px 20px;
+        padding-bottom: 40px;
     }
 }
 
@@ -205,16 +205,17 @@
     justify-content: space-around;
 }
 .rosselloCard{
-    background-color: rgba(255, 255, 255, 0.196);
-    backdrop-filter: blur(1px);
+    // background-color: $light;
     height: 590px;
     width: 380px;
     text-align: start;
     display: flex;
     flex-direction: column;
     border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 13px 2px $gray2; 
+    box-shadow: 0px 0px 13px 2px $gray2;
     img{
-        filter: brightness(70%);
+        filter: brightness(75%);
         border-top-left-radius: 3px;
         border-top-right-radius: 3px;
     }
@@ -223,25 +224,25 @@
         letter-spacing: 5px;
         padding: 20px 0 0 30px;
         font-size: 1.5rem;
-        color: $light;
+        color: $darkgray;
     }
     p{
         font-family: "futura-light";
         padding: 0px 30px;
-        color: $light;
+        color: $darkgray;
     }
     a{
         margin-left: 30px;
     }
     button{
-        border: 1px solid $yellow;
+        border: 1px solid $darkgray;
         border-radius: 3px;
         font-family: "futura-light";
         font-size: .9rem;
         letter-spacing: 3px;
         padding: 5px 10px;
         margin-top: 20px;
-        color: $yellow;
+        color: $darkgray;
         &:hover{
             background-color: $darkgray;
             color: $yellow;
@@ -250,15 +251,15 @@
         }
     }
     &__separador{
-        border-top: 1px solid $yellow;
+        border-top: 1px solid $darkgray;
         margin: 0 30px 10px;
     }
     
 }
 
 #soonButton{
-    color: $gray3;
-    border-color: $gray3;
+    color: $gray2;
+    border-color: $gray2;
     cursor: no-drop;
     margin-left: 30px;
     &:hover{
@@ -276,10 +277,6 @@
         font-size: .9rem;
         margin: 0;
     }
-    img{
-        filter: invert(80%) sepia(11%) saturate(1915%) hue-rotate(24deg) brightness(129%) contrast(103%);
-    }
-    
 }
 
 
@@ -440,13 +437,13 @@
     cursor: pointer;
     h3{
         text-decoration: rgb(83, 83, 83) underline;
-
+        padding-top: 20px;
     }
     p{
         width: 350px;
         height: 320px;
         text-align: start;
-        padding: 0 10px;
+        padding: 5px 30px;
     }
     a{
         text-decoration: none;
