@@ -1,6 +1,6 @@
 .bonsomsMain{
     height: max-content;
-    background-color: $darkgray;
+    background-color: $gray;
     padding-top: 120px;
     text-align: center;
     h1{
@@ -13,7 +13,7 @@
         font-family: "futura-medium";
         font-size: 2.2rem;
         letter-spacing: 2px;
-        color: $lightgraytext;
+        color: $light;
     }
     &__separador{
         border-top: 1px solid $yellow;
@@ -46,7 +46,7 @@
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto;
-    background-color: $darkgray;
+    background-color: $gray;
     padding: 20px 100px;
     justify-content: space-around;
     gap: 20px;
@@ -56,7 +56,7 @@
         filter: invert(80%) sepia(11%) saturate(1915%) hue-rotate(24deg) brightness(129%) contrast(103%);
     }
     p{
-        color: $lightgraytext;
+        color: $light;
         font-family: "futura-light";
         letter-spacing: 2px;
         font-size: .9rem;

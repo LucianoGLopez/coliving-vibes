@@ -2,25 +2,63 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(139, 139, 139);
+    background-color: $darkgray;
     padding: 5px;
-    
+    color: $light;
     a{
         text-decoration: none;
-        color: rgb(58, 57, 57);
+        color: $yellow;
         &:hover{
-            color: rgb(14,14,14);
+            color: $gray3;
         }
     }
-    h5{
-        font-size: .7rem;
-    }
+    
     &__nav{
         ul{
-            
-            
-            gap: 20px;
-            align-self: center;
+            padding-top: 10px;
+        }
+        li{
+            // gap: 50px;
+            // align-self: center;
+            padding-bottom: 5px;
+        }
+    }
+    &__logo{
+        img{
+            height: 120px;
+            width: auto;
+        }
+    }
+    &__redes{
+        display: flex;
+        justify-content: space-around;
+        gap:20px;
+        padding-top: 10px;
+        p{
+            font-size: .9rem;
+            letter-spacing: 3px;
+            font-family: "futura-bold";
+            font-weight: 100;
+        }
+        img{
+            height: 30px;
+            width: auto;
+            filter: invert(100%) sepia(1%) saturate(4062%) hue-rotate(213deg) brightness(119%) contrast(81%);
+            &:nth-child(1){
+                &:hover{
+                    filter: invert(21%) sepia(98%) saturate(7440%) hue-rotate(332deg) brightness(87%) contrast(105%);
+                }
+            }
+            &:nth-child(2){
+                &:hover{
+                    filter: invert(14%) sepia(82%) saturate(5669%) hue-rotate(357deg) brightness(95%) contrast(113%);
+                }
+            }
+            &:nth-child(3){
+                &:hover{
+                    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(100%);
+                }
+            }
         }
     }
 }

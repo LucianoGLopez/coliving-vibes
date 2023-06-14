@@ -1,7 +1,8 @@
 .ourConceptMain{
     height: max-content;
     padding-top: 150px;
-    background-color: $lightgray;
+    background-color: $light;
+    padding-bottom: 50px;
     h1{
         text-align: center;
         font-family: "futura-bold";
@@ -22,6 +23,23 @@
         border-top: 1px solid $darkgray;
         height: 2px;
         margin: 0 300px 20px;
+    }
+}
+
+.ourConceptVideo{
+    display: flex;
+    padding: 50px 200px;
+    background-color: $light;
+    video{
+        height: 380px;
+        width: auto;
+    }
+    h2{
+        font-size: 2.5rem;
+    }
+    p{
+        padding-top: 15px;
+        padding-left: 30px;
     }
 }
 

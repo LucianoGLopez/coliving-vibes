@@ -1,17 +1,23 @@
 .indexMain{
     height: 100vh;
-    text-align: center;
-    align-content: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/portada2_12.webp);
+    background-color: $darkgray;
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/img/portada2_12.webp);
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-position-y:top;
+}
+
+.mainTitle{
+    width: 40vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 50px 0;
     h1{
         text-align: center;
-        padding-top: 230px;
         color: $yellow;
-        font-size: 5.5rem;
+        font-size: 6rem;
         font-family: "futura-bold";
         letter-spacing: .5rem;
     }
@@ -24,14 +30,14 @@
         padding-bottom: 10px;
     }
     button{
-        letter-spacing: .2rem;
+        letter-spacing: 7px;
         font-family: "futura-light";
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         background: none;
         color: $yellow;
         border: 1px solid $yellow;
         border-radius: 3px;
-        padding: 5px 20px;
+        padding: 5px 15px;
         &:hover{
             background-color: $yellow;
             color: $darkgray;
@@ -40,137 +46,61 @@
     }
 }
 
-.mainTitle{
-    // background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-    width: 40vw;
-    height: 100vh;
-}
-
 // INICIA OUR CONCEPT
-.ourConcept{
-    background-color: $darkgray;
-    &__separador{
-        border-top: 1px solid $yellow;
-        height: 2px;
-        margin: 0 200px 20px;
-    }
-}
-
-.parent {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto;
-    padding: 5px 200px;
-    row-gap: 5px;
-    
-    img{
-        height: 350px;
-        width: auto;
-        max-width: 100vw;
-        filter: brightness(70%);
-    }
-    }
-    
-    .div1 { grid-area: 1 / 1 / 2 / 2; }
-    .div2 { grid-area: 1 / 2 / 2 / 5; }
-    .div3 { grid-area: 2 / 1 / 3 / 3; }
-    .div4 { grid-area: 2 / 3 / 3 / 4; }
-    .div5 { grid-area: 2 / 4 / 3 / 5; }
-    
-
-.div2{
-    text-align: center;
-    align-self: center;
+.containerOurConcept{
+    background-color: $gray;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 200px;
+    gap: 100px;
     h2{
+        text-align: start;
         color: $yellow;
-        text-align: center;
         font-family: "futura-medium";
         letter-spacing: 3px;
     }
     p{
         color: $lightgraytext;
-        padding: 0 80px;
-        font-family: "futura-light";
-        text-align: start;
+        font-weight: 300;
+        font-size: 1rem;
+    }
+    picture{
+        display: flex;
+        gap: 10px;
+    }
+    img{
+        border-radius: 3px;
+        filter: brightness(80%);
+    }
+    &__image{
+        height: 420px;
+        width: auto;
+    }
+    &__image2{
+        height: 350px;
+        width: auto;
+        align-self: center;
+    }
+    a{
+        text-align: center;
+        margin: auto;
     }
     button{
         font-family: "futura-light";
-        font-size: 1rem;
+        font-size: .9rem;
         font-weight: 400;
-        letter-spacing: 3px;
         color: $yellow;
-        border: solid 1px $yellow;
-        padding: 5px 10px;
+        border: 1px solid $yellow;
         border-radius: 3px;
+        padding: 5px 10px;
         &:hover{
-            background-color: $yellow;
-            color: black;
+            border: 1px solid $lightgray;
+            background-color: $lightgray;
+            color: $darkgray;
             transition: .2s
         }
     }
 }
-
-// .containerOurConcept{
-//     background-color: $darkgray;
-//     display: flex;
-//     justify-content: space-between;
-//     padding: 40px 100px;
-//     gap: 100px;
-//     align-items: center;
-//     h2{
-//         text-align: center;
-//         color: $yellow;
-//         font-family: "futura-medium";
-//         letter-spacing: 3px;
-//     }
-//     p{
-//         color: $light;
-//         font-weight: 300;
-//         font-size: 1rem;
-//         padding-top: 10px;
-//     }
-//     img{
-//         border-radius: 7px;
-//         height: 350px;
-//         width: auto;
-//         box-shadow: 8px 5px 30px -3px rgba(7, 7, 7, 0.781);
-//         -webkit-box-shadow: 8px 5px 30px -3px rgba(0, 0, 0, 0.741);
-//         -moz-box-shadow: 8px 5px 30px -3px rgba(2, 2, 2, 0.603);
-//     }
-//     a{
-//         text-align: center;
-//         margin: auto;
-//     }
-//     button{
-//         margin: 0 auto;
-//         font-family: "futura-light";
-//         font-size: 1rem;
-//         font-weight: 400;
-//         background: none;
-//         color: $yellow;
-//         border: none;
-//         border-bottom: 1px solid $yellow;
-//         padding: 10px 10px 5px;
-//         &:hover{
-//             border-bottom: 1px solid $yellowhover;
-//             color: $yellowhover;
-//             transition: .2s
-//         }
-//     }
-//     &__separador{
-//         border-top: 1px solid $yellow;
-//         height: 2px;
-//         margin: 0 300px 20px;
-//     }
-// }
-// .textContainerOurConcept{
-//     display: flex;
-//     flex-direction: column;
-// }
-
-
-
-
 
 // INICIA CARDS
 .ourColivings{
@@ -182,7 +112,8 @@
     text-align: center;
     h2{
         color:$darkgray;
-        font-family: "futura-medium";
+        font-family: "futura-bold";
+        font-size: 3.5rem;
         letter-spacing: 3px;
     }
     h3{
@@ -205,7 +136,6 @@
     justify-content: space-around;
 }
 .rosselloCard{
-    // background-color: $light;
     height: 590px;
     width: 380px;
     text-align: start;
@@ -279,103 +209,28 @@
     }
 }
 
-
-
-
-
-
-
-
-
-// CARDS ROSSELLO BONSOMS Y PROXIMAMENTE
-// .cards{
-//     display: grid;
-//     grid-template-columns: 450px 450px;
-//     grid-template-rows: auto auto;
-//     grid-template-areas:
-//     "cards__rosello bonsoms"
-//     "cards__proximamente";
-//     justify-content: center;
-//     gap: 20px;
-//     padding-top: 20px;
-//     a{
-//         text-decoration: none;
-//     }
-//     h4{
-//         font-size: .8rem;
-//         font-family: "futura-light";
-//         font-weight: 600;
-//         letter-spacing: 3px;
-//         padding: 10px;
-//         color:rgb(39, 39, 39);
-//         background-color:rgba(255, 255, 106, 0.71);
-//         margin-right: 290px;
-//         border-bottom-right-radius: 20px;
-//         border-top-left-radius: 7px;
-//     }
-//     &__rossello{
-//         height: 300px;
-//         width: 450px;
-//         grid-area: "cards__rosello";
-//         background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/cardsRossello_1.webp);
-//         background-size: cover;
-//         border-radius: 7px;
-//         box-shadow: 4px 2px 15px -3px rgba(7, 7, 7, 0.41);
-//         -webkit-box-shadow: 4px 2px 15px -3px rgba(0, 0, 0, 0.41);
-//         -moz-box-shadow: 4px 2px 15px -3px rgba(2, 2, 2, 0.41);
-//     }
-//     &__bonsoms{
-//         height: 300px;
-//         width: 450px;
-//         grid-area: "cards__bonsoms";
-//         background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/cardsBonsoms_1.webp);
-//         background-size: cover;
-//         border-radius: 7px;
-//         box-shadow: 4px 2px 15px -3px rgba(7, 7, 7, 0.41);
-//         -webkit-box-shadow: 4px 2px 15px -3px rgba(0, 0, 0, 0.41);
-//         -moz-box-shadow: 4px 2px 15px -3px rgba(2, 2, 2, 0.41);
-//     }
-//     &__proximamente{
-//         height: 300px;
-//         width: 820px;
-//         margin-left: 50px;
-//         grid-area: "cards__proximamente cards__proximamente";
-//         background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/proximamente.png);
-//         background-size: contain;
-//         background-position-x: 20px;
-//         border-radius: 7px;
-//         box-shadow: 4px 2px 15px -3px rgba(7, 7, 7, 0.41);
-//         -webkit-box-shadow: 4px 2px 15px -3px rgba(0, 0, 0, 0.41);
-//         -moz-box-shadow: 4px 2px 15px -3px rgba(2, 2, 2, 0.41);
-//         h2{
-//             text-align: center;
-//             background-color: rgba(255, 255, 106, 0.71);
-//             margin-top: 165px;
-//             letter-spacing: 2rem;
-//         }
-//     }
-// }
-
 // INICIA RESEÑAS
 .reviews{
     height: max-content;
-    background-color:$darkgray;
+    background-color: $gray;
     padding: 40px 0;
     text-align: center;
     h2{
         color:$yellow;
         font-family: "futura-medium";
         letter-spacing: 3px;
+        font-size: 2.5rem;
     }
     h4{
         color:$lightgraytext;
         font-size: 1.2rem;
         font-family: "futura-medium";
+        letter-spacing: 3px;
     }
     &__separador{
         border-top: 1px solid $yellow;
         height: 2px;
-        margin: 0 500px 20px;
+        margin: 10px 500px 20px;
     }
 }
 
@@ -412,7 +267,7 @@
     height: auto;
     margin: auto;
     overflow: hidden;
-    background-color:rgb(39, 39, 39);
+    background-color:$gray;
     padding: 30px 0;
     h3{
         padding-top: 10px;
@@ -457,6 +312,7 @@
         width: 100px;
     }
 }
+
 
 @keyframes scroll {
     0% {
