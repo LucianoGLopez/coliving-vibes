@@ -1,0 +1,175 @@
+// GALLERY MOBILE
+.mainGalleries{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url(/img/backgroundGallery.png);
+    background-size: cover;
+    background-position: top;
+    padding: 120px 20px 50px;
+    height: 100%;
+    width: 100%;
+    h1{
+        color: $darkgray;
+        font-family: "futura-bold";
+        font-size: 3.5rem;
+        text-align: center;
+    }
+    &__separador{
+        border-top: 1px solid $darkgray;
+        height: 2px;
+        margin: 0 30px 20px;
+    }
+}
+
+.galleriesContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 20px;
+    text-align: center;
+    &__rossello{
+        height: 250px;
+        width: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(/img/portada1.jpg);
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 3px;
+        h2{
+            font-family: "futura-bold";
+            font-size: 3.5rem;
+            color: $light;
+            text-align: center;
+        }
+        button{
+            font-family: "futura-medium";
+            color: $yellow;
+            border: 1px solid $yellow;
+            padding: 5px 10px;
+            border-radius: 3px;
+            &:hover{
+                background-color: $yellow;
+                color: $darkgray;
+                transition: .2s;
+            }
+        }
+    }
+    &__bonsoms{
+        height: 250px;
+        width: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(/img/bonsoms/livingRoom/livingRoom_1.jpg);
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 3px;
+        h2{
+            font-family: "futura-bold";
+            font-size: 3.5rem;
+            color: $light;
+            text-align: center;
+        }
+        button{
+            font-family: "futura-medium";
+            color: $yellow;
+            border: 1px solid $yellow;
+            padding: 5px 10px;
+            border-radius: 3px;
+            &:hover{
+                background-color: $yellow;
+                color: $darkgray;
+                transition: .2s;
+            }
+        }
+    }
+}
+
+// GALLERY TABLET
+
+// GALLERY DESKTOP
+@media (min-width: 992px) {
+    .mainGalleries{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url(/img/backgroundGallery.png);
+        background-size: cover;
+        padding-top: 120px;
+        height: 100vh;
+        h1{
+            color: $darkgray;
+            font-family: "futura-bold";
+            font-size: 4.5rem;
+            text-align: center;
+        }
+        &__separador{
+            border-top: 1px solid $darkgray;
+            height: 2px;
+            margin: 0 300px 20px;
+        }
+    }
+    
+    .galleriesContainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 120px;
+        padding-top: 50px;
+        text-align: center;
+        &__rossello{
+            height: 350px;
+            width: 450px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(/img/portada1.jpg);
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border-radius: 3px;
+            h2{
+                font-family: "futura-bold";
+                font-size: 3.5rem;
+                color: $light;
+                text-align: center;
+            }
+            button{
+                font-family: "futura-medium";
+                color: $yellow;
+                border: 1px solid $yellow;
+                padding: 5px 10px;
+                border-radius: 3px;
+                &:hover{
+                    background-color: $yellow;
+                    color: $darkgray;
+                    transition: .2s;
+                }
+            }
+        }
+        &__bonsoms{
+            height: 350px;
+            width: 450px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(/img/bonsoms/livingRoom/livingRoom_1.jpg);
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border-radius: 3px;
+            h2{
+                font-family: "futura-bold";
+                font-size: 3.5rem;
+                color: $light;
+                text-align: center;
+            }
+            button{
+                font-family: "futura-medium";
+                color: $yellow;
+                border: 1px solid $yellow;
+                padding: 5px 10px;
+                border-radius: 3px;
+                &:hover{
+                    background-color: $yellow;
+                    color: $darkgray;
+                    transition: .2s;
+                }
+            }
+        }
+    }
+}
+
+

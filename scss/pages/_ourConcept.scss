@@ -1,4 +1,114 @@
+// ourConcept MOBILE
 .ourConceptMain{
+    height: max-content;
+    padding-top: 120px;
+    background-color: $light;
+    padding-bottom: 50px;
+    h1{
+        text-align: center;
+        font-family: "futura-bold";
+        font-size: 4.5rem;
+        color: $darkgray;
+        line-height: 70px;
+    }
+    h2{
+        text-align: center;
+        color: $darkgray;
+        font-family: "futura-bold";
+        font-size: 3.2rem;
+    }
+    p{
+        font-size: 1rem;
+        font-family: "futura-light";
+        padding: 0 20px;
+    }
+    &__separador{
+        border-top: 1px solid $darkgray;
+        height: 2px;
+        margin: 0 30px 20px;
+    }
+}
+// VIDEO
+.ourConceptVideo{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: $light;
+    video{
+        height: 100%;
+        width: 100%;
+    }
+    h2{
+        font-size: 2.8rem;
+        font-family: "futura-bold";
+        padding: 0 20px;
+        text-align: start;
+        line-height: 50px;
+        padding-top: 20px;
+    }
+    p{
+        padding-left: 20px;
+    }
+}
+
+// INICIA HOME CARD
+.containerOurConceptHome{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: max-content;
+    padding: 50px 0;
+    img{
+        border-radius: 3px;
+    }
+    &__image{
+        height: auto;
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+// INICIA DESIGN CARD
+.containerOurConceptDesign{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: max-content;
+    background-color: $light;
+    img{
+        border-radius: 3px;
+    }
+    &__image{
+        height: auto;
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+// THIRD CARD
+.containerOurConceptCommon{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: max-content;
+    padding: 50px 0;
+    img{
+        border-radius: 3px;
+    }
+    &__image{
+        height: auto;
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+
+
+
+// ourConcept TABLET
+
+// ourConcept DESKTOP
+@media (min-width: 992px) {
+    .ourConceptMain{
     height: max-content;
     padding-top: 150px;
     background-color: $light;
@@ -28,6 +138,7 @@
 
 .ourConceptVideo{
     display: flex;
+    flex-direction: row;
     padding: 50px 200px;
     background-color: $light;
     video{
@@ -66,6 +177,7 @@
 // INICIA DESIGN CARD
 .containerOurConceptDesign{
     display: flex;
+    flex-direction: row;
     align-items: center;
     height: max-content;
     padding: 50px 200px;
@@ -95,6 +207,10 @@
         height: 300px;
         width: auto;
     }
+}
+
+
+
 }
 
 

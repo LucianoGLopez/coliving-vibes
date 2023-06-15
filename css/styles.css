@@ -105,9 +105,6 @@ h1 {
   #navBar__logo {
     margin-left: 30px; }
 
-#buttonSon {
-  cursor: no-drop; }
-
 #navbar-toggler {
   background-color: #ffff6b;
   margin-right: 20px; }
@@ -167,9 +164,7 @@ h1 {
         border-color: #ffff6b;
         background-color: #ffff6b; }
     #navBar__logo {
-      margin-left: 30px; }
-  #buttonSon {
-    cursor: no-drop; } }
+      margin-left: 30px; } }
 
 .footer {
   display: flex;
@@ -178,7 +173,7 @@ h1 {
   align-items: center;
   background-color: #272727;
   padding: 5px;
-  color: #ffff6b; }
+  color: #f6f6f6; }
   .footer p {
     font-size: .7rem; }
   .footer a {
@@ -203,8 +198,9 @@ h1 {
       font-family: "futura-bold";
       font-weight: 100; }
     .footer__redes img {
-      height: 30px;
+      height: 40px;
       width: auto;
+      margin: 20px;
       filter: invert(81%) sepia(85%) saturate(305%) hue-rotate(355deg) brightness(105%) contrast(107%); }
       .footer__redes img:nth-child(1):hover {
         filter: invert(21%) sepia(98%) saturate(7440%) hue-rotate(332deg) brightness(87%) contrast(105%); }
@@ -212,6 +208,10 @@ h1 {
         filter: invert(14%) sepia(82%) saturate(5669%) hue-rotate(357deg) brightness(95%) contrast(113%); }
       .footer__redes img:nth-child(3):hover {
         filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(100%); }
+
+.container__redes p {
+  text-align: center;
+  font-size: 1rem; }
 
 .maps {
   display: flex;
@@ -229,7 +229,7 @@ h1 {
     align-items: center;
     background-color: #272727;
     padding: 5px;
-    color: #ffff6b; }
+    color: #f6f6f6; }
     .footer a {
       text-decoration: none;
       color: #f6f6f6; }
@@ -245,22 +245,20 @@ h1 {
     .footer__redes {
       display: flex;
       justify-content: center;
-      gap: 20px; }
-      .footer__redes p {
-        font-size: .9rem;
-        letter-spacing: 3px;
-        font-family: "futura-bold";
-        font-weight: 100; }
+      gap: 2px; }
       .footer__redes img {
-        height: 30px;
+        height: 35px;
         width: auto;
-        filter: invert(81%) sepia(85%) saturate(305%) hue-rotate(355deg) brightness(105%) contrast(107%); }
+        filter: invert(100%) sepia(5%) saturate(38%) hue-rotate(359deg) brightness(114%) contrast(93%); }
         .footer__redes img:nth-child(1):hover {
           filter: invert(21%) sepia(98%) saturate(7440%) hue-rotate(332deg) brightness(87%) contrast(105%); }
         .footer__redes img:nth-child(2):hover {
           filter: invert(14%) sepia(82%) saturate(5669%) hue-rotate(357deg) brightness(95%) contrast(113%); }
         .footer__redes img:nth-child(3):hover {
           filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(100%); }
+  .container__redes p {
+    text-align: center;
+    font-size: 1rem; }
   .maps {
     display: flex;
     flex-direction: row;
@@ -789,14 +787,15 @@ h1 {
 
 .ourConceptMain {
   height: max-content;
-  padding-top: 150px;
+  padding-top: 120px;
   background-color: #f6f6f6;
   padding-bottom: 50px; }
   .ourConceptMain h1 {
     text-align: center;
     font-family: "futura-bold";
     font-size: 4.5rem;
-    color: #272727; }
+    color: #272727;
+    line-height: 70px; }
   .ourConceptMain h2 {
     text-align: center;
     color: #272727;
@@ -804,85 +803,165 @@ h1 {
     font-size: 3.2rem; }
   .ourConceptMain p {
     font-size: 1rem;
-    font-family: "futura-light"; }
+    font-family: "futura-light";
+    padding: 0 20px; }
   .ourConceptMain__separador {
     border-top: 1px solid #272727;
     height: 2px;
-    margin: 0 300px 20px; }
+    margin: 0 30px 20px; }
 
 .ourConceptVideo {
   display: flex;
-  padding: 50px 200px;
+  flex-direction: column-reverse;
   background-color: #f6f6f6; }
   .ourConceptVideo video {
-    height: 380px;
-    width: auto; }
+    height: 100%;
+    width: 100%; }
   .ourConceptVideo h2 {
-    font-size: 3.2rem;
+    font-size: 2.8rem;
     font-family: "futura-bold";
     padding: 0 20px;
     text-align: start;
-    line-height: 50px; }
+    line-height: 50px;
+    padding-top: 20px; }
   .ourConceptVideo p {
-    padding-left: 30px; }
+    padding-left: 20px; }
 
 .containerOurConceptHome {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column-reverse;
   align-items: center;
   height: max-content;
-  padding: 50px 200px;
-  gap: 80px; }
+  padding: 50px 0; }
   .containerOurConceptHome img {
     border-radius: 3px; }
   .containerOurConceptHome__image {
-    height: 300px;
-    width: auto; }
+    height: auto;
+    width: 100%;
+    padding: 10px; }
 
 .containerOurConceptDesign {
   display: flex;
+  flex-direction: column-reverse;
   align-items: center;
   height: max-content;
-  padding: 50px 200px;
-  gap: 80px;
   background-color: #f6f6f6; }
   .containerOurConceptDesign img {
     border-radius: 3px; }
   .containerOurConceptDesign__image {
-    height: 300px;
-    width: auto; }
+    height: auto;
+    width: 100%;
+    padding: 10px; }
 
 .containerOurConceptCommon {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column-reverse;
   align-items: center;
   height: max-content;
-  padding: 50px 200px;
-  gap: 80px; }
+  padding: 50px 0; }
   .containerOurConceptCommon img {
     border-radius: 3px; }
   .containerOurConceptCommon__image {
-    height: 300px;
-    width: auto; }
+    height: auto;
+    width: 100%;
+    padding: 10px; }
+
+@media (min-width: 992px) {
+  .ourConceptMain {
+    height: max-content;
+    padding-top: 150px;
+    background-color: #f6f6f6;
+    padding-bottom: 50px; }
+    .ourConceptMain h1 {
+      text-align: center;
+      font-family: "futura-bold";
+      font-size: 4.5rem;
+      color: #272727; }
+    .ourConceptMain h2 {
+      text-align: center;
+      color: #272727;
+      font-family: "futura-bold";
+      font-size: 3.2rem; }
+    .ourConceptMain p {
+      font-size: 1rem;
+      font-family: "futura-light"; }
+    .ourConceptMain__separador {
+      border-top: 1px solid #272727;
+      height: 2px;
+      margin: 0 300px 20px; }
+  .ourConceptVideo {
+    display: flex;
+    flex-direction: row;
+    padding: 50px 200px;
+    background-color: #f6f6f6; }
+    .ourConceptVideo video {
+      height: 380px;
+      width: auto; }
+    .ourConceptVideo h2 {
+      font-size: 3.2rem;
+      font-family: "futura-bold";
+      padding: 0 20px;
+      text-align: start;
+      line-height: 50px; }
+    .ourConceptVideo p {
+      padding-left: 30px; }
+  .containerOurConceptHome {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: max-content;
+    padding: 50px 200px;
+    gap: 80px; }
+    .containerOurConceptHome img {
+      border-radius: 3px; }
+    .containerOurConceptHome__image {
+      height: 300px;
+      width: auto; }
+  .containerOurConceptDesign {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: max-content;
+    padding: 50px 200px;
+    gap: 80px;
+    background-color: #f6f6f6; }
+    .containerOurConceptDesign img {
+      border-radius: 3px; }
+    .containerOurConceptDesign__image {
+      height: 300px;
+      width: auto; }
+  .containerOurConceptCommon {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: max-content;
+    padding: 50px 200px;
+    gap: 80px; }
+    .containerOurConceptCommon img {
+      border-radius: 3px; }
+    .containerOurConceptCommon__image {
+      height: 300px;
+      width: auto; } }
 
 .rosselloMain {
   height: max-content;
   background-color: #f6f6f6;
   padding-top: 120px;
+  padding-bottom: 50px;
   text-align: center; }
   .rosselloMain h1 {
     font-family: "futura-bold";
-    font-size: 5rem;
-    color: #272727; }
+    font-size: 4rem;
+    color: #272727;
+    line-height: 70px; }
   .rosselloMain h2 {
     font-family: "futura-medium";
-    font-size: 2.2rem;
-    letter-spacing: 2px;
+    font-size: 1.5rem;
     color: #272727; }
   .rosselloMain__separador {
     border-top: 1px solid #272727;
     height: 2px;
-    margin: 0 300px 20px; }
+    margin: 0 30px 20px; }
   .rosselloMain p {
     font-family: "futura-light";
     text-align: start;
@@ -896,22 +975,20 @@ h1 {
     border: 1px solid #ffff6b;
     border-radius: 3px;
     padding: 5px 20px; }
-    .rosselloMain button:hover {
-      background-color: #ffff6b;
-      color: #272727;
-      transition: .5s; }
 
 .iconsRossello {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto;
   grid-template-rows: auto auto;
   background-color: #f6f6f6;
-  padding: 20px 100px;
+  padding: 20px;
   justify-content: space-around;
   gap: 20px; }
   .iconsRossello img {
-    height: 70px;
-    width: auto; }
+    height: 40px;
+    width: auto;
+    display: flex;
+    flex-direction: column; }
   .iconsRossello p {
     color: #272727;
     font-family: "futura-light";
@@ -919,16 +996,16 @@ h1 {
     font-size: .9rem; }
   .iconsRossello__text p {
     color: #272727;
-    padding: 10px 150px;
+    padding: 0 20px;
     font-family: "futura-light"; }
   .iconsRossello__text button {
     color: #272727;
     border: 1px solid #272727;
-    margin-bottom: 50px; }
+    margin: 20px 0 50px; }
 
 .commonSpaceRossello {
   display: flex;
-  flex-direction: row;
+  flex-direction: column-reverse;
   padding-top: 50px;
   background-color: #e7e7e7;
   align-items: center; }
@@ -936,14 +1013,13 @@ h1 {
     text-decoration: none; }
   .commonSpaceRossello p {
     text-align: start;
-    padding: 0 100px 0 20px;
+    padding: 0 20px;
     color: #272727; }
   .commonSpaceRossello h3 {
     font-family: "futura-bold";
-    text-align: center;
+    text-align: start;
     padding-left: 20px;
     color: #272727;
-    padding-right: 100px;
     font-size: 3.2rem; }
   .commonSpaceRossello button {
     color: #272727;
@@ -952,7 +1028,7 @@ h1 {
     padding: 5px 10px;
     font-size: 1rem;
     letter-spacing: 3px;
-    margin-top: 20px; }
+    margin: 20px; }
     .commonSpaceRossello button:hover {
       background-color: #ffff6b;
       color: #272727; }
@@ -961,11 +1037,12 @@ h1 {
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     justify-content: start;
-    padding: 0 20px 50px 100px;
-    gap: 10px; }
+    padding: 20px 0;
+    gap: 5px;
+    width: 100%; }
     .commonSpaceRossello picture img {
-      height: 200px;
-      width: 300px;
+      height: 120px;
+      width: 180px;
       border-radius: 3px;
       cursor: pointer;
       filter: brightness(0.6); }
@@ -978,14 +1055,14 @@ h1 {
       cursor: pointer; }
       .commonSpaceRossello picture div h4 {
         color: #ffff6b;
-        padding-top: 80px;
+        padding-top: 45px;
         font-family: "futura-bold";
         font-size: 1.5rem;
         letter-spacing: 3px; }
 
 .room1Rossello {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column-reverse;
   padding-top: 50px;
   background-color: #f6f6f6;
   align-items: center; }
@@ -993,14 +1070,13 @@ h1 {
     text-decoration: none; }
   .room1Rossello p {
     text-align: start;
-    padding: 0 20px 0 100px;
+    padding: 0 20px 0;
     color: #272727; }
   .room1Rossello h3 {
     font-family: "futura-bold";
-    text-align: center;
-    padding-left: 100px;
+    text-align: start;
+    padding-left: 20px;
     color: #272727;
-    padding-right: 100px;
     font-size: 3.2rem; }
   .room1Rossello button {
     color: #272727;
@@ -1009,7 +1085,7 @@ h1 {
     padding: 5px 10px;
     font-size: 1rem;
     letter-spacing: 3px;
-    margin-top: 20px; }
+    margin: 20px; }
     .room1Rossello button:hover {
       background-color: #ffff6b;
       color: #272727; }
@@ -1018,11 +1094,12 @@ h1 {
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     justify-content: start;
-    padding: 0 100px 50px 20px;
-    gap: 10px; }
+    padding: 20px 0;
+    gap: 5px;
+    width: 100%; }
     .room1Rossello picture img {
-      height: 200px;
-      width: 300px;
+      height: 120px;
+      width: 180px;
       border-radius: 3px;
       cursor: pointer;
       filter: brightness(0.6); }
@@ -1035,7 +1112,7 @@ h1 {
       cursor: pointer; }
       .room1Rossello picture div h4 {
         color: #ffff6b;
-        padding-top: 80px;
+        padding-top: 45px;
         font-family: "futura-bold";
         font-size: 1.5rem;
         letter-spacing: 3px; }
@@ -1046,15 +1123,14 @@ h1 {
     padding: 5px 10px;
     font-size: 1rem;
     letter-spacing: 3px;
-    margin-top: 20px;
-    margin-left: 20px; }
+    margin-top: 20px; }
     .room1Rossello button:hover {
       background-color: #ffff6b;
       color: #272727; }
 
 .room2Rossello {
   display: flex;
-  flex-direction: row;
+  flex-direction: column-reverse;
   padding-top: 50px;
   background-color: #e7e7e7;
   align-items: center; }
@@ -1062,14 +1138,13 @@ h1 {
     text-decoration: none; }
   .room2Rossello p {
     text-align: start;
-    padding: 0 100px 0 20px;
+    padding: 0 20px;
     color: #272727; }
   .room2Rossello h3 {
     font-family: "futura-bold";
-    text-align: center;
+    text-align: start;
     padding-left: 20px;
     color: #272727;
-    padding-right: 100px;
     font-size: 3.2rem; }
   .room2Rossello button {
     color: #272727;
@@ -1078,7 +1153,7 @@ h1 {
     padding: 5px 10px;
     font-size: 1rem;
     letter-spacing: 3px;
-    margin-top: 20px; }
+    margin: 20px; }
     .room2Rossello button:hover {
       background-color: #ffff6b;
       color: #272727; }
@@ -1087,11 +1162,12 @@ h1 {
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     justify-content: start;
-    padding: 0 20px 50px 100px;
-    gap: 10px; }
+    padding: 20px 0;
+    gap: 5px;
+    width: 100%; }
     .room2Rossello picture img {
-      height: 200px;
-      width: 300px;
+      height: 120px;
+      width: 180px;
       border-radius: 3px;
       cursor: pointer;
       filter: brightness(0.6); }
@@ -1104,7 +1180,7 @@ h1 {
       cursor: pointer; }
       .room2Rossello picture div h4 {
         color: #ffff6b;
-        padding-top: 80px;
+        padding-top: 45px;
         font-family: "futura-bold";
         font-size: 1.5rem;
         letter-spacing: 3px; }
@@ -1115,15 +1191,14 @@ h1 {
     padding: 5px 10px;
     font-size: 1rem;
     letter-spacing: 3px;
-    margin-top: 20px;
-    margin-right: 70px; }
+    margin-top: 20px; }
     .room2Rossello button:hover {
       background-color: #ffff6b;
       color: #272727; }
 
 .room3Rossello {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column-reverse;
   padding-top: 50px;
   background-color: #f6f6f6;
   align-items: center; }
@@ -1131,14 +1206,13 @@ h1 {
     text-decoration: none; }
   .room3Rossello p {
     text-align: start;
-    padding: 0 20px 0 100px;
+    padding: 0 20px;
     color: #272727; }
   .room3Rossello h3 {
     font-family: "futura-bold";
-    text-align: center;
-    padding-left: 100px;
+    text-align: start;
+    padding-left: 20px;
     color: #272727;
-    padding-right: 100px;
     font-size: 3.2rem; }
   .room3Rossello button {
     color: #272727;
@@ -1147,7 +1221,7 @@ h1 {
     padding: 5px 10px;
     font-size: 1rem;
     letter-spacing: 3px;
-    margin-top: 20px; }
+    margin: 20px; }
     .room3Rossello button:hover {
       background-color: #ffff6b;
       color: #272727; }
@@ -1156,11 +1230,12 @@ h1 {
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     justify-content: start;
-    padding: 0 100px 50px 20px;
-    gap: 10px; }
+    padding: 20px 0;
+    gap: 5px;
+    width: 100%; }
     .room3Rossello picture img {
-      height: 200px;
-      width: 300px;
+      height: 120px;
+      width: 180px;
       border-radius: 3px;
       cursor: pointer;
       filter: brightness(0.6); }
@@ -1173,7 +1248,7 @@ h1 {
       cursor: pointer; }
       .room3Rossello picture div h4 {
         color: #ffff6b;
-        padding-top: 80px;
+        padding-top: 45px;
         font-family: "futura-bold";
         font-size: 1.5rem;
         letter-spacing: 3px; }
@@ -1184,15 +1259,14 @@ h1 {
     padding: 5px 10px;
     font-size: 1rem;
     letter-spacing: 3px;
-    margin-top: 20px;
-    margin-left: 20px; }
+    margin-top: 20px; }
     .room3Rossello button:hover {
       background-color: #ffff6b;
       color: #272727; }
 
 .room4Rossello {
   display: flex;
-  flex-direction: row;
+  flex-direction: column-reverse;
   padding-top: 50px;
   background-color: #e7e7e7;
   align-items: center; }
@@ -1200,14 +1274,13 @@ h1 {
     text-decoration: none; }
   .room4Rossello p {
     text-align: start;
-    padding: 0 100px 0 20px;
+    padding: 0 20px;
     color: #272727; }
   .room4Rossello h3 {
     font-family: "futura-bold";
-    text-align: center;
+    text-align: start;
     padding-left: 20px;
     color: #272727;
-    padding-right: 100px;
     font-size: 3.2rem; }
   .room4Rossello button {
     color: #272727;
@@ -1216,7 +1289,7 @@ h1 {
     padding: 5px 10px;
     font-size: 1rem;
     letter-spacing: 3px;
-    margin-top: 20px; }
+    margin: 20px; }
     .room4Rossello button:hover {
       background-color: #ffff6b;
       color: #272727; }
@@ -1225,11 +1298,12 @@ h1 {
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     justify-content: start;
-    padding: 0 20px 50px 100px;
-    gap: 10px; }
+    padding: 20px 0;
+    gap: 5px;
+    width: 100%; }
     .room4Rossello picture img {
-      height: 200px;
-      width: 300px;
+      height: 120px;
+      width: 180px;
       border-radius: 3px;
       cursor: pointer;
       filter: brightness(0.6); }
@@ -1242,7 +1316,7 @@ h1 {
       cursor: pointer; }
       .room4Rossello picture div h4 {
         color: #ffff6b;
-        padding-top: 80px;
+        padding-top: 45px;
         font-family: "futura-bold";
         font-size: 1.5rem;
         letter-spacing: 3px; }
@@ -1253,15 +1327,14 @@ h1 {
     padding: 5px 10px;
     font-size: 1rem;
     letter-spacing: 3px;
-    margin-top: 20px;
-    margin-right: 70px; }
+    margin-top: 20px; }
     .room4Rossello button:hover {
       background-color: #ffff6b;
       color: #272727; }
 
 .room5Rossello {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column-reverse;
   padding-top: 50px;
   background-color: #f6f6f6;
   align-items: center; }
@@ -1269,14 +1342,13 @@ h1 {
     text-decoration: none; }
   .room5Rossello p {
     text-align: start;
-    padding: 0 20px 0 100px;
+    padding: 0 20px;
     color: #272727; }
   .room5Rossello h3 {
     font-family: "futura-bold";
-    text-align: center;
-    padding-left: 100px;
+    text-align: start;
+    padding-left: 20px;
     color: #272727;
-    padding-right: 100px;
     font-size: 3.2rem; }
   .room5Rossello button {
     color: #272727;
@@ -1285,7 +1357,7 @@ h1 {
     padding: 5px 10px;
     font-size: 1rem;
     letter-spacing: 3px;
-    margin-top: 20px; }
+    margin: 20px; }
     .room5Rossello button:hover {
       background-color: #ffff6b;
       color: #272727; }
@@ -1294,11 +1366,12 @@ h1 {
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     justify-content: start;
-    padding: 0 100px 50px 20px;
-    gap: 10px; }
+    padding: 20px 0;
+    gap: 5px;
+    width: 100%; }
     .room5Rossello picture img {
-      height: 200px;
-      width: 300px;
+      height: 120px;
+      width: 180px;
       border-radius: 3px;
       cursor: pointer;
       filter: brightness(0.6); }
@@ -1311,7 +1384,7 @@ h1 {
       cursor: pointer; }
       .room5Rossello picture div h4 {
         color: #ffff6b;
-        padding-top: 80px;
+        padding-top: 45px;
         font-family: "futura-bold";
         font-size: 1.5rem;
         letter-spacing: 3px; }
@@ -1322,15 +1395,14 @@ h1 {
     padding: 5px 10px;
     font-size: 1rem;
     letter-spacing: 3px;
-    margin-top: 20px;
-    margin-left: 20px; }
+    margin-top: 20px; }
     .room5Rossello button:hover {
       background-color: #ffff6b;
       color: #272727; }
 
 .room6Rossello {
   display: flex;
-  flex-direction: row;
+  flex-direction: column-reverse;
   padding-top: 50px;
   background-color: #e7e7e7;
   align-items: center; }
@@ -1338,14 +1410,13 @@ h1 {
     text-decoration: none; }
   .room6Rossello p {
     text-align: start;
-    padding: 0 100px 0 20px;
+    padding: 0 20px;
     color: #272727; }
   .room6Rossello h3 {
     font-family: "futura-bold";
-    text-align: center;
+    text-align: start;
     padding-left: 20px;
     color: #272727;
-    padding-right: 100px;
     font-size: 3.2rem; }
   .room6Rossello button {
     color: #272727;
@@ -1354,7 +1425,7 @@ h1 {
     padding: 5px 10px;
     font-size: 1rem;
     letter-spacing: 3px;
-    margin-top: 20px; }
+    margin: 20px; }
     .room6Rossello button:hover {
       background-color: #ffff6b;
       color: #272727; }
@@ -1363,11 +1434,12 @@ h1 {
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     justify-content: start;
-    padding: 0 20px 50px 100px;
-    gap: 10px; }
+    padding: 20px 0;
+    gap: 5px;
+    width: 100%; }
     .room6Rossello picture img {
-      height: 200px;
-      width: 300px;
+      height: 120px;
+      width: 180px;
       border-radius: 3px;
       cursor: pointer;
       filter: brightness(0.6); }
@@ -1380,7 +1452,7 @@ h1 {
       cursor: pointer; }
       .room6Rossello picture div h4 {
         color: #ffff6b;
-        padding-top: 80px;
+        padding-top: 45px;
         font-family: "futura-bold";
         font-size: 1.5rem;
         letter-spacing: 3px; }
@@ -1391,15 +1463,11 @@ h1 {
     padding: 5px 10px;
     font-size: 1rem;
     letter-spacing: 3px;
-    margin-top: 20px;
-    margin-right: 70px; }
-    .room6Rossello button:hover {
-      background-color: #ffff6b;
-      color: #272727; }
+    margin-top: 20px; }
 
 .room7Rossello {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column-reverse;
   padding-top: 50px;
   background-color: #f6f6f6;
   align-items: center; }
@@ -1407,14 +1475,13 @@ h1 {
     text-decoration: none; }
   .room7Rossello p {
     text-align: start;
-    padding: 0 20px 0 100px;
+    padding: 0 20px;
     color: #272727; }
   .room7Rossello h3 {
     font-family: "futura-bold";
-    text-align: center;
-    padding-left: 100px;
+    text-align: start;
+    padding-left: 20px;
     color: #272727;
-    padding-right: 100px;
     font-size: 3.2rem; }
   .room7Rossello button {
     color: #272727;
@@ -1423,7 +1490,7 @@ h1 {
     padding: 5px 10px;
     font-size: 1rem;
     letter-spacing: 3px;
-    margin-top: 20px; }
+    margin: 20px; }
     .room7Rossello button:hover {
       background-color: #ffff6b;
       color: #272727; }
@@ -1432,11 +1499,12 @@ h1 {
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     justify-content: start;
-    padding: 0 100px 50px 20px;
-    gap: 10px; }
+    padding: 20px 0;
+    gap: 5px;
+    width: 100%; }
     .room7Rossello picture img {
-      height: 200px;
-      width: 300px;
+      height: 120px;
+      width: 180px;
       border-radius: 3px;
       cursor: pointer;
       filter: brightness(0.6); }
@@ -1449,7 +1517,7 @@ h1 {
       cursor: pointer; }
       .room7Rossello picture div h4 {
         color: #ffff6b;
-        padding-top: 80px;
+        padding-top: 45px;
         font-family: "futura-bold";
         font-size: 1.5rem;
         letter-spacing: 3px; }
@@ -1460,30 +1528,620 @@ h1 {
     padding: 5px 10px;
     font-size: 1rem;
     letter-spacing: 3px;
-    margin-top: 20px;
-    margin-left: 20px; }
-    .room7Rossello button:hover {
-      background-color: #ffff6b;
+    margin-top: 20px; }
+
+@media (min-width: 992px) {
+  .rosselloMain {
+    height: max-content;
+    background-color: #f6f6f6;
+    padding-top: 120px;
+    text-align: center; }
+    .rosselloMain h1 {
+      font-family: "futura-bold";
+      font-size: 5rem;
       color: #272727; }
+    .rosselloMain h2 {
+      font-family: "futura-medium";
+      font-size: 2.2rem;
+      letter-spacing: 2px;
+      color: #272727; }
+    .rosselloMain__separador {
+      border-top: 1px solid #272727;
+      height: 2px;
+      margin: 0 300px 20px; }
+    .rosselloMain p {
+      font-family: "futura-light";
+      text-align: start;
+      color: #e7e7e7; }
+    .rosselloMain button {
+      letter-spacing: .2rem;
+      font-family: "futura-light";
+      font-size: 1.2rem;
+      background: none;
+      color: #ffff6b;
+      border: 1px solid #ffff6b;
+      border-radius: 3px;
+      padding: 5px 20px; }
+      .rosselloMain button:hover {
+        background-color: #ffff6b;
+        color: #272727;
+        transition: .5s; }
+  .iconsRossello {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    background-color: #f6f6f6;
+    padding: 20px 100px;
+    justify-content: space-around;
+    gap: 20px; }
+    .iconsRossello img {
+      height: 70px;
+      width: auto; }
+    .iconsRossello p {
+      color: #272727;
+      font-family: "futura-light";
+      letter-spacing: 2px;
+      font-size: .9rem; }
+    .iconsRossello__text p {
+      color: #272727;
+      padding: 10px 150px;
+      font-family: "futura-light"; }
+    .iconsRossello__text button {
+      color: #272727;
+      border: 1px solid #272727;
+      margin-bottom: 50px; }
+  .commonSpaceRossello {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    background-color: #e7e7e7;
+    align-items: center; }
+    .commonSpaceRossello a {
+      text-decoration: none; }
+    .commonSpaceRossello p {
+      text-align: start;
+      padding: 0 100px 0 20px;
+      color: #272727; }
+    .commonSpaceRossello h3 {
+      font-family: "futura-bold";
+      text-align: center;
+      padding-left: 20px;
+      color: #272727;
+      padding-right: 100px;
+      font-size: 3.2rem; }
+    .commonSpaceRossello button {
+      color: #272727;
+      border: solid 1px #272727;
+      border-radius: 3px;
+      padding: 5px 10px;
+      font-size: 1rem;
+      letter-spacing: 3px;
+      margin-top: 20px; }
+      .commonSpaceRossello button:hover {
+        background-color: #ffff6b;
+        color: #272727; }
+    .commonSpaceRossello picture {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto auto;
+      justify-content: start;
+      padding: 0 20px 50px 100px;
+      gap: 10px; }
+      .commonSpaceRossello picture img {
+        height: 200px;
+        width: 300px;
+        border-radius: 3px;
+        cursor: pointer;
+        filter: brightness(0.6); }
+        .commonSpaceRossello picture img:nth-child(4) {
+          filter: brightness(0.2); }
+      .commonSpaceRossello picture div {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/portada.jpg);
+        background-size: cover;
+        border-radius: 3px;
+        cursor: pointer; }
+        .commonSpaceRossello picture div h4 {
+          color: #ffff6b;
+          padding-top: 80px;
+          font-family: "futura-bold";
+          font-size: 1.5rem;
+          letter-spacing: 3px; }
+  .room1Rossello {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 50px;
+    background-color: #f6f6f6;
+    align-items: center; }
+    .room1Rossello a {
+      text-decoration: none; }
+    .room1Rossello p {
+      text-align: start;
+      padding: 0 20px 0 100px;
+      color: #272727; }
+    .room1Rossello h3 {
+      font-family: "futura-bold";
+      text-align: center;
+      padding-left: 100px;
+      color: #272727;
+      padding-right: 100px;
+      font-size: 3.2rem; }
+    .room1Rossello button {
+      color: #272727;
+      border: solid 1px #272727;
+      border-radius: 3px;
+      padding: 5px 10px;
+      font-size: 1rem;
+      letter-spacing: 3px;
+      margin-top: 20px; }
+      .room1Rossello button:hover {
+        background-color: #ffff6b;
+        color: #272727; }
+    .room1Rossello picture {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto auto;
+      justify-content: start;
+      padding: 0 100px 50px 20px;
+      gap: 10px; }
+      .room1Rossello picture img {
+        height: 200px;
+        width: 300px;
+        border-radius: 3px;
+        cursor: pointer;
+        filter: brightness(0.6); }
+        .room1Rossello picture img:nth-child(4) {
+          filter: brightness(0.2); }
+      .room1Rossello picture div {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room1Rossello/room1_4.webp);
+        background-size: cover;
+        border-radius: 3px;
+        cursor: pointer; }
+        .room1Rossello picture div h4 {
+          color: #ffff6b;
+          padding-top: 80px;
+          font-family: "futura-bold";
+          font-size: 1.5rem;
+          letter-spacing: 3px; }
+    .room1Rossello button {
+      color: #272727;
+      border: solid 1px #272727;
+      border-radius: 3px;
+      padding: 5px 10px;
+      font-size: 1rem;
+      letter-spacing: 3px;
+      margin-top: 20px;
+      margin-left: 20px; }
+      .room1Rossello button:hover {
+        background-color: #ffff6b;
+        color: #272727; }
+  .room2Rossello {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    background-color: #e7e7e7;
+    align-items: center; }
+    .room2Rossello a {
+      text-decoration: none; }
+    .room2Rossello p {
+      text-align: start;
+      padding: 0 100px 0 20px;
+      color: #272727; }
+    .room2Rossello h3 {
+      font-family: "futura-bold";
+      text-align: center;
+      padding-left: 20px;
+      color: #272727;
+      padding-right: 100px;
+      font-size: 3.2rem; }
+    .room2Rossello button {
+      color: #272727;
+      border: solid 1px #272727;
+      border-radius: 3px;
+      padding: 5px 10px;
+      font-size: 1rem;
+      letter-spacing: 3px;
+      margin-top: 20px; }
+      .room2Rossello button:hover {
+        background-color: #ffff6b;
+        color: #272727; }
+    .room2Rossello picture {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto auto;
+      justify-content: start;
+      padding: 0 20px 50px 100px;
+      gap: 10px; }
+      .room2Rossello picture img {
+        height: 200px;
+        width: 300px;
+        border-radius: 3px;
+        cursor: pointer;
+        filter: brightness(0.6); }
+        .room2Rossello picture img:nth-child(4) {
+          filter: brightness(0.2); }
+      .room2Rossello picture div {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room2Rossello/room2-4.webp);
+        background-size: cover;
+        border-radius: 3px;
+        cursor: pointer; }
+        .room2Rossello picture div h4 {
+          color: #ffff6b;
+          padding-top: 80px;
+          font-family: "futura-bold";
+          font-size: 1.5rem;
+          letter-spacing: 3px; }
+    .room2Rossello button {
+      color: #272727;
+      border: solid 1px #272727;
+      border-radius: 3px;
+      padding: 5px 10px;
+      font-size: 1rem;
+      letter-spacing: 3px;
+      margin-top: 20px;
+      margin-right: 70px; }
+      .room2Rossello button:hover {
+        background-color: #ffff6b;
+        color: #272727; }
+  .room3Rossello {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 50px;
+    background-color: #f6f6f6;
+    align-items: center; }
+    .room3Rossello a {
+      text-decoration: none; }
+    .room3Rossello p {
+      text-align: start;
+      padding: 0 20px 0 100px;
+      color: #272727; }
+    .room3Rossello h3 {
+      font-family: "futura-bold";
+      text-align: center;
+      padding-left: 100px;
+      color: #272727;
+      padding-right: 100px;
+      font-size: 3.2rem; }
+    .room3Rossello button {
+      color: #272727;
+      border: solid 1px #272727;
+      border-radius: 3px;
+      padding: 5px 10px;
+      font-size: 1rem;
+      letter-spacing: 3px;
+      margin-top: 20px; }
+      .room3Rossello button:hover {
+        background-color: #ffff6b;
+        color: #272727; }
+    .room3Rossello picture {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto auto;
+      justify-content: start;
+      padding: 0 100px 50px 20px;
+      gap: 10px; }
+      .room3Rossello picture img {
+        height: 200px;
+        width: 300px;
+        border-radius: 3px;
+        cursor: pointer;
+        filter: brightness(0.6); }
+        .room3Rossello picture img:nth-child(4) {
+          filter: brightness(0.2); }
+      .room3Rossello picture div {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room3Rossello/room3_4.webp);
+        background-size: cover;
+        border-radius: 3px;
+        cursor: pointer; }
+        .room3Rossello picture div h4 {
+          color: #ffff6b;
+          padding-top: 80px;
+          font-family: "futura-bold";
+          font-size: 1.5rem;
+          letter-spacing: 3px; }
+    .room3Rossello button {
+      color: #272727;
+      border: solid 1px #272727;
+      border-radius: 3px;
+      padding: 5px 10px;
+      font-size: 1rem;
+      letter-spacing: 3px;
+      margin-top: 20px;
+      margin-left: 20px; }
+      .room3Rossello button:hover {
+        background-color: #ffff6b;
+        color: #272727; }
+  .room4Rossello {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    background-color: #e7e7e7;
+    align-items: center; }
+    .room4Rossello a {
+      text-decoration: none; }
+    .room4Rossello p {
+      text-align: start;
+      padding: 0 100px 0 20px;
+      color: #272727; }
+    .room4Rossello h3 {
+      font-family: "futura-bold";
+      text-align: center;
+      padding-left: 20px;
+      color: #272727;
+      padding-right: 100px;
+      font-size: 3.2rem; }
+    .room4Rossello button {
+      color: #272727;
+      border: solid 1px #272727;
+      border-radius: 3px;
+      padding: 5px 10px;
+      font-size: 1rem;
+      letter-spacing: 3px;
+      margin-top: 20px; }
+      .room4Rossello button:hover {
+        background-color: #ffff6b;
+        color: #272727; }
+    .room4Rossello picture {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto auto;
+      justify-content: start;
+      padding: 0 20px 50px 100px;
+      gap: 10px; }
+      .room4Rossello picture img {
+        height: 200px;
+        width: 300px;
+        border-radius: 3px;
+        cursor: pointer;
+        filter: brightness(0.6); }
+        .room4Rossello picture img:nth-child(4) {
+          filter: brightness(0.2); }
+      .room4Rossello picture div {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room4Rossello/room4_10.webp);
+        background-size: cover;
+        border-radius: 3px;
+        cursor: pointer; }
+        .room4Rossello picture div h4 {
+          color: #ffff6b;
+          padding-top: 80px;
+          font-family: "futura-bold";
+          font-size: 1.5rem;
+          letter-spacing: 3px; }
+    .room4Rossello button {
+      color: #272727;
+      border: solid 1px #272727;
+      border-radius: 3px;
+      padding: 5px 10px;
+      font-size: 1rem;
+      letter-spacing: 3px;
+      margin-top: 20px;
+      margin-right: 70px; }
+      .room4Rossello button:hover {
+        background-color: #ffff6b;
+        color: #272727; }
+  .room5Rossello {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 50px;
+    background-color: #f6f6f6;
+    align-items: center; }
+    .room5Rossello a {
+      text-decoration: none; }
+    .room5Rossello p {
+      text-align: start;
+      padding: 0 20px 0 100px;
+      color: #272727; }
+    .room5Rossello h3 {
+      font-family: "futura-bold";
+      text-align: center;
+      padding-left: 100px;
+      color: #272727;
+      padding-right: 100px;
+      font-size: 3.2rem; }
+    .room5Rossello button {
+      color: #272727;
+      border: solid 1px #272727;
+      border-radius: 3px;
+      padding: 5px 10px;
+      font-size: 1rem;
+      letter-spacing: 3px;
+      margin-top: 20px; }
+      .room5Rossello button:hover {
+        background-color: #ffff6b;
+        color: #272727; }
+    .room5Rossello picture {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto auto;
+      justify-content: start;
+      padding: 0 100px 50px 20px;
+      gap: 10px; }
+      .room5Rossello picture img {
+        height: 200px;
+        width: 300px;
+        border-radius: 3px;
+        cursor: pointer;
+        filter: brightness(0.6); }
+        .room5Rossello picture img:nth-child(4) {
+          filter: brightness(0.2); }
+      .room5Rossello picture div {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room5Rossello/room5_4.webp);
+        background-size: cover;
+        border-radius: 3px;
+        cursor: pointer; }
+        .room5Rossello picture div h4 {
+          color: #ffff6b;
+          padding-top: 80px;
+          font-family: "futura-bold";
+          font-size: 1.5rem;
+          letter-spacing: 3px; }
+    .room5Rossello button {
+      color: #272727;
+      border: solid 1px #272727;
+      border-radius: 3px;
+      padding: 5px 10px;
+      font-size: 1rem;
+      letter-spacing: 3px;
+      margin-top: 20px;
+      margin-left: 20px; }
+      .room5Rossello button:hover {
+        background-color: #ffff6b;
+        color: #272727; }
+  .room6Rossello {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    background-color: #e7e7e7;
+    align-items: center; }
+    .room6Rossello a {
+      text-decoration: none; }
+    .room6Rossello p {
+      text-align: start;
+      padding: 0 100px 0 20px;
+      color: #272727; }
+    .room6Rossello h3 {
+      font-family: "futura-bold";
+      text-align: center;
+      padding-left: 20px;
+      color: #272727;
+      padding-right: 100px;
+      font-size: 3.2rem; }
+    .room6Rossello button {
+      color: #272727;
+      border: solid 1px #272727;
+      border-radius: 3px;
+      padding: 5px 10px;
+      font-size: 1rem;
+      letter-spacing: 3px;
+      margin-top: 20px; }
+      .room6Rossello button:hover {
+        background-color: #ffff6b;
+        color: #272727; }
+    .room6Rossello picture {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto auto;
+      justify-content: start;
+      padding: 0 20px 50px 100px;
+      gap: 10px; }
+      .room6Rossello picture img {
+        height: 200px;
+        width: 300px;
+        border-radius: 3px;
+        cursor: pointer;
+        filter: brightness(0.6); }
+        .room6Rossello picture img:nth-child(4) {
+          filter: brightness(0.2); }
+      .room6Rossello picture div {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room6Rossello/room6_4.webp);
+        background-size: cover;
+        border-radius: 3px;
+        cursor: pointer; }
+        .room6Rossello picture div h4 {
+          color: #ffff6b;
+          padding-top: 80px;
+          font-family: "futura-bold";
+          font-size: 1.5rem;
+          letter-spacing: 3px; }
+    .room6Rossello button {
+      color: #272727;
+      border: solid 1px #272727;
+      border-radius: 3px;
+      padding: 5px 10px;
+      font-size: 1rem;
+      letter-spacing: 3px;
+      margin-top: 20px;
+      margin-right: 70px; }
+      .room6Rossello button:hover {
+        background-color: #ffff6b;
+        color: #272727; }
+  .room7Rossello {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 50px;
+    background-color: #f6f6f6;
+    align-items: center; }
+    .room7Rossello a {
+      text-decoration: none; }
+    .room7Rossello p {
+      text-align: start;
+      padding: 0 20px 0 100px;
+      color: #272727; }
+    .room7Rossello h3 {
+      font-family: "futura-bold";
+      text-align: center;
+      padding-left: 100px;
+      color: #272727;
+      padding-right: 100px;
+      font-size: 3.2rem; }
+    .room7Rossello button {
+      color: #272727;
+      border: solid 1px #272727;
+      border-radius: 3px;
+      padding: 5px 10px;
+      font-size: 1rem;
+      letter-spacing: 3px;
+      margin-top: 20px; }
+      .room7Rossello button:hover {
+        background-color: #ffff6b;
+        color: #272727; }
+    .room7Rossello picture {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto auto;
+      justify-content: start;
+      padding: 0 100px 50px 20px;
+      gap: 10px; }
+      .room7Rossello picture img {
+        height: 200px;
+        width: 300px;
+        border-radius: 3px;
+        cursor: pointer;
+        filter: brightness(0.6); }
+        .room7Rossello picture img:nth-child(4) {
+          filter: brightness(0.2); }
+      .room7Rossello picture div {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room7Rossello/room7_4.webp);
+        background-size: cover;
+        border-radius: 3px;
+        cursor: pointer; }
+        .room7Rossello picture div h4 {
+          color: #ffff6b;
+          padding-top: 80px;
+          font-family: "futura-bold";
+          font-size: 1.5rem;
+          letter-spacing: 3px; }
+    .room7Rossello button {
+      color: #272727;
+      border: solid 1px #272727;
+      border-radius: 3px;
+      padding: 5px 10px;
+      font-size: 1rem;
+      letter-spacing: 3px;
+      margin-top: 20px;
+      margin-left: 20px; }
+      .room7Rossello button:hover {
+        background-color: #ffff6b;
+        color: #272727; } }
 
 .bonsomsMain {
   height: max-content;
   background-color: #3a3a3a;
   padding-top: 120px;
+  padding-bottom: 50px;
   text-align: center; }
   .bonsomsMain h1 {
     font-family: "futura-bold";
-    font-size: 5rem;
-    color: #ffff6b; }
+    font-size: 4rem;
+    color: #ffff6b;
+    line-height: 70px; }
   .bonsomsMain h2 {
     font-family: "futura-medium";
-    font-size: 2.2rem;
-    letter-spacing: 2px;
+    font-size: 1.5rem;
     color: #f6f6f6; }
   .bonsomsMain__separador {
     border-top: 1px solid #ffff6b;
     height: 2px;
-    margin: 0 300px 20px; }
+    margin: 0 30px 20px; }
   .bonsomsMain p {
     font-family: "futura-light";
     text-align: start; }
@@ -1496,22 +2154,19 @@ h1 {
     border: 1px solid #ffff6b;
     border-radius: 3px;
     padding: 5px 20px; }
-    .bonsomsMain button:hover {
-      background-color: #272727;
-      color: #ffff6b;
-      transition: .5s; }
 
 .iconsBonsoms {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto;
   grid-template-rows: auto auto;
   background-color: #3a3a3a;
-  padding: 20px 100px;
+  padding: 20px;
   justify-content: space-around;
   gap: 20px; }
   .iconsBonsoms img {
-    height: 70px;
+    height: 40px;
     width: auto;
+    display: flex;
     filter: invert(80%) sepia(11%) saturate(1915%) hue-rotate(24deg) brightness(129%) contrast(103%); }
   .iconsBonsoms p {
     color: #f6f6f6;
@@ -1520,16 +2175,16 @@ h1 {
     font-size: .9rem; }
   .iconsBonsoms__text p {
     color: #e7e7e7;
-    padding: 10px 150px;
+    padding: 0 20px;
     font-family: "futura-light"; }
   .iconsBonsoms__text button {
     color: #ffff6b;
     border: 1px solid #ffff6b;
-    margin-bottom: 50px; }
+    margin-bottom: 30px; }
 
 .commonSpace {
   display: flex;
-  flex-direction: row;
+  flex-direction: column-reverse;
   padding-top: 50px;
   background-color: #272727;
   align-items: center; }
@@ -1537,26 +2192,26 @@ h1 {
     text-decoration: none; }
   .commonSpace p {
     text-align: start;
-    padding: 0 100px 0 20px;
+    padding: 0 20px;
     color: #e7e7e7; }
   .commonSpace h3 {
     font-family: "futura-bold";
     letter-spacing: 3px;
-    text-align: center;
+    text-align: start;
     padding-left: 20px;
     color: #ffff6b;
-    padding-right: 100px;
     font-size: 3.2rem; }
   .commonSpace picture {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     justify-content: start;
-    padding: 0 20px 50px 100px;
-    gap: 10px; }
+    padding: 20px 0;
+    gap: 5px;
+    width: 100%; }
     .commonSpace picture img {
-      height: 200px;
-      width: 300px;
+      height: 120px;
+      width: 180px;
       border-radius: 3px;
       cursor: pointer;
       filter: brightness(0.6); }
@@ -1569,14 +2224,14 @@ h1 {
       cursor: pointer; }
       .commonSpace picture div h4 {
         color: #ffff6b;
-        padding-top: 80px;
+        padding-top: 45px;
         font-family: "futura-bold";
         font-size: 1.5rem;
         letter-spacing: 3px; }
 
 .room1Bonsoms {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column-reverse;
   padding-top: 50px;
   background-color: #3a3a3a;
   align-items: center; }
@@ -1584,26 +2239,26 @@ h1 {
     text-decoration: none; }
   .room1Bonsoms p {
     text-align: start;
-    padding: 0 20px 0 100px;
+    padding: 0 20px;
     color: #e7e7e7; }
   .room1Bonsoms h3 {
     font-family: "futura-bold";
     letter-spacing: 3px;
-    text-align: center;
-    padding-left: 100px;
+    text-align: start;
+    padding-left: 20px;
     color: #ffff6b;
-    padding-right: 100px;
     font-size: 3.2rem; }
   .room1Bonsoms picture {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     justify-content: start;
-    padding: 0 100px 50px 20px;
-    gap: 10px; }
+    padding: 20px 0;
+    gap: 5px;
+    width: 100%; }
     .room1Bonsoms picture img {
-      height: 200px;
-      width: 300px;
+      height: 120px;
+      width: 180px;
       border-radius: 3px;
       cursor: pointer;
       filter: brightness(0.6); }
@@ -1616,7 +2271,7 @@ h1 {
       cursor: pointer; }
       .room1Bonsoms picture div h4 {
         color: #ffff6b;
-        padding-top: 80px;
+        padding-top: 45px;
         font-family: "futura-bold";
         font-size: 1.5rem;
         letter-spacing: 3px; }
@@ -1627,15 +2282,11 @@ h1 {
     padding: 5px 10px;
     font-size: 1rem;
     letter-spacing: 3px;
-    margin-top: 20px;
-    margin-left: 20px; }
-    .room1Bonsoms button:hover {
-      background-color: #272727;
-      color: #ffff6b; }
+    margin-top: 20px; }
 
 .room2Bonsoms {
   display: flex;
-  flex-direction: row;
+  flex-direction: column-reverse;
   padding-top: 50px;
   background-color: #272727;
   align-items: center; }
@@ -1643,26 +2294,26 @@ h1 {
     text-decoration: none; }
   .room2Bonsoms p {
     text-align: start;
-    padding: 0 100px 0 20px;
+    padding: 0 20px;
     color: #e7e7e7; }
   .room2Bonsoms h3 {
     font-family: "futura-bold";
     letter-spacing: 3px;
-    text-align: center;
+    text-align: start;
     padding-left: 20px;
     color: #ffff6b;
-    padding-right: 100px;
     font-size: 3.2rem; }
   .room2Bonsoms picture {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     justify-content: start;
-    padding: 0 20px 50px 100px;
-    gap: 10px; }
+    padding: 20px 0;
+    gap: 5px;
+    width: 100%; }
     .room2Bonsoms picture img {
-      height: 200px;
-      width: 300px;
+      height: 120px;
+      width: 180px;
       border-radius: 3px;
       cursor: pointer;
       filter: brightness(0.6); }
@@ -1675,7 +2326,7 @@ h1 {
       cursor: pointer; }
       .room2Bonsoms picture div h4 {
         color: #ffff6b;
-        padding-top: 80px;
+        padding-top: 45px;
         font-family: "futura-bold";
         font-size: 1.5rem;
         letter-spacing: 3px; }
@@ -1686,15 +2337,11 @@ h1 {
     padding: 5px 10px;
     font-size: 1rem;
     letter-spacing: 3px;
-    margin-top: 20px;
-    margin-right: 70px; }
-    .room2Bonsoms button:hover {
-      background-color: #3a3a3a;
-      color: #ffff6b; }
+    margin-top: 20px; }
 
 .room3Bonsoms {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column-reverse;
   padding-top: 50px;
   background-color: #3a3a3a;
   align-items: center; }
@@ -1702,26 +2349,26 @@ h1 {
     text-decoration: none; }
   .room3Bonsoms p {
     text-align: start;
-    padding: 0 20px 0 100px;
+    padding: 0 20px;
     color: #e7e7e7; }
   .room3Bonsoms h3 {
     font-family: "futura-bold";
     letter-spacing: 3px;
-    text-align: center;
-    padding-left: 100px;
+    text-align: start;
+    padding-left: 20px;
     color: #ffff6b;
-    padding-right: 100px;
     font-size: 3.2rem; }
   .room3Bonsoms picture {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     justify-content: start;
-    padding: 0 100px 50px 20px;
-    gap: 10px; }
+    padding: 20px 0;
+    gap: 5px;
+    width: 100%; }
     .room3Bonsoms picture img {
-      height: 200px;
-      width: 300px;
+      height: 120px;
+      width: 180px;
       border-radius: 3px;
       cursor: pointer;
       filter: brightness(0.6); }
@@ -1734,7 +2381,7 @@ h1 {
       cursor: pointer; }
       .room3Bonsoms picture div h4 {
         color: #ffff6b;
-        padding-top: 80px;
+        padding-top: 45px;
         font-family: "futura-bold";
         font-size: 1.5rem;
         letter-spacing: 3px; }
@@ -1745,15 +2392,11 @@ h1 {
     padding: 5px 10px;
     font-size: 1rem;
     letter-spacing: 3px;
-    margin-top: 20px;
-    margin-left: 20px; }
-    .room3Bonsoms button:hover {
-      background-color: #272727;
-      color: #ffff6b; }
+    margin-top: 20px; }
 
 .room4Bonsoms {
   display: flex;
-  flex-direction: row;
+  flex-direction: column-reverse;
   padding-top: 50px;
   background-color: #272727;
   align-items: center; }
@@ -1761,26 +2404,26 @@ h1 {
     text-decoration: none; }
   .room4Bonsoms p {
     text-align: start;
-    padding: 0 100px 0 20px;
+    padding: 0 20px;
     color: #e7e7e7; }
   .room4Bonsoms h3 {
     font-family: "futura-bold";
     letter-spacing: 3px;
-    text-align: center;
+    text-align: start;
     padding-left: 20px;
     color: #ffff6b;
-    padding-right: 100px;
     font-size: 3.2rem; }
   .room4Bonsoms picture {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     justify-content: start;
-    padding: 0 20px 50px 100px;
-    gap: 10px; }
+    padding: 20px 0;
+    gap: 5px;
+    width: 100%; }
     .room4Bonsoms picture img {
-      height: 200px;
-      width: 300px;
+      height: 120px;
+      width: 180px;
       border-radius: 3px;
       cursor: pointer;
       filter: brightness(0.6); }
@@ -1793,7 +2436,7 @@ h1 {
       cursor: pointer; }
       .room4Bonsoms picture div h4 {
         color: #ffff6b;
-        padding-top: 80px;
+        padding-top: 45px;
         font-family: "futura-bold";
         font-size: 1.5rem;
         letter-spacing: 3px; }
@@ -1804,15 +2447,11 @@ h1 {
     padding: 5px 10px;
     font-size: 1rem;
     letter-spacing: 3px;
-    margin-top: 20px;
-    margin-right: 70px; }
-    .room4Bonsoms button:hover {
-      background-color: #3a3a3a;
-      color: #ffff6b; }
+    margin-top: 20px; }
 
 .room5Bonsoms {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column-reverse;
   padding-top: 50px;
   background-color: #3a3a3a;
   align-items: center; }
@@ -1820,26 +2459,26 @@ h1 {
     text-decoration: none; }
   .room5Bonsoms p {
     text-align: start;
-    padding: 0 20px 0 100px;
+    padding: 0 20px;
     color: #e7e7e7; }
   .room5Bonsoms h3 {
     font-family: "futura-bold";
     letter-spacing: 3px;
-    text-align: center;
-    padding-left: 100px;
+    text-align: start;
+    padding-left: 20px;
     color: #ffff6b;
-    padding-right: 100px;
     font-size: 3.2rem; }
   .room5Bonsoms picture {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     justify-content: start;
-    padding: 0 100px 50px 20px;
-    gap: 10px; }
+    padding: 20px 0;
+    gap: 5px;
+    width: 100%; }
     .room5Bonsoms picture img {
-      height: 200px;
-      width: 300px;
+      height: 120px;
+      width: 180px;
       border-radius: 3px;
       cursor: pointer;
       filter: brightness(0.6); }
@@ -1852,7 +2491,7 @@ h1 {
       cursor: pointer; }
       .room5Bonsoms picture div h4 {
         color: #ffff6b;
-        padding-top: 80px;
+        padding-top: 45px;
         font-family: "futura-bold";
         font-size: 1.5rem;
         letter-spacing: 3px; }
@@ -1863,15 +2502,11 @@ h1 {
     padding: 5px 10px;
     font-size: 1rem;
     letter-spacing: 3px;
-    margin-top: 20px;
-    margin-left: 20px; }
-    .room5Bonsoms button:hover {
-      background-color: #272727;
-      color: #ffff6b; }
+    margin-top: 20px; }
 
 .room6Bonsoms {
   display: flex;
-  flex-direction: row;
+  flex-direction: column-reverse;
   padding-top: 50px;
   background-color: #272727;
   align-items: center; }
@@ -1879,26 +2514,26 @@ h1 {
     text-decoration: none; }
   .room6Bonsoms p {
     text-align: start;
-    padding: 0 100px 0 20px;
+    padding: 0 20px;
     color: #e7e7e7; }
   .room6Bonsoms h3 {
     font-family: "futura-bold";
     letter-spacing: 3px;
-    text-align: center;
+    text-align: start;
     padding-left: 20px;
     color: #ffff6b;
-    padding-right: 100px;
     font-size: 3.2rem; }
   .room6Bonsoms picture {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     justify-content: start;
-    padding: 0 20px 50px 100px;
-    gap: 10px; }
+    padding: 20px 0;
+    gap: 5px;
+    width: 100%; }
     .room6Bonsoms picture img {
-      height: 200px;
-      width: 300px;
+      height: 120px;
+      width: 180px;
       border-radius: 3px;
       cursor: pointer;
       filter: brightness(0.6); }
@@ -1911,7 +2546,7 @@ h1 {
       cursor: pointer; }
       .room6Bonsoms picture div h4 {
         color: #ffff6b;
-        padding-top: 80px;
+        padding-top: 45px;
         font-family: "futura-bold";
         font-size: 1.5rem;
         letter-spacing: 3px; }
@@ -1922,15 +2557,11 @@ h1 {
     padding: 5px 10px;
     font-size: 1rem;
     letter-spacing: 3px;
-    margin-top: 20px;
-    margin-right: 70px; }
-    .room6Bonsoms button:hover {
-      background-color: #3a3a3a;
-      color: #ffff6b; }
+    margin-top: 20px; }
 
 .room7Bonsoms {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column-reverse;
   padding-top: 50px;
   background-color: #3a3a3a;
   align-items: center; }
@@ -1938,26 +2569,26 @@ h1 {
     text-decoration: none; }
   .room7Bonsoms p {
     text-align: start;
-    padding: 0 20px 0 100px;
+    padding: 0 20px;
     color: #e7e7e7; }
   .room7Bonsoms h3 {
     font-family: "futura-bold";
     letter-spacing: 3px;
-    text-align: center;
-    padding-left: 100px;
+    text-align: start;
+    padding-left: 20px;
     color: #ffff6b;
-    padding-right: 100px;
     font-size: 3.2rem; }
   .room7Bonsoms picture {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     justify-content: start;
-    padding: 0 100px 50px 20px;
-    gap: 10px; }
+    padding: 20px 0;
+    gap: 5px;
+    width: 100%; }
     .room7Bonsoms picture img {
-      height: 200px;
-      width: 300px;
+      height: 120px;
+      width: 180px;
       border-radius: 3px;
       cursor: pointer;
       filter: brightness(0.6); }
@@ -1970,7 +2601,7 @@ h1 {
       cursor: pointer; }
       .room7Bonsoms picture div h4 {
         color: #ffff6b;
-        padding-top: 80px;
+        padding-top: 45px;
         font-family: "futura-bold";
         font-size: 1.5rem;
         letter-spacing: 3px; }
@@ -1981,15 +2612,11 @@ h1 {
     padding: 5px 10px;
     font-size: 1rem;
     letter-spacing: 3px;
-    margin-top: 20px;
-    margin-left: 20px; }
-    .room7Bonsoms button:hover {
-      background-color: #272727;
-      color: #ffff6b; }
+    margin-top: 20px; }
 
 .room8Bonsoms {
   display: flex;
-  flex-direction: row;
+  flex-direction: column-reverse;
   padding-top: 50px;
   background-color: #272727;
   align-items: center; }
@@ -1997,26 +2624,26 @@ h1 {
     text-decoration: none; }
   .room8Bonsoms p {
     text-align: start;
-    padding: 0 100px 0 20px;
+    padding: 0 20px;
     color: #e7e7e7; }
   .room8Bonsoms h3 {
     font-family: "futura-bold";
     letter-spacing: 3px;
-    text-align: center;
+    text-align: start;
     padding-left: 20px;
     color: #ffff6b;
-    padding-right: 100px;
     font-size: 3.2rem; }
   .room8Bonsoms picture {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     justify-content: start;
-    padding: 0 20px 50px 100px;
-    gap: 10px; }
+    padding: 20px 0;
+    gap: 5px;
+    width: 100%; }
     .room8Bonsoms picture img {
-      height: 200px;
-      width: 300px;
+      height: 120px;
+      width: 180px;
       border-radius: 3px;
       cursor: pointer;
       filter: brightness(0.6); }
@@ -2029,7 +2656,7 @@ h1 {
       cursor: pointer; }
       .room8Bonsoms picture div h4 {
         color: #ffff6b;
-        padding-top: 80px;
+        padding-top: 45px;
         font-family: "futura-bold";
         font-size: 1.5rem;
         letter-spacing: 3px; }
@@ -2040,15 +2667,11 @@ h1 {
     padding: 5px 10px;
     font-size: 1rem;
     letter-spacing: 3px;
-    margin-top: 20px;
-    margin-right: 70px; }
-    .room8Bonsoms button:hover {
-      background-color: #3a3a3a;
-      color: #ffff6b; }
+    margin-top: 20px; }
 
 .room9Bonsoms {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column-reverse;
   padding-top: 50px;
   background-color: #3a3a3a;
   align-items: center; }
@@ -2056,26 +2679,26 @@ h1 {
     text-decoration: none; }
   .room9Bonsoms p {
     text-align: start;
-    padding: 0 20px 0 100px;
+    padding: 0 20px;
     color: #e7e7e7; }
   .room9Bonsoms h3 {
     font-family: "futura-bold";
     letter-spacing: 3px;
-    text-align: center;
-    padding-left: 100px;
+    text-align: start;
+    padding-left: 20px;
     color: #ffff6b;
-    padding-right: 100px;
     font-size: 3.2rem; }
   .room9Bonsoms picture {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     justify-content: start;
-    padding: 0 100px 50px 20px;
-    gap: 10px; }
+    padding: 20px 0;
+    gap: 5px;
+    width: 100%; }
     .room9Bonsoms picture img {
-      height: 200px;
-      width: 300px;
+      height: 120px;
+      width: 180px;
       border-radius: 3px;
       cursor: pointer;
       filter: brightness(0.6); }
@@ -2088,7 +2711,7 @@ h1 {
       cursor: pointer; }
       .room9Bonsoms picture div h4 {
         color: #ffff6b;
-        padding-top: 80px;
+        padding-top: 45px;
         font-family: "futura-bold";
         font-size: 1.5rem;
         letter-spacing: 3px; }
@@ -2099,11 +2722,780 @@ h1 {
     padding: 5px 10px;
     font-size: 1rem;
     letter-spacing: 3px;
-    margin-top: 20px;
-    margin-left: 20px; }
-    .room9Bonsoms button:hover {
-      background-color: #272727;
+    margin-top: 20px; }
+
+@media (min-width: 992px) {
+  .bonsomsMain {
+    height: max-content;
+    background-color: #3a3a3a;
+    padding-top: 120px;
+    text-align: center; }
+    .bonsomsMain h1 {
+      font-family: "futura-bold";
+      font-size: 5rem;
       color: #ffff6b; }
+    .bonsomsMain h2 {
+      font-family: "futura-medium";
+      font-size: 2.2rem;
+      letter-spacing: 2px;
+      color: #f6f6f6; }
+    .bonsomsMain__separador {
+      border-top: 1px solid #ffff6b;
+      height: 2px;
+      margin: 0 300px 20px; }
+    .bonsomsMain p {
+      font-family: "futura-light";
+      text-align: start; }
+    .bonsomsMain button {
+      letter-spacing: .2rem;
+      font-family: "futura-light";
+      font-size: 1.2rem;
+      background: none;
+      color: #ffff6b;
+      border: 1px solid #ffff6b;
+      border-radius: 3px;
+      padding: 5px 20px; }
+      .bonsomsMain button:hover {
+        background-color: #272727;
+        color: #ffff6b;
+        transition: .5s; }
+  .iconsBonsoms {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    background-color: #3a3a3a;
+    padding: 20px 100px;
+    justify-content: space-around;
+    gap: 20px; }
+    .iconsBonsoms img {
+      height: 70px;
+      width: auto;
+      filter: invert(80%) sepia(11%) saturate(1915%) hue-rotate(24deg) brightness(129%) contrast(103%); }
+    .iconsBonsoms p {
+      color: #f6f6f6;
+      font-family: "futura-light";
+      letter-spacing: 2px;
+      font-size: .9rem; }
+    .iconsBonsoms__text p {
+      color: #e7e7e7;
+      padding: 10px 150px;
+      font-family: "futura-light"; }
+    .iconsBonsoms__text button {
+      color: #ffff6b;
+      border: 1px solid #ffff6b;
+      margin-bottom: 50px; }
+  .commonSpace {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    background-color: #272727;
+    align-items: center; }
+    .commonSpace a {
+      text-decoration: none; }
+    .commonSpace p {
+      text-align: start;
+      padding: 0 100px 0 20px;
+      color: #e7e7e7; }
+    .commonSpace h3 {
+      font-family: "futura-bold";
+      letter-spacing: 3px;
+      text-align: center;
+      padding-left: 20px;
+      color: #ffff6b;
+      padding-right: 100px;
+      font-size: 3.2rem; }
+    .commonSpace picture {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto auto;
+      justify-content: start;
+      padding: 0 20px 50px 100px;
+      gap: 10px; }
+      .commonSpace picture img {
+        height: 200px;
+        width: 300px;
+        border-radius: 3px;
+        cursor: pointer;
+        filter: brightness(0.6); }
+        .commonSpace picture img:nth-child(4) {
+          filter: brightness(0.2); }
+      .commonSpace picture div {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/bonsoms/laundry/laundry_1.jpg);
+        background-size: cover;
+        border-radius: 3px;
+        cursor: pointer; }
+        .commonSpace picture div h4 {
+          color: #ffff6b;
+          padding-top: 80px;
+          font-family: "futura-bold";
+          font-size: 1.5rem;
+          letter-spacing: 3px; }
+  .room1Bonsoms {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 50px;
+    background-color: #3a3a3a;
+    align-items: center; }
+    .room1Bonsoms a {
+      text-decoration: none; }
+    .room1Bonsoms p {
+      text-align: start;
+      padding: 0 20px 0 100px;
+      color: #e7e7e7; }
+    .room1Bonsoms h3 {
+      font-family: "futura-bold";
+      letter-spacing: 3px;
+      text-align: center;
+      padding-left: 100px;
+      color: #ffff6b;
+      padding-right: 100px;
+      font-size: 3.2rem; }
+    .room1Bonsoms picture {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto auto;
+      justify-content: start;
+      padding: 0 100px 50px 20px;
+      gap: 10px; }
+      .room1Bonsoms picture img {
+        height: 200px;
+        width: 300px;
+        border-radius: 3px;
+        cursor: pointer;
+        filter: brightness(0.6); }
+        .room1Bonsoms picture img:nth-child(4) {
+          filter: brightness(0.2); }
+      .room1Bonsoms picture div {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/bonsoms/room1Bonsoms/room1_4.jpg);
+        background-size: cover;
+        border-radius: 3px;
+        cursor: pointer; }
+        .room1Bonsoms picture div h4 {
+          color: #ffff6b;
+          padding-top: 80px;
+          font-family: "futura-bold";
+          font-size: 1.5rem;
+          letter-spacing: 3px; }
+    .room1Bonsoms button {
+      color: #ffff6b;
+      border: solid 1px #ffff6b;
+      border-radius: 3px;
+      padding: 5px 10px;
+      font-size: 1rem;
+      letter-spacing: 3px;
+      margin-top: 20px;
+      margin-left: 20px; }
+      .room1Bonsoms button:hover {
+        background-color: #272727;
+        color: #ffff6b; }
+  .room2Bonsoms {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    background-color: #272727;
+    align-items: center; }
+    .room2Bonsoms a {
+      text-decoration: none; }
+    .room2Bonsoms p {
+      text-align: start;
+      padding: 0 100px 0 20px;
+      color: #e7e7e7; }
+    .room2Bonsoms h3 {
+      font-family: "futura-bold";
+      letter-spacing: 3px;
+      text-align: center;
+      padding-left: 20px;
+      color: #ffff6b;
+      padding-right: 100px;
+      font-size: 3.2rem; }
+    .room2Bonsoms picture {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto auto;
+      justify-content: start;
+      padding: 0 20px 50px 100px;
+      gap: 10px; }
+      .room2Bonsoms picture img {
+        height: 200px;
+        width: 300px;
+        border-radius: 3px;
+        cursor: pointer;
+        filter: brightness(0.6); }
+        .room2Bonsoms picture img:nth-child(4) {
+          filter: brightness(0.2); }
+      .room2Bonsoms picture div {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/bonsoms/room2Bonsoms/room2_4.jpg);
+        background-size: cover;
+        border-radius: 3px;
+        cursor: pointer; }
+        .room2Bonsoms picture div h4 {
+          color: #ffff6b;
+          padding-top: 80px;
+          font-family: "futura-bold";
+          font-size: 1.5rem;
+          letter-spacing: 3px; }
+    .room2Bonsoms button {
+      color: #ffff6b;
+      border: solid 1px #ffff6b;
+      border-radius: 3px;
+      padding: 5px 10px;
+      font-size: 1rem;
+      letter-spacing: 3px;
+      margin-top: 20px;
+      margin-right: 70px; }
+      .room2Bonsoms button:hover {
+        background-color: #3a3a3a;
+        color: #ffff6b; }
+  .room3Bonsoms {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 50px;
+    background-color: #3a3a3a;
+    align-items: center; }
+    .room3Bonsoms a {
+      text-decoration: none; }
+    .room3Bonsoms p {
+      text-align: start;
+      padding: 0 20px 0 100px;
+      color: #e7e7e7; }
+    .room3Bonsoms h3 {
+      font-family: "futura-bold";
+      letter-spacing: 3px;
+      text-align: center;
+      padding-left: 100px;
+      color: #ffff6b;
+      padding-right: 100px;
+      font-size: 3.2rem; }
+    .room3Bonsoms picture {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto auto;
+      justify-content: start;
+      padding: 0 100px 50px 20px;
+      gap: 10px; }
+      .room3Bonsoms picture img {
+        height: 200px;
+        width: 300px;
+        border-radius: 3px;
+        cursor: pointer;
+        filter: brightness(0.6); }
+        .room3Bonsoms picture img:nth-child(4) {
+          filter: brightness(0.2); }
+      .room3Bonsoms picture div {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/bonsoms/room3Bonsoms/room3_4.jpg);
+        background-size: cover;
+        border-radius: 3px;
+        cursor: pointer; }
+        .room3Bonsoms picture div h4 {
+          color: #ffff6b;
+          padding-top: 80px;
+          font-family: "futura-bold";
+          font-size: 1.5rem;
+          letter-spacing: 3px; }
+    .room3Bonsoms button {
+      color: #ffff6b;
+      border: solid 1px #ffff6b;
+      border-radius: 3px;
+      padding: 5px 10px;
+      font-size: 1rem;
+      letter-spacing: 3px;
+      margin-top: 20px;
+      margin-left: 20px; }
+      .room3Bonsoms button:hover {
+        background-color: #272727;
+        color: #ffff6b; }
+  .room4Bonsoms {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    background-color: #272727;
+    align-items: center; }
+    .room4Bonsoms a {
+      text-decoration: none; }
+    .room4Bonsoms p {
+      text-align: start;
+      padding: 0 100px 0 20px;
+      color: #e7e7e7; }
+    .room4Bonsoms h3 {
+      font-family: "futura-bold";
+      letter-spacing: 3px;
+      text-align: center;
+      padding-left: 20px;
+      color: #ffff6b;
+      padding-right: 100px;
+      font-size: 3.2rem; }
+    .room4Bonsoms picture {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto auto;
+      justify-content: start;
+      padding: 0 20px 50px 100px;
+      gap: 10px; }
+      .room4Bonsoms picture img {
+        height: 200px;
+        width: 300px;
+        border-radius: 3px;
+        cursor: pointer;
+        filter: brightness(0.6); }
+        .room4Bonsoms picture img:nth-child(4) {
+          filter: brightness(0.2); }
+      .room4Bonsoms picture div {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/bonsoms/room4Bonsoms/room4_4.jpg);
+        background-size: cover;
+        border-radius: 3px;
+        cursor: pointer; }
+        .room4Bonsoms picture div h4 {
+          color: #ffff6b;
+          padding-top: 80px;
+          font-family: "futura-bold";
+          font-size: 1.5rem;
+          letter-spacing: 3px; }
+    .room4Bonsoms button {
+      color: #ffff6b;
+      border: solid 1px #ffff6b;
+      border-radius: 3px;
+      padding: 5px 10px;
+      font-size: 1rem;
+      letter-spacing: 3px;
+      margin-top: 20px;
+      margin-right: 70px; }
+      .room4Bonsoms button:hover {
+        background-color: #3a3a3a;
+        color: #ffff6b; }
+  .room5Bonsoms {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 50px;
+    background-color: #3a3a3a;
+    align-items: center; }
+    .room5Bonsoms a {
+      text-decoration: none; }
+    .room5Bonsoms p {
+      text-align: start;
+      padding: 0 20px 0 100px;
+      color: #e7e7e7; }
+    .room5Bonsoms h3 {
+      font-family: "futura-bold";
+      letter-spacing: 3px;
+      text-align: center;
+      padding-left: 100px;
+      color: #ffff6b;
+      padding-right: 100px;
+      font-size: 3.2rem; }
+    .room5Bonsoms picture {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto auto;
+      justify-content: start;
+      padding: 0 100px 50px 20px;
+      gap: 10px; }
+      .room5Bonsoms picture img {
+        height: 200px;
+        width: 300px;
+        border-radius: 3px;
+        cursor: pointer;
+        filter: brightness(0.6); }
+        .room5Bonsoms picture img:nth-child(4) {
+          filter: brightness(0.2); }
+      .room5Bonsoms picture div {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/bonsoms/room5Bonsoms/room5_5.jpg);
+        background-size: cover;
+        border-radius: 3px;
+        cursor: pointer; }
+        .room5Bonsoms picture div h4 {
+          color: #ffff6b;
+          padding-top: 80px;
+          font-family: "futura-bold";
+          font-size: 1.5rem;
+          letter-spacing: 3px; }
+    .room5Bonsoms button {
+      color: #ffff6b;
+      border: solid 1px #ffff6b;
+      border-radius: 3px;
+      padding: 5px 10px;
+      font-size: 1rem;
+      letter-spacing: 3px;
+      margin-top: 20px;
+      margin-left: 20px; }
+      .room5Bonsoms button:hover {
+        background-color: #272727;
+        color: #ffff6b; }
+  .room6Bonsoms {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    background-color: #272727;
+    align-items: center; }
+    .room6Bonsoms a {
+      text-decoration: none; }
+    .room6Bonsoms p {
+      text-align: start;
+      padding: 0 100px 0 20px;
+      color: #e7e7e7; }
+    .room6Bonsoms h3 {
+      font-family: "futura-bold";
+      letter-spacing: 3px;
+      text-align: center;
+      padding-left: 20px;
+      color: #ffff6b;
+      padding-right: 100px;
+      font-size: 3.2rem; }
+    .room6Bonsoms picture {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto auto;
+      justify-content: start;
+      padding: 0 20px 50px 100px;
+      gap: 10px; }
+      .room6Bonsoms picture img {
+        height: 200px;
+        width: 300px;
+        border-radius: 3px;
+        cursor: pointer;
+        filter: brightness(0.6); }
+        .room6Bonsoms picture img:nth-child(4) {
+          filter: brightness(0.2); }
+      .room6Bonsoms picture div {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/bonsoms/room6Bonsoms/room6_4.jpg);
+        background-size: cover;
+        border-radius: 3px;
+        cursor: pointer; }
+        .room6Bonsoms picture div h4 {
+          color: #ffff6b;
+          padding-top: 80px;
+          font-family: "futura-bold";
+          font-size: 1.5rem;
+          letter-spacing: 3px; }
+    .room6Bonsoms button {
+      color: #ffff6b;
+      border: solid 1px #ffff6b;
+      border-radius: 3px;
+      padding: 5px 10px;
+      font-size: 1rem;
+      letter-spacing: 3px;
+      margin-top: 20px;
+      margin-right: 70px; }
+      .room6Bonsoms button:hover {
+        background-color: #3a3a3a;
+        color: #ffff6b; }
+  .room7Bonsoms {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 50px;
+    background-color: #3a3a3a;
+    align-items: center; }
+    .room7Bonsoms a {
+      text-decoration: none; }
+    .room7Bonsoms p {
+      text-align: start;
+      padding: 0 20px 0 100px;
+      color: #e7e7e7; }
+    .room7Bonsoms h3 {
+      font-family: "futura-bold";
+      letter-spacing: 3px;
+      text-align: center;
+      padding-left: 100px;
+      color: #ffff6b;
+      padding-right: 100px;
+      font-size: 3.2rem; }
+    .room7Bonsoms picture {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto auto;
+      justify-content: start;
+      padding: 0 100px 50px 20px;
+      gap: 10px; }
+      .room7Bonsoms picture img {
+        height: 200px;
+        width: 300px;
+        border-radius: 3px;
+        cursor: pointer;
+        filter: brightness(0.6); }
+        .room7Bonsoms picture img:nth-child(4) {
+          filter: brightness(0.2); }
+      .room7Bonsoms picture div {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/bonsoms/room7Bonsoms/room7_4.jpg);
+        background-size: cover;
+        border-radius: 3px;
+        cursor: pointer; }
+        .room7Bonsoms picture div h4 {
+          color: #ffff6b;
+          padding-top: 80px;
+          font-family: "futura-bold";
+          font-size: 1.5rem;
+          letter-spacing: 3px; }
+    .room7Bonsoms button {
+      color: #ffff6b;
+      border: solid 1px #ffff6b;
+      border-radius: 3px;
+      padding: 5px 10px;
+      font-size: 1rem;
+      letter-spacing: 3px;
+      margin-top: 20px;
+      margin-left: 20px; }
+      .room7Bonsoms button:hover {
+        background-color: #272727;
+        color: #ffff6b; }
+  .room8Bonsoms {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    background-color: #272727;
+    align-items: center; }
+    .room8Bonsoms a {
+      text-decoration: none; }
+    .room8Bonsoms p {
+      text-align: start;
+      padding: 0 100px 0 20px;
+      color: #e7e7e7; }
+    .room8Bonsoms h3 {
+      font-family: "futura-bold";
+      letter-spacing: 3px;
+      text-align: center;
+      padding-left: 20px;
+      color: #ffff6b;
+      padding-right: 100px;
+      font-size: 3.2rem; }
+    .room8Bonsoms picture {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto auto;
+      justify-content: start;
+      padding: 0 20px 50px 100px;
+      gap: 10px; }
+      .room8Bonsoms picture img {
+        height: 200px;
+        width: 300px;
+        border-radius: 3px;
+        cursor: pointer;
+        filter: brightness(0.6); }
+        .room8Bonsoms picture img:nth-child(4) {
+          filter: brightness(0.2); }
+      .room8Bonsoms picture div {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/bonsoms/room8Bonsoms/room8_2.jpg);
+        background-size: cover;
+        border-radius: 3px;
+        cursor: pointer; }
+        .room8Bonsoms picture div h4 {
+          color: #ffff6b;
+          padding-top: 80px;
+          font-family: "futura-bold";
+          font-size: 1.5rem;
+          letter-spacing: 3px; }
+    .room8Bonsoms button {
+      color: #ffff6b;
+      border: solid 1px #ffff6b;
+      border-radius: 3px;
+      padding: 5px 10px;
+      font-size: 1rem;
+      letter-spacing: 3px;
+      margin-top: 20px;
+      margin-right: 70px; }
+      .room8Bonsoms button:hover {
+        background-color: #3a3a3a;
+        color: #ffff6b; }
+  .room9Bonsoms {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 50px;
+    background-color: #3a3a3a;
+    align-items: center; }
+    .room9Bonsoms a {
+      text-decoration: none; }
+    .room9Bonsoms p {
+      text-align: start;
+      padding: 0 20px 0 100px;
+      color: #e7e7e7; }
+    .room9Bonsoms h3 {
+      font-family: "futura-bold";
+      letter-spacing: 3px;
+      text-align: center;
+      padding-left: 100px;
+      color: #ffff6b;
+      padding-right: 100px;
+      font-size: 3.2rem; }
+    .room9Bonsoms picture {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto auto;
+      justify-content: start;
+      padding: 0 100px 50px 20px;
+      gap: 10px; }
+      .room9Bonsoms picture img {
+        height: 200px;
+        width: 300px;
+        border-radius: 3px;
+        cursor: pointer;
+        filter: brightness(0.6); }
+        .room9Bonsoms picture img:nth-child(4) {
+          filter: brightness(0.2); }
+      .room9Bonsoms picture div {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/bonsoms/room9Bonsoms/room9_4.jpg);
+        background-size: cover;
+        border-radius: 3px;
+        cursor: pointer; }
+        .room9Bonsoms picture div h4 {
+          color: #ffff6b;
+          padding-top: 80px;
+          font-family: "futura-bold";
+          font-size: 1.5rem;
+          letter-spacing: 3px; }
+    .room9Bonsoms button {
+      color: #ffff6b;
+      border: solid 1px #ffff6b;
+      border-radius: 3px;
+      padding: 5px 10px;
+      font-size: 1rem;
+      letter-spacing: 3px;
+      margin-top: 20px;
+      margin-left: 20px; }
+      .room9Bonsoms button:hover {
+        background-color: #272727;
+        color: #ffff6b; } }
+
+.mainGalleries {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url(/img/backgroundGallery.png);
+  background-size: cover;
+  background-position: top;
+  padding: 120px 20px 50px;
+  height: 100%;
+  width: 100%; }
+  .mainGalleries h1 {
+    color: #272727;
+    font-family: "futura-bold";
+    font-size: 3.5rem;
+    text-align: center; }
+  .mainGalleries__separador {
+    border-top: 1px solid #272727;
+    height: 2px;
+    margin: 0 30px 20px; }
+
+.galleriesContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 20px;
+  text-align: center; }
+  .galleriesContainer__rossello {
+    height: 250px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(/img/portada1.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 3px; }
+    .galleriesContainer__rossello h2 {
+      font-family: "futura-bold";
+      font-size: 3.5rem;
+      color: #f6f6f6;
+      text-align: center; }
+    .galleriesContainer__rossello button {
+      font-family: "futura-medium";
+      color: #ffff6b;
+      border: 1px solid #ffff6b;
+      padding: 5px 10px;
+      border-radius: 3px; }
+      .galleriesContainer__rossello button:hover {
+        background-color: #ffff6b;
+        color: #272727;
+        transition: .2s; }
+  .galleriesContainer__bonsoms {
+    height: 250px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(/img/bonsoms/livingRoom/livingRoom_1.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 3px; }
+    .galleriesContainer__bonsoms h2 {
+      font-family: "futura-bold";
+      font-size: 3.5rem;
+      color: #f6f6f6;
+      text-align: center; }
+    .galleriesContainer__bonsoms button {
+      font-family: "futura-medium";
+      color: #ffff6b;
+      border: 1px solid #ffff6b;
+      padding: 5px 10px;
+      border-radius: 3px; }
+      .galleriesContainer__bonsoms button:hover {
+        background-color: #ffff6b;
+        color: #272727;
+        transition: .2s; }
+
+@media (min-width: 992px) {
+  .mainGalleries {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url(/img/backgroundGallery.png);
+    background-size: cover;
+    padding-top: 120px;
+    height: 100vh; }
+    .mainGalleries h1 {
+      color: #272727;
+      font-family: "futura-bold";
+      font-size: 4.5rem;
+      text-align: center; }
+    .mainGalleries__separador {
+      border-top: 1px solid #272727;
+      height: 2px;
+      margin: 0 300px 20px; }
+  .galleriesContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 120px;
+    padding-top: 50px;
+    text-align: center; }
+    .galleriesContainer__rossello {
+      height: 350px;
+      width: 450px;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(/img/portada1.jpg);
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border-radius: 3px; }
+      .galleriesContainer__rossello h2 {
+        font-family: "futura-bold";
+        font-size: 3.5rem;
+        color: #f6f6f6;
+        text-align: center; }
+      .galleriesContainer__rossello button {
+        font-family: "futura-medium";
+        color: #ffff6b;
+        border: 1px solid #ffff6b;
+        padding: 5px 10px;
+        border-radius: 3px; }
+        .galleriesContainer__rossello button:hover {
+          background-color: #ffff6b;
+          color: #272727;
+          transition: .2s; }
+    .galleriesContainer__bonsoms {
+      height: 350px;
+      width: 450px;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(/img/bonsoms/livingRoom/livingRoom_1.jpg);
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border-radius: 3px; }
+      .galleriesContainer__bonsoms h2 {
+        font-family: "futura-bold";
+        font-size: 3.5rem;
+        color: #f6f6f6;
+        text-align: center; }
+      .galleriesContainer__bonsoms button {
+        font-family: "futura-medium";
+        color: #ffff6b;
+        border: 1px solid #ffff6b;
+        padding: 5px 10px;
+        border-radius: 3px; }
+        .galleriesContainer__bonsoms button:hover {
+          background-color: #ffff6b;
+          color: #272727;
+          transition: .2s; } }
 
 .mainGallery {
   padding-top: 120px;
@@ -2113,11 +3505,11 @@ h1 {
     color: #ffff6b;
     text-align: center;
     font-family: "futura-bold";
-    letter-spacing: 4px;
-    font-size: 3.5rem; }
+    font-size: 4.5rem;
+    line-height: 75px; }
   .mainGallery h2 {
     font-family: "futura-medium";
-    font-size: 2rem;
+    font-size: 1.8rem;
     letter-spacing: 2px;
     color: #e7e7e7;
     text-align: center; }
@@ -2129,19 +3521,18 @@ h1 {
   .mainGallery__separador {
     border-top: 1px solid #ffff6b;
     height: 2px;
-    margin: 0 300px; }
+    margin: 0 30px; }
 
 .cardsGalleryRossello {
   background-color: #272727;
   height: max-content;
-  padding-top: 50px; }
+  padding-top: 30px; }
   .cardsGalleryRossello h2 {
     color: #dbdbdb;
     text-align: center;
     font-family: "futura-bold";
     font-size: 2.8rem;
-    padding-top: 20px;
-    letter-spacing: 3px; }
+    padding-top: 20px; }
   .cardsGalleryRossello h3 {
     text-align: center;
     color: #ffff6b;
@@ -2150,24 +3541,24 @@ h1 {
   .cardsGalleryRossello__separador {
     border-top: 1px solid #ffff6b;
     height: 2px;
-    margin: 0 300px;
+    margin: 0 30px;
     padding-bottom: 30px; }
 
 .gallery__separador {
   border-top: 1px solid #dbdbdb;
   height: 2px;
-  margin: 0 600px; }
+  margin: 0 30px; }
 
 .galleryRossello {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto;
   justify-content: center;
-  gap: 15px;
+  gap: 5px;
   padding: 20px; }
   .galleryRossello img {
-    width: 300px;
-    height: 220px;
+    width: 120px;
+    height: 100px;
     cursor: pointer;
     image-rendering: optimizeSpeed; }
 
@@ -2197,8 +3588,8 @@ h1 {
   height: auto;
   padding-top: 50px; }
   #contenedor-interno img {
-    max-height: 75vh;
-    max-width: 80vw; }
+    max-height: 100vh;
+    max-width: 100vw; }
 
 button {
   cursor: pointer;
@@ -2209,24 +3600,150 @@ button {
   position: absolute;
   top: 12%;
   right: 5%;
-  border: 1px solid #272727;
   padding: 10px;
   border-radius: 100%;
-  background-color: #272727; }
+  background-color: rgba(0, 0, 0, 0.438); }
 
 #btn-retrocede {
   position: absolute;
-  top: 45%;
-  left: 10%; }
+  top: 50%;
+  left: 2%; }
+  #btn-retrocede img {
+    height: 40px;
+    width: 40px;
+    background-color: rgba(0, 0, 0, 0.438);
+    border-radius: 100%; }
 
 #btn-adelanta {
   position: absolute;
-  top: 45%;
-  right: 10%; }
+  top: 50%;
+  right: 2%; }
+  #btn-adelanta img {
+    height: 40px;
+    width: 40px;
+    background-color: rgba(0, 0, 0, 0.438);
+    border-radius: 100%; }
+
+@media (min-width: 992px) {
+  .mainGallery {
+    padding-top: 120px;
+    background-color: #272727;
+    height: max-content; }
+    .mainGallery h1 {
+      color: #ffff6b;
+      text-align: center;
+      font-family: "futura-bold";
+      letter-spacing: 4px;
+      font-size: 3.5rem; }
+    .mainGallery h2 {
+      font-family: "futura-medium";
+      font-size: 2rem;
+      letter-spacing: 2px;
+      color: #e7e7e7;
+      text-align: center; }
+    .mainGallery h3 {
+      text-align: center;
+      color: #ffff6b;
+      font-family: "futura-medium";
+      letter-spacing: 3px; }
+    .mainGallery__separador {
+      border-top: 1px solid #ffff6b;
+      height: 2px;
+      margin: 0 300px; }
+  .cardsGalleryRossello {
+    background-color: #272727;
+    height: max-content;
+    padding-top: 50px; }
+    .cardsGalleryRossello h2 {
+      color: #dbdbdb;
+      text-align: center;
+      font-family: "futura-bold";
+      font-size: 2.8rem;
+      padding-top: 20px;
+      letter-spacing: 3px; }
+    .cardsGalleryRossello h3 {
+      text-align: center;
+      color: #ffff6b;
+      font-family: "futura-medium";
+      letter-spacing: 3px; }
+    .cardsGalleryRossello__separador {
+      border-top: 1px solid #ffff6b;
+      height: 2px;
+      margin: 0 300px;
+      padding-bottom: 30px; }
+  .gallery__separador {
+    border-top: 1px solid #dbdbdb;
+    height: 2px;
+    margin: 0 600px; }
+  .galleryRossello {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px; }
+    .galleryRossello img {
+      width: 300px;
+      height: 220px;
+      cursor: pointer;
+      image-rendering: optimizeSpeed; }
+  #imagen-activa {
+    width: 100%;
+    height: auto; }
+  #contenedor-principal {
+    position: fixed;
+    margin-top: 20px;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.351);
+    backdrop-filter: blur(5px); }
+  #contenedor-interno {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    width: auto;
+    height: auto;
+    padding-top: 50px; }
+    #contenedor-interno img {
+      max-height: 85vh;
+      max-width: 90vw; }
+  button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none; }
+  #btn-cierra {
+    position: absolute;
+    top: 12%;
+    right: 5%;
+    padding: 10px;
+    border-radius: 100%; }
+  #btn-retrocede {
+    position: absolute;
+    top: 45%;
+    left: 5%; }
+    #btn-retrocede img {
+      height: 50px;
+      width: 50px;
+      border-radius: 100%; }
+  #btn-adelanta {
+    position: absolute;
+    top: 45%;
+    right: 5%; }
+    #btn-adelanta img {
+      height: 50px;
+      width: 50px;
+      border-radius: 100%; } }
 
 .faqsMain {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(/img/prueba.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(/img/colivingVibesNeon.jpg);
   background-size: cover;
+  background-position: center;
   background-attachment: fixed;
   height: max-content;
   padding-bottom: 40px; }
@@ -2235,28 +3752,28 @@ button {
     text-align: center;
     font-family: "futura-bold";
     font-size: 4.5rem;
+    line-height: 60px;
     color: #ffff6b; }
   .faqsMain h3 {
     text-align: start;
-    padding: 20px 300px;
     font-family: "futura-medium";
     font-size: 1.5rem;
     letter-spacing: 3px;
-    color: #e7e7e7; }
+    color: #e7e7e7;
+    padding: 20px; }
   .faqsMain h4 {
-    font-family: "futura-light";
-    font-size: 1.2rem;
-    letter-spacing: .3rem; }
+    font-family: "futura-bold";
+    font-size: 1rem; }
   .faqsMain p {
     font-family: "futura-light";
-    font-size: 1.1rem; }
+    font-size: 1; }
   .faqsMain__separador {
     border-top: 1px solid #ffff6b;
     height: 2px;
-    margin: 0 300px 20px; }
+    margin: 0 30px 20px; }
 
 #accordion-item1 {
-  margin: 10px 300px; }
+  margin: 10px; }
 
 #accordionButton {
   background-color: #f6f6f6;
@@ -2266,43 +3783,84 @@ button {
   background-color: #272727;
   color: #e7e7e7; }
 
+@media (min-width: 992px) {
+  .faqsMain {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(/img/colivingVibesNeon.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: max-content;
+    padding-bottom: 40px; }
+    .faqsMain h1 {
+      padding-top: 150px;
+      text-align: center;
+      font-family: "futura-bold";
+      font-size: 4.5rem;
+      color: #ffff6b; }
+    .faqsMain h3 {
+      text-align: start;
+      padding: 20px 300px;
+      font-family: "futura-medium";
+      font-size: 1.5rem;
+      letter-spacing: 3px;
+      color: #e7e7e7; }
+    .faqsMain h4 {
+      font-family: "futura-bold";
+      font-size: 1rem; }
+    .faqsMain p {
+      font-family: "futura-light";
+      font-size: 1; }
+    .faqsMain__separador {
+      border-top: 1px solid #ffff6b;
+      height: 2px;
+      margin: 0 300px 20px; }
+  #accordion-item1 {
+    margin: 10px 300px; }
+  #accordionButton {
+    background-color: #f6f6f6;
+    color: #272727; }
+  .accordion-body {
+    background-color: #272727;
+    color: #e7e7e7; } }
+
 .contactMain {
-  height: 100vh;
+  height: 100%;
+  width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/contactBackground2.webp);
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 110px 150px 25px;
+  padding: 120px 20px;
   display: flex;
+  flex-direction: column;
   justify-content: space-between; }
   .contactMain h1 {
     font-family: "futura-bold";
     font-size: 4.5rem;
-    text-align: start;
+    text-align: center;
     color: #272727; }
   .contactMain h2 {
     font-family: "futura-medium";
-    text-align: start; }
+    text-align: center; }
   .contactMain h3 {
     font-family: "futura-medium";
     font-size: 1.3rem;
-    font-weight: 300;
-    letter-spacing: .1rem; }
+    font-weight: 300; }
 
 .infoContact {
   background: none;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  gap: 15px;
-  width: 300px; }
+  justify-content: start;
+  gap: 15px; }
   .infoContact__separador {
     border-top: 1px solid #272727;
     height: 2px;
-    margin-right: 20px; }
+    margin: 0 50px;
+    padding-bottom: 15px; }
   .infoContact__redesSociales {
     display: flex;
     justify-content: start;
-    gap: 40px; }
+    gap: 40px;
+    padding-bottom: 30px; }
     .infoContact__redesSociales img:nth-child(1):hover {
       filter: invert(21%) sepia(98%) saturate(7440%) hue-rotate(332deg) brightness(87%) contrast(105%); }
     .infoContact__redesSociales img:nth-child(2):hover {
@@ -2313,8 +3871,7 @@ button {
 .formContact {
   background-color: rgba(209, 209, 209, 0.368);
   backdrop-filter: blur(7px);
-  width: 90%;
-  max-width: 600px;
+  width: 100%;
   border-radius: 3px;
   border: 1px solid rgba(59, 59, 59, 0.64);
   padding: 2em 1.5em; }
@@ -2331,8 +3888,9 @@ button {
 
 .formContact__calendar {
   display: flex;
-  justify-content: space-around;
-  color: black; }
+  flex-direction: column;
+  color: black;
+  gap: 10px; }
 
 .calendar__input {
   background: none;
@@ -2341,7 +3899,8 @@ button {
   outline: none;
   border: none;
   border-bottom: solid 1.5px #272727;
-  cursor: text; }
+  cursor: text;
+  padding: 5px; }
 
 .form__input {
   background: none;
@@ -2386,3 +3945,119 @@ input[type=number]::-webkit-outer-spin-button {
   text-align: start; }
   .infoContact h2 {
     font-size: 1.4rem; }
+
+@media (min-width: 992px) {
+  .contactMain {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/contactBackground2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 110px 150px 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .contactMain h1 {
+      font-family: "futura-bold";
+      font-size: 4.5rem;
+      text-align: start;
+      color: #272727; }
+    .contactMain h2 {
+      font-family: "futura-medium";
+      text-align: start; }
+    .contactMain h3 {
+      font-family: "futura-medium";
+      font-size: 1.3rem;
+      font-weight: 300;
+      letter-spacing: .1rem; }
+  .infoContact {
+    background: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    width: 300px; }
+    .infoContact__separador {
+      border-top: 1px solid #272727;
+      height: 2px;
+      margin-right: 20px; }
+    .infoContact__redesSociales {
+      display: flex;
+      justify-content: start;
+      gap: 40px; }
+      .infoContact__redesSociales img:nth-child(1):hover {
+        filter: invert(21%) sepia(98%) saturate(7440%) hue-rotate(332deg) brightness(87%) contrast(105%); }
+      .infoContact__redesSociales img:nth-child(2):hover {
+        filter: invert(14%) sepia(82%) saturate(5669%) hue-rotate(357deg) brightness(95%) contrast(113%); }
+      .infoContact__redesSociales img:nth-child(3):hover {
+        filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(100%); }
+  .formContact {
+    background-color: rgba(209, 209, 209, 0.368);
+    backdrop-filter: blur(7px);
+    width: 90%;
+    max-width: 600px;
+    border-radius: 3px;
+    border: 1px solid rgba(59, 59, 59, 0.64);
+    padding: 2em 1.5em; }
+    .formContact img {
+      margin: auto;
+      height: 100px;
+      width: auto; }
+  .formContact__container {
+    width: 100%;
+    display: grid;
+    gap: .8em;
+    grid-auto-columns: 100%; }
+  .formContact__calendar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: black; }
+  .calendar__input {
+    background: none;
+    color: #272727;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    border-bottom: solid 1.5px #272727;
+    cursor: text;
+    padding: 0; }
+  .form__input {
+    background: none;
+    color: #272727;
+    font-size: 1rem;
+    padding: .6em 1em;
+    outline: none;
+    border: none;
+    border-bottom: solid 1.5px #272727; }
+    .form__input::placeholder {
+      color: black; }
+    .form__input:focus {
+      border: 1px solid #272727;
+      border-radius: 3px; }
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0; }
+  .form__input--message {
+    resize: none;
+    padding: 2.8em 1em;
+    margin-bottom: .5em;
+    font-family: inherit;
+    color: black; }
+    .form__input--message:focus {
+      border: 1px solid #272727; }
+  .form__cta {
+    background-color: #3a3a3a;
+    color: #fafa2b;
+    border: none;
+    padding: .7em 0;
+    border-radius: 3px;
+    margin-top: 20px; }
+    .form__cta:hover {
+      background-color: rgba(250, 250, 43, 0.716);
+      color: #272727;
+      transition: .4s; }
+  .infoContact {
+    text-align: start; }
+    .infoContact h2 {
+      font-size: 1.4rem; } }

@@ -122,3 +122,133 @@
     }
 }
 };
+
+
+
+
+
+// CARDS ROSSELLO MOBILE
+@mixin cardRosselloMobile ($flex-direction, $background-color, $color-text, $color-title, $padding-title, $padding-text, $padding-image, $background-image){
+        display: flex;
+        flex-direction: $flex-direction;
+        padding-top: 50px;
+        background-color: $background-color;
+        align-items: center;
+        a{
+            text-decoration: none;
+        }
+        p{
+            text-align: start;
+            padding: $padding-text;
+            color: $color-text;
+        }
+        h3{
+            font-family: "futura-bold";
+            text-align: start;
+            padding-left: $padding-title;
+            color: $color-title;
+            font-size: 3.2rem;
+        }
+        button{
+            color: $darkgray;
+            border: solid 1px $darkgray;
+            border-radius: 3px;
+            padding: 5px 10px;
+            font-size: 1rem;
+            letter-spacing: 3px;
+            margin: 20px;
+            &:hover{
+                background-color: $yellow;
+                color: $darkgray;
+            }
+        }
+        picture{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        justify-content: start;
+        padding: $padding-image; 
+        gap: 5px;
+        width: 100%;
+        img{
+            height: 120px;
+            width: 180px;
+            border-radius: 3px;
+            cursor: pointer;
+            filter: brightness(0.6);
+            &:nth-child(4){
+                filter: brightness(0.2);
+            }
+        }
+        div{
+            background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), $background-image;
+            background-size: cover;
+            border-radius: 3px;
+            cursor: pointer;
+            h4{
+                color: $yellow;
+                padding-top: 45px;
+                font-family: "futura-bold";
+                font-size: 1.5rem;
+                letter-spacing: 3px;
+            }
+        }
+    }
+};
+
+// CARDS BONSOMS MOBILE
+@mixin cardBonsomsMobile ($flex-direction, $background-color, $color-text, $color-title, $padding-title, $padding-text, $padding-image, $background-image){
+    display: flex;
+    flex-direction: $flex-direction;
+    padding-top: 50px;
+    background-color: $background-color;
+    align-items: center;
+    a{
+        text-decoration: none;
+    }
+    p{
+        text-align: start;
+        padding: $padding-text;
+        color: $color-text;
+    }
+    h3{
+        font-family: "futura-bold";
+        letter-spacing: 3px;
+        text-align: start;
+        padding-left: $padding-title;
+        color: $color-title;
+        font-size: 3.2rem;
+    }
+    picture{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: start;
+    padding: $padding-image; 
+    gap: 5px;
+    width: 100%;
+    img{
+        height: 120px;
+        width: 180px;
+        border-radius: 3px;
+        cursor: pointer;
+        filter: brightness(0.6);
+        &:nth-child(4){
+            filter: brightness(0.2);
+        }
+    }
+    div{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), $background-image;
+        background-size: cover;
+        border-radius: 3px;
+        cursor: pointer;
+        h4{
+            color: $yellow;
+            padding-top: 45px;
+            font-family: "futura-bold";
+            font-size: 1.5rem;
+            letter-spacing: 3px;
+        }
+    }
+}
+};

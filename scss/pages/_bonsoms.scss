@@ -1,23 +1,25 @@
+// BONSOMS MOBILE
 .bonsomsMain{
     height: max-content;
     background-color: $gray;
     padding-top: 120px;
+    padding-bottom: 50px;
     text-align: center;
     h1{
         font-family: "futura-bold";
-        font-size: 5rem;
+        font-size: 4rem;
         color: $yellow;
+        line-height: 70px;
     }
     h2{
         font-family: "futura-medium";
-        font-size: 2.2rem;
-        letter-spacing: 2px;
+        font-size: 1.5rem;
         color: $light;
     }
     &__separador{
         border-top: 1px solid $yellow;
         height: 2px;
-        margin: 0 300px 20px;
+        margin: 0 30px 20px;
     }
     p{
         font-family: "futura-light";
@@ -32,26 +34,22 @@
         border: 1px solid $yellow;
         border-radius: 3px;
         padding: 5px 20px;
-        &:hover{
-            background-color: $darkgray;
-            color: $yellow;
-            transition: .5s;
-        }
     }
 }
 
 // ICONS BONSOMS
 .iconsBonsoms{
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
     background-color: $gray;
-    padding: 20px 100px;
+    padding: 20px;
     justify-content: space-around;
     gap: 20px;
     img{
-        height: 70px;
+        height: 40px;
         width: auto;
+        display: flex;
         filter: invert(80%) sepia(11%) saturate(1915%) hue-rotate(24deg) brightness(129%) contrast(103%);
     }
     p{
@@ -63,24 +61,23 @@
     &__text{
         p{
             color: $lightgraytext;
-            padding: 10px 150px;
+            padding: 0 20px;
             font-family: "futura-light";
         }
         button{
             color: $yellow;
             border: 1px solid $yellow;
-            margin-bottom: 50px;
+            margin-bottom: 30px;
         }
     }
 }
-
 // CARDS
 .commonSpace{
-    @include cardBonsoms (row, $darkgray, $lightgraytext, $yellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/bonsoms/laundry/laundry_1.jpg));
+    @include cardBonsomsMobile (column-reverse, $darkgray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(/img/bonsoms/laundry/laundry_1.jpg));
 }
-    
+// ROOM 1
 .room1Bonsoms{
-    @include cardBonsoms (row-reverse, $gray, $lightgraytext, $yellow, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/bonsoms/room1Bonsoms/room1_4.jpg));
+    @include cardBonsomsMobile (column-reverse, $gray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(/img/bonsoms/room1Bonsoms/room1_4.jpg));
     button{
         color: $yellow;
         border: solid 1px $yellow;
@@ -89,16 +86,11 @@
         font-size: 1rem;
         letter-spacing: 3px;
         margin-top: 20px;
-        margin-left: 20px;
-        &:hover{
-            background-color: $darkgray;
-            color: $yellow;
-        }
     }
 }
-
+// ROOM 2
 .room2Bonsoms{
-    @include cardBonsoms (row, $darkgray, $lightgraytext, $yellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/bonsoms/room2Bonsoms/room2_4.jpg));
+    @include cardBonsomsMobile (column-reverse, $darkgray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(/img/bonsoms/room2Bonsoms/room2_4.jpg));
     button{
         color: $yellow;
         border: solid 1px $yellow;
@@ -107,16 +99,11 @@
         font-size: 1rem;
         letter-spacing: 3px;
         margin-top: 20px;
-        margin-right: 70px;
-        &:hover{
-            background-color: $gray;
-            color: $yellow;
-        }
     }
 }
-
+// ROOM 3
 .room3Bonsoms{
-    @include cardBonsoms (row-reverse, $gray, $lightgraytext, $yellow, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/bonsoms/room3Bonsoms/room3_4.jpg));
+    @include cardBonsomsMobile (column-reverse, $gray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(/img/bonsoms/room3Bonsoms/room3_4.jpg));
     button{
         color: $yellow;
         border: solid 1px $yellow;
@@ -125,16 +112,11 @@
         font-size: 1rem;
         letter-spacing: 3px;
         margin-top: 20px;
-        margin-left: 20px;
-        &:hover{
-            background-color: $darkgray;
-            color: $yellow;
-        }
     }
 }
-
+// ROOM 4
 .room4Bonsoms{
-    @include cardBonsoms (row, $darkgray, $lightgraytext, $yellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/bonsoms/room4Bonsoms/room4_4.jpg));
+    @include cardBonsomsMobile (column-reverse, $darkgray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(/img/bonsoms/room4Bonsoms/room4_4.jpg));
     button{
         color: $yellow;
         border: solid 1px $yellow;
@@ -143,16 +125,11 @@
         font-size: 1rem;
         letter-spacing: 3px;
         margin-top: 20px;
-        margin-right: 70px;
-        &:hover{
-            background-color: $gray;
-            color: $yellow;
-        }
     }
 }
-
+// ROOM 5
 .room5Bonsoms{
-    @include cardBonsoms (row-reverse, $gray, $lightgraytext, $yellow, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/bonsoms/room5Bonsoms/room5_5.jpg));
+    @include cardBonsomsMobile (column-reverse, $gray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(/img/bonsoms/room5Bonsoms/room5_5.jpg));
     button{
         color: $yellow;
         border: solid 1px $yellow;
@@ -161,16 +138,11 @@
         font-size: 1rem;
         letter-spacing: 3px;
         margin-top: 20px;
-        margin-left: 20px;
-        &:hover{
-            background-color: $darkgray;
-            color: $yellow;
-        }
     }
 }
 
 .room6Bonsoms{
-    @include cardBonsoms (row, $darkgray, $lightgraytext, $yellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/bonsoms/room6Bonsoms/room6_4.jpg));
+    @include cardBonsomsMobile (column-reverse, $darkgray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(/img/bonsoms/room6Bonsoms/room6_4.jpg));
     button{
         color: $yellow;
         border: solid 1px $yellow;
@@ -179,16 +151,11 @@
         font-size: 1rem;
         letter-spacing: 3px;
         margin-top: 20px;
-        margin-right: 70px;
-        &:hover{
-            background-color: $gray;
-            color: $yellow;
-        }
     }
 }
 
 .room7Bonsoms{
-    @include cardBonsoms (row-reverse, $gray, $lightgraytext, $yellow, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/bonsoms/room7Bonsoms/room7_4.jpg));
+    @include cardBonsomsMobile (column-reverse, $gray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(/img/bonsoms/room7Bonsoms/room7_4.jpg));
     button{
         color: $yellow;
         border: solid 1px $yellow;
@@ -197,16 +164,11 @@
         font-size: 1rem;
         letter-spacing: 3px;
         margin-top: 20px;
-        margin-left: 20px;
-        &:hover{
-            background-color: $darkgray;
-            color: $yellow;
-        }
     }
 }
 
 .room8Bonsoms{
-    @include cardBonsoms (row, $darkgray, $lightgraytext, $yellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/bonsoms/room8Bonsoms/room8_2.jpg));
+    @include cardBonsomsMobile (column-reverse, $darkgray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(/img/bonsoms/room8Bonsoms/room8_2.jpg));
     button{
         color: $yellow;
         border: solid 1px $yellow;
@@ -215,16 +177,11 @@
         font-size: 1rem;
         letter-spacing: 3px;
         margin-top: 20px;
-        margin-right: 70px;
-        &:hover{
-            background-color: $gray;
-            color: $yellow;
-        }
     }
 }
 
 .room9Bonsoms{
-    @include cardBonsoms (row-reverse, $gray, $lightgraytext, $yellow, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/bonsoms/room9Bonsoms/room9_4.jpg));
+    @include cardBonsomsMobile (column-reverse, $gray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(/img/bonsoms/room9Bonsoms/room9_4.jpg));
     button{
         color: $yellow;
         border: solid 1px $yellow;
@@ -233,10 +190,256 @@
         font-size: 1rem;
         letter-spacing: 3px;
         margin-top: 20px;
-        margin-left: 20px;
-        &:hover{
-            background-color: $darkgray;
-            color: $yellow;
-        }
     }
 };
+
+
+// BONSOMS TABLET
+
+
+// BONSOMS DESKTOP
+@media (min-width: 992px) {
+    .bonsomsMain{
+        height: max-content;
+        background-color: $gray;
+        padding-top: 120px;
+        text-align: center;
+        h1{
+            font-family: "futura-bold";
+            font-size: 5rem;
+            color: $yellow;
+        }
+        h2{
+            font-family: "futura-medium";
+            font-size: 2.2rem;
+            letter-spacing: 2px;
+            color: $light;
+        }
+        &__separador{
+            border-top: 1px solid $yellow;
+            height: 2px;
+            margin: 0 300px 20px;
+        }
+        p{
+            font-family: "futura-light";
+            text-align: start;
+        }
+        button{
+            letter-spacing: .2rem;
+            font-family: "futura-light";
+            font-size: 1.2rem;
+            background: none;
+            color: $yellow;
+            border: 1px solid $yellow;
+            border-radius: 3px;
+            padding: 5px 20px;
+            &:hover{
+                background-color: $darkgray;
+                color: $yellow;
+                transition: .5s;
+            }
+        }
+    }
+    
+    // ICONS BONSOMS
+    .iconsBonsoms{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto auto;
+        background-color: $gray;
+        padding: 20px 100px;
+        justify-content: space-around;
+        gap: 20px;
+        img{
+            height: 70px;
+            width: auto;
+            filter: invert(80%) sepia(11%) saturate(1915%) hue-rotate(24deg) brightness(129%) contrast(103%);
+        }
+        p{
+            color: $light;
+            font-family: "futura-light";
+            letter-spacing: 2px;
+            font-size: .9rem;
+        }
+        &__text{
+            p{
+                color: $lightgraytext;
+                padding: 10px 150px;
+                font-family: "futura-light";
+            }
+            button{
+                color: $yellow;
+                border: 1px solid $yellow;
+                margin-bottom: 50px;
+            }
+        }
+    }
+    
+    // CARDS
+    .commonSpace{
+        @include cardBonsoms (row, $darkgray, $lightgraytext, $yellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/bonsoms/laundry/laundry_1.jpg));
+    }
+        
+    .room1Bonsoms{
+        @include cardBonsoms (row-reverse, $gray, $lightgraytext, $yellow, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/bonsoms/room1Bonsoms/room1_4.jpg));
+        button{
+            color: $yellow;
+            border: solid 1px $yellow;
+            border-radius: 3px;
+            padding: 5px 10px;
+            font-size: 1rem;
+            letter-spacing: 3px;
+            margin-top: 20px;
+            margin-left: 20px;
+            &:hover{
+                background-color: $darkgray;
+                color: $yellow;
+            }
+        }
+    }
+    
+    .room2Bonsoms{
+        @include cardBonsoms (row, $darkgray, $lightgraytext, $yellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/bonsoms/room2Bonsoms/room2_4.jpg));
+        button{
+            color: $yellow;
+            border: solid 1px $yellow;
+            border-radius: 3px;
+            padding: 5px 10px;
+            font-size: 1rem;
+            letter-spacing: 3px;
+            margin-top: 20px;
+            margin-right: 70px;
+            &:hover{
+                background-color: $gray;
+                color: $yellow;
+            }
+        }
+    }
+    
+    .room3Bonsoms{
+        @include cardBonsoms (row-reverse, $gray, $lightgraytext, $yellow, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/bonsoms/room3Bonsoms/room3_4.jpg));
+        button{
+            color: $yellow;
+            border: solid 1px $yellow;
+            border-radius: 3px;
+            padding: 5px 10px;
+            font-size: 1rem;
+            letter-spacing: 3px;
+            margin-top: 20px;
+            margin-left: 20px;
+            &:hover{
+                background-color: $darkgray;
+                color: $yellow;
+            }
+        }
+    }
+    
+    .room4Bonsoms{
+        @include cardBonsoms (row, $darkgray, $lightgraytext, $yellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/bonsoms/room4Bonsoms/room4_4.jpg));
+        button{
+            color: $yellow;
+            border: solid 1px $yellow;
+            border-radius: 3px;
+            padding: 5px 10px;
+            font-size: 1rem;
+            letter-spacing: 3px;
+            margin-top: 20px;
+            margin-right: 70px;
+            &:hover{
+                background-color: $gray;
+                color: $yellow;
+            }
+        }
+    }
+    
+    .room5Bonsoms{
+        @include cardBonsoms (row-reverse, $gray, $lightgraytext, $yellow, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/bonsoms/room5Bonsoms/room5_5.jpg));
+        button{
+            color: $yellow;
+            border: solid 1px $yellow;
+            border-radius: 3px;
+            padding: 5px 10px;
+            font-size: 1rem;
+            letter-spacing: 3px;
+            margin-top: 20px;
+            margin-left: 20px;
+            &:hover{
+                background-color: $darkgray;
+                color: $yellow;
+            }
+        }
+    }
+    
+    .room6Bonsoms{
+        @include cardBonsoms (row, $darkgray, $lightgraytext, $yellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/bonsoms/room6Bonsoms/room6_4.jpg));
+        button{
+            color: $yellow;
+            border: solid 1px $yellow;
+            border-radius: 3px;
+            padding: 5px 10px;
+            font-size: 1rem;
+            letter-spacing: 3px;
+            margin-top: 20px;
+            margin-right: 70px;
+            &:hover{
+                background-color: $gray;
+                color: $yellow;
+            }
+        }
+    }
+    
+    .room7Bonsoms{
+        @include cardBonsoms (row-reverse, $gray, $lightgraytext, $yellow, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/bonsoms/room7Bonsoms/room7_4.jpg));
+        button{
+            color: $yellow;
+            border: solid 1px $yellow;
+            border-radius: 3px;
+            padding: 5px 10px;
+            font-size: 1rem;
+            letter-spacing: 3px;
+            margin-top: 20px;
+            margin-left: 20px;
+            &:hover{
+                background-color: $darkgray;
+                color: $yellow;
+            }
+        }
+    }
+    
+    .room8Bonsoms{
+        @include cardBonsoms (row, $darkgray, $lightgraytext, $yellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/bonsoms/room8Bonsoms/room8_2.jpg));
+        button{
+            color: $yellow;
+            border: solid 1px $yellow;
+            border-radius: 3px;
+            padding: 5px 10px;
+            font-size: 1rem;
+            letter-spacing: 3px;
+            margin-top: 20px;
+            margin-right: 70px;
+            &:hover{
+                background-color: $gray;
+                color: $yellow;
+            }
+        }
+    }
+    
+    .room9Bonsoms{
+        @include cardBonsoms (row-reverse, $gray, $lightgraytext, $yellow, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/bonsoms/room9Bonsoms/room9_4.jpg));
+        button{
+            color: $yellow;
+            border: solid 1px $yellow;
+            border-radius: 3px;
+            padding: 5px 10px;
+            font-size: 1rem;
+            letter-spacing: 3px;
+            margin-top: 20px;
+            margin-left: 20px;
+            &:hover{
+                background-color: $darkgray;
+                color: $yellow;
+            }
+        }
+    };
+}
+

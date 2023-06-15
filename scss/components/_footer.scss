@@ -3,11 +3,10 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    // justify-content: space-around;
     align-items: center;
     background-color: $darkgray;
     padding: 5px;
-    color: $yellow;
+    color: $light;
     p{
         font-size: .7rem;
     }
@@ -42,8 +41,9 @@
             font-weight: 100;
         }
         img{
-            height: 30px;
+            height: 40px;
             width: auto;
+            margin: 20px;
             filter: invert(81%) sepia(85%) saturate(305%) hue-rotate(355deg) brightness(105%) contrast(107%);
             &:nth-child(1){
                 &:hover{
@@ -61,6 +61,13 @@
                 }
             }
         }
+    }
+}
+
+.container__redes{
+    p{
+        text-align: center;
+        font-size: 1rem;
     }
 }
 
@@ -90,7 +97,7 @@
     align-items: center;
     background-color: $darkgray;
     padding: 5px;
-    color: $yellow;
+    color: $light;
     a{
         text-decoration: none;
         color: $light;
@@ -115,17 +122,11 @@
     &__redes{
         display: flex;
         justify-content: center;
-        gap:20px;
-        p{
-            font-size: .9rem;
-            letter-spacing: 3px;
-            font-family: "futura-bold";
-            font-weight: 100;
-        }
+        gap: 2px;
         img{
-            height: 30px;
+            height: 35px;
             width: auto;
-            filter: invert(81%) sepia(85%) saturate(305%) hue-rotate(355deg) brightness(105%) contrast(107%);
+            filter: invert(100%) sepia(5%) saturate(38%) hue-rotate(359deg) brightness(114%) contrast(93%);
             &:nth-child(1){
                 &:hover{
                     filter: invert(21%) sepia(98%) saturate(7440%) hue-rotate(332deg) brightness(87%) contrast(105%);
@@ -145,6 +146,12 @@
     }
 }
 
+.container__redes{
+    p{
+        text-align: center;
+        font-size: 1rem;
+    }
+}
 .maps{
     display: flex;
     flex-direction: row;
