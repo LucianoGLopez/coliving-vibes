@@ -46,28 +46,28 @@ h1 {
   font-style: normal;
   font-weight: lighter; }
 
-.flags {
-  width: 75px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-right: 30px; }
-
-.flags__item {
-  width: 30px; }
-
-.flags__img {
-  cursor: pointer;
-  display: block;
-  width: 20px;
-  height: 20px; }
-
 #header {
   background-color: rgba(41, 41, 41, 0.684);
   backdrop-filter: blur(10px);
   position: fixed;
   width: 100vw;
   z-index: 10000; }
+
+.flags {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30%; }
+
+.flags__item {
+  padding: 20px 0;
+  width: 10px; }
+
+.flags__img {
+  cursor: pointer;
+  display: block;
+  width: 30px;
+  height: 30px; }
 
 #navBar {
   display: flex;
@@ -79,14 +79,13 @@ h1 {
     color: #f6f6f6;
     font-weight: 400;
     font-family: "futura-light";
-    font-size: 1rem;
+    font-size: 1.2rem;
     letter-spacing: 2px;
     text-decoration: none; }
     #navBar a:hover {
       color: #ffff6b; }
   #navBar__dropdown {
-    background-color: rgba(41, 41, 41, 0.73);
-    backdrop-filter: blur(10px); }
+    background-color: rgba(41, 41, 41, 0.73); }
     #navBar__dropdown a:hover {
       background-color: rgba(255, 255, 93, 0.734);
       color: #272727;
@@ -97,7 +96,8 @@ h1 {
     letter-spacing: 2px;
     color: #f6f6f6;
     border-color: #f6f6f6;
-    border-radius: 3px; }
+    border-radius: 3px;
+    padding: 10px; }
     #navBar__button button:hover {
       color: #272727;
       border-color: #ffff6b;
@@ -108,30 +108,95 @@ h1 {
 #buttonSon {
   cursor: no-drop; }
 
+#navbar-toggler {
+  background-color: #ffff6b;
+  margin-right: 20px; }
+
+@media (min-width: 992px) {
+  .flags {
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-left: 0; }
+  .flags__item {
+    width: 30px; }
+  .flags__img {
+    cursor: pointer;
+    display: block;
+    width: 20px;
+    height: 20px; }
+  #header {
+    background-color: rgba(41, 41, 41, 0.684);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    width: 100vw;
+    z-index: 10000; }
+  #navBar {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-left: 100px;
+    z-index: 100000; }
+    #navBar a {
+      color: #f6f6f6;
+      font-weight: 400;
+      font-family: "futura-light";
+      font-size: 1rem;
+      letter-spacing: 2px;
+      text-decoration: none; }
+      #navBar a:hover {
+        color: #ffff6b; }
+    #navBar__dropdown {
+      background-color: rgba(41, 41, 41, 0.73);
+      backdrop-filter: blur(10px); }
+      #navBar__dropdown a:hover {
+        background-color: rgba(255, 255, 93, 0.734);
+        color: #272727;
+        font-weight: 500; }
+    #navBar__button button {
+      font-family: "futura-light";
+      font-size: 1rem;
+      letter-spacing: 2px;
+      color: #f6f6f6;
+      border-color: #f6f6f6;
+      border-radius: 3px; }
+      #navBar__button button:hover {
+        color: #272727;
+        border-color: #ffff6b;
+        background-color: #ffff6b; }
+    #navBar__logo {
+      margin-left: 30px; }
+  #buttonSon {
+    cursor: no-drop; } }
+
 .footer {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  width: 100%;
   align-items: center;
   background-color: #272727;
   padding: 5px;
-  color: #f6f6f6; }
+  color: #ffff6b; }
+  .footer p {
+    font-size: .7rem; }
   .footer a {
     text-decoration: none;
-    color: #ffff6b; }
-    .footer a:hover {
-      color: #d1d1d1; }
+    color: #f6f6f6; }
   .footer__nav ul {
-    padding-top: 10px; }
+    padding-top: 10px;
+    margin-top: 20px; }
   .footer__nav li {
-    padding-bottom: 5px; }
+    padding-bottom: 10px; }
   .footer__logo img {
-    height: 120px;
-    width: auto; }
+    height: 70px;
+    width: 70px;
+    margin: 30px 0; }
   .footer__redes {
     display: flex;
-    justify-content: space-around;
-    gap: 20px;
-    padding-top: 10px; }
+    justify-content: start;
+    gap: 20px; }
     .footer__redes p {
       font-size: .9rem;
       letter-spacing: 3px;
@@ -140,7 +205,7 @@ h1 {
     .footer__redes img {
       height: 30px;
       width: auto;
-      filter: invert(100%) sepia(1%) saturate(4062%) hue-rotate(213deg) brightness(119%) contrast(81%); }
+      filter: invert(81%) sepia(85%) saturate(305%) hue-rotate(355deg) brightness(105%) contrast(107%); }
       .footer__redes img:nth-child(1):hover {
         filter: invert(21%) sepia(98%) saturate(7440%) hue-rotate(332deg) brightness(87%) contrast(105%); }
       .footer__redes img:nth-child(2):hover {
@@ -150,20 +215,70 @@ h1 {
 
 .maps {
   display: flex;
-  gap: 20px;
+  flex-direction: column;
+  gap: 5px;
   padding-top: 20px; }
   .maps p {
     font-size: .7rem; }
+
+@media (min-width: 992px) {
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #272727;
+    padding: 5px;
+    color: #ffff6b; }
+    .footer a {
+      text-decoration: none;
+      color: #f6f6f6; }
+      .footer a:hover {
+        color: #ffff6b; }
+    .footer__nav ul {
+      padding-top: 10px; }
+    .footer__nav li {
+      padding-bottom: 5px; }
+    .footer__logo img {
+      height: 70px;
+      width: 70px; }
+    .footer__redes {
+      display: flex;
+      justify-content: center;
+      gap: 20px; }
+      .footer__redes p {
+        font-size: .9rem;
+        letter-spacing: 3px;
+        font-family: "futura-bold";
+        font-weight: 100; }
+      .footer__redes img {
+        height: 30px;
+        width: auto;
+        filter: invert(81%) sepia(85%) saturate(305%) hue-rotate(355deg) brightness(105%) contrast(107%); }
+        .footer__redes img:nth-child(1):hover {
+          filter: invert(21%) sepia(98%) saturate(7440%) hue-rotate(332deg) brightness(87%) contrast(105%); }
+        .footer__redes img:nth-child(2):hover {
+          filter: invert(14%) sepia(82%) saturate(5669%) hue-rotate(357deg) brightness(95%) contrast(113%); }
+        .footer__redes img:nth-child(3):hover {
+          filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(100%); }
+  .maps {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 20px; }
+    .maps p {
+      font-size: .7rem; } }
 
 .indexMain {
   height: 100vh;
   background-color: #272727;
   display: flex;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/img/portada2_12.webp);
-  background-size: cover; }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/img/portada2_12.webp);
+  background-size: cover;
+  background-position-x: right; }
 
 .mainTitle {
-  width: 40vw;
+  width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -173,20 +288,19 @@ h1 {
   .mainTitle h1 {
     text-align: center;
     color: #ffff6b;
-    font-size: 6rem;
+    font-size: 5rem;
     font-family: "futura-bold";
-    letter-spacing: .5rem; }
+    line-height: 70px;
+    padding-bottom: 5px; }
   .mainTitle h2 {
     font-family: "futura-light";
-    letter-spacing: .5rem;
     color: #e7e7e7;
-    font-size: 1.8rem;
-    font-weight: 100;
+    font-size: 2.5rem;
     padding-bottom: 10px; }
   .mainTitle button {
-    letter-spacing: 7px;
-    font-family: "futura-light";
-    font-size: 1.2rem;
+    letter-spacing: 3px;
+    font-family: "futura-bold";
+    font-size: 1.5rem;
     background: none;
     color: #ffff6b;
     border: 1px solid #ffff6b;
@@ -200,34 +314,34 @@ h1 {
 .containerOurConcept {
   background-color: #3a3a3a;
   display: flex;
-  justify-content: space-between;
-  padding: 80px 200px;
-  gap: 100px; }
+  flex-direction: column-reverse;
+  justify-content: start; }
   .containerOurConcept h2 {
     text-align: start;
     color: #ffff6b;
-    font-family: "futura-medium";
-    letter-spacing: 3px; }
+    font-family: "futura-bold";
+    font-size: 3.4rem;
+    padding: 20px 0 0 20px; }
   .containerOurConcept p {
     color: #e7e7e7;
     font-weight: 300;
-    font-size: 1rem; }
+    font-size: 1rem;
+    padding: 0 20px; }
   .containerOurConcept picture {
     display: flex;
+    flex-direction: column;
     gap: 10px; }
   .containerOurConcept img {
     border-radius: 3px;
     filter: brightness(80%); }
   .containerOurConcept__image {
     height: 420px;
-    width: auto; }
-  .containerOurConcept__image2 {
-    height: 350px;
     width: auto;
-    align-self: center; }
-  .containerOurConcept a {
-    text-align: center;
-    margin: auto; }
+    padding: 0 20px; }
+  .containerOurConcept__image2 {
+    height: 420px;
+    width: auto;
+    padding: 0 20px; }
   .containerOurConcept button {
     font-family: "futura-light";
     font-size: .9rem;
@@ -235,7 +349,8 @@ h1 {
     color: #ffff6b;
     border: 1px solid #ffff6b;
     border-radius: 3px;
-    padding: 5px 10px; }
+    padding: 5px 10px;
+    margin: 0 0 20px 20px; }
     .containerOurConcept button:hover {
       border: 1px solid #dbdbdb;
       background-color: #dbdbdb;
@@ -245,15 +360,12 @@ h1 {
 .ourColivings {
   height: max-content;
   background-color: #f6f6f6;
-  background-size: cover;
-  background-position: center;
-  padding: 60px 30px 100px;
-  text-align: center; }
+  text-align: center;
+  padding: 50px 20px; }
   .ourColivings h2 {
     color: #272727;
     font-family: "futura-bold";
-    font-size: 3.5rem;
-    letter-spacing: 3px; }
+    font-size: 4rem; }
   .ourColivings h3 {
     font-size: 1.2rem;
     font-family: "futura-medium";
@@ -261,16 +373,18 @@ h1 {
   .ourColivings__separador {
     border-top: 1px solid #272727;
     height: 2px;
-    margin: 20px 300px 20px;
+    margin: 20px 5px 20px;
     padding-bottom: 40px; }
 
 .cardsContainer {
   display: flex;
-  justify-content: space-around; }
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px; }
 
 .rosselloCard {
-  height: 590px;
-  width: 380px;
+  height: 600px;
+  width: 340px;
   text-align: start;
   display: flex;
   flex-direction: column;
@@ -294,13 +408,13 @@ h1 {
   .rosselloCard a {
     margin-left: 30px; }
   .rosselloCard button {
-    border: 1px solid #272727;
+    border: 1px solid #3a3a3a;
     border-radius: 3px;
     font-family: "futura-light";
     font-size: .9rem;
     letter-spacing: 3px;
     padding: 5px 10px;
-    margin-top: 20px;
+    margin: 20px 0;
     color: #272727; }
     .rosselloCard button:hover {
       background-color: #272727;
@@ -315,11 +429,7 @@ h1 {
   color: #bbbbbb;
   border-color: #bbbbbb;
   cursor: no-drop;
-  margin-left: 30px; }
-  #soonButton:hover {
-    background-color: none;
-    color: #ffff92;
-    border: 1px solid #272727; }
+  margin: 10px 30px; }
 
 .iconsCards p {
   padding: 0px 30px;
@@ -335,14 +445,14 @@ h1 {
   text-align: center; }
   .reviews h2 {
     color: #ffff6b;
-    font-family: "futura-medium";
-    letter-spacing: 3px;
-    font-size: 2.5rem; }
+    font-family: "futura-bold";
+    font-size: 3.5rem; }
   .reviews h4 {
     color: #e7e7e7;
     font-size: 1.2rem;
     font-family: "futura-medium";
-    letter-spacing: 3px; }
+    letter-spacing: 3px;
+    padding: 0 20px; }
   .reviews__separador {
     border-top: 1px solid #ffff6b;
     height: 2px;
@@ -420,6 +530,263 @@ h1 {
     transform: translateX(calc(-300px *12));
     -webkit-transform: translateX(-3600px); } }
 
+@media (min-width: 992px) {
+  .indexMain {
+    height: 100vh;
+    background-color: #272727;
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/img/portada2_12.webp);
+    background-size: cover; }
+  .mainTitle {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 50px 0; }
+    .mainTitle h1 {
+      text-align: center;
+      color: #ffff6b;
+      font-size: 8.5rem;
+      font-family: "futura-bold";
+      line-height: 120px;
+      padding-bottom: 20px; }
+    .mainTitle h2 {
+      font-family: "futura-light";
+      color: #e7e7e7;
+      font-size: 2.5rem;
+      padding-bottom: 10px; }
+    .mainTitle button {
+      letter-spacing: 3px;
+      font-family: "futura-bold";
+      font-size: 2rem;
+      background: none;
+      color: #ffff6b;
+      border: 1px solid #ffff6b;
+      border-radius: 3px;
+      padding: 5px 15px; }
+      .mainTitle button:hover {
+        background-color: #ffff6b;
+        color: #272727;
+        transition: .5s; }
+  .containerOurConcept {
+    background-color: #3a3a3a;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 80px 200px;
+    gap: 10px; }
+    .containerOurConcept h2 {
+      text-align: start;
+      color: #ffff6b;
+      font-family: "futura-bold";
+      font-size: 3.4rem; }
+    .containerOurConcept p {
+      color: #e7e7e7;
+      font-weight: 300;
+      font-size: 1rem; }
+    .containerOurConcept picture {
+      display: flex;
+      flex-direction: row;
+      gap: 10px; }
+    .containerOurConcept img {
+      border-radius: 3px;
+      filter: brightness(80%); }
+    .containerOurConcept__image {
+      height: 420px;
+      width: auto;
+      padding: 0; }
+    .containerOurConcept__image2 {
+      height: 350px;
+      width: auto;
+      align-self: center;
+      padding: 0; }
+    .containerOurConcept button {
+      font-family: "futura-light";
+      font-size: .9rem;
+      font-weight: 400;
+      color: #ffff6b;
+      border: 1px solid #ffff6b;
+      border-radius: 3px;
+      padding: 5px 10px; }
+      .containerOurConcept button:hover {
+        border: 1px solid #dbdbdb;
+        background-color: #dbdbdb;
+        color: #272727;
+        transition: .2s; }
+  .ourColivings {
+    height: max-content;
+    background-color: #f6f6f6;
+    background-size: cover;
+    background-position: center;
+    padding: 60px 30px 100px;
+    text-align: center; }
+    .ourColivings h2 {
+      color: #272727;
+      font-family: "futura-bold";
+      font-size: 4rem; }
+    .ourColivings h3 {
+      font-size: 1.2rem;
+      font-family: "futura-medium";
+      color: #272727; }
+    .ourColivings__separador {
+      border-top: 1px solid #272727;
+      height: 2px;
+      margin: 20px 300px 20px;
+      padding-bottom: 40px; }
+  .cardsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+  .rosselloCard {
+    height: 590px;
+    width: 380px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 13px 2px #bbbbbb;
+    box-shadow: 0px 0px 13px 2px #bbbbbb; }
+    .rosselloCard img {
+      filter: brightness(75%);
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+      height: 220px;
+      width: 380px; }
+    .rosselloCard h4 {
+      font-family: "futura-medium";
+      letter-spacing: 5px;
+      padding: 20px 0 0 30px;
+      font-size: 1.5rem;
+      color: #272727; }
+    .rosselloCard p {
+      font-family: "futura-light";
+      padding: 0px 30px;
+      color: #272727; }
+    .rosselloCard a {
+      margin-left: 30px; }
+    .rosselloCard button {
+      border: 1px solid #3a3a3a;
+      border-radius: 3px;
+      font-family: "futura-light";
+      font-size: .9rem;
+      letter-spacing: 3px;
+      padding: 5px 10px;
+      margin-top: 20px;
+      color: #272727; }
+      .rosselloCard button:hover {
+        background-color: #272727;
+        color: #ffff6b;
+        border: 1px solid #272727;
+        transition: .2s; }
+    .rosselloCard__separador {
+      border-top: 1px solid #272727;
+      margin: 0 30px 10px; }
+  #soonButton {
+    color: #bbbbbb;
+    border-color: #bbbbbb;
+    cursor: no-drop;
+    margin: 20px 30px; }
+    #soonButton:hover {
+      background-color: none;
+      color: #ffff92;
+      border: 1px solid #272727; }
+  .iconsCards p {
+    padding: 0px 30px;
+    font-family: "futura-light";
+    letter-spacing: 3px;
+    font-size: .9rem;
+    margin: 0; }
+  .iconsCards img {
+    height: 20px;
+    width: auto; }
+  .reviews {
+    height: max-content;
+    background-color: #3a3a3a;
+    padding: 40px 0;
+    text-align: center; }
+    .reviews h2 {
+      color: #ffff6b;
+      font-family: "futura-bold";
+      font-size: 3.5rem; }
+    .reviews h4 {
+      color: #e7e7e7;
+      font-size: 1.2rem;
+      font-family: "futura-medium";
+      letter-spacing: 3px; }
+    .reviews__separador {
+      border-top: 1px solid #ffff6b;
+      height: 2px;
+      margin: 10px 500px 20px; }
+  .buttonSlider {
+    display: flex;
+    justify-content: center;
+    gap: 20px; }
+    .buttonSlider button {
+      font-size: 1rem;
+      font-family: "futura-light";
+      background: none;
+      color: #ffff6b;
+      padding: 5px;
+      border: none;
+      border-bottom: 1px solid #ffff6b; }
+      .buttonSlider button:hover {
+        color: #fafa2b;
+        border-bottom: 1px solid #fafa2b; }
+      .buttonSlider button a {
+        text-decoration: none;
+        color: #ffff6b; }
+        .buttonSlider button a:hover {
+          color: #fafa2b; }
+  .slider {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    background-color: #3a3a3a;
+    padding: 30px 0; }
+    .slider h3 {
+      padding-top: 10px;
+      font-size: 1.2rem; }
+  .slide-track {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    animation: scroll 40s linear infinite;
+    -webkit-animation: scroll 40s linear infinite;
+    width: calc(300px *24); }
+    .slide-track:hover {
+      animation-play-state: paused; }
+  .slide {
+    background-color: #f8f8f8;
+    color: #272727;
+    border-radius: 3px;
+    cursor: pointer; }
+    .slide h3 {
+      text-decoration: #535353 underline;
+      padding-top: 20px; }
+    .slide p {
+      width: 350px;
+      height: 320px;
+      text-align: start;
+      padding: 5px 30px; }
+    .slide a {
+      text-decoration: none;
+      height: 250px;
+      color: #3c3c3c; }
+      .slide a:hover {
+        color: black; }
+    .slide img {
+      width: 100px; }
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+      -webkit-transform: translateX(0); }
+    100% {
+      transform: translateX(calc(-300px *12));
+      -webkit-transform: translateX(-3600px); } } }
+
 .ourConceptMain {
   height: max-content;
   padding-top: 150px;
@@ -428,13 +795,13 @@ h1 {
   .ourConceptMain h1 {
     text-align: center;
     font-family: "futura-bold";
-    font-size: 3.5rem;
-    letter-spacing: .3rem;
+    font-size: 4.5rem;
     color: #272727; }
   .ourConceptMain h2 {
     text-align: center;
     color: #272727;
-    font-family: "futura-medium"; }
+    font-family: "futura-bold";
+    font-size: 3.2rem; }
   .ourConceptMain p {
     font-size: 1rem;
     font-family: "futura-light"; }
@@ -451,9 +818,12 @@ h1 {
     height: 380px;
     width: auto; }
   .ourConceptVideo h2 {
-    font-size: 2.5rem; }
+    font-size: 3.2rem;
+    font-family: "futura-bold";
+    padding: 0 20px;
+    text-align: start;
+    line-height: 50px; }
   .ourConceptVideo p {
-    padding-top: 15px;
     padding-left: 30px; }
 
 .containerOurConceptHome {
@@ -461,7 +831,7 @@ h1 {
   flex-direction: row-reverse;
   align-items: center;
   height: max-content;
-  padding: 20px 200px;
+  padding: 50px 200px;
   gap: 80px; }
   .containerOurConceptHome img {
     border-radius: 3px; }
@@ -473,7 +843,7 @@ h1 {
   display: flex;
   align-items: center;
   height: max-content;
-  padding: 20px 200px;
+  padding: 50px 200px;
   gap: 80px;
   background-color: #f6f6f6; }
   .containerOurConceptDesign img {
@@ -487,7 +857,7 @@ h1 {
   flex-direction: row-reverse;
   align-items: center;
   height: max-content;
-  padding: 20px 200px;
+  padding: 50px 200px;
   gap: 80px; }
   .containerOurConceptCommon img {
     border-radius: 3px; }
@@ -502,10 +872,8 @@ h1 {
   text-align: center; }
   .rosselloMain h1 {
     font-family: "futura-bold";
-    font-size: 3.8rem;
-    letter-spacing: 7px;
-    color: #ffff6b;
-    -webkit-text-stroke: 1px #272727; }
+    font-size: 5rem;
+    color: #272727; }
   .rosselloMain h2 {
     font-family: "futura-medium";
     font-size: 2.2rem;
@@ -553,6 +921,10 @@ h1 {
     color: #272727;
     padding: 10px 150px;
     font-family: "futura-light"; }
+  .iconsRossello__text button {
+    color: #272727;
+    border: 1px solid #272727;
+    margin-bottom: 50px; }
 
 .commonSpaceRossello {
   display: flex;
@@ -570,11 +942,9 @@ h1 {
     font-family: "futura-bold";
     text-align: center;
     padding-left: 20px;
-    color: #ffff6b;
+    color: #272727;
     padding-right: 100px;
-    -webkit-text-stroke: 1px #272727;
-    letter-spacing: 5px;
-    font-size: 2.6rem; }
+    font-size: 3.2rem; }
   .commonSpaceRossello button {
     color: #272727;
     border: solid 1px #272727;
@@ -629,11 +999,9 @@ h1 {
     font-family: "futura-bold";
     text-align: center;
     padding-left: 100px;
-    color: #ffff6b;
+    color: #272727;
     padding-right: 100px;
-    -webkit-text-stroke: 1px #272727;
-    letter-spacing: 5px;
-    font-size: 2.6rem; }
+    font-size: 3.2rem; }
   .room1Rossello button {
     color: #272727;
     border: solid 1px #272727;
@@ -700,11 +1068,9 @@ h1 {
     font-family: "futura-bold";
     text-align: center;
     padding-left: 20px;
-    color: #ffff6b;
+    color: #272727;
     padding-right: 100px;
-    -webkit-text-stroke: 1px #272727;
-    letter-spacing: 5px;
-    font-size: 2.6rem; }
+    font-size: 3.2rem; }
   .room2Rossello button {
     color: #272727;
     border: solid 1px #272727;
@@ -771,11 +1137,9 @@ h1 {
     font-family: "futura-bold";
     text-align: center;
     padding-left: 100px;
-    color: #ffff6b;
+    color: #272727;
     padding-right: 100px;
-    -webkit-text-stroke: 1px #272727;
-    letter-spacing: 5px;
-    font-size: 2.6rem; }
+    font-size: 3.2rem; }
   .room3Rossello button {
     color: #272727;
     border: solid 1px #272727;
@@ -842,11 +1206,9 @@ h1 {
     font-family: "futura-bold";
     text-align: center;
     padding-left: 20px;
-    color: #ffff6b;
+    color: #272727;
     padding-right: 100px;
-    -webkit-text-stroke: 1px #272727;
-    letter-spacing: 5px;
-    font-size: 2.6rem; }
+    font-size: 3.2rem; }
   .room4Rossello button {
     color: #272727;
     border: solid 1px #272727;
@@ -913,11 +1275,9 @@ h1 {
     font-family: "futura-bold";
     text-align: center;
     padding-left: 100px;
-    color: #ffff6b;
+    color: #272727;
     padding-right: 100px;
-    -webkit-text-stroke: 1px #272727;
-    letter-spacing: 5px;
-    font-size: 2.6rem; }
+    font-size: 3.2rem; }
   .room5Rossello button {
     color: #272727;
     border: solid 1px #272727;
@@ -984,11 +1344,9 @@ h1 {
     font-family: "futura-bold";
     text-align: center;
     padding-left: 20px;
-    color: #ffff6b;
+    color: #272727;
     padding-right: 100px;
-    -webkit-text-stroke: 1px #272727;
-    letter-spacing: 5px;
-    font-size: 2.6rem; }
+    font-size: 3.2rem; }
   .room6Rossello button {
     color: #272727;
     border: solid 1px #272727;
@@ -1055,11 +1413,9 @@ h1 {
     font-family: "futura-bold";
     text-align: center;
     padding-left: 100px;
-    color: #ffff6b;
+    color: #272727;
     padding-right: 100px;
-    -webkit-text-stroke: 1px #272727;
-    letter-spacing: 5px;
-    font-size: 2.6rem; }
+    font-size: 3.2rem; }
   .room7Rossello button {
     color: #272727;
     border: solid 1px #272727;
@@ -1117,8 +1473,7 @@ h1 {
   text-align: center; }
   .bonsomsMain h1 {
     font-family: "futura-bold";
-    font-size: 3.8rem;
-    letter-spacing: 7px;
+    font-size: 5rem;
     color: #ffff6b; }
   .bonsomsMain h2 {
     font-family: "futura-medium";
@@ -1167,6 +1522,10 @@ h1 {
     color: #e7e7e7;
     padding: 10px 150px;
     font-family: "futura-light"; }
+  .iconsBonsoms__text button {
+    color: #ffff6b;
+    border: 1px solid #ffff6b;
+    margin-bottom: 50px; }
 
 .commonSpace {
   display: flex;
@@ -1187,8 +1546,7 @@ h1 {
     padding-left: 20px;
     color: #ffff6b;
     padding-right: 100px;
-    letter-spacing: 5px;
-    font-size: 2.6rem; }
+    font-size: 3.2rem; }
   .commonSpace picture {
     display: grid;
     grid-template-columns: auto auto;
@@ -1235,8 +1593,7 @@ h1 {
     padding-left: 100px;
     color: #ffff6b;
     padding-right: 100px;
-    letter-spacing: 5px;
-    font-size: 2.6rem; }
+    font-size: 3.2rem; }
   .room1Bonsoms picture {
     display: grid;
     grid-template-columns: auto auto;
@@ -1295,8 +1652,7 @@ h1 {
     padding-left: 20px;
     color: #ffff6b;
     padding-right: 100px;
-    letter-spacing: 5px;
-    font-size: 2.6rem; }
+    font-size: 3.2rem; }
   .room2Bonsoms picture {
     display: grid;
     grid-template-columns: auto auto;
@@ -1355,8 +1711,7 @@ h1 {
     padding-left: 100px;
     color: #ffff6b;
     padding-right: 100px;
-    letter-spacing: 5px;
-    font-size: 2.6rem; }
+    font-size: 3.2rem; }
   .room3Bonsoms picture {
     display: grid;
     grid-template-columns: auto auto;
@@ -1415,8 +1770,7 @@ h1 {
     padding-left: 20px;
     color: #ffff6b;
     padding-right: 100px;
-    letter-spacing: 5px;
-    font-size: 2.6rem; }
+    font-size: 3.2rem; }
   .room4Bonsoms picture {
     display: grid;
     grid-template-columns: auto auto;
@@ -1475,8 +1829,7 @@ h1 {
     padding-left: 100px;
     color: #ffff6b;
     padding-right: 100px;
-    letter-spacing: 5px;
-    font-size: 2.6rem; }
+    font-size: 3.2rem; }
   .room5Bonsoms picture {
     display: grid;
     grid-template-columns: auto auto;
@@ -1535,8 +1888,7 @@ h1 {
     padding-left: 20px;
     color: #ffff6b;
     padding-right: 100px;
-    letter-spacing: 5px;
-    font-size: 2.6rem; }
+    font-size: 3.2rem; }
   .room6Bonsoms picture {
     display: grid;
     grid-template-columns: auto auto;
@@ -1595,8 +1947,7 @@ h1 {
     padding-left: 100px;
     color: #ffff6b;
     padding-right: 100px;
-    letter-spacing: 5px;
-    font-size: 2.6rem; }
+    font-size: 3.2rem; }
   .room7Bonsoms picture {
     display: grid;
     grid-template-columns: auto auto;
@@ -1655,8 +2006,7 @@ h1 {
     padding-left: 20px;
     color: #ffff6b;
     padding-right: 100px;
-    letter-spacing: 5px;
-    font-size: 2.6rem; }
+    font-size: 3.2rem; }
   .room8Bonsoms picture {
     display: grid;
     grid-template-columns: auto auto;
@@ -1715,8 +2065,7 @@ h1 {
     padding-left: 100px;
     color: #ffff6b;
     padding-right: 100px;
-    letter-spacing: 5px;
-    font-size: 2.6rem; }
+    font-size: 3.2rem; }
   .room9Bonsoms picture {
     display: grid;
     grid-template-columns: auto auto;
@@ -1885,8 +2234,7 @@ button {
     padding-top: 120px;
     text-align: center;
     font-family: "futura-bold";
-    font-size: 3.5rem;
-    letter-spacing: .5rem;
+    font-size: 4.5rem;
     color: #ffff6b; }
   .faqsMain h3 {
     text-align: start;
@@ -1928,8 +2276,7 @@ button {
   justify-content: space-between; }
   .contactMain h1 {
     font-family: "futura-bold";
-    letter-spacing: .3rem;
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     text-align: start;
     color: #272727; }
   .contactMain h2 {

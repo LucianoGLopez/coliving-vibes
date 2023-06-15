@@ -1,39 +1,40 @@
+// FOOTER MOBILE
 .footer{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+    // justify-content: space-around;
     align-items: center;
     background-color: $darkgray;
     padding: 5px;
-    color: $light;
+    color: $yellow;
+    p{
+        font-size: .7rem;
+    }
     a{
         text-decoration: none;
-        color: $yellow;
-        &:hover{
-            color: $gray3;
-        }
+        color: $light;
     }
-    
     &__nav{
         ul{
             padding-top: 10px;
+            margin-top: 20px;
         }
         li{
-            // gap: 50px;
-            // align-self: center;
-            padding-bottom: 5px;
+            padding-bottom: 10px;
         }
     }
     &__logo{
         img{
-            height: 120px;
-            width: auto;
+            height: 70px;
+            width: 70px;
+            margin: 30px 0;
         }
     }
     &__redes{
         display: flex;
-        justify-content: space-around;
+        justify-content: start;
         gap:20px;
-        padding-top: 10px;
         p{
             font-size: .9rem;
             letter-spacing: 3px;
@@ -43,7 +44,7 @@
         img{
             height: 30px;
             width: auto;
-            filter: invert(100%) sepia(1%) saturate(4062%) hue-rotate(213deg) brightness(119%) contrast(81%);
+            filter: invert(81%) sepia(85%) saturate(305%) hue-rotate(355deg) brightness(105%) contrast(107%);
             &:nth-child(1){
                 &:hover{
                     filter: invert(21%) sepia(98%) saturate(7440%) hue-rotate(332deg) brightness(87%) contrast(105%);
@@ -65,6 +66,88 @@
 
 .maps{
     display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 20px;
+    p{
+        font-size: .7rem;
+    }
+}
+
+
+
+
+// FOOTER TABLET
+
+
+
+// FOOTER DESKTOP
+@media (min-width: 992px) {
+    .footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $darkgray;
+    padding: 5px;
+    color: $yellow;
+    a{
+        text-decoration: none;
+        color: $light;
+        &:hover{
+            color: $yellow;
+        }
+    }
+    &__nav{
+        ul{
+            padding-top: 10px;
+        }
+        li{
+            padding-bottom: 5px;
+        }
+    }
+    &__logo{
+        img{
+            height: 70px;
+            width: 70px;
+        }
+    }
+    &__redes{
+        display: flex;
+        justify-content: center;
+        gap:20px;
+        p{
+            font-size: .9rem;
+            letter-spacing: 3px;
+            font-family: "futura-bold";
+            font-weight: 100;
+        }
+        img{
+            height: 30px;
+            width: auto;
+            filter: invert(81%) sepia(85%) saturate(305%) hue-rotate(355deg) brightness(105%) contrast(107%);
+            &:nth-child(1){
+                &:hover{
+                    filter: invert(21%) sepia(98%) saturate(7440%) hue-rotate(332deg) brightness(87%) contrast(105%);
+                }
+            }
+            &:nth-child(2){
+                &:hover{
+                    filter: invert(14%) sepia(82%) saturate(5669%) hue-rotate(357deg) brightness(95%) contrast(113%);
+                }
+            }
+            &:nth-child(3){
+                &:hover{
+                    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(100%);
+                }
+            }
+        }
+    }
+}
+
+.maps{
+    display: flex;
+    flex-direction: row;
     gap: 20px;
     padding-top: 20px;
     p{
@@ -72,3 +155,5 @@
     }
 }
 
+
+}

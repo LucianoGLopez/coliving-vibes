@@ -5,8 +5,7 @@
     text-align: center;
     h1{
         font-family: "futura-bold";
-        font-size: 3.8rem;
-        letter-spacing: 7px;
+        font-size: 5rem;
         color: $yellow;
     }
     h2{
@@ -66,6 +65,11 @@
             color: $lightgraytext;
             padding: 10px 150px;
             font-family: "futura-light";
+        }
+        button{
+            color: $yellow;
+            border: 1px solid $yellow;
+            margin-bottom: 50px;
         }
     }
 }

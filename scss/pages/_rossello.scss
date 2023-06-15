@@ -5,10 +5,9 @@
     text-align: center;
     h1{
         font-family: "futura-bold";
-        font-size: 3.8rem;
-        letter-spacing: 7px;
-        color: $yellow;
-        -webkit-text-stroke: 1px $darkgray;
+        font-size: 5rem;
+        color: $darkgray;
+        // -webkit-text-stroke: 1px $darkgray;
     }
     h2{
         font-family: "futura-medium";
@@ -68,16 +67,21 @@
             padding: 10px 150px;
             font-family: "futura-light";
         }
+        button{
+            color:$darkgray;
+            border: 1px solid $darkgray;
+            margin-bottom: 50px;
+        }
     }
 }
 
 // CARDS
 .commonSpaceRossello{
-    @include cardRossello (row, $lightgraytext, $darkgray, $yellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/portada.jpg));
+    @include cardRossello (row, $lightgraytext, $darkgray, $darkgray, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/portada.jpg));
 }
     
 .room1Rossello{
-    @include cardRossello (row-reverse, $light, $darkgray, $yellow, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/room1Rossello/room1_4.webp));
+    @include cardRossello (row-reverse, $light, $darkgray, $darkgray, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/room1Rossello/room1_4.webp));
     button{
         color: $darkgray;
         border: solid 1px $darkgray;
@@ -95,7 +99,7 @@
 }
 
 .room2Rossello{
-    @include cardRossello (row, $lightgraytext, $darkgray, $yellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/room2Rossello/room2-4.webp));
+    @include cardRossello (row, $lightgraytext, $darkgray, $darkgray, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/room2Rossello/room2-4.webp));
     button{
         color: $darkgray;
         border: solid 1px $darkgray;
@@ -113,7 +117,7 @@
 }
 
 .room3Rossello{
-    @include cardRossello (row-reverse, $light, $darkgray, $yellow, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/room3Rossello/room3_4.webp));
+    @include cardRossello (row-reverse, $light, $darkgray, $darkgray, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/room3Rossello/room3_4.webp));
     button{
         color: $darkgray;
         border: solid 1px $darkgray;
@@ -131,7 +135,7 @@
 }
 
 .room4Rossello{
-    @include cardRossello (row, $lightgraytext, $darkgray, $yellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/room4Rossello/room4_10.webp));
+    @include cardRossello (row, $lightgraytext, $darkgray, $darkgray, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/room4Rossello/room4_10.webp));
     button{
         color: $darkgray;
         border: solid 1px $darkgray;
@@ -149,7 +153,7 @@
 }
 
 .room5Rossello{
-    @include cardRossello (row-reverse, $light, $darkgray, $yellow, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/room5Rossello/room5_4.webp));
+    @include cardRossello (row-reverse, $light, $darkgray, $darkgray, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/room5Rossello/room5_4.webp));
     button{
         color: $darkgray;
         border: solid 1px $darkgray;
@@ -167,7 +171,7 @@
 }
 
 .room6Rossello{
-    @include cardRossello (row, $lightgraytext, $darkgray, $yellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/room6Rossello/room6_4.webp));
+    @include cardRossello (row, $lightgraytext, $darkgray, $darkgray, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/room6Rossello/room6_4.webp));
     button{
         color: $darkgray;
         border: solid 1px $darkgray;
@@ -185,7 +189,7 @@
 }
 
 .room7Rossello{
-    @include cardRossello (row-reverse, $light, $darkgray, $yellow, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/room7Rossello/room7_4.webp));
+    @include cardRossello (row-reverse, $light, $darkgray, $darkgray, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/room7Rossello/room7_4.webp));
     button{
         color: $darkgray;
         border: solid 1px $darkgray;
