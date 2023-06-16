@@ -1,23 +1,42 @@
 {
     "wrapper":{
-        "button": "Contact"
+        "button": "CONTACT"
     },
     "colivings":{
-        "title": "Our Colivings",
+        "title": "OUR COLIVINGS",
         "subtitle": "Know our properties and rooms",
-        "soon": "SOON"
+        "soon": "SOON",
+        "rosselloCardIndex": "Large property ideal for those who want their stay in Barcelona to be like being at home. It has three floors, spacious fully equipped common areas, living room, kitchen, patio, terrace and laundry.",
+        "rosselloCardIndexIcon1": "Couples",
+        "rosselloCardIndexIcon2": "7 rooms",
+        "rosselloCardIndexIcon3": "Private bathrooms",
+        "rosselloCardIndexIcon4": "Housekeeping",
+        "rosselloCardIndexButton":"SEE MORE",
+        "bonsomsCardIndex": "Coliving ideal for those people who want to feel comfortable and at ease with their surroundings in a modern and cozy home. It has a living room, a fully equipped kitchen and a laundry room.",
+        "bonsomsCardIndexIcon1": "Singles",
+        "bonsomsCardIndexIcon2": "9 rooms",
+        "bonsomsCardIndexIcon3": "2 shared bathrooms",
+        "bonsomsCardIndexIcon4": "Housekeeping",
+        "bonsomsCardIndexButton":"SEE MORE",
+        "montCardIndexTitle": "SOON: MONT",
+        "montCardIndex": "We are currently in the renovation of a house located in L'Hospitalet de Llobregat, which will have only two modern and new rooms, bathroom, kitchen and laundry, all fully equipped.",
+        "montCardIndexIcon1": "Couples",
+        "montCardIndexIcon2": "2 rooms",
+        "montCardIndexIcon3": "1 shared bathroom",
+        "montCardIndexIcon4": "Housekeeping",
+        "montCardIndexButton": "SOON"
     },
     "reviews":{
         "title":"Reviews",
         "subtitle": "Know the opinion of our tenants",
-        "button1": "See more",
-        "button2": "Write a review"
+        "button1": "SEE MORE",
+        "button2": "WRITE A REVIEW"
     },
     "navBar":{
         "home": "Home",
         "ourConcept": "Our concept",
-        "properties": "Properties",
-        "soon": "Soon",
+        "properties": "Our Colivings",
+        "soon": "Image Gallery",
         "contact": "Contact",
         "requestAccess": "Request Access"
     },
@@ -26,6 +45,8 @@
         "text": "Our colivings are modern and designed by professionals focused on the comfort and well-being of their residents. The design of the coliving is based on principles of order, open space and light. The common spaces, such as the kitchen, the dining room and the rest areas, are carefully designed, taking care of every detail, to promote the tranquility and well-being of our residents. Sustainability is also an integral part of our concept. The building has renewable energy systems, such as solar panels and efficient water and waste management systems.",
         "button": "SEE MORE",
         "titleH1": "OUR CONCEPT",
+        "titleVideo": "KNOW OUR COLIVING CONCEPT",
+        "textVideo": "Get to know our Coliving concept. In our home you will find modern, spacious and bright spaces. Ideal for those looking for a pleasant place to spend their stay in Barcelona. Thanks to our design and furniture, you will have enough comfort and tranquility to rest, study and even work from there. The common spaces are ideal for socializing between residents or simply spending time outdoors. Committed to caring for the environment, our home has energy systems and sustainable air conditioning, water and waste management.",
         "titleHome": "HOME",
         "home": "The bases of our Colivings have been designed with every detail in mind to offer a unique and warm experience, creating a well-being, cozy and homely environment for its tenants, so that they feel immediately at ease, as if they were in their own homes. Being able in this way to be comfortable at all times and enjoy the stay at Coliving to the fullest, either enjoying the common spaces, as well as the privacy and comforts offered by our spacious private rooms.",
         "titleDesign": "DESIGN",
@@ -38,8 +59,20 @@
         "clean": "A cleaning service is included in our Colivings -Monday to Friday- to guarantee that our residents enjoy a clean and tidy environment at all times. We recognize the importance of maintaining a clean and pleasant space for the well-being of all. Our cleaning service is designed to cover all the common areas and shared spaces of the coliving. Our professional cleaning team takes care of regular cleaning of common areas such as living rooms, kitchens, dining rooms, and shared bathrooms. They make sure that these spaces are always immaculate and ready to be enjoyed by all."
     },
     "rossello":{
-        "rosselloText": "Coliving Vibes Rosselló is specially designed for people looking for a comfortable and cozy space to live. Thanks to its ample space both in common areas and in the rooms, this Coliving is suitable for couples. It has 6 spacious and bright rooms with double beds, with private bathrooms and fully furnished, and 1 room with a single bed. Each room is equipped with a spacious closet, desk and chairs, and other essentials for a comfortable and enjoyable stay. In addition to the private rooms, the coliving offers common spaces for the enjoyment of all residents. There is a spacious dining room with sofas, chairs, a table and a television that allows residents to share meals together, encouraging interaction and bonding between them. The kitchen is fully equipped with modern appliances and all the necessary cooking utensils, making meal preparation easy. One of the advantages of this coliving is the presence of outdoor spaces. Both the terrace and the patio provide outdoor areas where residents can enjoy the sun, relax, read a book or socialize. These spaces are perfect for spending time outdoors without leaving the coliving. Coliving offers a cleaning service for the common areas from Monday to Friday, which guarantees that the shared spaces are kept clean and tidy for the enjoyment of all. In addition, high-speed WiFi access is provided throughout the building, so residents can stay connected and work or enjoy online entertainment seamlessly. As for the location, Coliving is just a five-minute walk from Line 5 of the subway and other means of transport, which makes it easy to get around the city. This provides convenience and accessibility to residents, allowing them to easily explore the surroundings and access different parts of the city.",
-        "button": "See full image gallery",
+        "icon1": "Couples",
+        "icon2": "Seven rooms",
+        "icon3": "Private bathrooms",
+        "icon4": "Cold/Hot air conditioner",
+        "icon5": "Full kitchen",
+        "icon6": "Living room",
+        "icon7": "Yard and terrace",
+        "icon8": "Laundry",
+        "icon9": "Housekeeping",
+        "icon10": "Smart TV",
+        "icon11": "WI-FI",
+        "icon12": "Public transport",
+        "rosselloText": "Coliving Vibes Rosselló is located in a spacious three-story house, with bright and spacious rooms and common areas, perfect for couples or individuals seeking a comfortable stay in Barcelona. It offers 7 rooms -six doubles and one single-, all with private bathroom. The house has adjustable air conditioning to maintain a pleasant temperature. In addition, it has several common spaces, such as a modern and fully equipped kitchen, a living-dining room with Smart TV, a patio to relax outdoors and a large terrace, where there is an equipped laundry room. The cleaning of the common areas is done from Monday to Friday, however, residents will find cleaning products at their disposal at all times. Its strategic location allows easy access to several bus stops and metro lines 1, 5 and LS9, connecting the house with several key points, such as the airport and the city center.",
+        "rosselloButton": "IMAGES GALLERY",
         "buttonImages": "See more",
         "rosselloTitleCommon": "COMMON SPACES",
         "rosselloTextCommon": "The coliving has a wide variety of common spaces for residents to enjoy and socialize. A spacious dining room where residents can share meals together, work or simply relax. A complete and modern kitchen that has all the necessary appliances, kitchen utensils and labeled storage space so that each resident has their space, both in the pantry and in the refrigerator. An outdoor terrace and patio equipped with comfortable lounge chairs and tables perfect for relaxing, reading a book or enjoying a quiet conversation with other outdoor residents. On the terrace there is also the laundry room, which has two washing machines and a dryer, iron and ironing board. Clothes washing products are included and always available to residents. These common spaces are designed to encourage social interaction among residents, creating a welcoming community environment and providing opportunities to network with like-minded individuals.",
