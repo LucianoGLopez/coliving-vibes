@@ -378,10 +378,10 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  gap: 20px; }
+  gap: 30px; }
 
 .rosselloCard {
-  height: 600px;
+  height: 640px;
   width: 340px;
   text-align: start;
   display: flex;
@@ -390,15 +390,17 @@ h1 {
   -webkit-box-shadow: 0px 0px 13px 2px #bbbbbb;
   box-shadow: 0px 0px 13px 2px #bbbbbb; }
   .rosselloCard img {
-    filter: brightness(75%);
+    filter: brightness(60%);
     border-top-left-radius: 3px;
-    border-top-right-radius: 3px; }
+    border-top-right-radius: 3px;
+    height: 240px;
+    width: 340px; }
   .rosselloCard h4 {
-    font-family: "futura-medium";
-    letter-spacing: 5px;
+    font-family: "futura-bold";
     padding: 20px 0 0 30px;
-    font-size: 1.5rem;
-    color: #272727; }
+    font-size: 2rem;
+    color: #272727;
+    letter-spacing: 0px; }
   .rosselloCard a {
     margin-left: 30px; }
   .rosselloCard button {
@@ -408,7 +410,7 @@ h1 {
     font-size: .9rem;
     letter-spacing: 3px;
     padding: 5px 10px;
-    margin: 20px 0;
+    margin-top: 20px;
     color: #272727; }
     .rosselloCard button:hover {
       background-color: #272727;
@@ -418,12 +420,36 @@ h1 {
   .rosselloCard__separador {
     border-top: 1px solid #272727;
     margin: 0 30px 10px; }
+  .rosselloCard__text {
+    font-family: "futura-light";
+    padding: 0 30px; }
 
 #soonButton {
   color: #bbbbbb;
   border-color: #bbbbbb;
   cursor: no-drop;
-  margin: 10px 30px; }
+  margin: 20px 30px; }
+  #soonButton:hover {
+    background-color: none;
+    color: #ffff92;
+    border: 1px solid #272727; }
+
+.iconsCards img {
+  height: 20px;
+  width: auto; }
+
+.iconsCards__text {
+  display: flex;
+  padding-top: 2px;
+  padding-left: 30px;
+  justify-content: start;
+  gap: 5px; }
+
+.iconsCards__p {
+  font-family: "futura-light";
+  letter-spacing: 3px;
+  font-size: .9rem;
+  margin: 0; }
 
 .reviews {
   height: max-content;
@@ -3825,6 +3851,7 @@ button {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/contactBackground2.webp);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   padding: 120px 20px;
   display: flex;
   flex-direction: column;
