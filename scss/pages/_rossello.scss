@@ -219,7 +219,7 @@
         }
         p{
             font-family: "futura-light";
-            text-align: start;
+            text-align: center;
             color: $lightgraytext;
         }
         button{
@@ -251,6 +251,7 @@
         img{
             height: 70px;
             width: auto;
+            margin: auto;
         }
         p{
             color: $darkgray;

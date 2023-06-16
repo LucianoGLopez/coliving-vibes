@@ -222,7 +222,7 @@
         }
         p{
             font-family: "futura-light";
-            text-align: start;
+            text-align: center;
         }
         button{
             letter-spacing: .2rem;
@@ -251,6 +251,7 @@
         justify-content: space-around;
         gap: 20px;
         img{
+            margin: auto;
             height: 70px;
             width: auto;
             filter: invert(80%) sepia(11%) saturate(1915%) hue-rotate(24deg) brightness(129%) contrast(103%);

@@ -1551,7 +1551,7 @@ h1 {
       margin: 0 300px 20px; }
     .rosselloMain p {
       font-family: "futura-light";
-      text-align: start;
+      text-align: center;
       color: #e7e7e7; }
     .rosselloMain button {
       letter-spacing: .2rem;
@@ -1576,7 +1576,8 @@ h1 {
     gap: 20px; }
     .iconsRossello img {
       height: 70px;
-      width: auto; }
+      width: auto;
+      margin: auto; }
     .iconsRossello p {
       color: #272727;
       font-family: "futura-light";
@@ -2745,7 +2746,7 @@ h1 {
       margin: 0 300px 20px; }
     .bonsomsMain p {
       font-family: "futura-light";
-      text-align: start; }
+      text-align: center; }
     .bonsomsMain button {
       letter-spacing: .2rem;
       font-family: "futura-light";
@@ -2768,6 +2769,7 @@ h1 {
     justify-content: space-around;
     gap: 20px; }
     .iconsBonsoms img {
+      margin: auto;
       height: 70px;
       width: auto;
       filter: invert(80%) sepia(11%) saturate(1915%) hue-rotate(24deg) brightness(129%) contrast(103%); }
@@ -3795,17 +3797,18 @@ button {
       text-align: center;
       font-family: "futura-bold";
       font-size: 4.5rem;
-      color: #ffff6b; }
+      color: #f6f6f6; }
     .faqsMain h3 {
       text-align: start;
-      padding: 20px 300px;
-      font-family: "futura-medium";
-      font-size: 1.5rem;
+      padding: 50px 300px 0;
+      font-family: "futura-bold";
+      font-size: 2.5rem;
       letter-spacing: 3px;
-      color: #e7e7e7; }
+      color: #ffff6b; }
     .faqsMain h4 {
       font-family: "futura-bold";
-      font-size: 1rem; }
+      font-size: 1.3em;
+      letter-spacing: 2px; }
     .faqsMain p {
       font-family: "futura-light";
       font-size: 1; }
@@ -4051,8 +4054,7 @@ input[type=number]::-webkit-outer-spin-button {
     color: #fafa2b;
     border: none;
     padding: .7em 0;
-    border-radius: 3px;
-    margin-top: 20px; }
+    border-radius: 3px; }
     .form__cta:hover {
       background-color: rgba(250, 250, 43, 0.716);
       color: #272727;
