@@ -279,7 +279,6 @@ h1 {
   background-position-x: right; }
 
 .bodyIndex {
-  height: max-content;
   background-color: #3a3a3a; }
 
 .mainTitle {
@@ -3956,9 +3955,7 @@ button {
     margin: 0 30px 20px; }
 
 .bodyFaqs {
-  background-color: rgba(41, 41, 41, 0.684);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px); }
+  background-color: #3a3a3a; }
 
 #accordion-item1 {
   margin: 10px; }
@@ -4036,9 +4033,7 @@ button {
     font-weight: 300; }
 
 .bodyContact {
-  background-color: rgba(41, 41, 41, 0.684);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px); }
+  background-color: #3a3a3a; }
 
 .infoContact {
   background: none;
