@@ -49,6 +49,7 @@ h1 {
 #header {
   background-color: rgba(41, 41, 41, 0.684);
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   position: fixed;
   width: 100vw;
   z-index: 10000; }
@@ -339,7 +340,7 @@ h1 {
     width: auto;
     padding: 0 20px; }
   .containerOurConcept__image2 {
-    height: 420px;
+    height: 430px;
     width: auto;
     padding: 0 20px; }
   .containerOurConcept button {
