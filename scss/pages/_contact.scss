@@ -26,6 +26,11 @@
         font-weight: 300;
     }
 }
+.bodyContact{
+    background-color: rgba(41, 41, 41, 0.684);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
 
 .infoContact{
     background: none;

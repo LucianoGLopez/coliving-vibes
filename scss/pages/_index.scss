@@ -9,7 +9,9 @@
 }
 
 .bodyIndex{
-    background-color: $gray;
+    background-color: rgba(41, 41, 41, 0.684);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
 }
 .mainTitle{
     width: 100vw;
