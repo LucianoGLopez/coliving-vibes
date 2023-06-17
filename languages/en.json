@@ -234,5 +234,13 @@
         "subtitle": "SEND US YOUR INQUIRY",
         "phone": "Phone",
         "rrss": "Our social networks:"
+    },
+    "footer":{
+        "navHome": "Home",
+        "navOurconcept": "Our concept",
+        "navOurcolivings": "Our Colivings",
+        "navFaqs": "FAQ's",
+        "navContact": "Contact",
+        "rrssTitle": "Follow us on our networks"
     }
 }

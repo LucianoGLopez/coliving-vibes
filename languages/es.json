@@ -233,6 +233,14 @@
         "subtitle": "ENVÍANOS TU CONSULTA",
         "phone": "Teléfono",
         "rrss": "Nuestras redes sociales:"
+    },
+    "footer":{
+        "navHome": "Inicio",
+        "navOurconcept": "Nuestro concepto",
+        "navOurcolivings": "Nuestros Colivings",
+        "navFaqs": "FAQ's",
+        "navContact": "Contacto",
+        "rrssTitle": "Síguenos en nuestras redes"
     }
 }
 
