@@ -73,11 +73,11 @@
 }
 // CARDS
 .commonSpace{
-    @include cardBonsomsMobile (column-reverse, $darkgray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(/img/bonsoms/laundry/laundry_1.jpg));
+    @include cardBonsomsMobile (column-reverse, $darkgray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(../img/bonsoms/laundry/laundry_1.jpg));
 }
 // ROOM 1
 .room1Bonsoms{
-    @include cardBonsomsMobile (column-reverse, $gray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(/img/bonsoms/room1Bonsoms/room1_4.jpg));
+    @include cardBonsomsMobile (column-reverse, $gray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(../img/bonsoms/room1Bonsoms/room1_4.jpg));
     button{
         color: $yellow;
         border: solid 1px $yellow;
@@ -90,7 +90,7 @@
 }
 // ROOM 2
 .room2Bonsoms{
-    @include cardBonsomsMobile (column-reverse, $darkgray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(/img/bonsoms/room2Bonsoms/room2_4.jpg));
+    @include cardBonsomsMobile (column-reverse, $darkgray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(../img/bonsoms/room2Bonsoms/room2_4.jpg));
     button{
         color: $yellow;
         border: solid 1px $yellow;
@@ -103,7 +103,7 @@
 }
 // ROOM 3
 .room3Bonsoms{
-    @include cardBonsomsMobile (column-reverse, $gray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(/img/bonsoms/room3Bonsoms/room3_4.jpg));
+    @include cardBonsomsMobile (column-reverse, $gray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(../img/bonsoms/room3Bonsoms/room3_4.jpg));
     button{
         color: $yellow;
         border: solid 1px $yellow;
@@ -116,7 +116,7 @@
 }
 // ROOM 4
 .room4Bonsoms{
-    @include cardBonsomsMobile (column-reverse, $darkgray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(/img/bonsoms/room4Bonsoms/room4_4.jpg));
+    @include cardBonsomsMobile (column-reverse, $darkgray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(../img/bonsoms/room4Bonsoms/room4_4.jpg));
     button{
         color: $yellow;
         border: solid 1px $yellow;
@@ -129,7 +129,7 @@
 }
 // ROOM 5
 .room5Bonsoms{
-    @include cardBonsomsMobile (column-reverse, $gray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(/img/bonsoms/room5Bonsoms/room5_5.jpg));
+    @include cardBonsomsMobile (column-reverse, $gray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(../img/bonsoms/room5Bonsoms/room5_5.jpg));
     button{
         color: $yellow;
         border: solid 1px $yellow;
@@ -142,7 +142,7 @@
 }
 
 .room6Bonsoms{
-    @include cardBonsomsMobile (column-reverse, $darkgray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(/img/bonsoms/room6Bonsoms/room6_4.jpg));
+    @include cardBonsomsMobile (column-reverse, $darkgray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(../img/bonsoms/room6Bonsoms/room6_4.jpg));
     button{
         color: $yellow;
         border: solid 1px $yellow;
@@ -155,7 +155,7 @@
 }
 
 .room7Bonsoms{
-    @include cardBonsomsMobile (column-reverse, $gray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(/img/bonsoms/room7Bonsoms/room7_4.jpg));
+    @include cardBonsomsMobile (column-reverse, $gray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(../img/bonsoms/room7Bonsoms/room7_4.jpg));
     button{
         color: $yellow;
         border: solid 1px $yellow;
@@ -168,7 +168,7 @@
 }
 
 .room8Bonsoms{
-    @include cardBonsomsMobile (column-reverse, $darkgray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(/img/bonsoms/room8Bonsoms/room8_2.jpg));
+    @include cardBonsomsMobile (column-reverse, $darkgray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(../img/bonsoms/room8Bonsoms/room8_2.jpg));
     button{
         color: $yellow;
         border: solid 1px $yellow;
@@ -181,7 +181,7 @@
 }
 
 .room9Bonsoms{
-    @include cardBonsomsMobile (column-reverse, $gray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(/img/bonsoms/room9Bonsoms/room9_4.jpg));
+    @include cardBonsomsMobile (column-reverse, $gray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(../img/bonsoms/room9Bonsoms/room9_4.jpg));
     button{
         color: $yellow;
         border: solid 1px $yellow;
@@ -278,11 +278,11 @@
     
     // CARDS
     .commonSpace{
-        @include cardBonsoms (row, $darkgray, $lightgraytext, $yellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/bonsoms/laundry/laundry_1.jpg));
+        @include cardBonsoms (row, $darkgray, $lightgraytext, $yellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(../img/bonsoms/laundry/laundry_1.jpg));
     }
         
     .room1Bonsoms{
-        @include cardBonsoms (row-reverse, $gray, $lightgraytext, $yellow, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/bonsoms/room1Bonsoms/room1_4.jpg));
+        @include cardBonsoms (row-reverse, $gray, $lightgraytext, $yellow, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(../img/bonsoms/room1Bonsoms/room1_4.jpg));
         button{
             color: $yellow;
             border: solid 1px $yellow;
@@ -300,7 +300,7 @@
     }
     
     .room2Bonsoms{
-        @include cardBonsoms (row, $darkgray, $lightgraytext, $yellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/bonsoms/room2Bonsoms/room2_4.jpg));
+        @include cardBonsoms (row, $darkgray, $lightgraytext, $yellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(../img/bonsoms/room2Bonsoms/room2_4.jpg));
         button{
             color: $yellow;
             border: solid 1px $yellow;
@@ -318,7 +318,7 @@
     }
     
     .room3Bonsoms{
-        @include cardBonsoms (row-reverse, $gray, $lightgraytext, $yellow, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/bonsoms/room3Bonsoms/room3_4.jpg));
+        @include cardBonsoms (row-reverse, $gray, $lightgraytext, $yellow, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(../img/bonsoms/room3Bonsoms/room3_4.jpg));
         button{
             color: $yellow;
             border: solid 1px $yellow;
@@ -336,7 +336,7 @@
     }
     
     .room4Bonsoms{
-        @include cardBonsoms (row, $darkgray, $lightgraytext, $yellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/bonsoms/room4Bonsoms/room4_4.jpg));
+        @include cardBonsoms (row, $darkgray, $lightgraytext, $yellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(../img/bonsoms/room4Bonsoms/room4_4.jpg));
         button{
             color: $yellow;
             border: solid 1px $yellow;
@@ -354,7 +354,7 @@
     }
     
     .room5Bonsoms{
-        @include cardBonsoms (row-reverse, $gray, $lightgraytext, $yellow, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/bonsoms/room5Bonsoms/room5_5.jpg));
+        @include cardBonsoms (row-reverse, $gray, $lightgraytext, $yellow, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(../img/bonsoms/room5Bonsoms/room5_5.jpg));
         button{
             color: $yellow;
             border: solid 1px $yellow;
@@ -372,7 +372,7 @@
     }
     
     .room6Bonsoms{
-        @include cardBonsoms (row, $darkgray, $lightgraytext, $yellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/bonsoms/room6Bonsoms/room6_4.jpg));
+        @include cardBonsoms (row, $darkgray, $lightgraytext, $yellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(../img/bonsoms/room6Bonsoms/room6_4.jpg));
         button{
             color: $yellow;
             border: solid 1px $yellow;
@@ -390,7 +390,7 @@
     }
     
     .room7Bonsoms{
-        @include cardBonsoms (row-reverse, $gray, $lightgraytext, $yellow, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/bonsoms/room7Bonsoms/room7_4.jpg));
+        @include cardBonsoms (row-reverse, $gray, $lightgraytext, $yellow, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(../img/bonsoms/room7Bonsoms/room7_4.jpg));
         button{
             color: $yellow;
             border: solid 1px $yellow;
@@ -408,7 +408,7 @@
     }
     
     .room8Bonsoms{
-        @include cardBonsoms (row, $darkgray, $lightgraytext, $yellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(/img/bonsoms/room8Bonsoms/room8_2.jpg));
+        @include cardBonsoms (row, $darkgray, $lightgraytext, $yellow, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(../img/bonsoms/room8Bonsoms/room8_2.jpg));
         button{
             color: $yellow;
             border: solid 1px $yellow;
@@ -426,7 +426,7 @@
     }
     
     .room9Bonsoms{
-        @include cardBonsoms (row-reverse, $gray, $lightgraytext, $yellow, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(/img/bonsoms/room9Bonsoms/room9_4.jpg));
+        @include cardBonsoms (row-reverse, $gray, $lightgraytext, $yellow, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(../img/bonsoms/room9Bonsoms/room9_4.jpg));
         button{
             color: $yellow;
             border: solid 1px $yellow;

@@ -1,6 +1,6 @@
 // GALLERY MOBILE
 .mainGalleries{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url(/img/backgroundGallery.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url(../img/backgroundGallery.png);
     background-size: cover;
     background-position: top;
     padding: 120px 20px 50px;
@@ -29,7 +29,7 @@
     &__rossello{
         height: 250px;
         width: 100%;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(/img/portada1.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../img/portada1.jpg);
         background-size: cover;
         display: flex;
         flex-direction: column;
@@ -57,7 +57,7 @@
     &__bonsoms{
         height: 250px;
         width: 100%;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(/img/bonsoms/livingRoom/livingRoom_1.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../img/bonsoms/livingRoom/livingRoom_1.jpg);
         background-size: cover;
         display: flex;
         flex-direction: column;
@@ -89,7 +89,7 @@
 // GALLERY DESKTOP
 @media (min-width: 992px) {
     .mainGalleries{
-        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url(/img/backgroundGallery.png);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url(../img/backgroundGallery.png);
         background-size: cover;
         padding-top: 120px;
         height: 100vh;
@@ -116,7 +116,7 @@
         &__rossello{
             height: 350px;
             width: 450px;
-            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(/img/portada1.jpg);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../img/portada1.jpg);
             background-size: cover;
             display: flex;
             flex-direction: column;
@@ -144,7 +144,7 @@
         &__bonsoms{
             height: 350px;
             width: 450px;
-            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(/img/bonsoms/livingRoom/livingRoom_1.jpg);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../img/bonsoms/livingRoom/livingRoom_1.jpg);
             background-size: cover;
             display: flex;
             flex-direction: column;

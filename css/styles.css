@@ -18,31 +18,31 @@ h1 {
 
 @font-face {
   font-family: "dazzle-bold";
-  src: url(../fonts/dazzle-bold.ttf);
+  src: url(./fonts/dazzle-bold.ttf);
   font-style: bold;
   font-weight: bold; }
 
 @font-face {
   font-family: "futura-bold";
-  src: url(/fonts/futura-bold.ttf);
+  src: url(./fonts/futura-bold.ttf);
   font-style: bold;
   font-weight: bold; }
 
 @font-face {
   font-family: "futura-bold2";
-  src: url(/fonts/futura-bold.ttf);
+  src: url(./fonts/futura-bold.ttf);
   font-style: italic;
   font-weight: bolder; }
 
 @font-face {
   font-family: "futura-medium";
-  src: url(/fonts/futura-medium.ttf);
+  src: url(./fonts/futura-medium.ttf);
   font-style: normal;
   font-weight: 500; }
 
 @font-face {
   font-family: "futura-light";
-  src: url(/fonts/futura-light.ttf);
+  src: url(./fonts/futura-light.ttf);
   font-style: normal;
   font-weight: lighter; }
 
@@ -271,7 +271,7 @@ h1 {
   height: 100vh;
   background-color: #272727;
   display: flex;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/img/portada2_12.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./img/portada2_12.webp);
   background-size: cover;
   background-position-x: right; }
 
@@ -548,7 +548,7 @@ h1 {
     height: 100vh;
     background-color: #272727;
     display: flex;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/img/portada2_12.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./img/portada2_12.webp);
     background-size: cover; }
   .mainTitle {
     width: 50vw;
@@ -1068,7 +1068,7 @@ h1 {
       .commonSpaceRossello picture img:nth-child(4) {
         filter: brightness(0.2); }
     .commonSpaceRossello picture div {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/portada.jpg);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(../img/portada.jpg);
       background-size: cover;
       border-radius: 3px;
       cursor: pointer; }
@@ -1125,7 +1125,7 @@ h1 {
       .room1Rossello picture img:nth-child(4) {
         filter: brightness(0.2); }
     .room1Rossello picture div {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room1Rossello/room1_4.webp);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(../img/room1Rossello/room1_4.webp);
       background-size: cover;
       border-radius: 3px;
       cursor: pointer; }
@@ -1193,7 +1193,7 @@ h1 {
       .room2Rossello picture img:nth-child(4) {
         filter: brightness(0.2); }
     .room2Rossello picture div {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room2Rossello/room2-4.webp);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(../img/room2Rossello/room2-4.webp);
       background-size: cover;
       border-radius: 3px;
       cursor: pointer; }
@@ -1261,7 +1261,7 @@ h1 {
       .room3Rossello picture img:nth-child(4) {
         filter: brightness(0.2); }
     .room3Rossello picture div {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room3Rossello/room3_4.webp);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(../img/room3Rossello/room3_4.webp);
       background-size: cover;
       border-radius: 3px;
       cursor: pointer; }
@@ -1329,7 +1329,7 @@ h1 {
       .room4Rossello picture img:nth-child(4) {
         filter: brightness(0.2); }
     .room4Rossello picture div {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room4Rossello/room4_10.webp);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(../img/room4Rossello/room4_10.webp);
       background-size: cover;
       border-radius: 3px;
       cursor: pointer; }
@@ -1397,7 +1397,7 @@ h1 {
       .room5Rossello picture img:nth-child(4) {
         filter: brightness(0.2); }
     .room5Rossello picture div {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room5Rossello/room5_4.webp);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(../img/room5Rossello/room5_4.webp);
       background-size: cover;
       border-radius: 3px;
       cursor: pointer; }
@@ -1465,7 +1465,7 @@ h1 {
       .room6Rossello picture img:nth-child(4) {
         filter: brightness(0.2); }
     .room6Rossello picture div {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room6Rossello/room6_4.webp);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(../img/room6Rossello/room6_4.webp);
       background-size: cover;
       border-radius: 3px;
       cursor: pointer; }
@@ -1530,7 +1530,7 @@ h1 {
       .room7Rossello picture img:nth-child(4) {
         filter: brightness(0.2); }
     .room7Rossello picture div {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room7Rossello/room7_4.webp);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(../img/room7Rossello/room7_4.webp);
       background-size: cover;
       border-radius: 3px;
       cursor: pointer; }
@@ -1657,7 +1657,7 @@ h1 {
         .commonSpaceRossello picture img:nth-child(4) {
           filter: brightness(0.2); }
       .commonSpaceRossello picture div {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/portada.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(../img/portada.jpg);
         background-size: cover;
         border-radius: 3px;
         cursor: pointer; }
@@ -1713,7 +1713,7 @@ h1 {
         .room1Rossello picture img:nth-child(4) {
           filter: brightness(0.2); }
       .room1Rossello picture div {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room1Rossello/room1_4.webp);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(../img/room1Rossello/room1_4.webp);
         background-size: cover;
         border-radius: 3px;
         cursor: pointer; }
@@ -1781,7 +1781,7 @@ h1 {
         .room2Rossello picture img:nth-child(4) {
           filter: brightness(0.2); }
       .room2Rossello picture div {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room2Rossello/room2-4.webp);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(../img/room2Rossello/room2-4.webp);
         background-size: cover;
         border-radius: 3px;
         cursor: pointer; }
@@ -1849,7 +1849,7 @@ h1 {
         .room3Rossello picture img:nth-child(4) {
           filter: brightness(0.2); }
       .room3Rossello picture div {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room3Rossello/room3_4.webp);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(../img/room3Rossello/room3_4.webp);
         background-size: cover;
         border-radius: 3px;
         cursor: pointer; }
@@ -1917,7 +1917,7 @@ h1 {
         .room4Rossello picture img:nth-child(4) {
           filter: brightness(0.2); }
       .room4Rossello picture div {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room4Rossello/room4_10.webp);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(../img/room4Rossello/room4_10.webp);
         background-size: cover;
         border-radius: 3px;
         cursor: pointer; }
@@ -1985,7 +1985,7 @@ h1 {
         .room5Rossello picture img:nth-child(4) {
           filter: brightness(0.2); }
       .room5Rossello picture div {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room5Rossello/room5_4.webp);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(../img/room5Rossello/room5_4.webp);
         background-size: cover;
         border-radius: 3px;
         cursor: pointer; }
@@ -2053,7 +2053,7 @@ h1 {
         .room6Rossello picture img:nth-child(4) {
           filter: brightness(0.2); }
       .room6Rossello picture div {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room6Rossello/room6_4.webp);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(../img/room6Rossello/room6_4.webp);
         background-size: cover;
         border-radius: 3px;
         cursor: pointer; }
@@ -2121,7 +2121,7 @@ h1 {
         .room7Rossello picture img:nth-child(4) {
           filter: brightness(0.2); }
       .room7Rossello picture div {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/room7Rossello/room7_4.webp);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(../img/room7Rossello/room7_4.webp);
         background-size: cover;
         border-radius: 3px;
         cursor: pointer; }
@@ -2239,7 +2239,7 @@ h1 {
       .commonSpace picture img:nth-child(4) {
         filter: brightness(0.2); }
     .commonSpace picture div {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/bonsoms/laundry/laundry_1.jpg);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(../img/bonsoms/laundry/laundry_1.jpg);
       background-size: cover;
       border-radius: 3px;
       cursor: pointer; }
@@ -2286,7 +2286,7 @@ h1 {
       .room1Bonsoms picture img:nth-child(4) {
         filter: brightness(0.2); }
     .room1Bonsoms picture div {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/bonsoms/room1Bonsoms/room1_4.jpg);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(../img/bonsoms/room1Bonsoms/room1_4.jpg);
       background-size: cover;
       border-radius: 3px;
       cursor: pointer; }
@@ -2341,7 +2341,7 @@ h1 {
       .room2Bonsoms picture img:nth-child(4) {
         filter: brightness(0.2); }
     .room2Bonsoms picture div {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/bonsoms/room2Bonsoms/room2_4.jpg);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(../img/bonsoms/room2Bonsoms/room2_4.jpg);
       background-size: cover;
       border-radius: 3px;
       cursor: pointer; }
@@ -2396,7 +2396,7 @@ h1 {
       .room3Bonsoms picture img:nth-child(4) {
         filter: brightness(0.2); }
     .room3Bonsoms picture div {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/bonsoms/room3Bonsoms/room3_4.jpg);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(../img/bonsoms/room3Bonsoms/room3_4.jpg);
       background-size: cover;
       border-radius: 3px;
       cursor: pointer; }
@@ -2451,7 +2451,7 @@ h1 {
       .room4Bonsoms picture img:nth-child(4) {
         filter: brightness(0.2); }
     .room4Bonsoms picture div {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/bonsoms/room4Bonsoms/room4_4.jpg);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(../img/bonsoms/room4Bonsoms/room4_4.jpg);
       background-size: cover;
       border-radius: 3px;
       cursor: pointer; }
@@ -2506,7 +2506,7 @@ h1 {
       .room5Bonsoms picture img:nth-child(4) {
         filter: brightness(0.2); }
     .room5Bonsoms picture div {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/bonsoms/room5Bonsoms/room5_5.jpg);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(../img/bonsoms/room5Bonsoms/room5_5.jpg);
       background-size: cover;
       border-radius: 3px;
       cursor: pointer; }
@@ -2561,7 +2561,7 @@ h1 {
       .room6Bonsoms picture img:nth-child(4) {
         filter: brightness(0.2); }
     .room6Bonsoms picture div {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/bonsoms/room6Bonsoms/room6_4.jpg);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(../img/bonsoms/room6Bonsoms/room6_4.jpg);
       background-size: cover;
       border-radius: 3px;
       cursor: pointer; }
@@ -2616,7 +2616,7 @@ h1 {
       .room7Bonsoms picture img:nth-child(4) {
         filter: brightness(0.2); }
     .room7Bonsoms picture div {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/bonsoms/room7Bonsoms/room7_4.jpg);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(../img/bonsoms/room7Bonsoms/room7_4.jpg);
       background-size: cover;
       border-radius: 3px;
       cursor: pointer; }
@@ -2671,7 +2671,7 @@ h1 {
       .room8Bonsoms picture img:nth-child(4) {
         filter: brightness(0.2); }
     .room8Bonsoms picture div {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/bonsoms/room8Bonsoms/room8_2.jpg);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(../img/bonsoms/room8Bonsoms/room8_2.jpg);
       background-size: cover;
       border-radius: 3px;
       cursor: pointer; }
@@ -2726,7 +2726,7 @@ h1 {
       .room9Bonsoms picture img:nth-child(4) {
         filter: brightness(0.2); }
     .room9Bonsoms picture div {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/bonsoms/room9Bonsoms/room9_4.jpg);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(../img/bonsoms/room9Bonsoms/room9_4.jpg);
       background-size: cover;
       border-radius: 3px;
       cursor: pointer; }
@@ -2842,7 +2842,7 @@ h1 {
         .commonSpace picture img:nth-child(4) {
           filter: brightness(0.2); }
       .commonSpace picture div {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/bonsoms/laundry/laundry_1.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(../img/bonsoms/laundry/laundry_1.jpg);
         background-size: cover;
         border-radius: 3px;
         cursor: pointer; }
@@ -2888,7 +2888,7 @@ h1 {
         .room1Bonsoms picture img:nth-child(4) {
           filter: brightness(0.2); }
       .room1Bonsoms picture div {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/bonsoms/room1Bonsoms/room1_4.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(../img/bonsoms/room1Bonsoms/room1_4.jpg);
         background-size: cover;
         border-radius: 3px;
         cursor: pointer; }
@@ -2946,7 +2946,7 @@ h1 {
         .room2Bonsoms picture img:nth-child(4) {
           filter: brightness(0.2); }
       .room2Bonsoms picture div {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/bonsoms/room2Bonsoms/room2_4.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(../img/bonsoms/room2Bonsoms/room2_4.jpg);
         background-size: cover;
         border-radius: 3px;
         cursor: pointer; }
@@ -3004,7 +3004,7 @@ h1 {
         .room3Bonsoms picture img:nth-child(4) {
           filter: brightness(0.2); }
       .room3Bonsoms picture div {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/bonsoms/room3Bonsoms/room3_4.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(../img/bonsoms/room3Bonsoms/room3_4.jpg);
         background-size: cover;
         border-radius: 3px;
         cursor: pointer; }
@@ -3062,7 +3062,7 @@ h1 {
         .room4Bonsoms picture img:nth-child(4) {
           filter: brightness(0.2); }
       .room4Bonsoms picture div {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/bonsoms/room4Bonsoms/room4_4.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(../img/bonsoms/room4Bonsoms/room4_4.jpg);
         background-size: cover;
         border-radius: 3px;
         cursor: pointer; }
@@ -3120,7 +3120,7 @@ h1 {
         .room5Bonsoms picture img:nth-child(4) {
           filter: brightness(0.2); }
       .room5Bonsoms picture div {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/bonsoms/room5Bonsoms/room5_5.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(../img/bonsoms/room5Bonsoms/room5_5.jpg);
         background-size: cover;
         border-radius: 3px;
         cursor: pointer; }
@@ -3178,7 +3178,7 @@ h1 {
         .room6Bonsoms picture img:nth-child(4) {
           filter: brightness(0.2); }
       .room6Bonsoms picture div {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/bonsoms/room6Bonsoms/room6_4.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(../img/bonsoms/room6Bonsoms/room6_4.jpg);
         background-size: cover;
         border-radius: 3px;
         cursor: pointer; }
@@ -3236,7 +3236,7 @@ h1 {
         .room7Bonsoms picture img:nth-child(4) {
           filter: brightness(0.2); }
       .room7Bonsoms picture div {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/bonsoms/room7Bonsoms/room7_4.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(../img/bonsoms/room7Bonsoms/room7_4.jpg);
         background-size: cover;
         border-radius: 3px;
         cursor: pointer; }
@@ -3294,7 +3294,7 @@ h1 {
         .room8Bonsoms picture img:nth-child(4) {
           filter: brightness(0.2); }
       .room8Bonsoms picture div {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/bonsoms/room8Bonsoms/room8_2.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(../img/bonsoms/room8Bonsoms/room8_2.jpg);
         background-size: cover;
         border-radius: 3px;
         cursor: pointer; }
@@ -3352,7 +3352,7 @@ h1 {
         .room9Bonsoms picture img:nth-child(4) {
           filter: brightness(0.2); }
       .room9Bonsoms picture div {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(/img/bonsoms/room9Bonsoms/room9_4.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), url(../img/bonsoms/room9Bonsoms/room9_4.jpg);
         background-size: cover;
         border-radius: 3px;
         cursor: pointer; }
@@ -3376,7 +3376,7 @@ h1 {
         color: #ffff6b; } }
 
 .mainGalleries {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url(/img/backgroundGallery.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url(../img/backgroundGallery.png);
   background-size: cover;
   background-position: top;
   padding: 120px 20px 50px;
@@ -3402,7 +3402,7 @@ h1 {
   .galleriesContainer__rossello {
     height: 250px;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(/img/portada1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../img/portada1.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -3426,7 +3426,7 @@ h1 {
   .galleriesContainer__bonsoms {
     height: 250px;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(/img/bonsoms/livingRoom/livingRoom_1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../img/bonsoms/livingRoom/livingRoom_1.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -3450,7 +3450,7 @@ h1 {
 
 @media (min-width: 992px) {
   .mainGalleries {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url(/img/backgroundGallery.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url(../img/backgroundGallery.png);
     background-size: cover;
     padding-top: 120px;
     height: 100vh; }
@@ -3473,7 +3473,7 @@ h1 {
     .galleriesContainer__rossello {
       height: 350px;
       width: 450px;
-      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(/img/portada1.jpg);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../img/portada1.jpg);
       background-size: cover;
       display: flex;
       flex-direction: column;
@@ -3497,7 +3497,7 @@ h1 {
     .galleriesContainer__bonsoms {
       height: 350px;
       width: 450px;
-      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(/img/bonsoms/livingRoom/livingRoom_1.jpg);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../img/bonsoms/livingRoom/livingRoom_1.jpg);
       background-size: cover;
       display: flex;
       flex-direction: column;
@@ -3763,7 +3763,7 @@ button {
       border-radius: 100%; } }
 
 .faqsMain {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(/img/colivingVibesNeon.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../img/colivingVibesNeon.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -3807,7 +3807,7 @@ button {
 
 @media (min-width: 992px) {
   .faqsMain {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(/img/colivingVibesNeon.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../img/colivingVibesNeon.jpg);
     background-size: cover;
     background-attachment: fixed;
     height: max-content;
