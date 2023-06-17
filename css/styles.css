@@ -278,8 +278,9 @@ h1 {
   background-size: cover;
   background-position-x: right; }
 
-.mainIndex {
-  height: max-content; }
+.bodyIndex {
+  height: max-content;
+  background-color: #272727; }
 
 .mainTitle {
   width: 100vw;
