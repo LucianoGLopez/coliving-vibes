@@ -278,6 +278,9 @@ h1 {
   background-size: cover;
   background-position-x: right; }
 
+.mainIndex {
+  height: max-content; }
+
 .mainTitle {
   width: 100vw;
   height: 100vh;
