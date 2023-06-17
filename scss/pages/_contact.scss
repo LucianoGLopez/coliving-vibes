@@ -1,6 +1,6 @@
 // CONTACT MOBILE
 .contactMain{
-    height: 100%;
+    height: max-content;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/contactBackground2.webp);
     background-size: cover;
@@ -69,6 +69,8 @@
 .formContact{
     background-color: rgba(209, 209, 209, 0.368);
     backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+
     width: 100%;
     border-radius: 3px;
     border: 1px solid rgba(59, 59, 59, 0.64);
