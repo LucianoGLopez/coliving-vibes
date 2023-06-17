@@ -344,6 +344,157 @@
 
 
 // INDEX TABLET
+@media (min-width: 768px) {
+    .containerOurConcept{
+        background-color: $gray;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        padding: 50px 40px;
+        gap: 10px;
+        h2{
+            text-align: start;
+            color: $yellow;
+            font-family: "futura-bold";
+            font-size: 3.4rem;
+        }
+        p{
+            color: $lightgraytext;
+            font-weight: 300;
+            font-size: 1rem;
+        }
+        picture{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            justify-content: center;
+        }
+        img{
+            border-radius: 3px;
+            filter: brightness(80%);
+        }
+        &__image{
+            height: 420px;
+            width: auto;
+            padding: 0;
+        }
+        &__image2{
+            height: 350px;
+            width: auto;
+            align-self: center;
+            padding: 0;
+        }
+        button{
+            font-family: "futura-light";
+            font-size: .9rem;
+            font-weight: 400;
+            color: $yellow;
+            border: 1px solid $yellow;
+            border-radius: 3px;
+            padding: 5px 10px;
+            &:hover{
+                border: 1px solid $lightgray;
+                background-color: $lightgray;
+                color: $darkgray;
+                transition: .2s
+            }
+        }
+    }
+    
+    // CARDS
+    .cardsContainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .rosselloCard{
+        height: 640px;
+        width: 330px;
+        text-align: start;
+        display: flex;
+        flex-direction: column;
+        border-radius: 3px;
+        -webkit-box-shadow: 0px 0px 13px 2px $gray2; 
+        box-shadow: 0px 0px 13px 2px $gray2;
+        img{
+            filter: brightness(60%);
+            border-top-left-radius: 3px;
+            border-top-right-radius: 3px;
+            height: 240px;
+            width: 330px;
+        }
+        h4{
+            font-family: "futura-bold";
+            padding: 20px 0 0 30px;
+            font-size: 2rem;
+            color: $darkgray;
+            letter-spacing: 0px;
+        }
+        a{
+            margin-left: 30px;
+        }
+        button{
+            border: 1px solid $gray;
+            border-radius: 3px;
+            font-family: "futura-light";
+            font-size: .9rem;
+            letter-spacing: 3px;
+            padding: 5px 10px;
+            margin-top: 20px;
+            color: $darkgray;
+            &:hover{
+                background-color: $darkgray;
+                color: $yellow;
+                border: 1px solid $darkgray;
+                transition: .2s;
+            }
+        }
+        &__separador{
+            border-top: 1px solid $darkgray;
+            margin: 0 30px 10px;
+        }
+        &__text{
+            font-family: "futura-light";
+            padding: 0 30px;
+        }
+    }
+
+    #soonButton{
+        color: $gray2;
+        border-color: $gray2;
+        cursor: no-drop;
+        margin: 20px 30px;
+        &:hover{
+            background-color: none;
+            color: $lightyellow;
+            border: 1px solid $darkgray;
+        }
+    }
+    
+    .iconsCards{
+        img{
+            height: 20px;
+            width: auto;
+        }
+        &__text{
+            display: flex;
+            padding-top: 2px;
+            padding-left: 30px;
+            justify-content: start;
+            gap: 5px;
+        }
+    }
+
+    .iconsCards__p{
+        font-family: "futura-light";
+        letter-spacing: 3px;
+        font-size: .9rem;
+        margin: 0;
+    }
+
+
+}
 
 
 

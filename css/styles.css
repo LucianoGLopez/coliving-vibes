@@ -549,6 +549,125 @@ h1 {
     transform: translateX(calc(-300px *12));
     -webkit-transform: translateX(-3600px); } }
 
+@media (min-width: 768px) {
+  .containerOurConcept {
+    background-color: #3a3a3a;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    padding: 50px 40px;
+    gap: 10px; }
+    .containerOurConcept h2 {
+      text-align: start;
+      color: #ffff6b;
+      font-family: "futura-bold";
+      font-size: 3.4rem; }
+    .containerOurConcept p {
+      color: #e7e7e7;
+      font-weight: 300;
+      font-size: 1rem; }
+    .containerOurConcept picture {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      justify-content: center; }
+    .containerOurConcept img {
+      border-radius: 3px;
+      filter: brightness(80%); }
+    .containerOurConcept__image {
+      height: 420px;
+      width: auto;
+      padding: 0; }
+    .containerOurConcept__image2 {
+      height: 350px;
+      width: auto;
+      align-self: center;
+      padding: 0; }
+    .containerOurConcept button {
+      font-family: "futura-light";
+      font-size: .9rem;
+      font-weight: 400;
+      color: #ffff6b;
+      border: 1px solid #ffff6b;
+      border-radius: 3px;
+      padding: 5px 10px; }
+      .containerOurConcept button:hover {
+        border: 1px solid #dbdbdb;
+        background-color: #dbdbdb;
+        color: #272727;
+        transition: .2s; }
+  .cardsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+  .rosselloCard {
+    height: 640px;
+    width: 330px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 13px 2px #bbbbbb;
+    box-shadow: 0px 0px 13px 2px #bbbbbb; }
+    .rosselloCard img {
+      filter: brightness(60%);
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+      height: 240px;
+      width: 330px; }
+    .rosselloCard h4 {
+      font-family: "futura-bold";
+      padding: 20px 0 0 30px;
+      font-size: 2rem;
+      color: #272727;
+      letter-spacing: 0px; }
+    .rosselloCard a {
+      margin-left: 30px; }
+    .rosselloCard button {
+      border: 1px solid #3a3a3a;
+      border-radius: 3px;
+      font-family: "futura-light";
+      font-size: .9rem;
+      letter-spacing: 3px;
+      padding: 5px 10px;
+      margin-top: 20px;
+      color: #272727; }
+      .rosselloCard button:hover {
+        background-color: #272727;
+        color: #ffff6b;
+        border: 1px solid #272727;
+        transition: .2s; }
+    .rosselloCard__separador {
+      border-top: 1px solid #272727;
+      margin: 0 30px 10px; }
+    .rosselloCard__text {
+      font-family: "futura-light";
+      padding: 0 30px; }
+  #soonButton {
+    color: #bbbbbb;
+    border-color: #bbbbbb;
+    cursor: no-drop;
+    margin: 20px 30px; }
+    #soonButton:hover {
+      background-color: none;
+      color: #ffff92;
+      border: 1px solid #272727; }
+  .iconsCards img {
+    height: 20px;
+    width: auto; }
+  .iconsCards__text {
+    display: flex;
+    padding-top: 2px;
+    padding-left: 30px;
+    justify-content: start;
+    gap: 5px; }
+  .iconsCards__p {
+    font-family: "futura-light";
+    letter-spacing: 3px;
+    font-size: .9rem;
+    margin: 0; } }
+
 @media (min-width: 992px) {
   .indexMain {
     height: 100vh;
@@ -3472,6 +3591,14 @@ h1 {
         color: #272727;
         transition: .2s; }
 
+@media (min-width: 768px) {
+  .galleriesContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+    text-align: center; } }
+
 @media (min-width: 992px) {
   .mainGalleries {
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url(../img/backgroundGallery.png);
@@ -3789,7 +3916,7 @@ button {
 .faqsMain {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../img/colivingVibesNeon.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-attachment: fixed;
   height: max-content;
   padding-bottom: 40px; }

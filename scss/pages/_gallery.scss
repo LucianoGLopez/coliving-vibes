@@ -85,6 +85,15 @@
 }
 
 // GALLERY TABLET
+@media (min-width: 768px){
+    .galleriesContainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 50px;
+        text-align: center;
+    }
+}
 
 // GALLERY DESKTOP
 @media (min-width: 992px) {
