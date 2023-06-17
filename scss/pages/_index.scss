@@ -76,12 +76,12 @@
         filter: brightness(80%);
     }
     &__image{
-        height: 420px;
+        height: auto;
         width: auto;
         padding: 0 20px;
     }
     &__image2{
-        height: 430px;
+        height: auto;
         width: auto;
         padding: 0 20px;
     }
@@ -138,7 +138,7 @@
     }
     .rosselloCard{
         height: 640px;
-        width: 340px;
+        width: 370px;
         text-align: start;
         display: flex;
         flex-direction: column;
@@ -150,7 +150,7 @@
             border-top-left-radius: 3px;
             border-top-right-radius: 3px;
             height: 240px;
-            width: 340px;
+            width: 370px;
         }
         h4{
             font-family: "futura-bold";
@@ -169,7 +169,7 @@
             font-size: .9rem;
             letter-spacing: 3px;
             padding: 5px 10px;
-            margin-top: 20px;
+            margin-top: 25px;
             color: $darkgray;
             &:hover{
                 background-color: $darkgray;
@@ -192,7 +192,7 @@
         color: $gray2;
         border-color: $gray2;
         cursor: no-drop;
-        margin: 20px 30px;
+        margin: 25px 30px;
         &:hover{
             background-color: none;
             color: $lightyellow;
@@ -243,7 +243,7 @@
     &__separador{
         border-top: 1px solid $yellow;
         height: 2px;
-        margin: 10px 500px 20px;
+        margin: 10px 30px 20px;
     }
 }
 
@@ -291,8 +291,8 @@
     display: flex;
     justify-content: center;
     gap: 20px;
-    animation: scroll 40s linear infinite;
-    -webkit-animation: scroll 40s linear infinite;
+    animation: scroll 90s linear infinite;
+    -webkit-animation: scroll 90s linear infinite;
     width: calc(300px *24);
     &:hover{
         animation-play-state: paused;

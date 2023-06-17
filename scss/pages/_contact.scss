@@ -215,7 +215,7 @@ input[type=number]::-webkit-outer-spin-button {
         display: flex;
         justify-content: start;
         gap:40px;
-        img{
+            a{
             &:nth-child(1){
                 &:hover{
                     filter: invert(21%) sepia(98%) saturate(7440%) hue-rotate(332deg) brightness(87%) contrast(105%);

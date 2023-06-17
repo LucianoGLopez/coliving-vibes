@@ -48,7 +48,7 @@ h1 {
 
 #header {
   background-color: rgba(41, 41, 41, 0.684);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(10px);
   position: fixed;
   width: 100vw;
@@ -337,11 +337,11 @@ h1 {
     border-radius: 3px;
     filter: brightness(80%); }
   .containerOurConcept__image {
-    height: 420px;
+    height: auto;
     width: auto;
     padding: 0 20px; }
   .containerOurConcept__image2 {
-    height: 430px;
+    height: auto;
     width: auto;
     padding: 0 20px; }
   .containerOurConcept button {
@@ -388,7 +388,7 @@ h1 {
 
 .rosselloCard {
   height: 640px;
-  width: 340px;
+  width: 370px;
   text-align: start;
   display: flex;
   flex-direction: column;
@@ -400,7 +400,7 @@ h1 {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
     height: 240px;
-    width: 340px; }
+    width: 370px; }
   .rosselloCard h4 {
     font-family: "futura-bold";
     padding: 20px 0 0 30px;
@@ -416,7 +416,7 @@ h1 {
     font-size: .9rem;
     letter-spacing: 3px;
     padding: 5px 10px;
-    margin-top: 20px;
+    margin-top: 25px;
     color: #272727; }
     .rosselloCard button:hover {
       background-color: #272727;
@@ -434,7 +434,7 @@ h1 {
   color: #bbbbbb;
   border-color: #bbbbbb;
   cursor: no-drop;
-  margin: 20px 30px; }
+  margin: 25px 30px; }
   #soonButton:hover {
     background-color: none;
     color: #ffff92;
@@ -475,7 +475,7 @@ h1 {
   .reviews__separador {
     border-top: 1px solid #ffff6b;
     height: 2px;
-    margin: 10px 500px 20px; }
+    margin: 10px 30px 20px; }
 
 .buttonSlider {
   display: flex;
@@ -513,8 +513,8 @@ h1 {
   display: flex;
   justify-content: center;
   gap: 20px;
-  animation: scroll 40s linear infinite;
-  -webkit-animation: scroll 40s linear infinite;
+  animation: scroll 90s linear infinite;
+  -webkit-animation: scroll 90s linear infinite;
   width: calc(300px *24); }
   .slide-track:hover {
     animation-play-state: paused; }
@@ -4032,11 +4032,11 @@ input[type=number]::-webkit-outer-spin-button {
       display: flex;
       justify-content: start;
       gap: 40px; }
-      .infoContact__redesSociales img:nth-child(1):hover {
+      .infoContact__redesSociales a:nth-child(1):hover {
         filter: invert(21%) sepia(98%) saturate(7440%) hue-rotate(332deg) brightness(87%) contrast(105%); }
-      .infoContact__redesSociales img:nth-child(2):hover {
+      .infoContact__redesSociales a:nth-child(2):hover {
         filter: invert(14%) sepia(82%) saturate(5669%) hue-rotate(357deg) brightness(95%) contrast(113%); }
-      .infoContact__redesSociales img:nth-child(3):hover {
+      .infoContact__redesSociales a:nth-child(3):hover {
         filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(100%); }
   .formContact {
     background-color: rgba(209, 209, 209, 0.368);
