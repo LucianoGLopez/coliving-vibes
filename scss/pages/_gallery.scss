@@ -19,6 +19,10 @@
     }
 }
 
+.galleryBody{
+    background-color: $gray;
+}
+
 .galleriesContainer{
     display: flex;
     flex-direction: column;

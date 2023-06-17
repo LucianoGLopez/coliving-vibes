@@ -280,7 +280,7 @@ h1 {
 
 .bodyIndex {
   height: max-content;
-  background-color: #272727; }
+  background-color: #3a3a3a; }
 
 .mainTitle {
   width: 100vw;
@@ -3540,6 +3540,9 @@ h1 {
     border-top: 1px solid #272727;
     height: 2px;
     margin: 0 30px 20px; }
+
+.galleryBody {
+  background-color: #3a3a3a; }
 
 .galleriesContainer {
   display: flex;
