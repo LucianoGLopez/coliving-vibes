@@ -2,7 +2,7 @@
 .contactMain{
     height: max-content;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/contactBackground2.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/backgroundGallery.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -106,7 +106,7 @@
     border: none;
     border-bottom: solid 1.5px $darkgray;
     cursor: text;
-    padding: 10px;
+    padding: 15px;
 }
 
 .form__input{

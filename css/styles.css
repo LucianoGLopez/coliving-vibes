@@ -55,10 +55,10 @@ h1 {
   z-index: 10000; }
 
 .flags {
-  width: 100px;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
-  margin-left: 30%; }
+  justify-content: center;
+  gap: 80px; }
 
 .flags__item {
   padding: 20px 0;
@@ -72,9 +72,8 @@ h1 {
 
 #navBar {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   width: 100%;
-  padding-left: 100px;
   z-index: 100000; }
   #navBar a {
     color: #f6f6f6;
@@ -82,7 +81,8 @@ h1 {
     font-family: "futura-light";
     font-size: 1.2rem;
     letter-spacing: 2px;
-    text-decoration: none; }
+    text-decoration: none;
+    text-align: center; }
     #navBar a:hover {
       color: #ffff6b; }
   #navBar__dropdown {
@@ -91,18 +91,22 @@ h1 {
       background-color: rgba(255, 255, 93, 0.734);
       color: #272727;
       font-weight: 500; }
-  #navBar__button button {
-    font-family: "futura-light";
-    font-size: 1rem;
-    letter-spacing: 2px;
-    color: #f6f6f6;
-    border-color: #f6f6f6;
-    border-radius: 3px;
-    padding: 10px; }
-    #navBar__button button:hover {
-      color: #272727;
-      border-color: #ffff6b;
-      background-color: #ffff6b; }
+  #navBar__button {
+    display: flex;
+    justify-content: center; }
+    #navBar__button button {
+      font-family: "futura-light";
+      font-size: 1rem;
+      letter-spacing: 2px;
+      color: #f6f6f6;
+      border-color: #f6f6f6;
+      border-radius: 3px;
+      padding: 10px;
+      margin-top: 20px; }
+      #navBar__button button:hover {
+        color: #272727;
+        border-color: #ffff6b;
+        background-color: #ffff6b; }
   #navBar__logo {
     margin-left: 30px; }
 
@@ -117,7 +121,8 @@ h1 {
     align-items: center;
     justify-content: space-between;
     margin-right: 30px;
-    margin-left: 0; }
+    margin-left: 0;
+    gap: 0; }
   .flags__item {
     width: 30px; }
   .flags__img {
@@ -159,7 +164,8 @@ h1 {
       letter-spacing: 2px;
       color: #f6f6f6;
       border-color: #f6f6f6;
-      border-radius: 3px; }
+      border-radius: 3px;
+      margin: 0; }
       #navBar__button button:hover {
         color: #272727;
         border-color: #ffff6b;
@@ -249,15 +255,14 @@ h1 {
       display: flex;
       justify-content: center;
       gap: 2px; }
-      .footer__redes img {
+      .footer__redes a {
         height: 35px;
-        width: auto;
-        filter: invert(100%) sepia(5%) saturate(38%) hue-rotate(359deg) brightness(114%) contrast(93%); }
-        .footer__redes img:nth-child(1):hover {
+        width: auto; }
+        .footer__redes a:nth-child(1):hover {
           filter: invert(21%) sepia(98%) saturate(7440%) hue-rotate(332deg) brightness(87%) contrast(105%); }
-        .footer__redes img:nth-child(2):hover {
+        .footer__redes a:nth-child(2):hover {
           filter: invert(14%) sepia(82%) saturate(5669%) hue-rotate(357deg) brightness(95%) contrast(113%); }
-        .footer__redes img:nth-child(3):hover {
+        .footer__redes a:nth-child(3):hover {
           filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(100%); }
   .container__redes p {
     text-align: center;
@@ -274,7 +279,7 @@ h1 {
   height: max-content;
   background-color: #272727;
   display: flex;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/portada2_12.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/portada2_12.webp);
   background-size: cover;
   background-position-x: right; }
 
@@ -3922,7 +3927,7 @@ button {
       border-radius: 100%; } }
 
 .faqsMain {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../img/colivingVibesNeon.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.5)), url(../img/colivingVibesNeon.jpg);
   background-size: cover;
   background-position: top;
   background-attachment: fixed;
@@ -4011,7 +4016,7 @@ button {
 .contactMain {
   height: max-content;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/contactBackground2.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/backgroundGallery.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -4091,7 +4096,7 @@ button {
   border: none;
   border-bottom: solid 1.5px #272727;
   cursor: text;
-  padding: 10px; }
+  padding: 15px; }
 
 .form__input {
   background: none;

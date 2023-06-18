@@ -9,16 +9,15 @@
 }
 
 .flags {
-    width: 100px;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
-    margin-left: 30%;
+    justify-content: center;
+    gap: 80px;
 }
 
 .flags__item{
     padding: 20px 0;
     width: 10px;
-    
 }
 
 .flags__img{
@@ -30,9 +29,8 @@
 
 #navBar {
     display: flex;
-    justify-content:space-around;
+    justify-content:center;
     width: 100%;
-    padding-left: 100px;
     z-index: 100000;
     a{
         color: $light;
@@ -41,6 +39,7 @@
         font-size: 1.2rem;
         letter-spacing: 2px;
         text-decoration: none;
+        text-align: center;
         &:hover{
             color:  $yellow;
         }
@@ -56,6 +55,8 @@
         }
     }
     &__button{
+        display: flex;
+        justify-content: center;
         button{
             font-family: "futura-light";
             font-size: 1rem;
@@ -64,6 +65,7 @@
             border-color:  $light;
             border-radius: 3px;
             padding: 10px;
+            margin-top: 20px;
             &:hover{
                 color:$darkgray;
                 border-color: $yellow;
@@ -94,6 +96,7 @@
         justify-content: space-between;
         margin-right: 30px;
         margin-left: 0;
+        gap: 0;
     }
     
     .flags__item{
@@ -128,6 +131,7 @@
             font-size: 1rem;
             letter-spacing: 2px;
             text-decoration: none;
+            
             &:hover{
                 color:  $yellow;
             }
@@ -151,6 +155,7 @@
                 color:$light;
                 border-color:  $light;
                 border-radius: 3px;
+                margin: 0;
                 &:hover{
                     color:$darkgray;
                     border-color: $yellow;
