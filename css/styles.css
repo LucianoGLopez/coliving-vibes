@@ -199,7 +199,7 @@ h1 {
     margin: 30px 0; }
   .footer__redes {
     display: flex;
-    justify-content: start;
+    justify-content: center;
     gap: 20px; }
     .footer__redes p {
       font-size: .9rem;
@@ -208,14 +208,14 @@ h1 {
       font-weight: 100; }
     .footer__redes img {
       height: 40px;
-      width: auto;
-      margin: 20px;
+      width: auto; }
+    .footer__redes a {
       filter: invert(81%) sepia(85%) saturate(305%) hue-rotate(355deg) brightness(105%) contrast(107%); }
-      .footer__redes img:nth-child(1):hover {
+      .footer__redes a:nth-child(1):hover {
         filter: invert(21%) sepia(98%) saturate(7440%) hue-rotate(332deg) brightness(87%) contrast(105%); }
-      .footer__redes img:nth-child(2):hover {
+      .footer__redes a:nth-child(2):hover {
         filter: invert(14%) sepia(82%) saturate(5669%) hue-rotate(357deg) brightness(95%) contrast(113%); }
-      .footer__redes img:nth-child(3):hover {
+      .footer__redes a:nth-child(3):hover {
         filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(100%); }
 
 .container__redes p {
@@ -253,7 +253,7 @@ h1 {
       width: 70px; }
     .footer__redes {
       display: flex;
-      justify-content: center;
+      justify-content: space-around;
       gap: 2px; }
       .footer__redes a {
         height: 35px;
