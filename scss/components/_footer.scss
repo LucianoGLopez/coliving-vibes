@@ -45,7 +45,6 @@
         img{
             height: 40px;
             width: auto;
-            // margin: 20px;
         }
         a{
             filter: invert(81%) sepia(85%) saturate(305%) hue-rotate(355deg) brightness(105%) contrast(107%);
@@ -78,6 +77,7 @@
 .maps{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 5px;
     padding-top: 20px;
     p{

@@ -225,6 +225,7 @@ h1 {
 .maps {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 5px;
   padding-top: 20px; }
   .maps p {
