@@ -346,11 +346,11 @@ h1 {
     border-radius: 3px;
     filter: brightness(80%); }
   .containerOurConcept__image {
-    height: auto;
+    height: 400px;
     width: auto;
     padding: 0 20px; }
   .containerOurConcept__image2 {
-    height: auto;
+    height: 420;
     width: auto;
     padding: 0 20px; }
   .containerOurConcept button {
