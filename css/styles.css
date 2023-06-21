@@ -1174,11 +1174,13 @@ h1 {
     color: #272727;
     font-family: "futura-light";
     letter-spacing: 2px;
-    font-size: .9rem; }
+    font-size: .9rem;
+    text-align: start; }
   .iconsRossello__text p {
     color: #272727;
     padding: 0 20px;
-    font-family: "futura-light"; }
+    font-family: "futura-light";
+    text-align: start; }
   .iconsRossello__text button {
     color: #272727;
     border: 1px solid #272727;

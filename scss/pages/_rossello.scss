@@ -52,12 +52,15 @@
         font-family: "futura-light";
         letter-spacing: 2px;
         font-size: .9rem;
+        text-align: start;
     }
     &__text{
         p{
             color: $darkgray;
             padding: 0 20px;
             font-family: "futura-light";
+            text-align: start;
+
         }
         button{
             color:$darkgray;
