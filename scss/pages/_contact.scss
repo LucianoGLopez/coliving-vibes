@@ -176,7 +176,7 @@ input[type=number]::-webkit-outer-spin-button {
 // CONTACT DESKTOP
 @media (min-width: 992px) {
     .contactMain{
-    height: 100vh;
+    height: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/contactBackground2.webp);
     background-size: cover;
     background-repeat: no-repeat;
@@ -231,6 +231,11 @@ input[type=number]::-webkit-outer-spin-button {
                 }
             }
             &:nth-child(3){
+                &:hover{
+                    filter: invert(16%) sepia(96%) saturate(4374%) hue-rotate(223deg) brightness(80%) contrast(105%);
+                }
+            }
+            &:nth-child(4){
                 &:hover{
                     filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(100%);
                 }

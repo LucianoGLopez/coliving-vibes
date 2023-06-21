@@ -48,15 +48,19 @@
         "titleVideo": "KNOW OUR COLIVING CONCEPT",
         "textVideo": "Get to know our Coliving concept. In our home you will find modern, spacious and bright spaces. Ideal for those looking for a pleasant place to spend their stay in Barcelona. Thanks to our design and furniture, you will have enough comfort and tranquility to rest, study and even work from there. The common spaces are ideal for socializing between residents or simply spending time outdoors. Committed to caring for the environment, our home has energy systems and sustainable air conditioning, water and waste management.",
         "titleHome": "HOME",
-        "home": "The bases of our Colivings have been designed with every detail in mind to offer a unique and warm experience, creating a well-being, cozy and homely environment for its tenants, so that they feel immediately at ease, as if they were in their own homes. Being able in this way to be comfortable at all times and enjoy the stay at Coliving to the fullest, either enjoying the common spaces, as well as the privacy and comforts offered by our spacious private rooms.",
+        "home": "The bases of our Colivings have been designed with every detail in mind to offer a unique and warm experience, creating a well-being, cozy and homely environment for its tenants, so that they feel immediately at ease, as if they were in their own homes.",
         "titleDesign": "DESIGN",
         "design": "Every corner of our homes is designed to transmit warmth and generate a sense of peace and belonging. Upon entering, you will be greeted by a modern decoration and carefully selected furniture, based on functionality and comfort, transmitting a sense of calm and well-being from the first moment, creating suitable environments to rest, work, study in silence and/or make the most of your creativity.",
+        "titleNetworking": "NETWORKING",
+        "networking": "We believe in the importance of making meaningful and enriching connections. Our homes offer common spaces strategically designed to encourage casual networking. Our community is based on a solid networking system that encourages collaboration, knowledge sharing, and personal and professional growth.",
+        "titleCommunity": "COMMUNITY",
+        "community": "We take pride in creating a vibrant and welcoming social environment, where residents become one big family and shared experiences become unforgettable memories. We value diversity and promote inclusion in our community, creating an environment where everyone feels respected, valued, and accepted just the way they are.",
         "titleCommon": "COMMON SPACES",
-        "common": "Our common areas are designed to encourage interaction and coexistence among residents. The main living room is the heart of the coliving, where you can meet your flatmates, share talks, eat and enjoy a movie on the big screen. You can also enjoy our outdoor spaces with their comfortable armchairs, chairs and tables. You will meet people from all over the world, their cultures, their customs and you will make friends.",
+        "common": "Our common areas are designed to encourage interaction and coexistence among residents. The main room is the heart of the coliving, where you can meet, share talks, eat and enjoy a movie. You can also enjoy our outdoor spaces with their comfortable armchairs, chairs and tables.",
         "titleSustainability": "SUSTAINABILITY",
-        "sustainability": "We have designed every aspect of the home with a focus on sustainability and reducing environmental impact, without compromising comfort and quality of life. Our sustainable home has a series of characteristics that make it unique. Our rooftop solar panels generate renewable electricity, allowing our home to run on clean energy and reducing dependency on non-renewable energy sources. In addition, natural lighting is maximized through strategically placed large windows, which not only reduces the need for electricity during the day, but also improves the well-being and mood of the residents.",
+        "sustainability": "We have designed the house with a focus on sustainability and the reduction of environmental impact, without compromising comfort and quality of life. We have solar panels that generate renewable electricity, reducing dependence on non-renewable energy sources. In addition, natural lighting plays a fundamental role in this regard.",
         "titleClean": "HOUSEKEEPING",
-        "clean": "A cleaning service is included in our Colivings -Monday to Friday- to guarantee that our residents enjoy a clean and tidy environment at all times. We recognize the importance of maintaining a clean and pleasant space for the well-being of all. Our cleaning service is designed to cover all the common areas and shared spaces of the coliving. Our professional cleaning team takes care of regular cleaning of common areas such as living rooms, kitchens, dining rooms, and shared bathrooms. They make sure that these spaces are always immaculate and ready to be enjoyed by all."
+        "clean": "A professional cleaning service is included - Monday to Friday - to ensure that our residents enjoy a clean and tidy environment at all times. We recognize the importance of maintaining a clean and pleasant space. The service covers all the common areas of Coliving. Ensuring that these spaces are always impeccable and ready to be enjoyed by all."
     },
     "rossello":{
         "icon1": "Couples",
@@ -176,8 +180,8 @@
         "faqsGuidelines": "HOUSE GUIDELINES",
         "faqsTransport": "TRANSPORT",
 
-        "faqsQuestion1": "HOW CAN I MAKE A BOOKING?",
-        "faqsQuestion2": "HOW IS THE RESERVATION PROCESS?","faqsQuestion3": "DO YOU CHARGE AGENCY OR REGISTRATION FEES?",
+        
+        "faqsQuestion2": "HOW DOES THE BOOKING PROCESS WORK?","faqsQuestion3": "DO YOU CHARGE AGENCY OR REGISTRATION FEES?",
         "faqsQuestion4": "HOW MUCH IS THE VALUE OF THE RENTAL DEPOSIT?",
         "faqsQuestion5":"CAN I REQUEST A ROOM CHANGE?",
         "faqsQuestion6":"CAN I EXTEND MY STAY AT COLIVING VIBES?",
@@ -202,9 +206,7 @@
         "faqsQuestion25": "IS THERE A PLACE TO STORE MY BIKE?",
 
 
-
-        "faqsAnswer1": "You can make a reservation through our affiliated websites or by contacting us through the contact means provided on this website (whatsapp, email or by completing the form that you will find in the contact section).",
-        "faqsAnswer2": "Once you have contacted us or once we receive the application form, our team will review the inquiry and schedule a short online interview with you to determine if you are the right candidate for our coliving community. If accepted, you will need to sign a contract and we will ask you to pay a deposit equal to one month's rent to guarantee your reservation. After that, our team will guide you through the registration and onboarding process, including providing you with the necessary information about the property and the community.",
+        "faqsAnswer2": "Here we explain the steps to make a reservation: <br> Submission of the form: Complete our application form, which will help us to evaluate if you meet the requirements of our coliving community. If there is availability and your profile fits, we will move on to the next step. <br>Online Interview: Once we have received your form, we will review your inquiry and schedule a short online interview with you. During this call, we will be able to get to know you better, answer your questions, and make sure you feel comfortable in our community. The interview will not exceed 15 minutes. <br>Availability confirmation: After the interview, we will inform you about the available rooms and we will make you an offer so that you can proceed with the reservation. If there is no availability at that time, we will place you on a waiting list and contact you if any space becomes available. <br> Signing of the contract and payment of the deposit: If you decide to reserve, we will ask you to sign a contract and pay a deposit equivalent to one month's rent. This deposit will guarantee the reservation of your room. <br> Registration and incorporation: Once you have signed the contract and made the deposit payment, our team will guide you through the registration and incorporation process. During this process, we will provide you with all the necessary information about the property and the community, as well as answer any additional questions you may have. <br>We look forward to receiving your application and welcoming you to our coliving community. If you have any further questions, feel free to contact us.",
         "faqsAnswer3": "Yes, only at check-in, we charge a single management fee of €150.",
         "faqsAnswer4":"The deposit of our rooms is 1 month's rent.",
         "faqsAnswer5":"Yes, however please note that this option is subject to availability and not all rooms have the same monthly cost.",
@@ -241,6 +243,8 @@
         "navOurcolivings": "Our Colivings",
         "navFaqs": "FAQ's",
         "navContact": "Contact",
-        "rrssTitle": "Follow us on our networks"
+        "rrssTitle": "Follow us on our networks",
+        "privacyPolicy": "Privacy policy",
+        "allRights": "© All rights reserved"
     }
 }

@@ -497,9 +497,10 @@
         font-size: .9rem;
         margin: 0;
     }
-
-
 }
+
+
+
 
 
 
@@ -562,8 +563,8 @@
         background-color: $gray;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        padding: 80px 200px;
+        justify-content: center;
+        padding: 50px 130px;
         gap: 10px;
         h2{
             text-align: start;
@@ -585,16 +586,12 @@
             border-radius: 3px;
             filter: brightness(80%);
         }
-        &__image{
-            height: 420px;
-            width: auto;
-            padding: 0;
-        }
         &__image2{
             height: 350px;
             width: auto;
-            align-self: center;
+            // align-self: center;
             padding: 0;
+
         }
         button{
             font-family: "futura-light";
@@ -612,6 +609,7 @@
             }
         }
     }
+
     
     // INICIA COLIVINGS
     .ourColivings{
@@ -639,7 +637,6 @@
             padding-bottom: 40px;
         }
     }
-    
     
     // INICIAN CARDS
     .cardsContainer{
@@ -755,7 +752,6 @@
             margin: 10px 500px 20px;
         }
     }
-    
     // BUTTONS RESEÑAS
     .buttonSlider{
         display: flex;
@@ -782,7 +778,6 @@
             }
         }
     }
-    
     // SLIDER
     .slider{
         width: 100%;
@@ -846,7 +841,4 @@
             -webkit-transform: translateX(-300px *12);
         }
     }
-    
-    
 }
-

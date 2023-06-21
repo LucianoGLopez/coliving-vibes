@@ -3,7 +3,6 @@
     height: max-content;
     background-color: $light;
     padding-top: 120px;
-    padding-bottom: 50px;
     text-align: center;
     h1{
         font-family: "futura-bold";
@@ -15,17 +14,11 @@
         font-family: "futura-medium";
         font-size: 1.5rem;
         color: $darkgray;
-
     }
     &__separador{
         border-top: 1px solid $darkgray;
         height: 2px;
         margin: 0 30px 20px;
-    }
-    p{
-        font-family: "futura-light";
-        text-align: start;
-        color: $lightgraytext;
     }
     button{
         letter-spacing: .2rem;
@@ -188,10 +181,45 @@
         letter-spacing: 3px;
         margin-top: 20px;
     }
+}
+
+.transportRossello{
+    background-color: $lightgraytext;
+    padding-top: 50px;
+    width: 100%;
+    &__content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 30px;
+        padding: 20px;
     }
+    h3{
+        font-family: "futura-bold";
+        font-size: 1.5rem;
+        text-align: start;
 
-
-// ROSELLO TABLET
+    }
+    ul{
+        text-align: start;
+        padding: 0;
+    }
+    p{
+        color: $darkgray;
+        padding: 0;
+        text-align: start;
+    }
+    &__map{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        p{
+            font-size: .7rem;
+            text-align: center;
+        }
+    }
+}
 
 
 // ROSSELLO DESKTOP
@@ -201,6 +229,7 @@
         background-color: $light;
         padding-top: 120px;
         text-align: center;
+        padding-bottom: 0;
         h1{
             font-family: "futura-bold";
             font-size: 5rem;
@@ -276,11 +305,11 @@
     
     // CARDS
     .commonSpaceRossello{
-        @include cardRossello (row, $lightgraytext, $darkgray, $darkgray, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(../img/portada.jpg));
+        @include cardRossello (row, $lightgraytext, $darkgray, $darkgray, 20px, 0 75px 0 20px, 0 20px 50px 75px, url(../img/portada.jpg));
     }
         
     .room1Rossello{
-        @include cardRossello (row-reverse, $light, $darkgray, $darkgray, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(../img/room1Rossello/room1_4.webp));
+        @include cardRossello (row-reverse, $light, $darkgray, $darkgray, 100px, 0 20px 0 30px, 0 30px 50px 20px, url(../img/room1Rossello/room1_4.webp));
         button{
             color: $darkgray;
             border: solid 1px $darkgray;
@@ -288,8 +317,7 @@
             padding: 5px 10px;
             font-size: 1rem;
             letter-spacing: 3px;
-            margin-top: 20px;
-            margin-left: 20px;
+            margin-top: 5px;
             &:hover{
                 background-color: $yellow;
                 color: $darkgray;
@@ -298,7 +326,7 @@
     }
     
     .room2Rossello{
-        @include cardRossello (row, $lightgraytext, $darkgray, $darkgray, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(../img/room2Rossello/room2-4.webp));
+        @include cardRossello (row, $lightgraytext, $darkgray, $darkgray, 20px, 0 30px 0 20px, 0 20px 50px 30px, url(../img/room2Rossello/room2-4.webp));
         button{
             color: $darkgray;
             border: solid 1px $darkgray;
@@ -306,7 +334,7 @@
             padding: 5px 10px;
             font-size: 1rem;
             letter-spacing: 3px;
-            margin-top: 20px;
+            margin-top: 5px;
             margin-right: 70px;
             &:hover{
                 background-color: $yellow;
@@ -316,7 +344,7 @@
     }
     
     .room3Rossello{
-        @include cardRossello (row-reverse, $light, $darkgray, $darkgray, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(../img/room3Rossello/room3_4.webp));
+        @include cardRossello (row-reverse, $light, $darkgray, $darkgray, 100px, 0 20px 0 30px, 0 30px 50px 20px, url(../img/room3Rossello/room3_4.webp));
         button{
             color: $darkgray;
             border: solid 1px $darkgray;
@@ -324,7 +352,7 @@
             padding: 5px 10px;
             font-size: 1rem;
             letter-spacing: 3px;
-            margin-top: 20px;
+            margin-top: 5px;
             margin-left: 20px;
             &:hover{
                 background-color: $yellow;
@@ -334,7 +362,7 @@
     }
     
     .room4Rossello{
-        @include cardRossello (row, $lightgraytext, $darkgray, $darkgray, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(../img/room4Rossello/room4_10.webp));
+        @include cardRossello (row, $lightgraytext, $darkgray, $darkgray, 20px, 0 30px 0 20px, 0 20px 50px 30px, url(../img/room4Rossello/room4_10.webp));
         button{
             color: $darkgray;
             border: solid 1px $darkgray;
@@ -342,7 +370,7 @@
             padding: 5px 10px;
             font-size: 1rem;
             letter-spacing: 3px;
-            margin-top: 20px;
+            margin-top: 5px;
             margin-right: 70px;
             &:hover{
                 background-color: $yellow;
@@ -352,7 +380,7 @@
     }
     
     .room5Rossello{
-        @include cardRossello (row-reverse, $light, $darkgray, $darkgray, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(../img/room5Rossello/room5_4.webp));
+        @include cardRossello (row-reverse, $light, $darkgray, $darkgray, 30px, 0 20px 0 30px, 0 30px 50px 20px, url(../img/room5Rossello/room5_4.webp));
         button{
             color: $darkgray;
             border: solid 1px $darkgray;
@@ -360,7 +388,7 @@
             padding: 5px 10px;
             font-size: 1rem;
             letter-spacing: 3px;
-            margin-top: 20px;
+            margin-top: 5px;
             margin-left: 20px;
             &:hover{
                 background-color: $yellow;
@@ -370,7 +398,7 @@
     }
     
     .room6Rossello{
-        @include cardRossello (row, $lightgraytext, $darkgray, $darkgray, 20px, 0 100px 0 20px, 0 20px 50px 100px, url(../img/room6Rossello/room6_4.webp));
+        @include cardRossello (row, $lightgraytext, $darkgray, $darkgray, 20px, 0 30px 0 20px, 0 20px 50px 30px, url(../img/room6Rossello/room6_4.webp));
         button{
             color: $darkgray;
             border: solid 1px $darkgray;
@@ -378,8 +406,7 @@
             padding: 5px 10px;
             font-size: 1rem;
             letter-spacing: 3px;
-            margin-top: 20px;
-            margin-right: 70px;
+            margin-top: 5px;
             &:hover{
                 background-color: $yellow;
                 color: $darkgray;
@@ -388,7 +415,7 @@
     }
     
     .room7Rossello{
-        @include cardRossello (row-reverse, $light, $darkgray, $darkgray, 100px, 0 20px 0 100px, 0 100px 50px 20px, url(../img/room7Rossello/room7_4.webp));
+        @include cardRossello (row-reverse, $light, $darkgray, $darkgray, 50px, 0 20px 0 30px, 0 30px 50px 20px, url(../img/room7Rossello/room7_4.webp));
         button{
             color: $darkgray;
             border: solid 1px $darkgray;
@@ -396,14 +423,59 @@
             padding: 5px 10px;
             font-size: 1rem;
             letter-spacing: 3px;
-            margin-top: 20px;
-            margin-left: 20px;
+            margin-top: 5px;
             &:hover{
                 background-color: $yellow;
                 color: $darkgray;
             }
         }
         }
+    
+    .transportRossello{
+        background-color: $lightgraytext;
+        padding: 30p 5px;
+        width: 100%;
+        h2{
+            font-family: "futura-bold";
+            font-size: 2.5rem;
+            padding: 30px 0;
+        }
+        h3{
+            font-family: "futura-bold";
+            font-size: 1.5rem;
+            text-align: start;
+
+        }
+        ul{
+            text-align: start;
+            padding: 0;
+        }
+        p{
+            color: $darkgray;
+            padding: 0;
+            text-align: start;
+        }
+        &__map{
+            p{
+                text-align: center;
+            }
+        }
+        &__content{
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-around;
+            gap: 50px;
+            padding: 30px 70px;
+        }
+        &__map{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            p{
+                font-size: .7rem;
+            }
+        }
+    }
 }
 
 

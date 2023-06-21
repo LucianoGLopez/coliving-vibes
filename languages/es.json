@@ -48,15 +48,19 @@
         "titleVideo": "CONOCE NUESTRO COLIVING",
         "textVideo": "Nuestros colivings son modernos y diseñados por profesionales enfocados en la comodidad y bienestar de sus residentes. El diseño del coliving se basa en principios de orden, espacio abierto y luminosidad. Los espacios comunes, como la cocina, el comedor y las áreas de descanso, están cuidadosamente diseñados, cuidando cada detalle, para fomentar la tranquilidad y bienestar de nuestros residentes. La sustentabilidad también es una parte integral de nuestro concepto. El edificio cuenta con sistemas de energía renovable, como paneles solares y sistemas de gestión eficiente de agua y residuos.",
         "titleHome": "HOGAR",
-        "home": "Las bases de nuestros Colivings han sido diseñadas pensando en cada detalle para ofrecer una experiencia única y cálida, creando un ambiente de bienestar, acogedor y hogareño para sus inquilinos, para que se sientan inmediatamente a gusto, como si estuvieran en sus propias casas. Pudiendo de esta manera estar a gusto en todo momento y disfrutar al máximo la estadía en el Coliving, ya sea disfrutando de los espacios comunes, como también, de la privacidad y las comodidades que ofrecen nuestras amplias habitaciones privadas.",
+        "home": "Las bases de nuestros Colivings han sido diseñadas pensando en cada detalle para ofrecer una experiencia única y cálida, creando un ambiente de bienestar, acogedor y hogareño para sus inquilinos, para que se sientan inmediatamente a gusto, como si estuvieran en sus propias casas.",
         "titleDesign": "DISEÑO",
         "design": "Cada rincón de nuestras viviendas están diseñados para transmitir calidez y generar una sensación de paz y pertenencia. Al ingresar, serás recibido por una decoración moderna y un mobiliario cuidadosamente seleccionado, basado en la funcionalidad y comodidad, transmitiendo desde un primer momento sensación de calma y bienestar, generando ambientes adecuados para descansar, trabajar, estudiar en silencio y/o explotar al máximo tu creatividad.",
+        "titleNetworking": "NETWORKING",
+        "networking": "Creemos en la importancia de establecer conexiones significativas y enriquecedoras. Nuestras viviendas ofrecen espacios comunes diseñados estratégicamente para fomentar el networking casual. Nuestra comunidad se basa en un sólido sistema de networking que fomenta la colaboración, el intercambio de conocimientos y el crecimiento personal y profesional.",
+        "titleCommunity": "COMUNIDAD",
+        "community": "Nos enorgullece crear un entorno social vibrante y acogedor, donde los residentes se convierten en una gran familia y las experiencias compartidas se convierten en recuerdos inolvidables. Valoramos la diversidad y promovemos la inclusión en nuestra comunidad, creando un ambiente donde todos se sientan respetados, valorados y aceptados tal como son.",
         "titleCommon": "ESPACIOS COMUNES",
-        "common": "Nuestras áreas comunes están diseñadas para fomentar la interacción y la convivencia entre los residentes. El salón principal es el corazón del coliving, donde podrás reunirte con tus compañeros de piso, compartir charlas, comidas y disfrutar de una película en pantalla grande. También podrás disfrutar de nuestros espacios al aire libre con sus cómodos sillones, sillas y mesas. Conocerás gente de todas partes del mundo, sus culturas, sus costumbres y harás amigos.",
+        "common": "Nuestras áreas comunes están diseñadas para fomentar la interacción y la convivencia entre los residentes. El salón principal es el corazón del coliving, donde podrás reunirte, compartir charlas, comidas y disfrutar de una película. También podrás disfrutar de nuestros espacios al aire libre con sus cómodos sillones, sillas y mesas.",
         "titleSustainability": "SUSTENTABILIDAD",
-        "sustainability": "Hemos diseñado cada aspecto de la vivienda con un enfoque en la sostenibilidad y la reducción del impacto ambiental, sin comprometer el confort y la calidad de vida. Nuestro hogar sustentable cuenta con una serie de características que lo hacen único. Contamos con paneles solares en el techo que generan electricidad renovable, permitiendo que nuestro hogar funcione con energía limpia y reduciendo la dependencia de fuentes de energía no renovables. Ademas, la iluminación natural se maximiza a través de grandes ventanales estratégicamente ubicados, lo que no solo reduce la necesidad de electricidad durante el día, sino que también mejora el bienestar y el estado de ánimo de los residentes.",
+        "sustainability": "Hemos diseñado la vivienda con un enfoque en la sostenibilidad y la reducción del impacto ambiental, sin comprometer el confort y la calidad de vida. Contamos con paneles solares que generan electricidad renovable, reduciendo la dependencia de fuentes de energía no renovables. Ademas, la iluminación natural cumple un rol fundamental en dicho sentido.",
         "titleClean": "SERVICIO DE LIMPIEZA",
-        "clean": "En nuestros Colivings se incluye un servicio de limpieza -de lunes a viernes- para garantizar que nuestros residentes disfruten de un entorno limpio y ordenado en todo momento. Reconocemos la importancia de mantener un espacio limpio y agradable para el bienestar de todos. Nuestro servicio de limpieza está diseñado para cubrir todas las áreas comunes y espacios compartidos del coliving. Nuestro equipo de limpieza profesional se encarga de la limpieza regular de las áreas comunes, como salas de estar, cocinas, comedores y baños compartidos. Se aseguran de que estos espacios estén siempre impecables y listos para ser disfrutados por todos."
+        "clean": "Se incluye un servicio de limpieza profesional -de lunes a viernes- para garantizar que nuestros residentes disfruten de un entorno limpio y ordenado en todo momento. Reconocemos la importancia de mantener un espacio limpio y agradable. El servicio cubre todas las áreas comunes del Coliving. Asegurando que estos espacios estén siempre impecables y listos para ser disfrutados por todos."
     },
     "rossello":{
         "icon1": "Apto parejas",
@@ -175,8 +179,7 @@
         "faqsGuidelines": "PAUTAS DE LA CASA",
         "faqsTransport": "TRANSPORTE",
 
-        "faqsQuestion1": "¿CÓMO PUEDO HACER UNA RESERVA?",
-        "faqsQuestion2": "¿CÓMO ES EL PROCESO DE RESERVA?",
+        "faqsQuestion2": "¿CÓMO FUNCIONA EL PROCESO DE RESERVA?",
         "faqsQuestion3": "¿COBRAN HONORARIOS DE AGENCIA O DE INSCRIPCIÓN?",
         "faqsQuestion4": "¿CUÁNTO ES EL VALOR DEL DEPÓSITO DE ALQUILER?",
         "faqsQuestion5":"¿PUEDO SOLICITAR EL CAMBIO DE HABITACIÓN?",
@@ -201,9 +204,7 @@
         "faqsQuestion24":"¿CÓMO LLEGO AL COLIVING DESDE EL AEROPUERTO?",
         "faqsQuestion25":"¿EXISTE LUGAR DONDE GUARDAR MI BICICLETA?",
 
-
-        "faqsAnswer1": "Puede hacer una reserva a través de nuestros sitios web afiliados o bien comunicándose con nosotros a través de los medios de contacto proporcionados en la presente web (whatsapp, correo electrónico o completando el formulario que encontrará en la sección contacto).",
-        "faqsAnswer2": "Una vez que se  haya comunicado con nosotros o una vez que recibamos el formulario de solicitud, nuestro equipo revisará la consulta y programará una breve entrevista en línea con usted para determinar si es el candidato adecuado para nuestra comunidad coliving. Si es aceptado, deberá firmar un contrato y le solicitaremos que pague un depósito equivalente a un mes de alquiler para garantizar su reserva. Después de eso, nuestro equipo lo guiará a través del proceso de registro e incorporación, lo que incluye brindarle la información necesaria sobre la propiedad y la comunidad.",
+        "faqsAnswer2": "Aquí te explicamos los pasos para realizar una reserva: <br> Envío del formulario: Completa nuestro formulario de solicitud, el cual nos ayudará a evaluar si cumples con los requisitos de nuestra comunidad coliving. Si hay disponibilidad y tu perfil encaja, avanzaremos al siguiente paso. <br>Entrevista en línea: Una vez que hayamos recibido tu formulario, revisaremos tu consulta y programaremos una breve entrevista en línea contigo. Durante esta llamada, podremos conocerte mejor, resolver tus dudas y asegurarnos de que te sientas cómodo/a en nuestra comunidad. La entrevista no excederá los 15 minutos. <br>Confirmación de disponibilidad: Después de la entrevista, te informaremos sobre las habitaciones disponibles y te haremos una oferta para que puedas proceder con la reserva. En caso de no haber disponibilidad en ese momento, te colocaremos en una lista de espera y te contactaremos si se libera algún espacio. <br> Firma del contrato y pago del depósito: Si decides reservar, te solicitaremos que firmes un contrato y realices el pago de un depósito equivalente a un mes de alquiler. Este depósito garantizará la reserva de tu habitación. <br> Registro e incorporación: Una vez que hayas firmado el contrato y realizado el pago del depósito, nuestro equipo te guiará en el proceso de registro e incorporación. Durante este proceso, te brindaremos toda la información necesaria sobre la propiedad y la comunidad, además de responder cualquier pregunta adicional que puedas tener. <br>Esperamos recibir tu solicitud y darte la bienvenida a nuestra comunidad coliving. Si tienes más preguntas, no dudes en contactarnos.",
         "faqsAnswer3": "Sí, solamente al ingreso, cobramos una tarifa única de gestión de 150€.",
         "faqsAnswer4":"La fianza de nuestras habitaciones es de 1 mes de alquiler.",
         "faqsAnswer5":"Sí, sin embargo, tenga en cuenta que esta opción está sujeta a disponibilidad y que no todas las habitaciones tienen el mismo coste mensual.",
@@ -240,7 +241,9 @@
         "navOurcolivings": "Nuestros Colivings",
         "navFaqs": "FAQ's",
         "navContact": "Contacto",
-        "rrssTitle": "Síguenos en nuestras redes"
+        "rrssTitle": "Síguenos en nuestras redes",
+        "privacyPolicy": "Políticas de privacidad",
+        "allRights": "© Todos los Derechos Reservados"
     }
 }
 

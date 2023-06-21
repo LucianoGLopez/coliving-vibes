@@ -120,18 +120,15 @@
     
     #navBar {
         display: flex;
-        justify-content:space-around;
+        justify-content: space-around;
         width: 100%;
-        padding-left: 100px;
         z-index: 100000;
         a{
             color: $light;
-            font-weight:400;
+            font-weight: 400;
             font-family: "futura-light";
             font-size: 1rem;
-            letter-spacing: 2px;
             text-decoration: none;
-            
             &:hover{
                 color:  $yellow;
             }
@@ -149,8 +146,8 @@
         }
         &__button{
             button{
-                font-family: "futura-light";
-                font-size: 1rem;
+                font-family: "futura-medium";
+                font-size: .9rem;
                 letter-spacing: 2px;
                 color:$light;
                 border-color:  $light;
