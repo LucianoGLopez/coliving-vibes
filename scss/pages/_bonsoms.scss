@@ -322,16 +322,13 @@
         &__text{
             display: flex;
             flex-direction: row;
-            padding: 30px 180px;
+            padding: 30px 50px;
             align-items: center;
+            margin: 0 60px;
             h3{
                 color: $yellow;
                 font-family: "futura-bold";
-                font-size: 3.2rem;
-            }
-            h4{
-                color: $lightgraytext;
-                font-family: "futura-bold";
+                font-size: 2rem;
             }
             p{
                 color: $lightgraytext;

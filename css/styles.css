@@ -3094,15 +3094,13 @@ h1 {
     .iconsBonsoms__text {
       display: flex;
       flex-direction: row;
-      padding: 30px 180px;
-      align-items: center; }
+      padding: 30px 50px;
+      align-items: center;
+      margin: 0 60px; }
       .iconsBonsoms__text h3 {
         color: #ffff6b;
         font-family: "futura-bold";
-        font-size: 3.2rem; }
-      .iconsBonsoms__text h4 {
-        color: #e7e7e7;
-        font-family: "futura-bold"; }
+        font-size: 2rem; }
       .iconsBonsoms__text p {
         color: #e7e7e7;
         font-family: "futura-light";
