@@ -58,17 +58,36 @@
         font-size: .9rem;
     }
     &__text{
-        p{
-            color: $lightgraytext;
-            padding: 0 20px;
-            font-family: "futura-light";
-        }
-        button{
-            color: $yellow;
-            border: 1px solid $yellow;
-            margin: 20px 0 50px;
-        }
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h3{
+                color: $yellow;
+                font-family: "futura-bold";
+                font-size: 3.2rem;
+                text-align: start;
+                padding-left: 20px;
+            }
+            p{
+                color: $lightgraytext;
+                font-family: "futura-light";
+                text-align: start;
+                padding: 0 20px 20px;
+            }
+            button{
+                color: $yellow;
+                border: 1px solid $yellow;
+                margin-bottom: 50px;
+            }
+            iframe{
+                width: 100vw;
+                height: 350px;
+            }
     }
+}
+
+.bonsoms3d__virtualTour{
+    width: 90%;
 }
 // CARDS
 .commonSpace{
@@ -301,18 +320,38 @@
             font-size: .9rem;
         }
         &__text{
+            display: flex;
+            flex-direction: row;
+            padding: 30px 180px;
+            align-items: center;
+            h3{
+                color: $yellow;
+                font-family: "futura-bold";
+                font-size: 3.2rem;
+            }
+            h4{
+                color: $lightgraytext;
+                font-family: "futura-bold";
+            }
             p{
                 color: $lightgraytext;
-                padding: 10px 150px;
                 font-family: "futura-light";
+                text-align: start;
             }
             button{
                 color: $yellow;
                 border: 1px solid $yellow;
                 margin-bottom: 50px;
             }
+            iframe{
+                width: 500px;
+                height: 350px;
+            }
         }
+        
     }
+
+
     
     // CARDS
     .commonSpace{
