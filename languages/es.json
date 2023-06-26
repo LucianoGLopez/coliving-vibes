@@ -64,7 +64,7 @@
     },
     "rossello":{
         "icon1": "Apto parejas",
-        "icon2": "Siete habitaciones",
+        "icon2": "7 habitaciones",
         "icon3": "Baños privados",
         "icon4": "Climatizador frio/calor",
         "icon5": "Cocina completa",
@@ -94,7 +94,14 @@
         "rosselloTitleRoom6": "HABITACIÓN PEDRERA",
         "rosselloTextRoom6": "La habitación número 6 está ubicada en la planta baja del coliving siendo una opción conveniente y cómoda. La habitación es luminosa y amplia. Cuenta con climatizador frío/calor, lo que te permite ajustar la temperatura según tus preferencias. La habitación cuenta con un baño privado totalmente equipado. En cuanto al mobiliario, la habitación está equipada con una cómoda cama doble, un escritorio ideal para trabajar o estudiar, silla de escritorio, un amplio armario lo que te brinda suficiente espacio de almacenamiento para tus pertenencias personales, permitiéndote mantener la habitación ordenada y organizada, y smart tv para entretenimiendo dentro de la privacidad de tu habitación.",
         "rosselloTitleRoom7": "HABITACIÓN BADAL",
-        "rosselloTextRoom7": "La habitación número 7 del coliving es una opción individual y aunque es de tamaño más pequeño, está diseñada para brindar todas las comodidades necesarias para una estancia confortable. La habitación está equipada con una cama individual, un armario en la habitación, que te permite almacenar tu ropa y pertenencias de manera ordenada y organizada. También cuenta con un escritorio y una silla de escritorio para proporcionarte tu espacio, ideal para estudiar o trabajar. Está equipada con climatizador frío/calor que te permite ajustar la temperatura de la habitación según tus preferencias. Cuenta con baño privado fuera de la habitación destinado exclusivamente para el uso de los residentes de la habitación 7, el mismo está ubicado cerca de la habitación para facilitar su acceso y uso."
+        "rosselloTextRoom7": "La habitación número 7 del coliving es una opción individual y aunque es de tamaño más pequeño, está diseñada para brindar todas las comodidades necesarias para una estancia confortable. La habitación está equipada con una cama individual, un armario en la habitación, que te permite almacenar tu ropa y pertenencias de manera ordenada y organizada. También cuenta con un escritorio y una silla de escritorio para proporcionarte tu espacio, ideal para estudiar o trabajar. Está equipada con climatizador frío/calor que te permite ajustar la temperatura de la habitación según tus preferencias. Cuenta con baño privado fuera de la habitación destinado exclusivamente para el uso de los residentes de la habitación 7, el mismo está ubicado cerca de la habitación para facilitar su acceso y uso.",
+        "nearbyTransport": "TRANSPORTES CERCANOS:",
+        "transportBuses": "Encontrarás distintas paradas de buses alrededor de nuestro Coliving. A saber: 46, 52, 54, 95, L82, L85, LH1, M12, D20, entro otros.",
+        "transportMetro": "Línea 5: Estación Badal a tan solo 6 minutos a pie (450m). <br> Estación Collblanc a tan solo 7 minutos a pie (500m). <br>Línea 1: Estación Santa Eulália a solo 8 minutos a pie (700m).",
+        "airport": "¿CÓMO LLEGAR DESDE EL AEROPUERTO?",
+        "airportMetro": "Podrás tomar la LS9 en el aeropuerto hasta la estación Collblanc y desde allí caminar aproximadamente 7 minutos (500m) hasta Coliving Vibes.",
+        "airportBus": "Lo encontrarás en ambas terminales aeroportuarias. Desciendes en Plaza Espanya y desde allí tomas el metro L1 hasta la estación Sant Eulalia, tome la salida 'Riera Blanca' y camine unos 10 minutos (700 m) hasta Coliving Vibes.",
+        "airportTaxi": "En última instancia podrás coger un taxi en el aeropuerto. El tiempo estimado será de 20 minutos aproximadamente."
     },
     "bonsoms":{
         "icon1":"Individuales",
@@ -133,7 +140,14 @@
         "bonsomsRoom8Title": "HABITACIÓN AMATLLER",
         "bonsomsRoom8Text": "Esta espaciosa habitación cuenta con una cómoda cama doble para un descanso óptimo. El ventilador de techo proporciona una brisa fresca y constante. Dispondrás de un escritorio con una silla ergonómica para trabajar o estudiar cómodamente. El amplio armario te permite guardar todas tus pertenencias de manera ordenada y los espejos son ideales para arreglarte con facilidad.",
         "bonsomsRoom9Title": "HABITACIÓN SANT JORDI",
-        "bonsomsRoom9Text": "Una habitación amplia y luminosa que cuenta con una cama doble para un descanso tranquilo. El ventilador de techo garantiza una temperatura agradable en cualquier momento. Encontrarás un escritorio con una silla de escritorio para trabajar o estudiar de manera productiva. Además, el amplio armario te brinda espacio suficiente para organizar tus pertenencias y los espejos agregan un toque de elegancia a la habitación."
+        "bonsomsRoom9Text": "Una habitación amplia y luminosa que cuenta con una cama doble para un descanso tranquilo. El ventilador de techo garantiza una temperatura agradable en cualquier momento. Encontrarás un escritorio con una silla de escritorio para trabajar o estudiar de manera productiva. Además, el amplio armario te brinda espacio suficiente para organizar tus pertenencias y los espejos agregan un toque de elegancia a la habitación.",
+        "nearbyTransport": "TRANSPORTES CERCANOS:",
+        "transportBuses": "Encontrarás distintas paradas de buses alrededor de nuestro Coliving. A saber: 46, 52, 54, 95, L82, L85, LH1, M12, D20, entro otros.",
+        "transportMetro": "Línea 5: Estación Badal a tan solo 5 minutos a pie (400m). <br> Estación Collblanc a tan solo 9 minutos a pie (600m). <br>Línea 1: Estación Santa Eulália a solo 6 minutos a pie (600m).",
+        "airport": "¿CÓMO LLEGAR DESDE EL AEROPUERTO?",
+        "airportMetro": "Podrás tomar la LS9 en el aeropuerto hasta la estación Collblanc y desde allí caminar aproximadamente 9 minutos (600m) hasta Coliving Vibes.",
+        "airportBus": "Lo encontrarás en ambas terminales aeroportuarias. Desciendes en Plaza Espanya y desde allí tomas el metro L1 hasta la estación Sant Eulalia, tome la salida 'Riera Blanca' y camine unos 10 minutos (700 m) hasta Coliving Vibes.",
+        "airportTaxi": "En última instancia podrás coger un taxi en el aeropuerto. El tiempo estimado será de 20 minutos aproximadamente."
     },
     "galleryImages":{
         "title": "GALERÍA DE IMÁGENES",
@@ -147,13 +161,13 @@
         "yardTitle": "PATIO",
         "terraceLaundryTitle": "TERRAZA Y LAVANDERÍA",
         "roomsTitle": "HABITACIONES",
-        "room1": "HABITACIÓN 1",
-        "room2": "HABITACIÓN 2",
-        "room3": "HABITACIÓN 3",
-        "room4": "HABITACIÓN 4",
-        "room5": "HABITACIÓN 5",
-        "room6": "HABITACIÓN 6",
-        "room7": "HABITACIÓN 7"
+        "room1": "HABITACIÓN CATALUNYA",
+        "room2": "HABITACIÓN TIBIDABO",
+        "room3": "HABITACIÓN MONTJUIC",
+        "room4": "HABITACIÓN SANTS",
+        "room5": "HABITACIÓN FIRA",
+        "room6": "HABITACIÓN PEDRERA",
+        "room7": "HABITACIÓN BADAL"
     },
     "galleryBonsoms":{
         "commonSpacesTitle": "ZONAS COMUNES",

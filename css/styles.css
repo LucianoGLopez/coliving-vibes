@@ -3866,7 +3866,7 @@ h1 {
 
 .mainGallery {
   padding-top: 120px;
-  background-color: #272727;
+  background-color: #3a3a3a;
   height: max-content; }
   .mainGallery h1 {
     color: #ffff6b;
@@ -3891,7 +3891,7 @@ h1 {
     margin: 0 30px; }
 
 .cardsGalleryRossello {
-  background-color: #272727;
+  background-color: #3a3a3a;
   height: max-content;
   padding-top: 30px; }
   .cardsGalleryRossello h2 {
@@ -3994,7 +3994,7 @@ button {
 @media (min-width: 992px) {
   .mainGallery {
     padding-top: 120px;
-    background-color: #272727;
+    background-color: #3a3a3a;
     height: max-content; }
     .mainGallery h1 {
       color: #ffff6b;
@@ -4018,7 +4018,7 @@ button {
       height: 2px;
       margin: 0 300px; }
   .cardsGalleryRossello {
-    background-color: #272727;
+    background-color: #3a3a3a;
     height: max-content;
     padding-top: 50px; }
     .cardsGalleryRossello h2 {

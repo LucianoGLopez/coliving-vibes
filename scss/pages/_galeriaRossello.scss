@@ -1,7 +1,7 @@
 // GALLERY ROSSELLO MOBILE
 .mainGallery{
     padding-top: 120px;
-    background-color: $darkgray;
+    background-color: $gray;
     height: max-content;
     h1{
         color: $yellow;
@@ -31,7 +31,7 @@
 }
 // SECTION GALLERY
 .cardsGalleryRossello{
-    background-color: $darkgray;
+    background-color: $gray;
     height: max-content;
     padding-top: 30px;
     h2{
@@ -164,7 +164,7 @@ button {
 @media (min-width: 992px) {
     .mainGallery{
     padding-top: 120px;
-    background-color: $darkgray;
+    background-color: $gray;
     height: max-content;
     h1{
         color: $yellow;
@@ -195,7 +195,7 @@ button {
 }
 
 .cardsGalleryRossello{
-    background-color: $darkgray;
+    background-color: $gray;
     height: max-content;
     padding-top: 50px;
     h2{
