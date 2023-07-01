@@ -1375,6 +1375,68 @@ h1 {
       .transportRossello__map p {
         font-size: .7rem; } }
 
+.wrapperRoom1Rossello {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/img/room1Rossello/room1_1.webp);
+  background-size: cover;
+  background-position: center; }
+  .wrapperRoom1Rossello h1 {
+    color: #ffff6b;
+    font-family: "futura-bold";
+    font-size: 5rem; }
+  .wrapperRoom1Rossello h3 {
+    color: #dbdbdb;
+    font-family: "futura-light";
+    font-size: 2rem; }
+  .wrapperRoom1Rossello button {
+    letter-spacing: .2rem;
+    font-family: "futura-medium";
+    font-size: 1.2rem;
+    background-color: #ffff6b;
+    color: #272727;
+    border-radius: 3px;
+    padding: 10px 20px;
+    margin-top: 20px; }
+    .wrapperRoom1Rossello button:hover {
+      background-color: #444444;
+      color: #ffff6b;
+      transition: .5s; }
+
+.cardsRoom1Rossello {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #dbdbdb;
+  gap: 20px;
+  padding: 0 30px; }
+
+.cardsRoom1Rossello_privateBathroom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f6f6f6;
+  width: 260px;
+  height: 260px;
+  padding: 20px 30px;
+  text-align: center;
+  margin: 20px 0;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 13px 2px #bbbbbb;
+  box-shadow: 0px 0px 13px 2px #bbbbbb; }
+  .cardsRoom1Rossello_privateBathroom img {
+    height: 60px;
+    width: 60px; }
+  .cardsRoom1Rossello_privateBathroom h3 {
+    font-family: "futura-bold";
+    font-size: 1.3rem; }
+  .cardsRoom1Rossello_privateBathroom P {
+    font-family: "futura-light";
+    font-size: .9rem; }
+
 @media (min-width: 992px) {
   .bonsomsWrapper {
     height: 100vh;
