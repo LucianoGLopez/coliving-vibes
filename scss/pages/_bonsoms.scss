@@ -1,304 +1,325 @@
 // BONSOMS MOBILE
-.bonsomsMain{
-    height: max-content;
-    background-color: $gray;
-    padding-top: 120px;
-    text-align: center;
-    h1{
-        font-family: "futura-bold";
-        font-size: 4rem;
-        color: $yellow;
-        line-height: 70px;
-    }
-    h2{
-        font-family: "futura-medium";
-        font-size: 1.5rem;
-        color: $light;
-    }
-    &__separador{
-        border-top: 1px solid $yellow;
-        height: 2px;
-        margin: 0 30px 20px;
-    }
-    p{
-        font-family: "futura-light";
-        text-align: start;
-    }
-    button{
-        letter-spacing: .2rem;
-        font-family: "futura-light";
-        font-size: 1.2rem;
-        background: none;
-        color: $yellow;
-        border: 1px solid $yellow;
-        border-radius: 3px;
-        padding: 5px 20px;
-    }
-}
+// .bonsomsMain{
+//     height: max-content;
+//     background-color: $gray;
+//     padding-top: 120px;
+//     text-align: center;
+//     h1{
+//         font-family: "futura-bold";
+//         font-size: 4rem;
+//         color: $yellow;
+//         line-height: 70px;
+//     }
+//     h2{
+//         font-family: "futura-medium";
+//         font-size: 1.5rem;
+//         color: $light;
+//     }
+//     &__separador{
+//         border-top: 1px solid $yellow;
+//         height: 2px;
+//         margin: 0 30px 20px;
+//     }
+//     p{
+//         font-family: "futura-light";
+//         text-align: start;
+//     }
+//     button{
+//         letter-spacing: .2rem;
+//         font-family: "futura-light";
+//         font-size: 1.2rem;
+//         background: none;
+//         color: $yellow;
+//         border: 1px solid $yellow;
+//         border-radius: 3px;
+//         padding: 5px 20px;
+//     }
+// }
 
-// ICONS BONSOMS
-.iconsBonsoms{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto;
-    background-color: $gray;
-    padding: 20px;
-    justify-content: space-around;
-    gap: 20px;
-    img{
-        height: 40px;
-        width: auto;
-        display: flex;
-        filter: invert(80%) sepia(11%) saturate(1915%) hue-rotate(24deg) brightness(129%) contrast(103%);
-    }
-    p{
-        color: $light;
-        font-family: "futura-light";
-        letter-spacing: 2px;
-        font-size: .9rem;
-    }
-    &__text{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            h3{
-                color: $yellow;
-                font-family: "futura-bold";
-                font-size: 3.2rem;
-                text-align: start;
-                padding-left: 20px;
-            }
-            p{
-                color: $lightgraytext;
-                font-family: "futura-light";
-                text-align: start;
-                padding: 0 20px 20px;
-            }
-            button{
-                color: $yellow;
-                border: 1px solid $yellow;
-                margin-bottom: 50px;
-            }
-            iframe{
-                width: 100vw;
-                height: 350px;
-            }
-    }
-}
+// // ICONS BONSOMS
+// .iconsBonsoms{
+//     display: grid;
+//     grid-template-columns: auto auto auto;
+//     grid-template-rows: auto auto;
+//     background-color: $gray;
+//     padding: 20px;
+//     justify-content: space-around;
+//     gap: 20px;
+//     img{
+//         height: 40px;
+//         width: auto;
+//         display: flex;
+//         filter: invert(80%) sepia(11%) saturate(1915%) hue-rotate(24deg) brightness(129%) contrast(103%);
+//     }
+//     p{
+//         color: $light;
+//         font-family: "futura-light";
+//         letter-spacing: 2px;
+//         font-size: .9rem;
+//     }
+//     &__text{
+//             display: flex;
+//             flex-direction: column;
+//             align-items: center;
+//             h3{
+//                 color: $yellow;
+//                 font-family: "futura-bold";
+//                 font-size: 2rem;
+//                 text-align: start;
+//                 padding-left: 20px;
+//             }
+//             p{
+//                 color: $lightgraytext;
+//                 font-family: "futura-light";
+//                 text-align: start;
+//                 padding: 0 20px 20px;
+//             }
+//             button{
+//                 color: $yellow;
+//                 border: 1px solid $yellow;
+//                 margin-bottom: 50px;
+//             }
+//             iframe{
+//                 width: 100vw;
+//                 height: 350px;
+//             }
+//     }
+// }
 
-.bonsoms3d__virtualTour{
-    width: 90%;
-}
-// CARDS
-.commonSpace{
-    @include cardBonsomsMobile (column-reverse, $darkgray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(../img/bonsoms/laundry/laundry_1.jpg));
-}
-// ROOM 1
-.room1Bonsoms{
-    @include cardBonsomsMobile (column-reverse, $gray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(../img/bonsoms/room1Bonsoms/room1_4.jpg));
-    button{
-        color: $yellow;
-        border: solid 1px $yellow;
-        border-radius: 3px;
-        padding: 5px 10px;
-        font-size: 1rem;
-        letter-spacing: 3px;
-        margin-top: 20px;
-    }
-}
-// ROOM 2
-.room2Bonsoms{
-    @include cardBonsomsMobile (column-reverse, $darkgray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(../img/bonsoms/room2Bonsoms/room2_4.jpg));
-    button{
-        color: $yellow;
-        border: solid 1px $yellow;
-        border-radius: 3px;
-        padding: 5px 10px;
-        font-size: 1rem;
-        letter-spacing: 3px;
-        margin-top: 20px;
-    }
-}
-// ROOM 3
-.room3Bonsoms{
-    @include cardBonsomsMobile (column-reverse, $gray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(../img/bonsoms/room3Bonsoms/room3_4.jpg));
-    button{
-        color: $yellow;
-        border: solid 1px $yellow;
-        border-radius: 3px;
-        padding: 5px 10px;
-        font-size: 1rem;
-        letter-spacing: 3px;
-        margin-top: 20px;
-    }
-}
-// ROOM 4
-.room4Bonsoms{
-    @include cardBonsomsMobile (column-reverse, $darkgray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(../img/bonsoms/room4Bonsoms/room4_4.jpg));
-    button{
-        color: $yellow;
-        border: solid 1px $yellow;
-        border-radius: 3px;
-        padding: 5px 10px;
-        font-size: 1rem;
-        letter-spacing: 3px;
-        margin-top: 20px;
-    }
-}
-// ROOM 5
-.room5Bonsoms{
-    @include cardBonsomsMobile (column-reverse, $gray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(../img/bonsoms/room5Bonsoms/room5_5.jpg));
-    button{
-        color: $yellow;
-        border: solid 1px $yellow;
-        border-radius: 3px;
-        padding: 5px 10px;
-        font-size: 1rem;
-        letter-spacing: 3px;
-        margin-top: 20px;
-    }
-}
+// .bonsoms3d__virtualTour{
+//     width: 90%;
+// }
+// // CARDS
+// .commonSpace{
+//     @include cardBonsomsMobile (column-reverse, $darkgray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(../img/bonsoms/laundry/laundry_1.jpg));
+// }
+// // ROOM 1
+// .room1Bonsoms{
+//     @include cardBonsomsMobile (column-reverse, $gray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(../img/bonsoms/room1Bonsoms/room1_4.jpg));
+//     button{
+//         color: $yellow;
+//         border: solid 1px $yellow;
+//         border-radius: 3px;
+//         padding: 5px 10px;
+//         font-size: 1rem;
+//         letter-spacing: 3px;
+//         margin-top: 20px;
+//     }
+// }
+// // ROOM 2
+// .room2Bonsoms{
+//     @include cardBonsomsMobile (column-reverse, $darkgray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(../img/bonsoms/room2Bonsoms/room2_4.jpg));
+//     button{
+//         color: $yellow;
+//         border: solid 1px $yellow;
+//         border-radius: 3px;
+//         padding: 5px 10px;
+//         font-size: 1rem;
+//         letter-spacing: 3px;
+//         margin-top: 20px;
+//     }
+// }
+// // ROOM 3
+// .room3Bonsoms{
+//     @include cardBonsomsMobile (column-reverse, $gray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(../img/bonsoms/room3Bonsoms/room3_4.jpg));
+//     button{
+//         color: $yellow;
+//         border: solid 1px $yellow;
+//         border-radius: 3px;
+//         padding: 5px 10px;
+//         font-size: 1rem;
+//         letter-spacing: 3px;
+//         margin-top: 20px;
+//     }
+// }
+// // ROOM 4
+// .room4Bonsoms{
+//     @include cardBonsomsMobile (column-reverse, $darkgray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(../img/bonsoms/room4Bonsoms/room4_4.jpg));
+//     button{
+//         color: $yellow;
+//         border: solid 1px $yellow;
+//         border-radius: 3px;
+//         padding: 5px 10px;
+//         font-size: 1rem;
+//         letter-spacing: 3px;
+//         margin-top: 20px;
+//     }
+// }
+// // ROOM 5
+// .room5Bonsoms{
+//     @include cardBonsomsMobile (column-reverse, $gray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(../img/bonsoms/room5Bonsoms/room5_5.jpg));
+//     button{
+//         color: $yellow;
+//         border: solid 1px $yellow;
+//         border-radius: 3px;
+//         padding: 5px 10px;
+//         font-size: 1rem;
+//         letter-spacing: 3px;
+//         margin-top: 20px;
+//     }
+// }
 
-.room6Bonsoms{
-    @include cardBonsomsMobile (column-reverse, $darkgray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(../img/bonsoms/room6Bonsoms/room6_4.jpg));
-    button{
-        color: $yellow;
-        border: solid 1px $yellow;
-        border-radius: 3px;
-        padding: 5px 10px;
-        font-size: 1rem;
-        letter-spacing: 3px;
-        margin-top: 20px;
-    }
-}
+// .room6Bonsoms{
+//     @include cardBonsomsMobile (column-reverse, $darkgray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(../img/bonsoms/room6Bonsoms/room6_4.jpg));
+//     button{
+//         color: $yellow;
+//         border: solid 1px $yellow;
+//         border-radius: 3px;
+//         padding: 5px 10px;
+//         font-size: 1rem;
+//         letter-spacing: 3px;
+//         margin-top: 20px;
+//     }
+// }
 
-.room7Bonsoms{
-    @include cardBonsomsMobile (column-reverse, $gray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(../img/bonsoms/room7Bonsoms/room7_4.jpg));
-    button{
-        color: $yellow;
-        border: solid 1px $yellow;
-        border-radius: 3px;
-        padding: 5px 10px;
-        font-size: 1rem;
-        letter-spacing: 3px;
-        margin-top: 20px;
-    }
-}
+// .room7Bonsoms{
+//     @include cardBonsomsMobile (column-reverse, $gray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(../img/bonsoms/room7Bonsoms/room7_4.jpg));
+//     button{
+//         color: $yellow;
+//         border: solid 1px $yellow;
+//         border-radius: 3px;
+//         padding: 5px 10px;
+//         font-size: 1rem;
+//         letter-spacing: 3px;
+//         margin-top: 20px;
+//     }
+// }
 
-.room8Bonsoms{
-    @include cardBonsomsMobile (column-reverse, $darkgray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(../img/bonsoms/room8Bonsoms/room8_2.jpg));
-    button{
-        color: $yellow;
-        border: solid 1px $yellow;
-        border-radius: 3px;
-        padding: 5px 10px;
-        font-size: 1rem;
-        letter-spacing: 3px;
-        margin-top: 20px;
-    }
-}
+// .room8Bonsoms{
+//     @include cardBonsomsMobile (column-reverse, $darkgray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(../img/bonsoms/room8Bonsoms/room8_2.jpg));
+//     button{
+//         color: $yellow;
+//         border: solid 1px $yellow;
+//         border-radius: 3px;
+//         padding: 5px 10px;
+//         font-size: 1rem;
+//         letter-spacing: 3px;
+//         margin-top: 20px;
+//     }
+// }
 
-.room9Bonsoms{
-    @include cardBonsomsMobile (column-reverse, $gray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(../img/bonsoms/room9Bonsoms/room9_4.jpg));
-    button{
-        color: $yellow;
-        border: solid 1px $yellow;
-        border-radius: 3px;
-        padding: 5px 10px;
-        font-size: 1rem;
-        letter-spacing: 3px;
-        margin-top: 20px;
-    }
-};
+// .room9Bonsoms{
+//     @include cardBonsomsMobile (column-reverse, $gray, $lightgraytext, $yellow, 20px, 0 20px, 20px 0, url(../img/bonsoms/room9Bonsoms/room9_4.jpg));
+//     button{
+//         color: $yellow;
+//         border: solid 1px $yellow;
+//         border-radius: 3px;
+//         padding: 5px 10px;
+//         font-size: 1rem;
+//         letter-spacing: 3px;
+//         margin-top: 20px;
+//     }
+// };
 
-.transportBonsoms{
-    background-color: rgb(68, 68, 68);
-    width: 100%;
-    padding-top: 50px;
-    &__content{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        gap: 30px;
-        padding: 20px;
-    }
-    h3{
-        font-family: "futura-bold";
-        font-size: 1.5rem;
-        text-align: start;
-        color: $yellow;
-    }
-    ul{
-        text-align: start;
-        padding: 0;
-        color: $light;
-    }
-    p{
-        color: $darkgray;
-        padding: 0;
-        text-align: start;
-        color: $light;
-    }
-    &__map{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        p{
-            font-size: .7rem;
-            text-align: center;
-        }
-    }
-}
+// .transportBonsoms{
+//     background-color: rgb(68, 68, 68);
+//     width: 100%;
+//     padding-top: 50px;
+//     &__content{
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: space-around;
+//         gap: 30px;
+//         padding: 20px;
+//     }
+//     h3{
+//         font-family: "futura-bold";
+//         font-size: 1.5rem;
+//         text-align: start;
+//         color: $yellow;
+//     }
+//     ul{
+//         text-align: start;
+//         padding: 0;
+//         color: $light;
+//     }
+//     p{
+//         color: $darkgray;
+//         padding: 0;
+//         text-align: start;
+//         color: $light;
+//     }
+//     &__map{
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: center;
+//         align-items: center;
+//         p{
+//             font-size: .7rem;
+//             text-align: center;
+//         }
+//     }
+// }
 // BONSOMS TABLET
 
 
 // BONSOMS DESKTOP
 @media (min-width: 992px) {
-    .bonsomsMain{
-        height: max-content;
-        background-color: $gray;
-        padding-top: 120px;
+    .bonsomsWrapper{
+        height: 100vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/img/bonsoms/livingRoom/livingRoom_1.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         text-align: center;
-        padding-bottom: 0;
-        h1{
-            font-family: "futura-bold";
-            font-size: 5rem;
-            color: $yellow;
-        }
-        h2{
-            font-family: "futura-medium";
-            font-size: 2.2rem;
-            letter-spacing: 2px;
-            color: $light;
-        }
-        &__separador{
-            border-top: 1px solid $yellow;
-            height: 2px;
-            margin: 0 300px 20px;
-        }
-        p{
-            font-family: "futura-light";
-            text-align: center;
-        }
-        button{
-            letter-spacing: .2rem;
-            font-family: "futura-light";
-            font-size: 1.2rem;
-            background: none;
-            color: $yellow;
-            border: 1px solid $yellow;
-            border-radius: 3px;
-            padding: 5px 20px;
-            &:hover{
-                background-color: $darkgray;
+        &__text{
+            img{
+                height: 100px;
+                width: auto;
+            }
+            h1{
                 color: $yellow;
-                transition: .5s;
+                font-family: "futura-bold"; 
+                font-size: 5.2rem;
+            }
+            h2{
+                color: $yellow;
+                font-family: "futura-medium";
+                font-size: 2.2rem;
+                letter-spacing: 2px;
+            }
+            h3{
+                color: $yellow;
+                font-family: "futura-light";
+            }
+            button{
+                letter-spacing: .2rem;
+                font-family: "futura-medium";
+                font-size: 1.2rem;
+                background-color: $yellow;
+                color: $darkgray;
+                border-radius: 3px;
+                padding: 10px 20px;
+                margin-top: 40px;
+                &:hover{
+                    background-color: $gray1;
+                    color: $yellow;
+                    transition: .5s;
+                }
             }
         }
     }
+
+    .bonsomsMain{
+        height: max-content;
+        background-color: $gray;
+        padding-bottom: 0;
+    }
     
     // ICONS BONSOMS
+    .iconsBonsomsContainer{
+        background-color: $gray;
+        text-align: center;
+        padding-top: 40px;
+        h2{
+            font-family: "futura-bold";
+            font-size: 3.2rem;
+            color: $yellow;
+        }
+    }
+
     .iconsBonsoms{
         display: grid;
         grid-template-columns: auto auto auto auto;
@@ -348,166 +369,193 @@
         
     }
 
-
+        // COMMON SPACES
+        .ourCommonSpacesBonsoms{
+            height: 100%;
+            background-color: $darkgray;
+            padding: 40px 0;
+            h2{
+                font-family: "futura-bold";
+                font-size: 3.2rem;
+                text-align: center;
+                color: $yellow;
+            }
+            p{
+                font-family: "futura-light";
+                text-align: center;
+                padding: 20px 100px;
+                color: $lightgraytext;
+            }
+        }
     
-    // CARDS
-    .commonSpace{
-        @include cardBonsoms (row, $darkgray, $lightgraytext, $yellow, 20px, 0 30px 0 20px, 0 20px 50px 30px, url(../img/bonsoms/laundry/laundry_1.jpg));
-    }
+        // CAROUSEL COMMON SPACES
+        .carousel-inner{
+            height: 100%;
+            background-color: $darkgray;
+            height: 10%;
+            width: 10%;
+        }
+    
+        .carousel-item{
+            height: 80vh;
+            width: 80vw;
+            padding: 0 300px;
+        }
+
+        #carousel-item-bonsoms{
+            background-color: $darkgray;
+        }
         
-    .room1Bonsoms{
-        @include cardBonsoms (row-reverse, $gray, $lightgraytext, $yellow, 100px, 0 20px 0 30px, 0 30px 50px 20px, url(../img/bonsoms/room1Bonsoms/room1_4.jpg));
-        button{
-            color: $yellow;
-            border: solid 1px $yellow;
-            border-radius: 3px;
-            padding: 5px 10px;
-            font-size: 1rem;
-            letter-spacing: 3px;
-            margin-top: 5px;
-            &:hover{
-                background-color: $darkgray;
-                color: $yellow;
-            }
+        .carousel-control-prev-icon{
+            filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(100deg) brightness(0%) contrast(100%);
         }
-    }
     
-    .room2Bonsoms{
-        @include cardBonsoms (row, $darkgray, $lightgraytext, $yellow, 20px, 0 30px 0 20px, 0 20px 50px 30px, url(../img/bonsoms/room2Bonsoms/room2_4.jpg));
-        button{
-            color: $yellow;
-            border: solid 1px $yellow;
-            border-radius: 3px;
-            padding: 5px 10px;
-            font-size: 1rem;
-            letter-spacing: 3px;
-            margin-top: 5px;
-            &:hover{
-                background-color: $gray;
-                color: $yellow;
-            }
+        .carousel-control-next{
+            filter: invert(10%) sepia(11%) saturate(80%) hue-rotate(46deg) brightness(0%) contrast(100%);
         }
-    }
-    
-    .room3Bonsoms{
-        @include cardBonsoms (row-reverse, $gray, $lightgraytext, $yellow, 100px, 0 20px 0 30px, 0 30px 50px 20px, url(../img/bonsoms/room3Bonsoms/room3_4.jpg));
-        button{
-            color: $yellow;
-            border: solid 1px $yellow;
-            border-radius: 3px;
-            padding: 5px 10px;
-            font-size: 1rem;
-            letter-spacing: 3px;
-            margin-top: 5px;
-            &:hover{
-                background-color: $darkgray;
-                color: $yellow;
-            }
+
+    // TOUR 3D VIRTUAL
+    .bonsomsTourVirtual{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 150px;
+        background-color: $gray;
+        padding: 50px 0;
+        iframe{
+            height: 350px;
+            width: 550px;
         }
-    }
-    
-    .room4Bonsoms{
-        @include cardBonsoms (row, $darkgray, $lightgraytext, $yellow, 20px, 0 30px 0 20px, 0 20px 50px 30px, url(../img/bonsoms/room4Bonsoms/room4_4.jpg));
-        button{
-            color: $yellow;
-            border: solid 1px $yellow;
-            border-radius: 3px;
-            padding: 5px 10px;
-            font-size: 1rem;
-            letter-spacing: 3px;
-            margin-top: 5px;
-            &:hover{
-                background-color: $gray;
-                color: $yellow;
-            }
-        }
-    }
-    
-    .room5Bonsoms{
-        @include cardBonsoms (row-reverse, $gray, $lightgraytext, $yellow, 100px, 0 20px 0 30px, 0 30px 50px 20px, url(../img/bonsoms/room5Bonsoms/room5_5.jpg));
-        button{
-            color: $yellow;
-            border: solid 1px $yellow;
-            border-radius: 3px;
-            padding: 5px 10px;
-            font-size: 1rem;
-            letter-spacing: 3px;
-            margin-top: 5px;
-            &:hover{
-                background-color: $darkgray;
-                color: $yellow;
-            }
-        }
-    }
-    
-    .room6Bonsoms{
-        @include cardBonsoms (row, $darkgray, $lightgraytext, $yellow, 20px, 0 30px 0 20px, 0 20px 50px 30px, url(../img/bonsoms/room6Bonsoms/room6_4.jpg));
-        button{
-            color: $yellow;
-            border: solid 1px $yellow;
-            border-radius: 3px;
-            padding: 5px 10px;
-            font-size: 1rem;
-            letter-spacing: 3px;
-            margin-top: 5px;
-            &:hover{
-                background-color: $gray;
-                color: $yellow;
-            }
-        }
-    }
-    
-    .room7Bonsoms{
-        @include cardBonsoms (row-reverse, $gray, $lightgraytext, $yellow, 100px, 0 20px 0 30px, 0 30px 50px 20px, url(../img/bonsoms/room7Bonsoms/room7_4.jpg));
-        button{
-            color: $yellow;
-            border: solid 1px $yellow;
-            border-radius: 3px;
-            padding: 5px 10px;
-            font-size: 1rem;
-            letter-spacing: 3px;
-            margin-top: 5px;
-            &:hover{
-                background-color: $darkgray;
-                color: $yellow;
-            }
-        }
-    }
-    
-    .room8Bonsoms{
-        @include cardBonsoms (row, $darkgray, $lightgraytext, $yellow, 20px, 0 30px 0 20px, 0 20px 50px 30px, url(../img/bonsoms/room8Bonsoms/room8_2.jpg));
-        button{
-            color: $yellow;
-            border: solid 1px $yellow;
-            border-radius: 3px;
-            padding: 5px 10px;
-            font-size: 1rem;
-            letter-spacing: 3px;
-            margin-top: 5px;
-            &:hover{
-                background-color: $gray;
-                color: $yellow;
-            }
-        }
-    }
-    
-    .room9Bonsoms{
-        @include cardBonsoms (row-reverse, $gray, $lightgraytext, $yellow, 100px, 0 20px 0 30px, 0 30px 50px 20px, url(../img/bonsoms/room9Bonsoms/room9_4.jpg));
-        button{
-            color: $yellow;
-            border: solid 1px $yellow;
-            border-radius: 3px;
-            padding: 5px 10px;
-            font-size: 1rem;
-            letter-spacing: 3px;
-            margin-top: 5px;
-            &:hover{
-                background-color: $darkgray;
-                color: $yellow;
-            }
+        h3{
+            font-family: "futura-bold";
+            font-size: 2.5rem;
+            text-align: center;
+            align-self: center;
+            color: $yellow
         }
     }
 
+
+        // NUESTRAS HABITACIONES
+        .ourRoomsBonsoms{
+            padding: 40px 0;
+            background-color: $darkgray;
+            h2{
+                text-align: center;
+                font-family: "futura-bold";
+                font-size: 3.2rem;
+                color: $yellow;
+            }
+            &__text{
+                    font-family: "futura-light";
+                    text-align: center;
+                    padding: 10px 30px;
+                    color: $lightgraytext;
+            }
+        }
+    
+    
+    // CARDS ROOMS
+        .cardsContainerRoomsBonsoms{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto auto auto;
+            gap: 40px;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .bonsomsCardRooms{
+            background-color: $light;
+            height: 530px;
+            width: 360px;
+            text-align: start;
+            display: flex;
+            flex-direction: column;
+            border-radius: 3px;
+            -webkit-box-shadow: 0px 0px 13px 2px rgb(20, 20, 20); 
+            box-shadow: 0px 0px 13px 2px rgb(20, 20, 20);
+            img{
+                filter: brightness(60%);
+                border-top-left-radius: 3px;
+                border-top-right-radius: 3px;
+                height: auto;
+                width: 360px;
+            }
+            h4{
+                font-family: "futura-bold";
+                padding: 20px 0 0 30px;
+                font-size: 1.4rem;
+                color: $darkgray;
+                letter-spacing: 0px;
+            }
+            p{
+                padding-top: 0;
+                padding-bottom: 2px;
+                font-size: .9rem;
+            }
+            a{
+                margin-left: 30px;
+            }
+            &__text{
+                font-family: "futura-light";
+                padding: 10px 30px 0;
+                text-align: start;
+            }
+        }
+        
+        .iconsCardsRooms{
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 10px;
+            img{
+                height: 20px;
+                width: auto;
+                padding-left: 15px;
+            }
+            &__text{
+                display: flex;
+                justify-content: start;
+                gap: 5px;
+                p{
+                    font-size: .75rem;
+                }
+            }
+        }
+    
+        .iconsCardsRooms__p{
+            font-family: "futura-light";
+            margin: 0;
+            padding: 0;
+        }
+    
+        .iconsCardsRooms__button{
+            display: flex;
+            flex-direction: row;
+            padding: 20px 30px;
+            gap: 90px;
+            button{
+                border: none;
+                border-radius: 3px;
+                font-family: "futura-bold";
+                font-size: .9rem;
+                padding: 5px 15px;
+                background-color: $yellow;
+                color: $darkgray;
+                &:hover{
+                    background-color: $darkgray;
+                    color: $yellow;
+                    border: 1px solid $darkgray;
+                    transition: .3s;
+                }
+            }
+            p{
+                font-family: "futura-light";
+                font-size: 1.2rem;
+                font-weight: 900;
+            }
+        }
+
+// START TRANSPORT
     .transportBonsoms{
         background-color: rgb(68, 68, 68);
         padding: 30p 5px;

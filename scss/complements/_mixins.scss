@@ -254,3 +254,16 @@
     }
 }
 };
+
+
+// Carousel-Desktop
+@mixin carousel-commonSpaces-desktop ($background) {
+    background-image: $background;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    width: 50vw;
+    border-radius: 3px;
+    margin-left: 25%;
+    margin-bottom: 40px;
+}
