@@ -1,19 +1,19 @@
-.wrapperRoom1Rossello{
-    @include wrapperRoomsRosselloMobile ((url(../img/room1Rossello/room1_1.webp)), rgb(255, 50, 50));
+.wrapperRoom1Bonsoms{
+    @include wrapperRoomsRosselloMobile ((url(../img/bonsoms/room1Bonsoms/room1_1.jpg)), rgb(255, 50, 50));
 }
 
-.cardsRoom1Rossello{
+.cardsRoom1Bonsoms{
     @include pagesCardsRoomsRosselloMobile;
 }
 
-.cardsRoom1RosselloItems{
+.cardsRoom1BonsomsItems{
     @include pagesCardsRoomsRosselloItemsMobile;
 }
 
-#cardsGalleryRosselloRooms{
+#cardsGalleryBonsomsRooms{
     background-color: $light;
 }
-#galleryRoom1Rossello{
+#galleryRoom1Bonsoms{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,22 +28,22 @@
 }
 
 @media (min-width: 992px) {
-    .wrapperRoom1Rossello{
-        @include wrapperRoomsRosselloDesktop ((url(../img/room1Rossello/room1_1.webp)), rgb(255, 50, 50));
+    .wrapperRoom1Bonsoms{
+        @include wrapperRoomsRosselloDesktop ((url(../img/bonsoms/room1Bonsoms/room1_3.jpg)), rgb(255, 50, 50));
     }
 
-    .cardsRoom1Rossello{
+    .cardsRoom1Bonsoms{
         @include pagesCardsRoomsRosselloDesktop;
     }
 
-    .cardsRoom1RosselloItems{
+    .cardsRoom1BonsomsItems{
         @include pagesCardsRoomsRosselloItemsDesktop;
     }
 
-    #cardsGalleryRosselloRooms{
+    #cardsGalleryBonsomsRooms{
         background-color: $light;
     }
-    #galleryRoom1Rossello{
+    #galleryRoom1Bonsoms{
         display: grid;
         grid-template-columns: auto auto auto;
         grid-template-rows: auto auto auto;

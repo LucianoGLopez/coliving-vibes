@@ -1129,6 +1129,283 @@ h1 {
     .containerOurConceptCommon p {
       padding: 0; } }
 
+.rosselloWrapper {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/img/portada1.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+  .rosselloWrapper__text img {
+    height: 100px;
+    width: auto; }
+  .rosselloWrapper__text h1 {
+    color: #ffff6b;
+    font-family: "futura-bold";
+    font-size: 5.2rem; }
+  .rosselloWrapper__text h2 {
+    color: #ffff6b;
+    font-family: "futura-medium";
+    font-size: 2.2rem;
+    letter-spacing: 2px; }
+  .rosselloWrapper__text h3 {
+    color: #ffff6b;
+    font-family: "futura-light"; }
+  .rosselloWrapper__text button {
+    letter-spacing: .2rem;
+    font-family: "futura-medium";
+    font-size: 1.2rem;
+    background-color: #ffff6b;
+    color: #272727;
+    border-radius: 3px;
+    padding: 10px 20px;
+    margin-top: 40px; }
+    .rosselloWrapper__text button:hover {
+      background-color: #444444;
+      color: #ffff6b;
+      transition: .5s; }
+
+.rosselloMain {
+  height: max-content;
+  background-color: #e7e7e7;
+  padding-bottom: 0; }
+
+.iconsRosselloContainer {
+  background-color: #f6f6f6;
+  text-align: center;
+  padding-top: 40px; }
+  .iconsRosselloContainer h2 {
+    font-family: "futura-bold";
+    font-size: 3.2rem; }
+
+.iconsRossello {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  background-color: #f6f6f6;
+  padding: 40px 30px;
+  justify-content: center;
+  gap: 20px; }
+  .iconsRossello img {
+    height: 40px;
+    width: auto;
+    margin: auto; }
+  .iconsRossello p {
+    color: #272727;
+    font-family: "futura-light";
+    letter-spacing: 2px;
+    font-size: .9rem; }
+  .iconsRossello__text p {
+    color: #272727;
+    padding: 10px 150px;
+    font-family: "futura-light";
+    text-align: start; }
+  .iconsRossello__text button {
+    color: #272727;
+    border: 1px solid #272727;
+    margin-bottom: 50px; }
+
+.ourCommonSpaces {
+  height: 100%;
+  background-color: #e7e7e7;
+  padding: 40px 0; }
+  .ourCommonSpaces h2 {
+    font-family: "futura-bold";
+    font-size: 2.5rem;
+    text-align: start;
+    padding: 0 30px; }
+  .ourCommonSpaces p {
+    font-family: "futura-light";
+    text-align: start;
+    padding: 20px 30px; }
+
+.carousel-inner {
+  background-color: #e7e7e7;
+  height: 10%;
+  width: 10%; }
+  .carousel-inner img {
+    height: 50px;
+    width: 50px; }
+
+.carousel-item {
+  height: 100%;
+  background-color: #e7e7e7; }
+  .carousel-item img {
+    height: 100%; }
+
+.carousel-control-prev-icon {
+  filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(100deg) brightness(0%) contrast(100%); }
+
+.carousel-control-next {
+  filter: invert(10%) sepia(11%) saturate(80%) hue-rotate(46deg) brightness(0%) contrast(100%); }
+
+.rosselloTourVirtual {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  background-color: #f6f6f6;
+  padding: 50px 0; }
+  .rosselloTourVirtual iframe {
+    height: 50vh; }
+  .rosselloTourVirtual h3 {
+    font-family: "futura-bold";
+    font-size: 2.5rem;
+    text-align: center;
+    align-self: center; }
+
+.ourRoomsRossello {
+  padding: 40px 0; }
+  .ourRoomsRossello h2 {
+    text-align: start;
+    font-family: "futura-bold";
+    font-size: 3.2rem;
+    padding-left: 30px; }
+  .ourRoomsRossello__text {
+    font-family: "futura-light";
+    text-align: start;
+    padding: 10px 30px; }
+
+.cardsContainerRoomsRossello {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0; }
+
+.rosselloCardRooms {
+  background-color: #f6f6f6;
+  height: 550px;
+  width: 320px;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 13px 2px #bbbbbb;
+  box-shadow: 0px 0px 13px 2px #bbbbbb; }
+  .rosselloCardRooms img {
+    filter: brightness(60%);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    height: auto;
+    width: 320px; }
+  .rosselloCardRooms h4 {
+    font-family: "futura-bold";
+    padding: 20px 0 0 30px;
+    font-size: 1.4rem;
+    color: #272727;
+    letter-spacing: 0px; }
+  .rosselloCardRooms p {
+    padding-top: 0;
+    padding-bottom: 2px;
+    font-size: .9rem; }
+  .rosselloCardRooms a {
+    margin-left: 30px; }
+  .rosselloCardRooms__text {
+    font-family: "futura-light";
+    padding: 10px 30px 0;
+    text-align: start; }
+
+.iconsCardsRooms {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px; }
+  .iconsCardsRooms img {
+    height: 20px;
+    width: auto;
+    padding-left: 15px; }
+  .iconsCardsRooms__text {
+    display: flex;
+    justify-content: start;
+    gap: 5px; }
+    .iconsCardsRooms__text p {
+      font-size: .75rem; }
+
+.iconsCardsRooms__p {
+  font-family: "futura-light";
+  margin: 0;
+  padding: 0; }
+
+.iconsCardsRoomsRossello__button {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 30px;
+  justify-content: space-around; }
+  .iconsCardsRoomsRossello__button button {
+    border-radius: 3px;
+    font-family: "futura-light";
+    font-size: .8rem;
+    font-weight: bold;
+    padding: 5px 15px;
+    color: #272727;
+    background-color: #ffff6b; }
+    .iconsCardsRoomsRossello__button button:hover {
+      background-color: #272727;
+      color: #ffff6b;
+      border: 1px solid #272727;
+      transition: .2s; }
+  .iconsCardsRoomsRossello__button p {
+    font-family: "futura-light";
+    font-size: 1.2rem;
+    font-weight: 900; }
+
+.rosselloCardRooms__logo {
+  display: flex;
+  align-items: center; }
+  .rosselloCardRooms__logo img {
+    filter: brightness(5%);
+    height: 300px;
+    width: auto;
+    margin: 0 auto; }
+
+.transportRossello {
+  background-color: #f6f6f6;
+  padding: 30p 5px;
+  width: 100%; }
+  .transportRossello h2 {
+    font-family: "futura-bold";
+    font-size: 2.5rem;
+    padding: 30px 0; }
+  .transportRossello h3 {
+    font-family: "futura-bold";
+    font-size: 1.5rem;
+    text-align: start; }
+  .transportRossello ul {
+    text-align: start;
+    padding: 0; }
+    .transportRossello ul p {
+      font-weight: 300; }
+  .transportRossello p {
+    color: #272727;
+    padding: 0;
+    text-align: start; }
+  .transportRossello__map p {
+    text-align: center; }
+  .transportRossello__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 20px 30px; }
+  .transportRossello__map {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .transportRossello__map p {
+      font-size: .7rem; }
+
+@media (min-width: 768px) {
+  .cardsContainerRoomsRossello {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0; } }
+
 @media (min-width: 992px) {
   .rosselloWrapper {
     height: 100vh;
@@ -1152,7 +1429,7 @@ h1 {
       font-size: 2.2rem;
       letter-spacing: 2px; }
     .rosselloWrapper__text h3 {
-      color: #ffff6b;
+      color: #e7e7e7;
       font-family: "futura-light"; }
     .rosselloWrapper__text button {
       letter-spacing: .2rem;
@@ -1254,18 +1531,16 @@ h1 {
     .ourRoomsRossello__text {
       font-family: "futura-light";
       text-align: center;
-      padding: 10px 30px; }
+      padding: 10px 30px;
+      font-size: 1rem; }
   .cardsContainerRoomsRossello {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto;
-    gap: 40px;
-    justify-content: space-around;
-    padding: 20px; }
+    grid-template-rows: auto auto; }
   .rosselloCardRooms {
     background-color: #f6f6f6;
-    height: 550px;
-    width: 320px;
+    height: max-content;
+    width: 280px;
     text-align: start;
     display: flex;
     flex-direction: column;
@@ -1277,7 +1552,7 @@ h1 {
       border-top-left-radius: 3px;
       border-top-right-radius: 3px;
       height: auto;
-      width: 320px; }
+      width: 280px; }
     .rosselloCardRooms h4 {
       font-family: "futura-bold";
       padding: 20px 0 0 30px;
@@ -1288,16 +1563,17 @@ h1 {
       padding-top: 0;
       padding-bottom: 2px;
       font-size: .9rem; }
-    .rosselloCardRooms a {
-      margin-left: 30px; }
     .rosselloCardRooms__text {
       font-family: "futura-light";
       padding: 10px 30px 0;
-      text-align: start; }
+      text-align: start;
+      display: flex;
+      flex-direction: column; }
   .iconsCardsRooms {
     display: grid;
     grid-template-columns: auto auto;
-    gap: 10px; }
+    gap: 10px;
+    padding: 0 5px; }
     .iconsCardsRooms img {
       height: 20px;
       width: auto;
@@ -1314,22 +1590,25 @@ h1 {
     padding: 0; }
   .iconsCardsRooms__button {
     display: flex;
+    flex-direction: column; }
+  .iconsCardsRoomsRossello__button {
+    display: flex;
     flex-direction: row;
-    padding: 20px 30px;
-    gap: 90px; }
-    .iconsCardsRooms__button button {
-      border: 1px solid #3a3a3a;
-      border-radius: 3px;
-      font-family: "futura-light";
-      font-size: .8rem;
+    justify-content: space-around;
+    padding: 20px 30px 5px; }
+    .iconsCardsRoomsRossello__button button {
+      font-family: "futura-bold";
+      font-size: 1rem;
       padding: 5px 15px;
-      color: #272727; }
-      .iconsCardsRooms__button button:hover {
+      color: #272727;
+      background-color: #ffff6b;
+      border-radius: 3px; }
+      .iconsCardsRoomsRossello__button button:hover {
         background-color: #272727;
         color: #ffff6b;
         border: 1px solid #272727;
         transition: .2s; }
-    .iconsCardsRooms__button p {
+    .iconsCardsRoomsRossello__button p {
       font-family: "futura-light";
       font-size: 1.2rem;
       font-weight: 900; }
@@ -1375,24 +1654,1375 @@ h1 {
       .transportRossello__map p {
         font-size: .7rem; } }
 
+.wrapperRoom1Bonsoms {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room1Bonsoms/room1_1.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
+  text-align: center; }
+  .wrapperRoom1Bonsoms h1 {
+    color: #ffff6b;
+    font-family: "futura-bold";
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+    padding-bottom: 10px; }
+  .wrapperRoom1Bonsoms h2 {
+    font-family: "futura-medium";
+    font-size: 1.5rem;
+    color: #f6f6f6;
+    border: 1px solid #ffff6b;
+    padding: 5px 15px;
+    border-radius: 10px; }
+  .wrapperRoom1Bonsoms h3 {
+    color: #f6f6f6;
+    font-family: "futura-light";
+    font-size: 2rem;
+    padding-bottom: 10px; }
+  .wrapperRoom1Bonsoms p {
+    color: #f6f6f6;
+    font-family: "futura-medium";
+    font-size: 1rem;
+    background-color: #ff3232;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-top: 10px; }
+
+.cardsRoom1Bonsoms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #dbdbdb;
+  gap: 20px;
+  padding: 30px 0; }
+
+.cardsRoom1BonsomsItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  background-color: #f6f6f6;
+  width: 260px;
+  height: 230px;
+  text-align: center;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 13px 2px #bbbbbb;
+  box-shadow: 0px 0px 13px 2px #bbbbbb; }
+  .cardsRoom1BonsomsItems img {
+    height: 60px;
+    width: 60px; }
+  .cardsRoom1BonsomsItems h3 {
+    font-family: "futura-bold";
+    font-size: 1.3rem; }
+  .cardsRoom1BonsomsItems p {
+    font-family: "futura-light";
+    font-size: .9rem; }
+
+#cardsGalleryBonsomsRooms {
+  background-color: #f6f6f6; }
+
+#galleryRoom1Bonsoms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 0;
+  background-color: #f6f6f6; }
+  #galleryRoom1Bonsoms img {
+    width: 350px;
+    height: 270px;
+    cursor: pointer; }
+
+@media (min-width: 992px) {
+  .wrapperRoom1Bonsoms {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room1Bonsoms/room1_3.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    text-align: center; }
+    .wrapperRoom1Bonsoms h1 {
+      color: #ffff6b;
+      font-family: "futura-bold";
+      font-size: 4.5rem;
+      letter-spacing: 3px;
+      padding-bottom: 10px; }
+    .wrapperRoom1Bonsoms h2 {
+      font-family: "futura-medium";
+      font-size: 1.8rem;
+      color: #f6f6f6;
+      border: 1px solid #ffff6b;
+      padding: 5px 15px;
+      border-radius: 10px; }
+    .wrapperRoom1Bonsoms h3 {
+      color: #f6f6f6;
+      font-family: "futura-light";
+      font-size: 2.5rem;
+      padding-bottom: 10px; }
+    .wrapperRoom1Bonsoms p {
+      color: #f6f6f6;
+      font-family: "futura-medium";
+      font-size: 1.2rem;
+      background-color: #ff3232;
+      padding: 5px 10px;
+      border-radius: 3px;
+      margin-top: 15px; }
+  .cardsRoom1Bonsoms {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #dbdbdb;
+    gap: 20px;
+    padding: 30px; }
+  .cardsRoom1BonsomsItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+    width: 280px;
+    height: 280px;
+    text-align: center;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 13px 2px #bbbbbb;
+    box-shadow: 0px 0px 13px 2px #bbbbbb;
+    padding: 10px; }
+    .cardsRoom1BonsomsItems img {
+      height: 60px;
+      width: 60px; }
+    .cardsRoom1BonsomsItems h3 {
+      font-family: "futura-bold";
+      font-size: 1.3rem;
+      padding-top: 20px; }
+    .cardsRoom1BonsomsItems p {
+      font-family: "futura-light";
+      font-size: .9rem; }
+  #cardsGalleryBonsomsRooms {
+    background-color: #f6f6f6; }
+  #galleryRoom1Bonsoms {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 30px;
+    padding: 30px 0;
+    background-color: #f6f6f6; }
+    #galleryRoom1Bonsoms img {
+      width: 350px;
+      height: 270px;
+      cursor: pointer; } }
+
 .wrapperRoom1Rossello {
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/img/room1Rossello/room1_1.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/room1Rossello/room1_1.webp);
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  padding-top: 50px;
+  text-align: center; }
   .wrapperRoom1Rossello h1 {
     color: #ffff6b;
     font-family: "futura-bold";
-    font-size: 5rem; }
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+    padding-bottom: 10px; }
+  .wrapperRoom1Rossello h2 {
+    font-family: "futura-medium";
+    font-size: 1.5rem;
+    color: #f6f6f6;
+    border: 1px solid #ffff6b;
+    padding: 5px 15px;
+    border-radius: 10px; }
   .wrapperRoom1Rossello h3 {
-    color: #dbdbdb;
+    color: #f6f6f6;
     font-family: "futura-light";
-    font-size: 2rem; }
-  .wrapperRoom1Rossello button {
+    font-size: 2rem;
+    padding-bottom: 10px; }
+  .wrapperRoom1Rossello p {
+    color: #f6f6f6;
+    font-family: "futura-medium";
+    font-size: 1rem;
+    background-color: #ff3232;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-top: 10px; }
+
+.cardsRoom1Rossello {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #dbdbdb;
+  gap: 20px;
+  padding: 30px 0; }
+
+.cardsRoom1RosselloItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  background-color: #f6f6f6;
+  width: 260px;
+  height: 230px;
+  text-align: center;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 13px 2px #bbbbbb;
+  box-shadow: 0px 0px 13px 2px #bbbbbb; }
+  .cardsRoom1RosselloItems img {
+    height: 60px;
+    width: 60px; }
+  .cardsRoom1RosselloItems h3 {
+    font-family: "futura-bold";
+    font-size: 1.3rem; }
+  .cardsRoom1RosselloItems p {
+    font-family: "futura-light";
+    font-size: .9rem; }
+
+#cardsGalleryRosselloRooms {
+  background-color: #f6f6f6; }
+
+#galleryRoom1Rossello {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 0;
+  background-color: #f6f6f6; }
+  #galleryRoom1Rossello img {
+    width: 350px;
+    height: 270px;
+    cursor: pointer; }
+
+@media (min-width: 992px) {
+  .wrapperRoom1Rossello {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/room1Rossello/room1_1.webp);
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    text-align: center; }
+    .wrapperRoom1Rossello h1 {
+      color: #ffff6b;
+      font-family: "futura-bold";
+      font-size: 4.5rem;
+      letter-spacing: 3px;
+      padding-bottom: 10px; }
+    .wrapperRoom1Rossello h2 {
+      font-family: "futura-medium";
+      font-size: 1.8rem;
+      color: #f6f6f6;
+      border: 1px solid #ffff6b;
+      padding: 5px 15px;
+      border-radius: 10px; }
+    .wrapperRoom1Rossello h3 {
+      color: #f6f6f6;
+      font-family: "futura-light";
+      font-size: 2.5rem;
+      padding-bottom: 10px; }
+    .wrapperRoom1Rossello p {
+      color: #f6f6f6;
+      font-family: "futura-medium";
+      font-size: 1.2rem;
+      background-color: #ff3232;
+      padding: 5px 10px;
+      border-radius: 3px;
+      margin-top: 15px; }
+  .cardsRoom1Rossello {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #dbdbdb;
+    gap: 20px;
+    padding: 30px; }
+  .cardsRoom1RosselloItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+    width: 280px;
+    height: 280px;
+    text-align: center;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 13px 2px #bbbbbb;
+    box-shadow: 0px 0px 13px 2px #bbbbbb;
+    padding: 10px; }
+    .cardsRoom1RosselloItems img {
+      height: 60px;
+      width: 60px; }
+    .cardsRoom1RosselloItems h3 {
+      font-family: "futura-bold";
+      font-size: 1.3rem;
+      padding-top: 20px; }
+    .cardsRoom1RosselloItems p {
+      font-family: "futura-light";
+      font-size: .9rem; }
+  #cardsGalleryRosselloRooms {
+    background-color: #f6f6f6; }
+  #galleryRoom1Rossello {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 30px;
+    padding: 30px 0;
+    background-color: #f6f6f6; }
+    #galleryRoom1Rossello img {
+      width: 350px;
+      height: 270px;
+      cursor: pointer; } }
+
+.wrapperRoom2Rossello {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/room2Rossello/room2_1.webp);
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
+  text-align: center; }
+  .wrapperRoom2Rossello h1 {
+    color: #ffff6b;
+    font-family: "futura-bold";
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+    padding-bottom: 10px; }
+  .wrapperRoom2Rossello h2 {
+    font-family: "futura-medium";
+    font-size: 1.5rem;
+    color: #f6f6f6;
+    border: 1px solid #ffff6b;
+    padding: 5px 15px;
+    border-radius: 10px; }
+  .wrapperRoom2Rossello h3 {
+    color: #f6f6f6;
+    font-family: "futura-light";
+    font-size: 2rem;
+    padding-bottom: 10px; }
+  .wrapperRoom2Rossello p {
+    color: #f6f6f6;
+    font-family: "futura-medium";
+    font-size: 1rem;
+    background-color: #ff3232;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-top: 10px; }
+
+.cardsRoom2Rossello {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #dbdbdb;
+  gap: 20px;
+  padding: 30px 0; }
+
+.cardsRoom2RosselloItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  background-color: #f6f6f6;
+  width: 260px;
+  height: 230px;
+  text-align: center;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 13px 2px #bbbbbb;
+  box-shadow: 0px 0px 13px 2px #bbbbbb; }
+  .cardsRoom2RosselloItems img {
+    height: 60px;
+    width: 60px; }
+  .cardsRoom2RosselloItems h3 {
+    font-family: "futura-bold";
+    font-size: 1.3rem; }
+  .cardsRoom2RosselloItems p {
+    font-family: "futura-light";
+    font-size: .9rem; }
+
+#cardsGalleryRosselloRooms {
+  background-color: #f6f6f6; }
+
+#galleryRoom2Rossello {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 0;
+  background-color: #f6f6f6; }
+  #galleryRoom2Rossello img {
+    width: 350px;
+    height: 270px;
+    cursor: pointer; }
+
+@media (min-width: 992px) {
+  .wrapperRoom2Rossello {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/room2Rossello/room2_1.webp);
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    text-align: center; }
+    .wrapperRoom2Rossello h1 {
+      color: #ffff6b;
+      font-family: "futura-bold";
+      font-size: 4.5rem;
+      letter-spacing: 3px;
+      padding-bottom: 10px; }
+    .wrapperRoom2Rossello h2 {
+      font-family: "futura-medium";
+      font-size: 1.8rem;
+      color: #f6f6f6;
+      border: 1px solid #ffff6b;
+      padding: 5px 15px;
+      border-radius: 10px; }
+    .wrapperRoom2Rossello h3 {
+      color: #f6f6f6;
+      font-family: "futura-light";
+      font-size: 2.5rem;
+      padding-bottom: 10px; }
+    .wrapperRoom2Rossello p {
+      color: #f6f6f6;
+      font-family: "futura-medium";
+      font-size: 1.2rem;
+      background-color: #ff3232;
+      padding: 5px 10px;
+      border-radius: 3px;
+      margin-top: 15px; }
+  .cardsRoom2Rossello {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #dbdbdb;
+    gap: 20px;
+    padding: 30px; }
+  .cardsRoom2RosselloItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+    width: 280px;
+    height: 280px;
+    text-align: center;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 13px 2px #bbbbbb;
+    box-shadow: 0px 0px 13px 2px #bbbbbb;
+    padding: 10px; }
+    .cardsRoom2RosselloItems img {
+      height: 60px;
+      width: 60px; }
+    .cardsRoom2RosselloItems h3 {
+      font-family: "futura-bold";
+      font-size: 1.3rem;
+      padding-top: 20px; }
+    .cardsRoom2RosselloItems p {
+      font-family: "futura-light";
+      font-size: .9rem; }
+  #cardsGalleryRosselloRooms {
+    background-color: #f6f6f6; }
+  #galleryRoom2Rossello {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 30px;
+    padding: 30px 0;
+    background-color: #f6f6f6; }
+    #galleryRoom2Rossello img {
+      width: 350px;
+      height: 270px;
+      cursor: pointer; } }
+
+.wrapperRoom3Rossello {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/room3Rossello/room3_1.webp);
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
+  text-align: center; }
+  .wrapperRoom3Rossello h1 {
+    color: #ffff6b;
+    font-family: "futura-bold";
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+    padding-bottom: 10px; }
+  .wrapperRoom3Rossello h2 {
+    font-family: "futura-medium";
+    font-size: 1.5rem;
+    color: #f6f6f6;
+    border: 1px solid #ffff6b;
+    padding: 5px 15px;
+    border-radius: 10px; }
+  .wrapperRoom3Rossello h3 {
+    color: #f6f6f6;
+    font-family: "futura-light";
+    font-size: 2rem;
+    padding-bottom: 10px; }
+  .wrapperRoom3Rossello p {
+    color: #f6f6f6;
+    font-family: "futura-medium";
+    font-size: 1rem;
+    background-color: #ff3232;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-top: 10px; }
+
+.cardsRoom3Rossello {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #dbdbdb;
+  gap: 20px;
+  padding: 30px 0; }
+
+.cardsRoom3RosselloItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  background-color: #f6f6f6;
+  width: 260px;
+  height: 230px;
+  text-align: center;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 13px 2px #bbbbbb;
+  box-shadow: 0px 0px 13px 2px #bbbbbb; }
+  .cardsRoom3RosselloItems img {
+    height: 60px;
+    width: 60px; }
+  .cardsRoom3RosselloItems h3 {
+    font-family: "futura-bold";
+    font-size: 1.3rem; }
+  .cardsRoom3RosselloItems p {
+    font-family: "futura-light";
+    font-size: .9rem; }
+
+#cardsGalleryRosselloRooms {
+  background-color: #f6f6f6; }
+
+#galleryRoom3Rossello {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 0;
+  background-color: #f6f6f6; }
+  #galleryRoom3Rossello img {
+    width: 350px;
+    height: 270px;
+    cursor: pointer; }
+
+@media (min-width: 992px) {
+  .wrapperRoom3Rossello {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/room3Rossello/room3_1.webp);
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    text-align: center; }
+    .wrapperRoom3Rossello h1 {
+      color: #ffff6b;
+      font-family: "futura-bold";
+      font-size: 4.5rem;
+      letter-spacing: 3px;
+      padding-bottom: 10px; }
+    .wrapperRoom3Rossello h2 {
+      font-family: "futura-medium";
+      font-size: 1.8rem;
+      color: #f6f6f6;
+      border: 1px solid #ffff6b;
+      padding: 5px 15px;
+      border-radius: 10px; }
+    .wrapperRoom3Rossello h3 {
+      color: #f6f6f6;
+      font-family: "futura-light";
+      font-size: 2.5rem;
+      padding-bottom: 10px; }
+    .wrapperRoom3Rossello p {
+      color: #f6f6f6;
+      font-family: "futura-medium";
+      font-size: 1.2rem;
+      background-color: #ff3232;
+      padding: 5px 10px;
+      border-radius: 3px;
+      margin-top: 15px; }
+  .cardsRoom3Rossello {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #dbdbdb;
+    gap: 20px;
+    padding: 30px; }
+  .cardsRoom3RosselloItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+    width: 280px;
+    height: 280px;
+    text-align: center;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 13px 2px #bbbbbb;
+    box-shadow: 0px 0px 13px 2px #bbbbbb;
+    padding: 10px; }
+    .cardsRoom3RosselloItems img {
+      height: 60px;
+      width: 60px; }
+    .cardsRoom3RosselloItems h3 {
+      font-family: "futura-bold";
+      font-size: 1.3rem;
+      padding-top: 20px; }
+    .cardsRoom3RosselloItems p {
+      font-family: "futura-light";
+      font-size: .9rem; }
+  #cardsGalleryRosselloRooms {
+    background-color: #f6f6f6; }
+  #galleryRoomRossello {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 30px;
+    padding: 30px 0;
+    background-color: #f6f6f6; }
+    #galleryRoomRossello img {
+      width: 350px;
+      height: 270px;
+      cursor: pointer; } }
+
+.wrapperRoom4Rossello {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/room4Rossello/room4_2.webp);
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
+  text-align: center; }
+  .wrapperRoom4Rossello h1 {
+    color: #ffff6b;
+    font-family: "futura-bold";
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+    padding-bottom: 10px; }
+  .wrapperRoom4Rossello h2 {
+    font-family: "futura-medium";
+    font-size: 1.5rem;
+    color: #f6f6f6;
+    border: 1px solid #ffff6b;
+    padding: 5px 15px;
+    border-radius: 10px; }
+  .wrapperRoom4Rossello h3 {
+    color: #f6f6f6;
+    font-family: "futura-light";
+    font-size: 2rem;
+    padding-bottom: 10px; }
+  .wrapperRoom4Rossello p {
+    color: #f6f6f6;
+    font-family: "futura-medium";
+    font-size: 1rem;
+    background-color: #ff3232;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-top: 10px; }
+
+.cardsRoom4Rossello {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #dbdbdb;
+  gap: 20px;
+  padding: 30px 0; }
+
+.cardsRoom4RosselloItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  background-color: #f6f6f6;
+  width: 260px;
+  height: 230px;
+  text-align: center;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 13px 2px #bbbbbb;
+  box-shadow: 0px 0px 13px 2px #bbbbbb; }
+  .cardsRoom4RosselloItems img {
+    height: 60px;
+    width: 60px; }
+  .cardsRoom4RosselloItems h3 {
+    font-family: "futura-bold";
+    font-size: 1.3rem; }
+  .cardsRoom4RosselloItems p {
+    font-family: "futura-light";
+    font-size: .9rem; }
+
+#cardsGalleryRosselloRooms {
+  background-color: #f6f6f6; }
+
+#galleryRoom4Rossello {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 0;
+  background-color: #f6f6f6; }
+  #galleryRoom4Rossello img {
+    width: 350px;
+    height: 270px;
+    cursor: pointer; }
+
+@media (min-width: 992px) {
+  .wrapperRoom4Rossello {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/room4Rossello/room4_2.webp);
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    text-align: center; }
+    .wrapperRoom4Rossello h1 {
+      color: #ffff6b;
+      font-family: "futura-bold";
+      font-size: 4.5rem;
+      letter-spacing: 3px;
+      padding-bottom: 10px; }
+    .wrapperRoom4Rossello h2 {
+      font-family: "futura-medium";
+      font-size: 1.8rem;
+      color: #f6f6f6;
+      border: 1px solid #ffff6b;
+      padding: 5px 15px;
+      border-radius: 10px; }
+    .wrapperRoom4Rossello h3 {
+      color: #f6f6f6;
+      font-family: "futura-light";
+      font-size: 2.5rem;
+      padding-bottom: 10px; }
+    .wrapperRoom4Rossello p {
+      color: #f6f6f6;
+      font-family: "futura-medium";
+      font-size: 1.2rem;
+      background-color: #ff3232;
+      padding: 5px 10px;
+      border-radius: 3px;
+      margin-top: 15px; }
+  .cardsRoom4Rossello {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #dbdbdb;
+    gap: 20px;
+    padding: 30px; }
+  .cardsRoom4RosselloItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+    width: 280px;
+    height: 280px;
+    text-align: center;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 13px 2px #bbbbbb;
+    box-shadow: 0px 0px 13px 2px #bbbbbb;
+    padding: 10px; }
+    .cardsRoom4RosselloItems img {
+      height: 60px;
+      width: 60px; }
+    .cardsRoom4RosselloItems h3 {
+      font-family: "futura-bold";
+      font-size: 1.3rem;
+      padding-top: 20px; }
+    .cardsRoom4RosselloItems p {
+      font-family: "futura-light";
+      font-size: .9rem; }
+  #cardsGalleryRosselloRooms {
+    background-color: #f6f6f6; }
+  #galleryRoom4Rossello {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 30px;
+    padding: 30px 0;
+    background-color: #f6f6f6; }
+    #galleryRoom4Rossello img {
+      width: 350px;
+      height: 270px;
+      cursor: pointer; } }
+
+.wrapperRoom5Rossello {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/room5Rossello/room5_1.webp);
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
+  text-align: center; }
+  .wrapperRoom5Rossello h1 {
+    color: #ffff6b;
+    font-family: "futura-bold";
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+    padding-bottom: 10px; }
+  .wrapperRoom5Rossello h2 {
+    font-family: "futura-medium";
+    font-size: 1.5rem;
+    color: #f6f6f6;
+    border: 1px solid #ffff6b;
+    padding: 5px 15px;
+    border-radius: 10px; }
+  .wrapperRoom5Rossello h3 {
+    color: #f6f6f6;
+    font-family: "futura-light";
+    font-size: 2rem;
+    padding-bottom: 10px; }
+  .wrapperRoom5Rossello p {
+    color: #f6f6f6;
+    font-family: "futura-medium";
+    font-size: 1rem;
+    background-color: #ff3232;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-top: 10px; }
+
+.cardsRoom5Rossello {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #dbdbdb;
+  gap: 20px;
+  padding: 30px 0; }
+
+.cardsRoom5RosselloItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  background-color: #f6f6f6;
+  width: 260px;
+  height: 230px;
+  text-align: center;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 13px 2px #bbbbbb;
+  box-shadow: 0px 0px 13px 2px #bbbbbb; }
+  .cardsRoom5RosselloItems img {
+    height: 60px;
+    width: 60px; }
+  .cardsRoom5RosselloItems h3 {
+    font-family: "futura-bold";
+    font-size: 1.3rem; }
+  .cardsRoom5RosselloItems p {
+    font-family: "futura-light";
+    font-size: .9rem; }
+
+#cardsGalleryRosselloRooms {
+  background-color: #f6f6f6; }
+
+#galleryRoom5Rossello {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 0;
+  background-color: #f6f6f6; }
+  #galleryRoom5Rossello img {
+    width: 350px;
+    height: 270px;
+    cursor: pointer; }
+
+@media (min-width: 992px) {
+  .wrapperRoom5Rossello {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/room5Rossello/room5_1.webp);
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    text-align: center; }
+    .wrapperRoom5Rossello h1 {
+      color: #ffff6b;
+      font-family: "futura-bold";
+      font-size: 4.5rem;
+      letter-spacing: 3px;
+      padding-bottom: 10px; }
+    .wrapperRoom5Rossello h2 {
+      font-family: "futura-medium";
+      font-size: 1.8rem;
+      color: #f6f6f6;
+      border: 1px solid #ffff6b;
+      padding: 5px 15px;
+      border-radius: 10px; }
+    .wrapperRoom5Rossello h3 {
+      color: #f6f6f6;
+      font-family: "futura-light";
+      font-size: 2.5rem;
+      padding-bottom: 10px; }
+    .wrapperRoom5Rossello p {
+      color: #f6f6f6;
+      font-family: "futura-medium";
+      font-size: 1.2rem;
+      background-color: #ff3232;
+      padding: 5px 10px;
+      border-radius: 3px;
+      margin-top: 15px; }
+  .cardsRoom5Rossello {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #dbdbdb;
+    gap: 20px;
+    padding: 30px; }
+  .cardsRoom5RosselloItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+    width: 280px;
+    height: 280px;
+    text-align: center;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 13px 2px #bbbbbb;
+    box-shadow: 0px 0px 13px 2px #bbbbbb;
+    padding: 10px; }
+    .cardsRoom5RosselloItems img {
+      height: 60px;
+      width: 60px; }
+    .cardsRoom5RosselloItems h3 {
+      font-family: "futura-bold";
+      font-size: 1.3rem;
+      padding-top: 20px; }
+    .cardsRoom5RosselloItems p {
+      font-family: "futura-light";
+      font-size: .9rem; }
+  #cardsGalleryRosselloRooms {
+    background-color: #f6f6f6; }
+  #galleryRoom5Rossello {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 30px;
+    padding: 30px 0;
+    background-color: #f6f6f6; }
+    #galleryRoom5Rossello img {
+      width: 350px;
+      height: 270px;
+      cursor: pointer; } }
+
+.wrapperRoom6Rossello {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/room6Rossello/room6_1.webp);
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
+  text-align: center; }
+  .wrapperRoom6Rossello h1 {
+    color: #ffff6b;
+    font-family: "futura-bold";
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+    padding-bottom: 10px; }
+  .wrapperRoom6Rossello h2 {
+    font-family: "futura-medium";
+    font-size: 1.5rem;
+    color: #f6f6f6;
+    border: 1px solid #ffff6b;
+    padding: 5px 15px;
+    border-radius: 10px; }
+  .wrapperRoom6Rossello h3 {
+    color: #f6f6f6;
+    font-family: "futura-light";
+    font-size: 2rem;
+    padding-bottom: 10px; }
+  .wrapperRoom6Rossello p {
+    color: #f6f6f6;
+    font-family: "futura-medium";
+    font-size: 1rem;
+    background-color: #ff3232;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-top: 10px; }
+
+.cardsRoom6Rossello {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #dbdbdb;
+  gap: 20px;
+  padding: 30px 0; }
+
+.cardsRoom6RosselloItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  background-color: #f6f6f6;
+  width: 260px;
+  height: 230px;
+  text-align: center;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 13px 2px #bbbbbb;
+  box-shadow: 0px 0px 13px 2px #bbbbbb; }
+  .cardsRoom6RosselloItems img {
+    height: 60px;
+    width: 60px; }
+  .cardsRoom6RosselloItems h3 {
+    font-family: "futura-bold";
+    font-size: 1.3rem; }
+  .cardsRoom6RosselloItems p {
+    font-family: "futura-light";
+    font-size: .9rem; }
+
+#cardsGalleryRosselloRooms {
+  background-color: #f6f6f6; }
+
+#galleryRoom6Rossello {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 0;
+  background-color: #f6f6f6; }
+  #galleryRoom6Rossello img {
+    width: 350px;
+    height: 270px;
+    cursor: pointer; }
+
+@media (min-width: 992px) {
+  .wrapperRoom6Rossello {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/room6Rossello/room6_1.webp);
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    text-align: center; }
+    .wrapperRoom6Rossello h1 {
+      color: #ffff6b;
+      font-family: "futura-bold";
+      font-size: 4.5rem;
+      letter-spacing: 3px;
+      padding-bottom: 10px; }
+    .wrapperRoom6Rossello h2 {
+      font-family: "futura-medium";
+      font-size: 1.8rem;
+      color: #f6f6f6;
+      border: 1px solid #ffff6b;
+      padding: 5px 15px;
+      border-radius: 10px; }
+    .wrapperRoom6Rossello h3 {
+      color: #f6f6f6;
+      font-family: "futura-light";
+      font-size: 2.5rem;
+      padding-bottom: 10px; }
+    .wrapperRoom6Rossello p {
+      color: #f6f6f6;
+      font-family: "futura-medium";
+      font-size: 1.2rem;
+      background-color: #ff3232;
+      padding: 5px 10px;
+      border-radius: 3px;
+      margin-top: 15px; }
+  .cardsRoom6Rossello {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #dbdbdb;
+    gap: 20px;
+    padding: 30px; }
+  .cardsRoom6RosselloItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+    width: 280px;
+    height: 280px;
+    text-align: center;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 13px 2px #bbbbbb;
+    box-shadow: 0px 0px 13px 2px #bbbbbb;
+    padding: 10px; }
+    .cardsRoom6RosselloItems img {
+      height: 60px;
+      width: 60px; }
+    .cardsRoom6RosselloItems h3 {
+      font-family: "futura-bold";
+      font-size: 1.3rem;
+      padding-top: 20px; }
+    .cardsRoom6RosselloItems p {
+      font-family: "futura-light";
+      font-size: .9rem; }
+  #cardsGalleryRosselloRooms {
+    background-color: #f6f6f6; }
+  #galleryRoom6Rossello {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 30px;
+    padding: 30px 0;
+    background-color: #f6f6f6; }
+    #galleryRoom6Rossello img {
+      width: 350px;
+      height: 270px;
+      cursor: pointer; } }
+
+.wrapperRoom7Rossello {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/room7Rossello/room7_1.webp);
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
+  text-align: center; }
+  .wrapperRoom7Rossello h1 {
+    color: #ffff6b;
+    font-family: "futura-bold";
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+    padding-bottom: 10px; }
+  .wrapperRoom7Rossello h2 {
+    font-family: "futura-medium";
+    font-size: 1.5rem;
+    color: #f6f6f6;
+    border: 1px solid #ffff6b;
+    padding: 5px 15px;
+    border-radius: 10px; }
+  .wrapperRoom7Rossello h3 {
+    color: #f6f6f6;
+    font-family: "futura-light";
+    font-size: 2rem;
+    padding-bottom: 10px; }
+  .wrapperRoom7Rossello p {
+    color: #f6f6f6;
+    font-family: "futura-medium";
+    font-size: 1rem;
+    background-color: #1ba61b;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-top: 10px; }
+
+.cardsRoom7Rossello {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #dbdbdb;
+  gap: 20px;
+  padding: 30px 0; }
+
+.cardsRoom7RosselloItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  background-color: #f6f6f6;
+  width: 260px;
+  height: 230px;
+  text-align: center;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 13px 2px #bbbbbb;
+  box-shadow: 0px 0px 13px 2px #bbbbbb; }
+  .cardsRoom7RosselloItems img {
+    height: 60px;
+    width: 60px; }
+  .cardsRoom7RosselloItems h3 {
+    font-family: "futura-bold";
+    font-size: 1.3rem; }
+  .cardsRoom7RosselloItems p {
+    font-family: "futura-light";
+    font-size: .9rem; }
+
+#cardsGalleryRosselloRooms {
+  background-color: #f6f6f6; }
+
+#galleryRoom7Rossello {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 0;
+  background-color: #f6f6f6; }
+  #galleryRoom7Rossello img {
+    width: 350px;
+    height: 270px;
+    cursor: pointer; }
+
+@media (min-width: 992px) {
+  .wrapperRoom7Rossello {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/room7Rossello/room7_1.webp);
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    text-align: center; }
+    .wrapperRoom7Rossello h1 {
+      color: #ffff6b;
+      font-family: "futura-bold";
+      font-size: 4.5rem;
+      letter-spacing: 3px;
+      padding-bottom: 10px; }
+    .wrapperRoom7Rossello h2 {
+      font-family: "futura-medium";
+      font-size: 1.8rem;
+      color: #f6f6f6;
+      border: 1px solid #ffff6b;
+      padding: 5px 15px;
+      border-radius: 10px; }
+    .wrapperRoom7Rossello h3 {
+      color: #f6f6f6;
+      font-family: "futura-light";
+      font-size: 2.5rem;
+      padding-bottom: 10px; }
+    .wrapperRoom7Rossello p {
+      color: #f6f6f6;
+      font-family: "futura-medium";
+      font-size: 1.2rem;
+      background-color: #1ba61b;
+      padding: 5px 10px;
+      border-radius: 3px;
+      margin-top: 15px; }
+  .cardsRoom7Rossello {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #dbdbdb;
+    gap: 20px;
+    padding: 30px; }
+  .cardsRoom7RosselloItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+    width: 280px;
+    height: 280px;
+    text-align: center;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 13px 2px #bbbbbb;
+    box-shadow: 0px 0px 13px 2px #bbbbbb;
+    padding: 10px; }
+    .cardsRoom7RosselloItems img {
+      height: 60px;
+      width: 60px; }
+    .cardsRoom7RosselloItems h3 {
+      font-family: "futura-bold";
+      font-size: 1.3rem;
+      padding-top: 20px; }
+    .cardsRoom7RosselloItems p {
+      font-family: "futura-light";
+      font-size: .9rem; }
+  #cardsGalleryRosselloRooms {
+    background-color: #f6f6f6; }
+  #galleryRoom7Rossello {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 30px;
+    padding: 30px 0;
+    background-color: #f6f6f6; }
+    #galleryRoom7Rossello img {
+      width: 350px;
+      height: 270px;
+      cursor: pointer; } }
+
+.bonsomsWrapper {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/img/portada1.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+  .bonsomsWrapper__text img {
+    height: 100px;
+    width: auto; }
+  .bonsomsWrapper__text h1 {
+    color: #ffff6b;
+    font-family: "futura-bold";
+    font-size: 5.2rem; }
+  .bonsomsWrapper__text h2 {
+    color: #ffff6b;
+    font-family: "futura-medium";
+    font-size: 2.2rem;
+    letter-spacing: 2px; }
+  .bonsomsWrapper__text h3 {
+    color: #e7e7e7;
+    font-family: "futura-light"; }
+  .bonsomsWrapper__text button {
     letter-spacing: .2rem;
     font-family: "futura-medium";
     font-size: 1.2rem;
@@ -1400,42 +3030,222 @@ h1 {
     color: #272727;
     border-radius: 3px;
     padding: 10px 20px;
-    margin-top: 20px; }
-    .wrapperRoom1Rossello button:hover {
+    margin-top: 40px; }
+    .bonsomsWrapper__text button:hover {
       background-color: #444444;
       color: #ffff6b;
       transition: .5s; }
 
-.cardsRoom1Rossello {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  background-color: #dbdbdb;
-  gap: 20px;
-  padding: 0 30px; }
+.bonsomsMain {
+  height: max-content;
+  background-color: #e7e7e7;
+  padding-bottom: 0; }
 
-.cardsRoom1Rossello_privateBathroom {
+.iconsBonsomsContainer {
+  background-color: #3a3a3a;
+  text-align: center;
+  padding-top: 40px; }
+  .iconsBonsomsContainer h2 {
+    font-family: "futura-bold";
+    font-size: 3.2rem;
+    color: #ffff6b; }
+
+.iconsBonsoms {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  background-color: #3a3a3a;
+  padding: 40px 30px;
+  justify-content: center;
+  gap: 20px; }
+  .iconsBonsoms img {
+    height: 40px;
+    width: auto;
+    margin: auto;
+    filter: invert(80%) sepia(11%) saturate(1915%) hue-rotate(24deg) brightness(129%) contrast(103%); }
+  .iconsBonsoms p {
+    color: #272727;
+    font-family: "futura-light";
+    font-size: .8rem;
+    padding: 5px;
+    color: #e7e7e7; }
+
+.ourCommonSpacesBonsoms {
+  height: 100%;
+  background-color: #272727;
+  padding: 40px 0; }
+  .ourCommonSpacesBonsoms h2 {
+    font-family: "futura-bold";
+    font-size: 2.5rem;
+    text-align: start;
+    padding: 0 30px;
+    color: #ffff6b; }
+  .ourCommonSpacesBonsoms p {
+    font-family: "futura-light";
+    text-align: start;
+    padding: 20px 30px;
+    color: #e7e7e7; }
+
+.bonsomsTourVirtual {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  background-color: #f6f6f6;
-  width: 260px;
-  height: 260px;
-  padding: 20px 30px;
-  text-align: center;
-  margin: 20px 0;
-  border-radius: 3px;
-  -webkit-box-shadow: 0px 0px 13px 2px #bbbbbb;
-  box-shadow: 0px 0px 13px 2px #bbbbbb; }
-  .cardsRoom1Rossello_privateBathroom img {
-    height: 60px;
-    width: 60px; }
-  .cardsRoom1Rossello_privateBathroom h3 {
+  justify-content: center;
+  gap: 30px;
+  background-color: #3a3a3a;
+  padding: 50px 0; }
+  .bonsomsTourVirtual iframe {
+    height: 50vh; }
+  .bonsomsTourVirtual h3 {
     font-family: "futura-bold";
-    font-size: 1.3rem; }
-  .cardsRoom1Rossello_privateBathroom P {
+    font-size: 2.5rem;
+    text-align: center;
+    align-self: center;
+    color: #ffff6b; }
+
+.ourRoomsBonsoms {
+  padding: 40px 0;
+  background-color: #272727; }
+  .ourRoomsBonsoms h2 {
+    text-align: start;
+    font-family: "futura-bold";
+    font-size: 3.2rem;
+    padding-left: 30px;
+    line-height: 50px;
+    color: #ffff6b; }
+  .ourRoomsBonsoms__text {
     font-family: "futura-light";
+    text-align: start;
+    padding: 10px 30px;
+    font-size: 1rem;
+    color: #e7e7e7; }
+
+.cardsContainerRoomsBonsoms {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0; }
+
+.bonsomsCardRooms {
+  background-color: #f6f6f6;
+  height: 550px;
+  width: 320px;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 13px 2px #101010;
+  box-shadow: 0px 0px 13px 2px #101010; }
+  .bonsomsCardRooms img {
+    filter: brightness(60%);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    height: auto;
+    width: 320px; }
+  .bonsomsCardRooms h4 {
+    font-family: "futura-bold";
+    padding: 20px 0 0 30px;
+    font-size: 1.4rem;
+    color: #272727;
+    letter-spacing: 0px; }
+  .bonsomsCardRooms p {
+    padding-top: 0;
+    padding-bottom: 2px;
     font-size: .9rem; }
+  .bonsomsCardRooms a {
+    margin-left: 30px; }
+  .bonsomsCardRooms__text {
+    font-family: "futura-light";
+    padding: 10px 30px 0;
+    text-align: start; }
+
+.iconsCardsRooms {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px; }
+  .iconsCardsRooms img {
+    height: 20px;
+    width: auto;
+    padding-left: 15px; }
+  .iconsCardsRooms__text {
+    display: flex;
+    justify-content: start;
+    gap: 5px; }
+    .iconsCardsRooms__text p {
+      font-size: .75rem; }
+
+.iconsCardsRooms__p {
+  font-family: "futura-light";
+  margin: 0;
+  padding: 0; }
+
+.iconsCardsRooms__button {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 30px;
+  justify-content: space-around; }
+  .iconsCardsRooms__button button {
+    border-radius: 3px;
+    font-family: "futura-light";
+    font-size: .8rem;
+    font-weight: bold;
+    padding: 5px 15px;
+    color: #272727;
+    background-color: #ffff6b; }
+    .iconsCardsRooms__button button:hover {
+      background-color: #272727;
+      color: #ffff6b;
+      border: 1px solid #272727;
+      transition: .2s; }
+  .iconsCardsRooms__button p {
+    font-family: "futura-light";
+    font-size: 1.2rem;
+    font-weight: 900; }
+
+.rosselloCardRooms__logo {
+  display: flex;
+  align-items: center; }
+  .rosselloCardRooms__logo img {
+    filter: brightness(5%);
+    height: 300px;
+    width: auto;
+    margin: 0 auto; }
+
+.transportBonsoms {
+  background-color: #3a3a3a;
+  padding: 30p 5px;
+  width: 100%; }
+  .transportBonsoms h3 {
+    font-family: "futura-bold";
+    font-size: 1.5rem;
+    text-align: start;
+    color: #ffff6b; }
+  .transportBonsoms ul {
+    text-align: start;
+    padding: 0;
+    color: #ffff6b; }
+    .transportBonsoms ul p {
+      font-weight: 300; }
+  .transportBonsoms p {
+    color: #e7e7e7;
+    padding: 0;
+    text-align: start;
+    font-size: 1rem; }
+  .transportBonsoms__map p {
+    text-align: center; }
+  .transportBonsoms__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 20px 30px; }
+  .transportBonsoms__map {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .transportBonsoms__map p {
+      font-size: .7rem; }
 
 @media (min-width: 992px) {
   .bonsomsWrapper {
@@ -1460,7 +3270,7 @@ h1 {
       font-size: 2.2rem;
       letter-spacing: 2px; }
     .bonsomsWrapper__text h3 {
-      color: #ffff6b;
+      color: #e7e7e7;
       font-family: "futura-light"; }
     .bonsomsWrapper__text button {
       letter-spacing: .2rem;
@@ -1492,7 +3302,7 @@ h1 {
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto;
     background-color: #3a3a3a;
-    padding: 20px 100px;
+    padding: 40px 100px;
     justify-content: space-around;
     gap: 20px; }
     .iconsBonsoms img {

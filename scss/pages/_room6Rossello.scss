@@ -1,19 +1,19 @@
-.wrapperRoom1Rossello{
-    @include wrapperRoomsRosselloMobile ((url(../img/room1Rossello/room1_1.webp)), rgb(255, 50, 50));
+.wrapperRoom6Rossello{
+    @include wrapperRoomsRosselloMobile ((url(../img/room6Rossello/room6_1.webp)), rgb(255, 50, 50));
 }
 
-.cardsRoom1Rossello{
+.cardsRoom6Rossello{
     @include pagesCardsRoomsRosselloMobile;
 }
 
-.cardsRoom1RosselloItems{
+.cardsRoom6RosselloItems{
     @include pagesCardsRoomsRosselloItemsMobile;
 }
 
 #cardsGalleryRosselloRooms{
     background-color: $light;
 }
-#galleryRoom1Rossello{
+#galleryRoom6Rossello{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,22 +28,24 @@
 }
 
 @media (min-width: 992px) {
-    .wrapperRoom1Rossello{
-        @include wrapperRoomsRosselloDesktop ((url(../img/room1Rossello/room1_1.webp)), rgb(255, 50, 50));
+    .wrapperRoom6Rossello{
+        @include wrapperRoomsRosselloDesktop ((url(../img/room6Rossello/room6_1.webp)), rgb(255, 50, 50));
     }
 
-    .cardsRoom1Rossello{
+    .cardsRoom6Rossello{
         @include pagesCardsRoomsRosselloDesktop;
     }
 
-    .cardsRoom1RosselloItems{
+    .cardsRoom6RosselloItems{
         @include pagesCardsRoomsRosselloItemsDesktop;
     }
+
+    
 
     #cardsGalleryRosselloRooms{
         background-color: $light;
     }
-    #galleryRoom1Rossello{
+    #galleryRoom6Rossello{
         display: grid;
         grid-template-columns: auto auto auto;
         grid-template-rows: auto auto auto;

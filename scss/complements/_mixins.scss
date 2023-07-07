@@ -1,261 +1,3 @@
-@mixin cardRossello ($flex-direction, $background-color, $color-text, $color-title, $padding-title, $padding-text, $padding-image, $background-image){
-        display: flex;
-        flex-direction: $flex-direction;
-        padding-top: 50px;
-        background-color: $background-color;
-        align-items: center;
-        a{
-            text-decoration: none;
-        }
-        p{
-            text-align: start;
-            padding: $padding-text;
-            color: $color-text;
-        }
-        h3{
-            font-family: "futura-bold";
-            text-align: center;
-            padding-left: $padding-title;
-            color: $color-title;
-            padding-right: 100px;
-            font-size: 2rem;
-        }
-        button{
-            color: $darkgray;
-            border: solid 1px $darkgray;
-            border-radius: 3px;
-            padding: 5px 10px;
-            font-size: 1rem;
-            letter-spacing: 3px;
-            margin-top: 20px;
-            &:hover{
-                background-color: $yellow;
-                color: $darkgray;
-            }
-        }
-        picture{
-        display: grid;
-        grid-template-columns: auto auto;
-        grid-template-rows: auto auto;
-        justify-content: start;
-        padding: $padding-image; 
-        gap: 10px;
-        img{
-            height: 200px;
-            width: 300px;
-            border-radius: 3px;
-            cursor: pointer;
-            filter: brightness(0.6);
-            &:nth-child(4){
-                filter: brightness(0.2);
-            }
-        }
-        div{
-            background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), $background-image;
-            background-size: cover;
-            border-radius: 3px;
-            cursor: pointer;
-            h4{
-                color: $yellow;
-                padding-top: 80px;
-                font-family: "futura-bold";
-                font-size: 1.5rem;
-                letter-spacing: 3px;
-            }
-        }
-    }
-};
-
-
-@mixin cardBonsoms ($flex-direction, $background-color, $color-text, $color-title, $padding-title, $padding-text, $padding-image, $background-image){
-    display: flex;
-    flex-direction: $flex-direction;
-    padding-top: 50px;
-    background-color: $background-color;
-    align-items: center;
-    a{
-        text-decoration: none;
-    }
-    p{
-        text-align: start;
-        padding: $padding-text;
-        color: $color-text;
-    }
-    h3{
-        font-family: "futura-bold";
-        letter-spacing: 3px;
-        text-align: center;
-        padding-left: $padding-title;
-        color: $color-title;
-        padding-right: 100px;
-        font-size: 2rem;
-    }
-    picture{
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-    justify-content: start;
-    padding: $padding-image; 
-    gap: 10px;
-    img{
-        height: 200px;
-        width: 300px;
-        border-radius: 3px;
-        cursor: pointer;
-        filter: brightness(0.6);
-        &:nth-child(4){
-            filter: brightness(0.2);
-        }
-    }
-    div{
-        background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), $background-image;
-        background-size: cover;
-        border-radius: 3px;
-        cursor: pointer;
-        h4{
-            color: $yellow;
-            padding-top: 80px;
-            font-family: "futura-bold";
-            font-size: 1.5rem;
-            letter-spacing: 3px;
-        }
-    }
-}
-};
-
-
-
-
-
-// CARDS ROSSELLO MOBILE
-@mixin cardRosselloMobile ($flex-direction, $background-color, $color-text, $color-title, $padding-title, $padding-text, $padding-image, $background-image){
-        display: flex;
-        flex-direction: $flex-direction;
-        padding-top: 50px;
-        background-color: $background-color;
-        align-items: center;
-        a{
-            text-decoration: none;
-        }
-        p{
-            text-align: start;
-            padding: $padding-text;
-            color: $color-text;
-        }
-        h3{
-            font-family: "futura-bold";
-            text-align: start;
-            padding-left: $padding-title;
-            color: $color-title;
-            font-size: 2rem;
-        }
-        button{
-            color: $darkgray;
-            border: solid 1px $darkgray;
-            border-radius: 3px;
-            padding: 5px 10px;
-            font-size: 1rem;
-            letter-spacing: 3px;
-            margin: 20px;
-            &:hover{
-                background-color: $yellow;
-                color: $darkgray;
-            }
-        }
-        picture{
-        display: grid;
-        grid-template-columns: auto auto;
-        grid-template-rows: auto auto;
-        justify-content: start;
-        padding: $padding-image; 
-        gap: 5px;
-        width: 100%;
-        margin: 25px 0;
-        img{
-            height: 120px;
-            width: 180px;
-            border-radius: 3px;
-            cursor: pointer;
-            filter: brightness(0.6);
-            &:nth-child(4){
-                filter: brightness(0.2);
-            }
-        }
-        div{
-            background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), $background-image;
-            background-size: cover;
-            border-radius: 3px;
-            cursor: pointer;
-            h4{
-                color: $yellow;
-                padding-top: 45px;
-                font-family: "futura-bold";
-                font-size: 1.5rem;
-                letter-spacing: 3px;
-            }
-        }
-    }
-};
-
-// CARDS BONSOMS MOBILE
-@mixin cardBonsomsMobile ($flex-direction, $background-color, $color-text, $color-title, $padding-title, $padding-text, $padding-image, $background-image){
-    display: flex;
-    flex-direction: $flex-direction;
-    padding-top: 50px;
-    background-color: $background-color;
-    align-items: center;
-    a{
-        text-decoration: none;
-    }
-    p{
-        text-align: start;
-        padding: $padding-text;
-        color: $color-text;
-    }
-    h3{
-        font-family: "futura-bold";
-        letter-spacing: 3px;
-        text-align: start;
-        padding-left: $padding-title;
-        color: $color-title;
-        font-size: 2rem;
-    }
-    picture{
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-    justify-content: start;
-    padding: $padding-image; 
-    gap: 5px;
-    width: 100%;
-    margin: 25px 0;
-    img{
-        height: 120px;
-        width: 180px;
-        border-radius: 3px;
-        cursor: pointer;
-        filter: brightness(0.6);
-        &:nth-child(4){
-            filter: brightness(0.2);
-        }
-    }
-    div{
-        background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(3, 3, 3, 0.8)), $background-image;
-        background-size: cover;
-        border-radius: 3px;
-        cursor: pointer;
-        h4{
-            color: $yellow;
-            padding-top: 45px;
-            font-family: "futura-bold";
-            font-size: 1.5rem;
-            letter-spacing: 3px;
-        }
-    }
-}
-};
-
-
 // Carousel-Desktop
 @mixin carousel-commonSpaces-desktop ($background) {
     background-image: $background;
@@ -267,3 +9,167 @@
     margin-left: 25%;
     margin-bottom: 40px;
 }
+
+// PAGES ROOMS ROSSELLO MOBILE
+@mixin wrapperRoomsRosselloMobile ($background-image, $background-color) {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), ($background-image);
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    text-align: center;
+    h1{
+        color: $yellow;
+        font-family: "futura-bold";
+        font-size: 3.5rem;
+        letter-spacing: 3px;
+        padding-bottom: 10px;
+    }
+    h2{
+        font-family: "futura-medium";
+        font-size: 1.5rem;
+        color: $light;
+        border: 1px solid $yellow;
+        padding: 5px 15px;
+        border-radius: 10px;
+    }
+    h3{
+        color: $light;
+        font-family: "futura-light";
+        font-size: 2rem;
+        padding-bottom: 10px;
+    }
+    p{
+        color: $light;
+        font-family: "futura-medium";
+        font-size: 1rem;
+        background-color: $background-color;
+        padding: 5px 10px;
+        border-radius: 3px;
+        margin-top: 10px;
+    }
+}
+
+@mixin pagesCardsRoomsRosselloMobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $lightgray;
+    gap: 20px;
+    padding: 30px 0;
+}
+
+@mixin pagesCardsRoomsRosselloItemsMobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    background-color: $light;
+    width: 260px;
+    height: 230px;
+    text-align: center;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 13px 2px $gray2; 
+    box-shadow: 0px 0px 13px 2px $gray2;
+    img{
+        height: 60px;
+        width: 60px;
+    }
+    h3{
+        font-family: "futura-bold";
+        font-size: 1.3rem;
+    }
+    p{
+        font-family: "futura-light";
+        font-size: .9rem;
+    }
+}
+
+// PAGES ROOMS ROSSELLO DESKTOP
+@mixin wrapperRoomsRosselloDesktop ($background-image, $background-color) {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), ($background-image);
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    text-align: center;
+    h1{
+        color: $yellow;
+        font-family: "futura-bold";
+        font-size: 4.5rem;
+        letter-spacing: 3px;
+        padding-bottom: 10px;
+    }
+    h2{
+        font-family: "futura-medium";
+        font-size: 1.8rem;
+        color: $light;
+        border: 1px solid $yellow;
+        padding: 5px 15px;
+        border-radius: 10px;
+    }
+    h3{
+        color: $light;
+        font-family: "futura-light";
+        font-size: 2.5rem;
+        padding-bottom: 10px;
+    }
+    p{
+        color: $light;
+        font-family: "futura-medium";
+        font-size: 1.2rem;
+        background-color: $background-color;
+        padding: 5px 10px;
+        border-radius: 3px;
+        margin-top: 15px;
+    }
+}
+
+@mixin pagesCardsRoomsRosselloDesktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $lightgray;
+    gap: 20px;
+    padding: 30px;
+}
+
+@mixin pagesCardsRoomsRosselloItemsDesktop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $light;
+    width: 280px;
+    height: 280px;
+    text-align: center;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 13px 2px $gray2; 
+    box-shadow: 0px 0px 13px 2px $gray2;
+    padding: 10px;
+    img{
+        height: 60px;
+        width: 60px;
+    }
+    h3{
+        font-family: "futura-bold";
+        font-size: 1.3rem;
+        padding-top: 20px;
+    }
+    p{
+        font-family: "futura-light";
+        font-size: .9rem;
+    }
+}
+
