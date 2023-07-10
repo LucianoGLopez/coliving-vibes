@@ -1131,7 +1131,7 @@ h1 {
 
 .rosselloWrapper {
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/img/portada1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/portada1.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -1382,8 +1382,10 @@ h1 {
     color: #272727;
     padding: 0;
     text-align: start; }
-  .transportRossello__map p {
-    text-align: center; }
+  .transportRossello__map {
+    margin: 0 auto; }
+    .transportRossello__map p {
+      text-align: start; }
   .transportRossello__content {
     display: flex;
     flex-direction: column;
@@ -1409,7 +1411,7 @@ h1 {
 @media (min-width: 992px) {
   .rosselloWrapper {
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/img/portada1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/portada1.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -1809,15 +1811,1368 @@ h1 {
       font-family: "futura-light";
       font-size: .9rem; }
   #cardsGalleryBonsomsRooms {
-    background-color: #f6f6f6; }
+    background-color: #f6f6f6;
+    padding: 30px 0; }
   #galleryRoom1Bonsoms {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
     gap: 30px;
-    padding: 30px 0;
     background-color: #f6f6f6; }
     #galleryRoom1Bonsoms img {
+      width: 350px;
+      height: 270px;
+      cursor: pointer; } }
+
+.wrapperRoom2Bonsoms {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room2Bonsoms/room2_1.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
+  text-align: center; }
+  .wrapperRoom2Bonsoms h1 {
+    color: #ffff6b;
+    font-family: "futura-bold";
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+    padding-bottom: 10px; }
+  .wrapperRoom2Bonsoms h2 {
+    font-family: "futura-medium";
+    font-size: 1.5rem;
+    color: #f6f6f6;
+    border: 1px solid #ffff6b;
+    padding: 5px 15px;
+    border-radius: 10px; }
+  .wrapperRoom2Bonsoms h3 {
+    color: #f6f6f6;
+    font-family: "futura-light";
+    font-size: 2rem;
+    padding-bottom: 10px; }
+  .wrapperRoom2Bonsoms p {
+    color: #f6f6f6;
+    font-family: "futura-medium";
+    font-size: 1rem;
+    background-color: #ff3232;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-top: 10px; }
+
+.cardsRoom2Bonsoms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #dbdbdb;
+  gap: 20px;
+  padding: 30px 0; }
+
+.cardsRoom2BonsomsItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  background-color: #f6f6f6;
+  width: 260px;
+  height: 230px;
+  text-align: center;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 13px 2px #bbbbbb;
+  box-shadow: 0px 0px 13px 2px #bbbbbb; }
+  .cardsRoom2BonsomsItems img {
+    height: 60px;
+    width: 60px; }
+  .cardsRoom2BonsomsItems h3 {
+    font-family: "futura-bold";
+    font-size: 1.3rem; }
+  .cardsRoom2BonsomsItems p {
+    font-family: "futura-light";
+    font-size: .9rem; }
+
+#cardsGalleryBonsomsRooms {
+  background-color: #f6f6f6; }
+
+#galleryRoom2Bonsoms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 0;
+  background-color: #f6f6f6; }
+  #galleryRoom2Bonsoms img {
+    width: 350px;
+    height: 270px;
+    cursor: pointer; }
+
+@media (min-width: 992px) {
+  .wrapperRoom2Bonsoms {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room2Bonsoms/room2_1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    text-align: center; }
+    .wrapperRoom2Bonsoms h1 {
+      color: #ffff6b;
+      font-family: "futura-bold";
+      font-size: 4.5rem;
+      letter-spacing: 3px;
+      padding-bottom: 10px; }
+    .wrapperRoom2Bonsoms h2 {
+      font-family: "futura-medium";
+      font-size: 1.8rem;
+      color: #f6f6f6;
+      border: 1px solid #ffff6b;
+      padding: 5px 15px;
+      border-radius: 10px; }
+    .wrapperRoom2Bonsoms h3 {
+      color: #f6f6f6;
+      font-family: "futura-light";
+      font-size: 2.5rem;
+      padding-bottom: 10px; }
+    .wrapperRoom2Bonsoms p {
+      color: #f6f6f6;
+      font-family: "futura-medium";
+      font-size: 1.2rem;
+      background-color: #ff3232;
+      padding: 5px 10px;
+      border-radius: 3px;
+      margin-top: 15px; }
+  .cardsRoom2Bonsoms {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #dbdbdb;
+    gap: 20px;
+    padding: 30px; }
+  .cardsRoom2BonsomsItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+    width: 280px;
+    height: 280px;
+    text-align: center;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 13px 2px #bbbbbb;
+    box-shadow: 0px 0px 13px 2px #bbbbbb;
+    padding: 10px; }
+    .cardsRoom2BonsomsItems img {
+      height: 60px;
+      width: 60px; }
+    .cardsRoom2BonsomsItems h3 {
+      font-family: "futura-bold";
+      font-size: 1.3rem;
+      padding-top: 20px; }
+    .cardsRoom2BonsomsItems p {
+      font-family: "futura-light";
+      font-size: .9rem; }
+  #cardsGalleryBonsomsRooms {
+    background-color: #f6f6f6;
+    padding: 30px 0; }
+  #galleryRoom2Bonsoms {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    gap: 30px;
+    background-color: #f6f6f6; }
+    #galleryRoom2Bonsoms img {
+      width: 350px;
+      height: 270px;
+      cursor: pointer; } }
+
+.wrapperRoom3Bonsoms {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room3Bonsoms/room3_1.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
+  text-align: center; }
+  .wrapperRoom3Bonsoms h1 {
+    color: #ffff6b;
+    font-family: "futura-bold";
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+    padding-bottom: 10px; }
+  .wrapperRoom3Bonsoms h2 {
+    font-family: "futura-medium";
+    font-size: 1.5rem;
+    color: #f6f6f6;
+    border: 1px solid #ffff6b;
+    padding: 5px 15px;
+    border-radius: 10px; }
+  .wrapperRoom3Bonsoms h3 {
+    color: #f6f6f6;
+    font-family: "futura-light";
+    font-size: 2rem;
+    padding-bottom: 10px; }
+  .wrapperRoom3Bonsoms p {
+    color: #f6f6f6;
+    font-family: "futura-medium";
+    font-size: 1rem;
+    background-color: #ff3232;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-top: 10px; }
+
+.cardsRoom3Bonsoms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #dbdbdb;
+  gap: 20px;
+  padding: 30px 0; }
+
+.cardsRoom3BonsomsItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  background-color: #f6f6f6;
+  width: 260px;
+  height: 230px;
+  text-align: center;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 13px 2px #bbbbbb;
+  box-shadow: 0px 0px 13px 2px #bbbbbb; }
+  .cardsRoom3BonsomsItems img {
+    height: 60px;
+    width: 60px; }
+  .cardsRoom3BonsomsItems h3 {
+    font-family: "futura-bold";
+    font-size: 1.3rem; }
+  .cardsRoom3BonsomsItems p {
+    font-family: "futura-light";
+    font-size: .9rem; }
+
+#cardsGalleryBonsomsRooms {
+  background-color: #f6f6f6; }
+
+#galleryRoom3Bonsoms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 0;
+  background-color: #f6f6f6; }
+  #galleryRoom3Bonsoms img {
+    width: 350px;
+    height: 270px;
+    cursor: pointer; }
+
+@media (min-width: 992px) {
+  .wrapperRoom3Bonsoms {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room3Bonsoms/room3_1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    text-align: center; }
+    .wrapperRoom3Bonsoms h1 {
+      color: #ffff6b;
+      font-family: "futura-bold";
+      font-size: 4.5rem;
+      letter-spacing: 3px;
+      padding-bottom: 10px; }
+    .wrapperRoom3Bonsoms h2 {
+      font-family: "futura-medium";
+      font-size: 1.8rem;
+      color: #f6f6f6;
+      border: 1px solid #ffff6b;
+      padding: 5px 15px;
+      border-radius: 10px; }
+    .wrapperRoom3Bonsoms h3 {
+      color: #f6f6f6;
+      font-family: "futura-light";
+      font-size: 2.5rem;
+      padding-bottom: 10px; }
+    .wrapperRoom3Bonsoms p {
+      color: #f6f6f6;
+      font-family: "futura-medium";
+      font-size: 1.2rem;
+      background-color: #ff3232;
+      padding: 5px 10px;
+      border-radius: 3px;
+      margin-top: 15px; }
+  .cardsRoom3Bonsoms {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #dbdbdb;
+    gap: 20px;
+    padding: 30px; }
+  .cardsRoom3BonsomsItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+    width: 280px;
+    height: 280px;
+    text-align: center;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 13px 2px #bbbbbb;
+    box-shadow: 0px 0px 13px 2px #bbbbbb;
+    padding: 10px; }
+    .cardsRoom3BonsomsItems img {
+      height: 60px;
+      width: 60px; }
+    .cardsRoom3BonsomsItems h3 {
+      font-family: "futura-bold";
+      font-size: 1.3rem;
+      padding-top: 20px; }
+    .cardsRoom3BonsomsItems p {
+      font-family: "futura-light";
+      font-size: .9rem; }
+  #cardsGalleryBonsomsRooms {
+    background-color: #f6f6f6;
+    padding: 30px 0; }
+  #galleryRoom3Bonsoms {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    gap: 30px;
+    background-color: #f6f6f6; }
+    #galleryRoom3Bonsoms img {
+      width: 350px;
+      height: 270px;
+      cursor: pointer; } }
+
+.wrapperRoom4Bonsoms {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room4Bonsoms/room4_1.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
+  text-align: center; }
+  .wrapperRoom4Bonsoms h1 {
+    color: #ffff6b;
+    font-family: "futura-bold";
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+    padding-bottom: 10px; }
+  .wrapperRoom4Bonsoms h2 {
+    font-family: "futura-medium";
+    font-size: 1.5rem;
+    color: #f6f6f6;
+    border: 1px solid #ffff6b;
+    padding: 5px 15px;
+    border-radius: 10px; }
+  .wrapperRoom4Bonsoms h3 {
+    color: #f6f6f6;
+    font-family: "futura-light";
+    font-size: 2rem;
+    padding-bottom: 10px; }
+  .wrapperRoom4Bonsoms p {
+    color: #f6f6f6;
+    font-family: "futura-medium";
+    font-size: 1rem;
+    background-color: #ff3232;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-top: 10px; }
+
+.cardsRoom4Bonsoms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #dbdbdb;
+  gap: 20px;
+  padding: 30px 0; }
+
+.cardsRoom4BonsomsItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  background-color: #f6f6f6;
+  width: 260px;
+  height: 230px;
+  text-align: center;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 13px 2px #bbbbbb;
+  box-shadow: 0px 0px 13px 2px #bbbbbb; }
+  .cardsRoom4BonsomsItems img {
+    height: 60px;
+    width: 60px; }
+  .cardsRoom4BonsomsItems h3 {
+    font-family: "futura-bold";
+    font-size: 1.3rem; }
+  .cardsRoom4BonsomsItems p {
+    font-family: "futura-light";
+    font-size: .9rem; }
+
+#cardsGalleryBonsomsRooms {
+  background-color: #f6f6f6; }
+
+#galleryRoom4Bonsoms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 0;
+  background-color: #f6f6f6; }
+  #galleryRoom4Bonsoms img {
+    width: 350px;
+    height: 270px;
+    cursor: pointer; }
+
+@media (min-width: 992px) {
+  .wrapperRoom4Bonsoms {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room4Bonsoms/room4_1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    text-align: center; }
+    .wrapperRoom4Bonsoms h1 {
+      color: #ffff6b;
+      font-family: "futura-bold";
+      font-size: 4.5rem;
+      letter-spacing: 3px;
+      padding-bottom: 10px; }
+    .wrapperRoom4Bonsoms h2 {
+      font-family: "futura-medium";
+      font-size: 1.8rem;
+      color: #f6f6f6;
+      border: 1px solid #ffff6b;
+      padding: 5px 15px;
+      border-radius: 10px; }
+    .wrapperRoom4Bonsoms h3 {
+      color: #f6f6f6;
+      font-family: "futura-light";
+      font-size: 2.5rem;
+      padding-bottom: 10px; }
+    .wrapperRoom4Bonsoms p {
+      color: #f6f6f6;
+      font-family: "futura-medium";
+      font-size: 1.2rem;
+      background-color: #ff3232;
+      padding: 5px 10px;
+      border-radius: 3px;
+      margin-top: 15px; }
+  .cardsRoom4Bonsoms {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #dbdbdb;
+    gap: 20px;
+    padding: 30px; }
+  .cardsRoom4BonsomsItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+    width: 280px;
+    height: 280px;
+    text-align: center;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 13px 2px #bbbbbb;
+    box-shadow: 0px 0px 13px 2px #bbbbbb;
+    padding: 10px; }
+    .cardsRoom4BonsomsItems img {
+      height: 60px;
+      width: 60px; }
+    .cardsRoom4BonsomsItems h3 {
+      font-family: "futura-bold";
+      font-size: 1.3rem;
+      padding-top: 20px; }
+    .cardsRoom4BonsomsItems p {
+      font-family: "futura-light";
+      font-size: .9rem; }
+  #cardsGalleryBonsomsRooms {
+    background-color: #f6f6f6;
+    padding: 30px 0; }
+  #galleryRoom4Bonsoms {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    gap: 30px;
+    background-color: #f6f6f6; }
+    #galleryRoom4Bonsoms img {
+      width: 350px;
+      height: 270px;
+      cursor: pointer; } }
+
+.wrapperRoom5Bonsoms {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room5Bonsoms/room4_1.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
+  text-align: center; }
+  .wrapperRoom5Bonsoms h1 {
+    color: #ffff6b;
+    font-family: "futura-bold";
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+    padding-bottom: 10px; }
+  .wrapperRoom5Bonsoms h2 {
+    font-family: "futura-medium";
+    font-size: 1.5rem;
+    color: #f6f6f6;
+    border: 1px solid #ffff6b;
+    padding: 5px 15px;
+    border-radius: 10px; }
+  .wrapperRoom5Bonsoms h3 {
+    color: #f6f6f6;
+    font-family: "futura-light";
+    font-size: 2rem;
+    padding-bottom: 10px; }
+  .wrapperRoom5Bonsoms p {
+    color: #f6f6f6;
+    font-family: "futura-medium";
+    font-size: 1rem;
+    background-color: #ff3232;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-top: 10px; }
+
+.cardsRoom5Bonsoms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #dbdbdb;
+  gap: 20px;
+  padding: 30px 0; }
+
+.cardsRoom5BonsomsItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  background-color: #f6f6f6;
+  width: 260px;
+  height: 230px;
+  text-align: center;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 13px 2px #bbbbbb;
+  box-shadow: 0px 0px 13px 2px #bbbbbb; }
+  .cardsRoom5BonsomsItems img {
+    height: 60px;
+    width: 60px; }
+  .cardsRoom5BonsomsItems h3 {
+    font-family: "futura-bold";
+    font-size: 1.3rem; }
+  .cardsRoom5BonsomsItems p {
+    font-family: "futura-light";
+    font-size: .9rem; }
+
+#cardsGalleryBonsomsRooms {
+  background-color: #f6f6f6; }
+
+#galleryRoom5Bonsoms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 0;
+  background-color: #f6f6f6; }
+  #galleryRoom5Bonsoms img {
+    width: 350px;
+    height: 270px;
+    cursor: pointer; }
+
+@media (min-width: 992px) {
+  .wrapperRoom5Bonsoms {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room5Bonsoms/room5_1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    text-align: center; }
+    .wrapperRoom5Bonsoms h1 {
+      color: #ffff6b;
+      font-family: "futura-bold";
+      font-size: 4.5rem;
+      letter-spacing: 3px;
+      padding-bottom: 10px; }
+    .wrapperRoom5Bonsoms h2 {
+      font-family: "futura-medium";
+      font-size: 1.8rem;
+      color: #f6f6f6;
+      border: 1px solid #ffff6b;
+      padding: 5px 15px;
+      border-radius: 10px; }
+    .wrapperRoom5Bonsoms h3 {
+      color: #f6f6f6;
+      font-family: "futura-light";
+      font-size: 2.5rem;
+      padding-bottom: 10px; }
+    .wrapperRoom5Bonsoms p {
+      color: #f6f6f6;
+      font-family: "futura-medium";
+      font-size: 1.2rem;
+      background-color: #ff3232;
+      padding: 5px 10px;
+      border-radius: 3px;
+      margin-top: 15px; }
+  .cardsRoom5Bonsoms {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #dbdbdb;
+    gap: 20px;
+    padding: 30px; }
+  .cardsRoom5BonsomsItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+    width: 280px;
+    height: 280px;
+    text-align: center;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 13px 2px #bbbbbb;
+    box-shadow: 0px 0px 13px 2px #bbbbbb;
+    padding: 10px; }
+    .cardsRoom5BonsomsItems img {
+      height: 60px;
+      width: 60px; }
+    .cardsRoom5BonsomsItems h3 {
+      font-family: "futura-bold";
+      font-size: 1.3rem;
+      padding-top: 20px; }
+    .cardsRoom5BonsomsItems p {
+      font-family: "futura-light";
+      font-size: .9rem; }
+  #cardsGalleryBonsomsRooms {
+    background-color: #f6f6f6;
+    padding: 30px 0; }
+  #galleryRoom5Bonsoms {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    gap: 30px;
+    background-color: #f6f6f6; }
+    #galleryRoom5Bonsoms img {
+      width: 350px;
+      height: 270px;
+      cursor: pointer; } }
+
+.wrapperRoom6Bonsoms {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room6Bonsoms/room6_1.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
+  text-align: center; }
+  .wrapperRoom6Bonsoms h1 {
+    color: #ffff6b;
+    font-family: "futura-bold";
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+    padding-bottom: 10px; }
+  .wrapperRoom6Bonsoms h2 {
+    font-family: "futura-medium";
+    font-size: 1.5rem;
+    color: #f6f6f6;
+    border: 1px solid #ffff6b;
+    padding: 5px 15px;
+    border-radius: 10px; }
+  .wrapperRoom6Bonsoms h3 {
+    color: #f6f6f6;
+    font-family: "futura-light";
+    font-size: 2rem;
+    padding-bottom: 10px; }
+  .wrapperRoom6Bonsoms p {
+    color: #f6f6f6;
+    font-family: "futura-medium";
+    font-size: 1rem;
+    background-color: #ff3232;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-top: 10px; }
+
+.cardsRoom6Bonsoms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #dbdbdb;
+  gap: 20px;
+  padding: 30px 0; }
+
+.cardsRoom6BonsomsItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  background-color: #f6f6f6;
+  width: 260px;
+  height: 230px;
+  text-align: center;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 13px 2px #bbbbbb;
+  box-shadow: 0px 0px 13px 2px #bbbbbb; }
+  .cardsRoom6BonsomsItems img {
+    height: 60px;
+    width: 60px; }
+  .cardsRoom6BonsomsItems h3 {
+    font-family: "futura-bold";
+    font-size: 1.3rem; }
+  .cardsRoom6BonsomsItems p {
+    font-family: "futura-light";
+    font-size: .9rem; }
+
+#cardsGalleryBonsomsRooms {
+  background-color: #f6f6f6; }
+
+#galleryRoom6Bonsoms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 0;
+  background-color: #f6f6f6; }
+  #galleryRoom6Bonsoms img {
+    width: 350px;
+    height: 270px;
+    cursor: pointer; }
+
+@media (min-width: 992px) {
+  .wrapperRoom6Bonsoms {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room6Bonsoms/room6_1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    text-align: center; }
+    .wrapperRoom6Bonsoms h1 {
+      color: #ffff6b;
+      font-family: "futura-bold";
+      font-size: 4.5rem;
+      letter-spacing: 3px;
+      padding-bottom: 10px; }
+    .wrapperRoom6Bonsoms h2 {
+      font-family: "futura-medium";
+      font-size: 1.8rem;
+      color: #f6f6f6;
+      border: 1px solid #ffff6b;
+      padding: 5px 15px;
+      border-radius: 10px; }
+    .wrapperRoom6Bonsoms h3 {
+      color: #f6f6f6;
+      font-family: "futura-light";
+      font-size: 2.5rem;
+      padding-bottom: 10px; }
+    .wrapperRoom6Bonsoms p {
+      color: #f6f6f6;
+      font-family: "futura-medium";
+      font-size: 1.2rem;
+      background-color: #ff3232;
+      padding: 5px 10px;
+      border-radius: 3px;
+      margin-top: 15px; }
+  .cardsRoom6Bonsoms {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #dbdbdb;
+    gap: 20px;
+    padding: 30px; }
+  .cardsRoom6BonsomsItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+    width: 280px;
+    height: 280px;
+    text-align: center;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 13px 2px #bbbbbb;
+    box-shadow: 0px 0px 13px 2px #bbbbbb;
+    padding: 10px; }
+    .cardsRoom6BonsomsItems img {
+      height: 60px;
+      width: 60px; }
+    .cardsRoom6BonsomsItems h3 {
+      font-family: "futura-bold";
+      font-size: 1.3rem;
+      padding-top: 20px; }
+    .cardsRoom6BonsomsItems p {
+      font-family: "futura-light";
+      font-size: .9rem; }
+  #cardsGalleryBonsomsRooms {
+    background-color: #f6f6f6;
+    padding: 30px 0; }
+  #galleryRoom6Bonsoms {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    gap: 30px;
+    background-color: #f6f6f6; }
+    #galleryRoom6Bonsoms img {
+      width: 350px;
+      height: 270px;
+      cursor: pointer; } }
+
+.wrapperRoom7Bonsoms {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room7Bonsoms/room7_2.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
+  text-align: center; }
+  .wrapperRoom7Bonsoms h1 {
+    color: #ffff6b;
+    font-family: "futura-bold";
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+    padding-bottom: 10px; }
+  .wrapperRoom7Bonsoms h2 {
+    font-family: "futura-medium";
+    font-size: 1.5rem;
+    color: #f6f6f6;
+    border: 1px solid #ffff6b;
+    padding: 5px 15px;
+    border-radius: 10px; }
+  .wrapperRoom7Bonsoms h3 {
+    color: #f6f6f6;
+    font-family: "futura-light";
+    font-size: 2rem;
+    padding-bottom: 10px; }
+  .wrapperRoom7Bonsoms p {
+    color: #f6f6f6;
+    font-family: "futura-medium";
+    font-size: 1rem;
+    background-color: #ff3232;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-top: 10px; }
+
+.cardsRoom7Bonsoms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #dbdbdb;
+  gap: 20px;
+  padding: 30px 0; }
+
+.cardsRoom7BonsomsItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  background-color: #f6f6f6;
+  width: 260px;
+  height: 230px;
+  text-align: center;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 13px 2px #bbbbbb;
+  box-shadow: 0px 0px 13px 2px #bbbbbb; }
+  .cardsRoom7BonsomsItems img {
+    height: 60px;
+    width: 60px; }
+  .cardsRoom7BonsomsItems h3 {
+    font-family: "futura-bold";
+    font-size: 1.3rem; }
+  .cardsRoom7BonsomsItems p {
+    font-family: "futura-light";
+    font-size: .9rem; }
+
+#cardsGalleryBonsomsRooms {
+  background-color: #f6f6f6; }
+
+#galleryRoom7Bonsoms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 0;
+  background-color: #f6f6f6; }
+  #galleryRoom7Bonsoms img {
+    width: 350px;
+    height: 270px;
+    cursor: pointer; }
+
+@media (min-width: 992px) {
+  .wrapperRoom7Bonsoms {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room7Bonsoms/room7_2.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    text-align: center; }
+    .wrapperRoom7Bonsoms h1 {
+      color: #ffff6b;
+      font-family: "futura-bold";
+      font-size: 4.5rem;
+      letter-spacing: 3px;
+      padding-bottom: 10px; }
+    .wrapperRoom7Bonsoms h2 {
+      font-family: "futura-medium";
+      font-size: 1.8rem;
+      color: #f6f6f6;
+      border: 1px solid #ffff6b;
+      padding: 5px 15px;
+      border-radius: 10px; }
+    .wrapperRoom7Bonsoms h3 {
+      color: #f6f6f6;
+      font-family: "futura-light";
+      font-size: 2.5rem;
+      padding-bottom: 10px; }
+    .wrapperRoom7Bonsoms p {
+      color: #f6f6f6;
+      font-family: "futura-medium";
+      font-size: 1.2rem;
+      background-color: #ff3232;
+      padding: 5px 10px;
+      border-radius: 3px;
+      margin-top: 15px; }
+  .cardsRoom7Bonsoms {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #dbdbdb;
+    gap: 20px;
+    padding: 30px; }
+  .cardsRoom7BonsomsItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+    width: 280px;
+    height: 280px;
+    text-align: center;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 13px 2px #bbbbbb;
+    box-shadow: 0px 0px 13px 2px #bbbbbb;
+    padding: 10px; }
+    .cardsRoom7BonsomsItems img {
+      height: 60px;
+      width: 60px; }
+    .cardsRoom7BonsomsItems h3 {
+      font-family: "futura-bold";
+      font-size: 1.3rem;
+      padding-top: 20px; }
+    .cardsRoom7BonsomsItems p {
+      font-family: "futura-light";
+      font-size: .9rem; }
+  #cardsGalleryBonsomsRooms {
+    background-color: #f6f6f6;
+    padding: 30px 0; }
+  #galleryRoom7Bonsoms {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    gap: 30px;
+    background-color: #f6f6f6; }
+    #galleryRoom7Bonsoms img {
+      width: 350px;
+      height: 270px;
+      cursor: pointer; } }
+
+.wrapperRoom8Bonsoms {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room8Bonsoms/room8_1.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
+  text-align: center; }
+  .wrapperRoom8Bonsoms h1 {
+    color: #ffff6b;
+    font-family: "futura-bold";
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+    padding-bottom: 10px; }
+  .wrapperRoom8Bonsoms h2 {
+    font-family: "futura-medium";
+    font-size: 1.5rem;
+    color: #f6f6f6;
+    border: 1px solid #ffff6b;
+    padding: 5px 15px;
+    border-radius: 10px; }
+  .wrapperRoom8Bonsoms h3 {
+    color: #f6f6f6;
+    font-family: "futura-light";
+    font-size: 2rem;
+    padding-bottom: 10px; }
+  .wrapperRoom8Bonsoms p {
+    color: #f6f6f6;
+    font-family: "futura-medium";
+    font-size: 1rem;
+    background-color: #ff3232;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-top: 10px; }
+
+.cardsRoom8Bonsoms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #dbdbdb;
+  gap: 20px;
+  padding: 30px 0; }
+
+.cardsRoom8BonsomsItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  background-color: #f6f6f6;
+  width: 260px;
+  height: 230px;
+  text-align: center;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 13px 2px #bbbbbb;
+  box-shadow: 0px 0px 13px 2px #bbbbbb; }
+  .cardsRoom8BonsomsItems img {
+    height: 60px;
+    width: 60px; }
+  .cardsRoom8BonsomsItems h3 {
+    font-family: "futura-bold";
+    font-size: 1.3rem; }
+  .cardsRoom8BonsomsItems p {
+    font-family: "futura-light";
+    font-size: .9rem; }
+
+#cardsGalleryBonsomsRooms {
+  background-color: #f6f6f6; }
+
+#galleryRoom8Bonsoms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 0;
+  background-color: #f6f6f6; }
+  #galleryRoom8Bonsoms img {
+    width: 350px;
+    height: 270px;
+    cursor: pointer; }
+
+@media (min-width: 992px) {
+  .wrapperRoom8Bonsoms {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room8Bonsoms/room8_1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    text-align: center; }
+    .wrapperRoom8Bonsoms h1 {
+      color: #ffff6b;
+      font-family: "futura-bold";
+      font-size: 4.5rem;
+      letter-spacing: 3px;
+      padding-bottom: 10px; }
+    .wrapperRoom8Bonsoms h2 {
+      font-family: "futura-medium";
+      font-size: 1.8rem;
+      color: #f6f6f6;
+      border: 1px solid #ffff6b;
+      padding: 5px 15px;
+      border-radius: 10px; }
+    .wrapperRoom8Bonsoms h3 {
+      color: #f6f6f6;
+      font-family: "futura-light";
+      font-size: 2.5rem;
+      padding-bottom: 10px; }
+    .wrapperRoom8Bonsoms p {
+      color: #f6f6f6;
+      font-family: "futura-medium";
+      font-size: 1.2rem;
+      background-color: #ff3232;
+      padding: 5px 10px;
+      border-radius: 3px;
+      margin-top: 15px; }
+  .cardsRoom8Bonsoms {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #dbdbdb;
+    gap: 20px;
+    padding: 30px; }
+  .cardsRoom8BonsomsItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+    width: 280px;
+    height: 280px;
+    text-align: center;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 13px 2px #bbbbbb;
+    box-shadow: 0px 0px 13px 2px #bbbbbb;
+    padding: 10px; }
+    .cardsRoom8BonsomsItems img {
+      height: 60px;
+      width: 60px; }
+    .cardsRoom8BonsomsItems h3 {
+      font-family: "futura-bold";
+      font-size: 1.3rem;
+      padding-top: 20px; }
+    .cardsRoom8BonsomsItems p {
+      font-family: "futura-light";
+      font-size: .9rem; }
+  #cardsGalleryBonsomsRooms {
+    background-color: #f6f6f6;
+    padding: 30px 0; }
+  #galleryRoom8Bonsoms {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    gap: 30px;
+    background-color: #f6f6f6; }
+    #galleryRoom8Bonsoms img {
+      width: 350px;
+      height: 270px;
+      cursor: pointer; } }
+
+.wrapperRoom9Bonsoms {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room9Bonsoms/room9_1.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
+  text-align: center; }
+  .wrapperRoom9Bonsoms h1 {
+    color: #ffff6b;
+    font-family: "futura-bold";
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+    padding-bottom: 10px; }
+  .wrapperRoom9Bonsoms h2 {
+    font-family: "futura-medium";
+    font-size: 1.5rem;
+    color: #f6f6f6;
+    border: 1px solid #ffff6b;
+    padding: 5px 15px;
+    border-radius: 10px; }
+  .wrapperRoom9Bonsoms h3 {
+    color: #f6f6f6;
+    font-family: "futura-light";
+    font-size: 2rem;
+    padding-bottom: 10px; }
+  .wrapperRoom9Bonsoms p {
+    color: #f6f6f6;
+    font-family: "futura-medium";
+    font-size: 1rem;
+    background-color: #ff3232;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-top: 10px; }
+
+.cardsRoom9Bonsoms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #dbdbdb;
+  gap: 20px;
+  padding: 30px 0; }
+
+.cardsRoom9BonsomsItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  background-color: #f6f6f6;
+  width: 260px;
+  height: 230px;
+  text-align: center;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 13px 2px #bbbbbb;
+  box-shadow: 0px 0px 13px 2px #bbbbbb; }
+  .cardsRoom9BonsomsItems img {
+    height: 60px;
+    width: 60px; }
+  .cardsRoom9BonsomsItems h3 {
+    font-family: "futura-bold";
+    font-size: 1.3rem; }
+  .cardsRoom9BonsomsItems p {
+    font-family: "futura-light";
+    font-size: .9rem; }
+
+#cardsGalleryBonsomsRooms {
+  background-color: #f6f6f6; }
+
+#galleryRoom9Bonsoms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 0;
+  background-color: #f6f6f6; }
+  #galleryRoom9Bonsoms img {
+    width: 350px;
+    height: 270px;
+    cursor: pointer; }
+
+@media (min-width: 992px) {
+  .wrapperRoom9Bonsoms {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room9Bonsoms/room9_1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    text-align: center; }
+    .wrapperRoom9Bonsoms h1 {
+      color: #ffff6b;
+      font-family: "futura-bold";
+      font-size: 4.5rem;
+      letter-spacing: 3px;
+      padding-bottom: 10px; }
+    .wrapperRoom9Bonsoms h2 {
+      font-family: "futura-medium";
+      font-size: 1.8rem;
+      color: #f6f6f6;
+      border: 1px solid #ffff6b;
+      padding: 5px 15px;
+      border-radius: 10px; }
+    .wrapperRoom9Bonsoms h3 {
+      color: #f6f6f6;
+      font-family: "futura-light";
+      font-size: 2.5rem;
+      padding-bottom: 10px; }
+    .wrapperRoom9Bonsoms p {
+      color: #f6f6f6;
+      font-family: "futura-medium";
+      font-size: 1.2rem;
+      background-color: #ff3232;
+      padding: 5px 10px;
+      border-radius: 3px;
+      margin-top: 15px; }
+  .cardsRoom9Bonsoms {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #dbdbdb;
+    gap: 20px;
+    padding: 30px; }
+  .cardsRoom9BonsomsItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+    width: 280px;
+    height: 280px;
+    text-align: center;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 13px 2px #bbbbbb;
+    box-shadow: 0px 0px 13px 2px #bbbbbb;
+    padding: 10px; }
+    .cardsRoom9BonsomsItems img {
+      height: 60px;
+      width: 60px; }
+    .cardsRoom9BonsomsItems h3 {
+      font-family: "futura-bold";
+      font-size: 1.3rem;
+      padding-top: 20px; }
+    .cardsRoom9BonsomsItems p {
+      font-family: "futura-light";
+      font-size: .9rem; }
+  #cardsGalleryBonsomsRooms {
+    background-color: #f6f6f6;
+    padding: 30px 0; }
+  #galleryRoom9Bonsoms {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    gap: 30px;
+    background-color: #f6f6f6; }
+    #galleryRoom9Bonsoms img {
       width: 350px;
       height: 270px;
       cursor: pointer; } }
@@ -3000,7 +4355,7 @@ h1 {
 
 .bonsomsWrapper {
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/img/portada1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/portada1.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -3232,8 +4587,10 @@ h1 {
     padding: 0;
     text-align: start;
     font-size: 1rem; }
-  .transportBonsoms__map p {
-    text-align: center; }
+  .transportBonsoms__map {
+    margin: 0 auto; }
+    .transportBonsoms__map p {
+      text-align: start; }
   .transportBonsoms__content {
     display: flex;
     flex-direction: column;
@@ -3250,7 +4607,7 @@ h1 {
 @media (min-width: 992px) {
   .bonsomsWrapper {
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/img/bonsoms/livingRoom/livingRoom_1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/bonsoms/livingRoom/livingRoom_1.jpg);
     background-size: cover;
     background-position: center;
     display: flex;

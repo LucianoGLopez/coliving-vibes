@@ -1,6 +1,6 @@
 .bonsomsWrapper{
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/img/portada1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/portada1.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -285,8 +285,9 @@
             font-size: 1rem;
         }
         &__map{
+            margin: 0 auto;
             p{
-                text-align: center;
+                text-align: start;
             }
         }
         &__content{
@@ -317,7 +318,7 @@
 @media (min-width: 992px) {
     .bonsomsWrapper{
         height: 100vh;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/img/bonsoms/livingRoom/livingRoom_1.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/bonsoms/livingRoom/livingRoom_1.jpg);
         background-size: cover;
         background-position: center;
         display: flex;
