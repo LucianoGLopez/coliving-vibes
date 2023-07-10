@@ -136,6 +136,7 @@
         &__dropdown{
             background-color:rgba(41, 41, 41, 0.73);
             backdrop-filter: blur(10px);
+            border: 1px solid $yellow;
             a{
                 &:hover{
                     background-color: rgba(255, 255, 93, 0.734);
@@ -149,8 +150,9 @@
                 font-family: "futura-medium";
                 font-size: .9rem;
                 letter-spacing: 2px;
-                color:$light;
-                border-color:  $light;
+                color:$yellow;
+                border-color:  $yellow;
+                padding: 10px;
                 border-radius: 3px;
                 margin: 0;
                 &:hover{
@@ -162,6 +164,10 @@
         }
         &__logo{
             margin-left: 30px;
+            :hover{
+            transform: scale(1.1);
+            transition: 0.1s;  
+        }
         }
     }
 }

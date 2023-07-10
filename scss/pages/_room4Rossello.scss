@@ -27,6 +27,7 @@
     }
 }
 
+// DESKTOP
 @media (min-width: 992px) {
     .wrapperRoom4Rossello{
         @include wrapperRoomsRosselloDesktop ((url(../img/room4Rossello/room4_2.webp)), rgb(255, 50, 50));

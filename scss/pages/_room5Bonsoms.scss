@@ -1,5 +1,5 @@
 .wrapperRoom5Bonsoms{
-    @include wrapperRoomsRosselloMobile ((url(../img/bonsoms/room5Bonsoms/room4_1.jpg)), rgb(255, 50, 50));
+    @include wrapperRoomsRosselloMobile ((url(../img/bonsoms/room5Bonsoms/room4_1.jpg)), $green);
 }
 
 .cardsRoom5Bonsoms{
@@ -29,7 +29,7 @@
 
 @media (min-width: 992px) {
     .wrapperRoom5Bonsoms{
-        @include wrapperRoomsRosselloDesktop ((url(../img/bonsoms/room5Bonsoms/room5_1.jpg)), rgb(255, 50, 50));
+        @include wrapperRoomsRosselloDesktop ((url(../img/bonsoms/room5Bonsoms/room5_1.jpg)), $green);
     }
 
     .cardsRoom5Bonsoms{

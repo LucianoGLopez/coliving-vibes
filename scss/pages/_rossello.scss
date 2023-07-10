@@ -1,4 +1,52 @@
 // START MOBILE
+// DISPONIBILIDAD
+.room1RosselloDisponibilidad{
+    padding: 0 30px;
+    font-size: .9rem;
+    color: $red;
+}
+
+.room2RosselloDisponibilidad{
+    padding: 0 30px;
+    font-size: .9rem;
+    color: $red;
+}
+
+.room3RosselloDisponibilidad{
+    padding: 0 30px;
+    font-size: .9rem;
+    color: $red;
+}
+
+.room4RosselloDisponibilidad{
+    padding: 0 30px;
+    font-size: .9rem;
+    color: $red;
+}
+
+.room5RosselloDisponibilidad{
+    padding: 0 30px;
+    font-size: .9rem;
+    color: $red;
+}
+
+.room6RosselloDisponibilidad{
+    padding: 0 30px;
+    font-size: .9rem;
+    color: $red;
+}
+
+.room7RosselloDisponibilidad{
+    padding: 0 30px;
+    font-size: .9rem;
+    color: $green;
+}
+
+
+
+
+
+
 .rosselloWrapper{
         height: 100vh;
         background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/portada1.jpg);
@@ -25,7 +73,7 @@
                 letter-spacing: 2px;
             }
             h3{
-                color: $yellow;
+                color: $lightgraytext;
                 font-family: "futura-light";
             }
             button{
@@ -287,7 +335,7 @@
         align-items: center;
         img{
             filter: brightness(5%);
-            height: 300px;
+            height: 200px !important;
             width: auto;
             margin: 0 auto;
         }
@@ -321,6 +369,7 @@
             color: $darkgray;
             padding: 0;
             text-align: start;
+            font-size: 1rem;
         }
         &__map{
             margin: 0 auto;
@@ -664,7 +713,7 @@
         align-items: center;
         img{
             filter: brightness(10%);
-            height: 300px;
+            height: 100px;
             width: auto;
             margin: 0 auto;
         }

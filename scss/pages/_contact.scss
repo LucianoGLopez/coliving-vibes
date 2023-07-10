@@ -212,7 +212,6 @@ input[type=number]::-webkit-outer-spin-button {
     &__separador{
         border-top: 1px solid $darkgray;
         height: 2px;
-        // margin-left: 20px;
         margin: 0;
     }
     &__redesSociales{
@@ -241,6 +240,21 @@ input[type=number]::-webkit-outer-spin-button {
                 }
             }
         }
+    }
+}
+
+.infoContact__datos__icons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px 0;
+    p{
+        margin: auto 0;
+    }
+    img{
+        width: 35px;
+        height: 35px;
+        filter: invert(13%) sepia(15%) saturate(18%) hue-rotate(8deg) brightness(98%) contrast(95%);
     }
 }
 

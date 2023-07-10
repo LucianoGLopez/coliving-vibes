@@ -527,7 +527,7 @@
         }
         .bonsomsCardRooms{
             background-color: $light;
-            height: 530px;
+            height: 560px;
             width: 360px;
             text-align: start;
             display: flex;
@@ -637,7 +637,7 @@
         ul{
             text-align: start;
             padding: 0;
-            color: $light;
+            color: $yellow;
         }
         p{
             color: $darkgray;
@@ -668,3 +668,57 @@
     }
 }
 
+// DISPONIBILIDAD HABITACIONES
+.room1BonsomsDisponibilidad{
+    padding: 0 30px;
+    color: $green;
+    font-size: .9rem;
+}
+
+.room2BonsomsDisponibilidad{
+    padding: 0 30px;
+    color: $red;
+    font-size: .9rem;
+}
+
+.room3BonsomsDisponibilidad{
+    padding: 0 30px;
+    color: $red;
+    font-size: .9rem;
+}
+
+.room4BonsomsDisponibilidad{
+    padding: 0 30px;
+    color: $red;
+    font-size: .9rem;
+}
+
+.room5BonsomsDisponibilidad{
+    padding: 0 30px;
+    color: $green;
+    font-size: .9rem;
+}
+
+.room6BonsomsDisponibilidad{
+    padding: 0 30px;
+    color: $red;
+    font-size: .9rem;
+}
+
+.room7BonsomsDisponibilidad{
+    padding: 0 30px;
+    color: $red;
+    font-size: .9rem;
+}
+
+.room8BonsomsDisponibilidad{
+    padding: 0 30px;
+    color: $red;
+    font-size: .9rem;
+}
+
+.room9BonsomsDisponibilidad{
+    padding: 0 30px;
+    color: $red;
+    font-size: .9rem;
+}
