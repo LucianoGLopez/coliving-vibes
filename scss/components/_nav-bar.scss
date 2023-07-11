@@ -11,13 +11,11 @@
 .flags {
     width: 100%;
     display: flex;
-    justify-content: center;
-    gap: 80px;
+    justify-content: space-around;
 }
 
 .flags__item{
-    padding: 20px 0;
-    width: 10px;
+    padding: 20px;
 }
 
 .flags__img{
@@ -46,6 +44,7 @@
     }
     &__dropdown{
         background-color:rgba(41, 41, 41, 0.73);
+        border-color: $yellow;
         a{
             &:hover{
                 background-color: rgba(255, 255, 93, 0.734);
@@ -61,10 +60,10 @@
             font-family: "futura-light";
             font-size: 1rem;
             letter-spacing: 2px;
-            color:$light;
-            border-color:  $light;
+            color:$yellow;
+            border-color:  $yellow;
             border-radius: 3px;
-            padding: 10px;
+            padding: 5px 10px;
             margin-top: 20px;
             &:hover{
                 color:$darkgray;
