@@ -5344,6 +5344,18 @@ button {
     .infoContact__redesSociales img:nth-child(3):hover {
       filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(100%); }
 
+.infoContact__datos__icons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 10px 0; }
+  .infoContact__datos__icons p {
+    margin: auto 0; }
+  .infoContact__datos__icons img {
+    width: 35px;
+    height: 35px;
+    filter: invert(13%) sepia(15%) saturate(18%) hue-rotate(8deg) brightness(98%) contrast(95%); }
+
 .formContact {
   background-color: rgba(209, 209, 209, 0.368);
   backdrop-filter: blur(7px);
