@@ -4811,7 +4811,7 @@ h1 {
     padding: 40px 0; }
   .bonsomsCardRooms {
     background-color: #f6f6f6;
-    height: max-content;
+    height: 530px;
     width: 320px;
     text-align: start;
     display: flex;
@@ -4862,8 +4862,8 @@ h1 {
   .iconsCardsRooms__button {
     display: flex;
     flex-direction: row;
-    padding: 20px 30px;
-    gap: 90px; }
+    justify-content: space-around;
+    padding: 20px; }
     .iconsCardsRooms__button button {
       border: none;
       border-radius: 3px;
