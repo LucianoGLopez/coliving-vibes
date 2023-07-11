@@ -4535,7 +4535,7 @@ h1 {
 
 .bonsomsCardRooms {
   background-color: #f6f6f6;
-  height: 550px;
+  height: 530px;
   width: 320px;
   text-align: start;
   display: flex;
@@ -4589,7 +4589,7 @@ h1 {
 .iconsCardsRooms__button {
   display: flex;
   flex-direction: row;
-  padding: 20px 30px;
+  padding: 20px;
   justify-content: space-around; }
   .iconsCardsRooms__button button {
     border-radius: 3px;
