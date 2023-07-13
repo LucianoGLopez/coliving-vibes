@@ -332,16 +332,15 @@ h1 {
   .mainTitle h1 {
     text-align: center;
     color: #FFEB5B;
-    font-size: 2.8rem;
-    font-family: "futura-bold";
-    padding-bottom: 20px; }
+    font-size: 2rem;
+    font-family: "futura-light"; }
   .mainTitle h2 {
-    font-family: "futura-light";
+    font-family: "futura-bold";
     color: #e7e7e7;
-    font-size: 4rem;
+    font-size: 4.5rem;
     text-align: center;
-    line-height: 50px;
-    padding-bottom: 40px; }
+    line-height: 70px;
+    padding-bottom: 20px; }
   .mainTitle button {
     letter-spacing: 3px;
     font-family: "futura-light";
@@ -730,13 +729,13 @@ h1 {
       text-align: center;
       color: #FFEB5B;
       font-size: 4rem;
-      font-family: "futura-bold";
-      letter-spacing: 5px; }
-    .mainTitle h2 {
       font-family: "futura-light";
+      letter-spacing: 3px; }
+    .mainTitle h2 {
+      font-family: "futura-bold";
       color: #e7e7e7;
-      font-size: 6.5rem;
-      padding: 30px 0 60px; }
+      font-size: 7.5rem;
+      padding: 10px 0 60px; }
     .mainTitle button {
       letter-spacing: .2rem;
       font-family: "futura-light";
