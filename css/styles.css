@@ -1651,6 +1651,8 @@ h1 {
       font-family: "futura-light";
       font-size: 1.2rem;
       font-weight: 900; }
+  #reviewsRossello {
+    background-color: #e7e7e7 !important; }
   .rosselloCardRooms__logo {
     display: flex;
     align-items: center; }
@@ -4390,6 +4392,9 @@ h1 {
       height: 270px;
       cursor: pointer; } }
 
+#reviewsBonsoms {
+  background-color: #272727 !important; }
+
 .bonsomsWrapper {
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/portada1.jpg);
@@ -4671,6 +4676,8 @@ h1 {
     height: max-content;
     background-color: #3a3a3a;
     padding-bottom: 0; }
+  #reviewsBonsoms {
+    background-color: #272727 !important; }
   .iconsBonsomsContainer {
     background-color: #3a3a3a;
     text-align: center;

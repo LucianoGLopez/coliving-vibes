@@ -1,3 +1,7 @@
+#reviewsBonsoms{
+    background-color: $darkgray !important;
+}
+
 .bonsomsWrapper{
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/portada1.jpg);
@@ -352,6 +356,11 @@
         height: max-content;
         background-color: $gray;
         padding-bottom: 0;
+    }
+
+    // REVIEWS
+    #reviewsBonsoms{
+        background-color: $darkgray !important;
     }
     
     // ICONS BONSOMS
