@@ -1,55 +1,55 @@
-// INDEX MOBILE
-.indexMain{
-    height: max-content;
-    background-color: $darkgray;
-    display: flex;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/portada2_12.webp);
-    background-size: cover;
-    background-position-x: right;
-}
+// // INDEX MOBILE
+// .indexMain{
+//     height: max-content;
+//     background-color: $darkgray;
+//     // display: flex;
+//     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/portada2_12.webp);
+//     background-size: cover;
+//     background-position-x: right;
+// }
 
-.bodyIndex{
-    background-color: $gray;
-}
+// .bodyIndex{
+//     background-color: $gray;
+// }
 
-.mainTitle{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 80px 50px 0;
-    h1{
-        text-align: center;
-        color: $yellow;
-        font-size: 5rem;
-        font-family: "futura-bold";
-        line-height: 70px;
-        padding-bottom: 5px;
-    }
-    h2{
-        font-family: "futura-light";
-        color:$lightgraytext;
-        font-size: 2.5rem;
-        padding-bottom: 10px;
-    }
-    button{
-        letter-spacing: 3px;
-        font-family: "futura-bold";
-        font-size: 1.5rem;
-        background: none;
-        color: $yellow;
-        border: 1px solid $yellow;
-        border-radius: 3px;
-        padding: 5px 15px;
-        &:hover{
-            background-color: $yellow;
-            color: $darkgray;
-            transition: .5s;
-        }
-    }
-}
+// .mainTitle{
+//     width: 100vw;
+//     height: 100vh;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     padding: 80px 50px 0;
+//     h1{
+//         text-align: center;
+//         color: $yellow;
+//         font-size: 5rem;
+//         font-family: "futura-bold";
+//         line-height: 70px;
+//         padding-bottom: 5px;
+//     }
+//     h2{
+//         font-family: "futura-light";
+//         color:$lightgraytext;
+//         font-size: 2.5rem;
+//         padding-bottom: 10px;
+//     }
+//     button{
+//         letter-spacing: 3px;
+//         font-family: "futura-bold";
+//         font-size: 1.5rem;
+//         background: none;
+//         color: $yellow;
+//         border: 1px solid $yellow;
+//         border-radius: 3px;
+//         padding: 5px 15px;
+//         &:hover{
+//             background-color: $yellow;
+//             color: $darkgray;
+//             transition: .5s;
+//         }
+//     }
+// }
 
 // INICIA OUR CONCEPT
 .containerOurConcept{
@@ -510,7 +510,6 @@
     .indexMain{
         height: max-content;
         background-color: $darkgray;
-        display: flex;
         background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/portada2_12.webp);
         background-size: cover;
     }
@@ -520,31 +519,29 @@
     }
     
     .mainTitle{
-        width: 50vw;
         height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 80px 50px 0;
+        // padding: 80px 50px 0;
         h1{
             text-align: center;
             color: $yellow;
-            font-size: 8.5rem;
+            font-size: 4rem;
             font-family: "futura-bold";
-            line-height: 120px;
-            padding-bottom: 20px;
+            letter-spacing: 5px;
         }
         h2{
             font-family: "futura-light";
             color:$lightgraytext;
-            font-size: 2.5rem;
+            font-size: 6.5rem;
             padding-bottom: 10px;
         }
         button{
             letter-spacing: 3px;
-            font-family: "futura-bold";
-            font-size: 2rem;
+            font-family: "futura-light";
+            font-size: 1.5rem;
             background: none;
             color: $yellow;
             border: 1px solid $yellow;
@@ -615,13 +612,12 @@
         background-color: $light;
         background-size: cover;
         background-position: center;
-        padding: 60px 30px 100px;
+        // padding: 60px 30px 100px;
         text-align: center;
         h2{
             color:$darkgray;
             font-family: "futura-bold";
             font-size: 4rem;
-            
         }
         h3{
             font-size: 1.2rem;
@@ -640,7 +636,8 @@
     .cardsContainer{
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: center;
+        gap: 150px;
     }
     .rosselloCard{
         height: 620px;

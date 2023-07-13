@@ -310,51 +310,6 @@ h1 {
       text-align: center;
       font-size: 1rem; } }
 
-.indexMain {
-  height: max-content;
-  background-color: #272727;
-  display: flex;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/portada2_12.webp);
-  background-size: cover;
-  background-position-x: right; }
-
-.bodyIndex {
-  background-color: #3a3a3a; }
-
-.mainTitle {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 80px 50px 0; }
-  .mainTitle h1 {
-    text-align: center;
-    color: #FFEB5B;
-    font-size: 5rem;
-    font-family: "futura-bold";
-    line-height: 70px;
-    padding-bottom: 5px; }
-  .mainTitle h2 {
-    font-family: "futura-light";
-    color: #e7e7e7;
-    font-size: 2.5rem;
-    padding-bottom: 10px; }
-  .mainTitle button {
-    letter-spacing: 3px;
-    font-family: "futura-bold";
-    font-size: 1.5rem;
-    background: none;
-    color: #FFEB5B;
-    border: 1px solid #FFEB5B;
-    border-radius: 3px;
-    padding: 5px 15px; }
-    .mainTitle button:hover {
-      background-color: #FFEB5B;
-      color: #272727;
-      transition: .5s; }
-
 .containerOurConcept {
   background-color: #3a3a3a;
   display: flex;
@@ -715,35 +670,31 @@ h1 {
   .indexMain {
     height: max-content;
     background-color: #272727;
-    display: flex;
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/portada2_12.webp);
     background-size: cover; }
   .bodyIndex {
     background-color: #3a3a3a; }
   .mainTitle {
-    width: 50vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding: 80px 50px 0; }
+    align-items: center; }
     .mainTitle h1 {
       text-align: center;
       color: #FFEB5B;
-      font-size: 8.5rem;
+      font-size: 4rem;
       font-family: "futura-bold";
-      line-height: 120px;
-      padding-bottom: 20px; }
+      letter-spacing: 5px; }
     .mainTitle h2 {
       font-family: "futura-light";
       color: #e7e7e7;
-      font-size: 2.5rem;
+      font-size: 6.5rem;
       padding-bottom: 10px; }
     .mainTitle button {
       letter-spacing: 3px;
-      font-family: "futura-bold";
-      font-size: 2rem;
+      font-family: "futura-light";
+      font-size: 1.5rem;
       background: none;
       color: #FFEB5B;
       border: 1px solid #FFEB5B;
@@ -798,7 +749,6 @@ h1 {
     background-color: #f6f6f6;
     background-size: cover;
     background-position: center;
-    padding: 60px 30px 100px;
     text-align: center; }
     .ourColivings h2 {
       color: #272727;
@@ -816,7 +766,8 @@ h1 {
   .cardsContainer {
     display: flex;
     flex-direction: row;
-    justify-content: space-around; }
+    justify-content: center;
+    gap: 150px; }
   .rosselloCard {
     height: 620px;
     width: 380px;
@@ -1194,24 +1145,21 @@ h1 {
   .rosselloWrapper__text h1 {
     color: #FFEB5B;
     font-family: "futura-bold";
-    font-size: 5.2rem; }
+    font-size: 3.2rem; }
   .rosselloWrapper__text h2 {
     color: #FFEB5B;
     font-family: "futura-medium";
-    font-size: 2.2rem;
+    font-size: 2rem;
     letter-spacing: 2px; }
-  .rosselloWrapper__text h3 {
-    color: #e7e7e7;
-    font-family: "futura-light"; }
   .rosselloWrapper__text button {
-    letter-spacing: .2rem;
-    font-family: "futura-medium";
+    letter-spacing: .1rem;
+    font-family: "futura-light";
     font-size: 1.2rem;
-    background-color: #FFEB5B;
-    color: #272727;
+    border: 1px solid #FFEB5B;
+    color: #FFEB5B;
     border-radius: 3px;
     padding: 10px 20px;
-    margin-top: 40px; }
+    margin-top: 30px; }
     .rosselloWrapper__text button:hover {
       background-color: #444444;
       color: #FFEB5B;
@@ -1485,19 +1433,10 @@ h1 {
     .rosselloWrapper__text h3 {
       color: #e7e7e7;
       font-family: "futura-light"; }
-    .rosselloWrapper__text button {
-      letter-spacing: .2rem;
-      font-family: "futura-medium";
-      font-size: 1.2rem;
+    .rosselloWrapper__text button:hover {
       background-color: #FFEB5B;
       color: #272727;
-      border-radius: 3px;
-      padding: 10px 20px;
-      margin-top: 40px; }
-      .rosselloWrapper__text button:hover {
-        background-color: #444444;
-        color: #FFEB5B;
-        transition: .5s; }
+      transition: .5s; }
   .rosselloMain {
     height: max-content;
     background-color: #e7e7e7;
@@ -4420,28 +4359,21 @@ h1 {
   .bonsomsWrapper__text h1 {
     color: #FFEB5B;
     font-family: "futura-bold";
-    font-size: 5.2rem; }
+    font-size: 3.2rem; }
   .bonsomsWrapper__text h2 {
     color: #FFEB5B;
     font-family: "futura-medium";
-    font-size: 2.2rem;
+    font-size: 2rem;
     letter-spacing: 2px; }
-  .bonsomsWrapper__text h3 {
-    color: #e7e7e7;
-    font-family: "futura-light"; }
   .bonsomsWrapper__text button {
-    letter-spacing: .2rem;
-    font-family: "futura-medium";
+    letter-spacing: .1rem;
+    font-family: "futura-light";
     font-size: 1.2rem;
-    background-color: #FFEB5B;
-    color: #272727;
+    border: 1px solid #FFEB5B;
+    color: #FFEB5B;
     border-radius: 3px;
     padding: 10px 20px;
-    margin-top: 40px; }
-    .bonsomsWrapper__text button:hover {
-      background-color: #444444;
-      color: #FFEB5B;
-      transition: .5s; }
+    margin-top: 30px; }
 
 .bonsomsMain {
   height: max-content;
@@ -4678,21 +4610,16 @@ h1 {
       font-family: "futura-medium";
       font-size: 2.2rem;
       letter-spacing: 2px; }
-    .bonsomsWrapper__text h3 {
-      color: #e7e7e7;
-      font-family: "futura-light"; }
     .bonsomsWrapper__text button {
-      letter-spacing: .2rem;
-      font-family: "futura-medium";
       font-size: 1.2rem;
-      background-color: #FFEB5B;
-      color: #272727;
+      border: 1px solid #FFEB5B;
+      color: #FFEB5B;
       border-radius: 3px;
       padding: 10px 20px;
-      margin-top: 40px; }
+      margin-top: 30px; }
       .bonsomsWrapper__text button:hover {
-        background-color: #444444;
-        color: #FFEB5B;
+        background-color: #FFEB5B;
+        color: #272727;
         transition: .5s; }
   .bonsomsMain {
     height: max-content;

@@ -15,32 +15,23 @@
         h1{
             color: $yellow;
             font-family: "futura-bold"; 
-            font-size: 5.2rem;
+            font-size: 3.2rem;
         }
         h2{
             color: $yellow;
             font-family: "futura-medium";
-            font-size: 2.2rem;
+            font-size: 2rem;
             letter-spacing: 2px;
         }
-        h3{
-            color: $lightgraytext;
-            font-family: "futura-light";
-        }
         button{
-            letter-spacing: .2rem;
-            font-family: "futura-medium";
+            letter-spacing: .1rem;
+            font-family: "futura-light";
             font-size: 1.2rem;
-            background-color: $yellow;
-            color: $darkgray;
+            border: 1px solid $yellow;
+            color: $yellow;
             border-radius: 3px;
             padding: 10px 20px;
-            margin-top: 40px;
-            &:hover{
-                background-color: $gray1;
-                color: $yellow;
-                transition: .5s;
-            }
+            margin-top: 30px;
         }
     }
 }
@@ -341,22 +332,16 @@
                 font-size: 2.2rem;
                 letter-spacing: 2px;
             }
-            h3{
-                color: $lightgraytext;
-                font-family: "futura-light";
-            }
             button{
-                letter-spacing: .2rem;
-                font-family: "futura-medium";
                 font-size: 1.2rem;
-                background-color: $yellow;
-                color: $darkgray;
+                border: 1px solid $yellow;
+                color: $yellow;
                 border-radius: 3px;
                 padding: 10px 20px;
-                margin-top: 40px;
+                margin-top: 30px;
                 &:hover{
-                    background-color: $gray1;
-                    color: $yellow;
+                    background-color: $yellow;
+                    color: $darkgray;
                     transition: .5s;
                 }
             }
