@@ -89,7 +89,7 @@
     // COMMON SPACES
     .ourCommonSpacesBonsoms{
         height: 100%;
-        background-color: $darkgray;
+        background-color: $darkgray !important;
         padding: 40px 0;
         h2{
             font-family: "futura-bold";
@@ -452,7 +452,7 @@
         // CAROUSEL COMMON SPACES
         .carousel-inner{
             height: 100%;
-            background-color: $darkgray;
+            background-color: $darkgray !important;
             height: 10%;
             width: 10%;
         }
@@ -473,6 +473,10 @@
     
         .carousel-control-next{
             filter: invert(10%) sepia(11%) saturate(80%) hue-rotate(46deg) brightness(0%) contrast(100%);
+        }
+
+        #buttonPrev, #buttonNext{
+            filter:contrast(100%)
         }
 
     // TOUR 3D VIRTUAL

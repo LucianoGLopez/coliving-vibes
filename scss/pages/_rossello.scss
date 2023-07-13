@@ -542,9 +542,12 @@
     // CAROUSEL COMMON SPACES
     .carousel-inner{
         height: 100%;
-        background-color: $lightgraytext !important;
         height: 10%;
         width: 10%;
+    }
+
+    #carouselInnerRossello{
+        background-color: $lightgraytext !important;
     }
 
     .carousel-item{

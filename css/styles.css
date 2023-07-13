@@ -1549,9 +1549,10 @@ h1 {
       padding: 20px 100px; }
   .carousel-inner {
     height: 100%;
-    background-color: #e7e7e7 !important;
     height: 10%;
     width: 10%; }
+  #carouselInnerRossello {
+    background-color: #e7e7e7 !important; }
   .carousel-item {
     height: 80vh;
     width: 80vw;
@@ -4478,7 +4479,7 @@ h1 {
 
 .ourCommonSpacesBonsoms {
   height: 100%;
-  background-color: #272727;
+  background-color: #272727 !important;
   padding: 40px 0; }
   .ourCommonSpacesBonsoms h2 {
     font-family: "futura-bold";
@@ -4760,7 +4761,7 @@ h1 {
       color: #e7e7e7; }
   .carousel-inner {
     height: 100%;
-    background-color: #272727;
+    background-color: #272727 !important;
     height: 10%;
     width: 10%; }
   .carousel-item {
@@ -4773,6 +4774,8 @@ h1 {
     filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(100deg) brightness(0%) contrast(100%); }
   .carousel-control-next {
     filter: invert(10%) sepia(11%) saturate(80%) hue-rotate(46deg) brightness(0%) contrast(100%); }
+  #buttonPrev, #buttonNext {
+    filter: contrast(100%); }
   .bonsomsTourVirtual {
     display: flex;
     flex-direction: row;
