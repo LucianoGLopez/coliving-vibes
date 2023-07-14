@@ -5288,26 +5288,29 @@ button {
 .contactMain {
   height: max-content;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/backgroundGallery.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/prueba.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   padding: 120px 20px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; }
+  justify-content: space-between;
+  color: #e7e7e7; }
   .contactMain h1 {
     font-family: "futura-bold";
     font-size: 4.5rem;
     text-align: center;
-    color: #272727; }
+    color: #FFEB5B; }
   .contactMain h2 {
     font-family: "futura-medium";
-    text-align: center; }
+    text-align: center;
+    color: #e7e7e7; }
   .contactMain h3 {
     font-family: "futura-medium";
     font-size: 1.3rem;
-    font-weight: 300; }
+    font-weight: 300;
+    color: #FFEB5B; }
 
 .bodyContact {
   background-color: #3a3a3a; }
@@ -5319,7 +5322,7 @@ button {
   justify-content: start;
   gap: 15px; }
   .infoContact__separador {
-    border-top: 1px solid #272727;
+    border-top: 1px solid #e7e7e7;
     height: 2px;
     margin: 0 50px;
     padding-bottom: 15px; }
@@ -5328,12 +5331,14 @@ button {
     justify-content: start;
     gap: 40px;
     padding-bottom: 30px; }
-    .infoContact__redesSociales img:nth-child(1):hover {
-      filter: invert(21%) sepia(98%) saturate(7440%) hue-rotate(332deg) brightness(87%) contrast(105%); }
-    .infoContact__redesSociales img:nth-child(2):hover {
-      filter: invert(14%) sepia(82%) saturate(5669%) hue-rotate(357deg) brightness(95%) contrast(113%); }
-    .infoContact__redesSociales img:nth-child(3):hover {
-      filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(100%); }
+    .infoContact__redesSociales img {
+      filter: invert(81%) sepia(85%) saturate(305%) hue-rotate(355deg) brightness(105%) contrast(107%); }
+      .infoContact__redesSociales img:nth-child(1):hover {
+        filter: invert(21%) sepia(98%) saturate(7440%) hue-rotate(332deg) brightness(87%) contrast(105%); }
+      .infoContact__redesSociales img:nth-child(2):hover {
+        filter: invert(14%) sepia(82%) saturate(5669%) hue-rotate(357deg) brightness(95%) contrast(113%); }
+      .infoContact__redesSociales img:nth-child(3):hover {
+        filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(100%); }
 
 .infoContact__datos__icons {
   display: flex;
@@ -5345,12 +5350,12 @@ button {
   .infoContact__datos__icons img {
     width: 35px;
     height: 35px;
-    filter: invert(13%) sepia(15%) saturate(18%) hue-rotate(8deg) brightness(98%) contrast(95%); }
+    filter: invert(81%) sepia(85%) saturate(305%) hue-rotate(355deg) brightness(105%) contrast(107%); }
 
 .formContact {
-  background-color: rgba(209, 209, 209, 0.368);
-  backdrop-filter: blur(7px);
-  -webkit-backdrop-filter: blur(7px);
+  background-color: rgba(209, 209, 209, 0.23);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
   width: 100%;
   border-radius: 3px;
   border: 1px solid rgba(59, 59, 59, 0.64);
@@ -5366,25 +5371,9 @@ button {
   gap: .8em;
   grid-auto-columns: 100%; }
 
-.formContact__calendar {
-  display: flex;
-  flex-direction: column;
-  color: black;
-  gap: 10px; }
-
-.calendar__input {
-  background: none;
-  color: #272727;
-  font-size: 1rem;
-  outline: none;
-  border: none;
-  border-bottom: solid 1.5px #272727;
-  cursor: text;
-  padding: 15px; }
-
 .form__input {
   background: none;
-  color: #272727;
+  color: #e7e7e7;
   font-size: 1rem;
   padding: 15px;
   outline: none;
@@ -5406,20 +5395,16 @@ input[type=number]::-webkit-outer-spin-button {
   padding: 2.8em 1em;
   margin-bottom: .5em;
   font-family: inherit;
-  color: black; }
+  color: #e7e7e7; }
   .form__input--message:focus {
     border: 1px solid #272727; }
 
 .form__cta {
-  background-color: #3a3a3a;
-  color: #fafa2b;
+  background-color: #FFEB5B;
+  color: #272727;
   border: none;
   padding: .7em 0;
   border-radius: 3px; }
-  .form__cta:hover {
-    background-color: rgba(250, 250, 43, 0.716);
-    color: #272727;
-    transition: .4s; }
 
 .infoContact {
   text-align: start; }
