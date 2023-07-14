@@ -45,8 +45,7 @@
 
 
 
-
-
+// ROSSELLO WRAPPER
 .rosselloWrapper{
         height: 100vh;
         background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/portada1.jpg);
@@ -95,6 +94,12 @@
         background-color: $lightgraytext;
         padding-bottom: 0;
     }
+
+        // REVIEWS
+        #reviewsRossello{
+            background-color: $lightgraytext !important;
+            padding: 30px 0;
+        }
     
     // ICONS ROSSELLO
     .iconsRosselloContainer{
@@ -463,6 +468,11 @@
         background-color: $lightgraytext;
         padding-bottom: 0;
     }
+
+    // REVIEWS
+    #reviewsRossello{
+        background-color: $lightgraytext !important;
+    }
     
     // ICONS ROSSELLO
     .iconsRosselloContainer{
@@ -696,14 +706,6 @@
             font-weight: 900;
         }
     }
-
-
-
-    #reviewsRossello{
-    background-color: $lightgraytext !important;
-}
-
-
 
     .rosselloCardRooms__logo{
         display: flex;
