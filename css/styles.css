@@ -5420,7 +5420,8 @@ input[type=number]::-webkit-outer-spin-button {
     padding: 110px 150px 25px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between; }
+    justify-content: space-between;
+    color: #272727; }
     .contactMain h1 {
       font-family: "futura-bold";
       font-size: 4.5rem;
@@ -5428,12 +5429,14 @@ input[type=number]::-webkit-outer-spin-button {
       color: #272727; }
     .contactMain h2 {
       font-family: "futura-medium";
-      text-align: start; }
+      text-align: start;
+      color: #272727; }
     .contactMain h3 {
       font-family: "futura-medium";
       font-size: 1.3rem;
       font-weight: 300;
-      letter-spacing: .1rem; }
+      letter-spacing: .1rem;
+      color: #272727; }
   .infoContact {
     background: none;
     display: flex;
@@ -5449,6 +5452,8 @@ input[type=number]::-webkit-outer-spin-button {
       display: flex;
       justify-content: start;
       gap: 40px; }
+      .infoContact__redesSociales img {
+        filter: invert(13%) sepia(15%) saturate(18%) hue-rotate(8deg) brightness(98%) contrast(95%); }
       .infoContact__redesSociales a:nth-child(1):hover {
         filter: invert(21%) sepia(98%) saturate(7440%) hue-rotate(332deg) brightness(87%) contrast(105%); }
       .infoContact__redesSociales a:nth-child(2):hover {

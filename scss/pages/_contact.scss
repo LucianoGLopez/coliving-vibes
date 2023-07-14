@@ -198,6 +198,7 @@ input[type=number]::-webkit-outer-spin-button {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    color: $darkgray;
     h1{
         font-family: "futura-bold";
         font-size: 4.5rem;
@@ -207,12 +208,14 @@ input[type=number]::-webkit-outer-spin-button {
     h2{
         font-family: "futura-medium";
         text-align: start;
+        color: $darkgray;
     }
     h3{
         font-family: "futura-medium";
         font-size: 1.3rem;
         font-weight: 300;
         letter-spacing: .1rem;
+        color: $darkgray;
     }
 }
 
@@ -232,6 +235,9 @@ input[type=number]::-webkit-outer-spin-button {
         display: flex;
         justify-content: start;
         gap:40px;
+        img{
+            filter: invert(13%) sepia(15%) saturate(18%) hue-rotate(8deg) brightness(98%) contrast(95%);
+        }
             a{
             &:nth-child(1){
                 &:hover{
