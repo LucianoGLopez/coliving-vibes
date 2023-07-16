@@ -897,6 +897,8 @@ h1 {
       border-top: 1px solid #FFEB5B;
       height: 2px;
       margin: 10px 500px 20px; }
+  .trustpilot-widget {
+    padding: 10px 0 30px; }
   .buttonSlider {
     display: flex;
     justify-content: center;
@@ -1075,7 +1077,7 @@ h1 {
     background-color: #f6f6f6;
     align-items: center; }
     .ourConceptVideo video {
-      height: 350px;
+      height: 550px;
       width: auto; }
     .ourConceptVideo h2 {
       font-size: 2.5rem;
@@ -5288,7 +5290,7 @@ button {
 .contactMain {
   height: max-content;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(../img/backgroundGallery.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/backgroundGallery.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
