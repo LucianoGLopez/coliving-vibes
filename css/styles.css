@@ -5288,7 +5288,7 @@ button {
 .contactMain {
   height: max-content;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(/img/backgroundGallery.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(../img/backgroundGallery.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
