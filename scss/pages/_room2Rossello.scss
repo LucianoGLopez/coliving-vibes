@@ -2,6 +2,20 @@
     @include wrapperRoomsRosselloMobile ((url(../img/room2Rossello/room2_1.webp)), rgb(255, 50, 50));
 }
 
+.rossello2__text{
+    background-color: $lightgray;
+    padding: 30px 30px 10px;
+    text-align: start;
+    h3{
+        font-family: "futura-medium";
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 1rem;
+        font-family: "futura-light";
+        margin: 0;
+    }
+}
 .cardsRoom2Rossello{
     @include pagesCardsRoomsRosselloMobile;
 }
@@ -56,6 +70,22 @@
             width: 350px;
             height: 270px;
             cursor: pointer;
+        }
+    }
+    // START TEXT
+    .rossello2__text{
+        background-color: $lightgray;
+        padding: 30px 0 20px;
+        text-align: center;
+        h3{
+            font-family: "futura-medium";
+            font-size: 1.5rem;
+        }
+        p{
+            font-size: 1rem;
+            font-family: "futura-light";
+            margin: 0;
+            padding: 0 120px;
         }
     }
 }

@@ -36,18 +36,22 @@
         padding-bottom: 20px;
     }
     button{
-        letter-spacing: 3px;
         font-family: "futura-light";
-        font-size: 1rem;
+        font-size: .8rem;
         background: none;
         color: $yellow;
         border: 1px solid $yellow;
         border-radius: 3px;
-        padding: 5px 15px;
+        padding: 10px 10px 8px;
         &:hover{
             background-color: $yellow;
             color: $darkgray;
             transition: .5s;
+        }
+        img{
+            filter: invert(92%) sepia(37%) saturate(1907%) hue-rotate(315deg) brightness(110%) contrast(109%);
+            height: 30px;
+            width: 30px;
         }
     }
 }
@@ -540,18 +544,28 @@
             padding: 10px 0 60px;
         }
         button{
+            align-items: center;
             letter-spacing: .2rem;
             font-family: "futura-light";
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             background: none;
             color: $yellow;
             border: 1px solid $yellow;
             border-radius: 3px;
-            padding: 5px 15px;
+            padding:15px 15px 12px;
             &:hover{
                 background-color: $yellow;
                 color: $darkgray;
                 transition: .5s;
+                img{
+                    filter: none;
+                    transition: .2s;
+                }
+            }
+            img{
+                filter: invert(92%) sepia(37%) saturate(1907%) hue-rotate(315deg) brightness(110%) contrast(109%);
+                height: 30px;
+                width: 30px;
             }
         }
     }

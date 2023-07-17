@@ -20,6 +20,24 @@ h1{
     z-index: 100;
 }
 
+.button__fixed{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 100;
+    button{
+        color: $darkgray;
+        border-radius: 3px;
+        padding: 5px 5px 3px;
+        background-color: $yellow;
+        font-size: .8rem;
+        img{
+            height: 30px;
+            width: 30px;
+        }
+    }
+}
+
 @font-face {
     font-family: "dazzle-bold";
     src: url(../fonts/dazzle-bold.ttf);

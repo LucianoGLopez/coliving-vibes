@@ -16,6 +16,21 @@ h1 {
   right: 20px;
   z-index: 100; }
 
+.button__fixed {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 100; }
+  .button__fixed button {
+    color: #272727;
+    border-radius: 3px;
+    padding: 5px 5px 3px;
+    background-color: #FFEB5B;
+    font-size: .8rem; }
+    .button__fixed button img {
+      height: 30px;
+      width: 30px; }
+
 @font-face {
   font-family: "dazzle-bold";
   src: url(../fonts/dazzle-bold.ttf);
@@ -342,18 +357,21 @@ h1 {
     line-height: 70px;
     padding-bottom: 20px; }
   .mainTitle button {
-    letter-spacing: 3px;
     font-family: "futura-light";
-    font-size: 1rem;
+    font-size: .8rem;
     background: none;
     color: #FFEB5B;
     border: 1px solid #FFEB5B;
     border-radius: 3px;
-    padding: 5px 15px; }
+    padding: 10px 10px 8px; }
     .mainTitle button:hover {
       background-color: #FFEB5B;
       color: #272727;
       transition: .5s; }
+    .mainTitle button img {
+      filter: invert(92%) sepia(37%) saturate(1907%) hue-rotate(315deg) brightness(110%) contrast(109%);
+      height: 30px;
+      width: 30px; }
 
 .containerOurConcept {
   background-color: #3a3a3a;
@@ -737,18 +755,26 @@ h1 {
       font-size: 7.5rem;
       padding: 10px 0 60px; }
     .mainTitle button {
+      align-items: center;
       letter-spacing: .2rem;
       font-family: "futura-light";
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       background: none;
       color: #FFEB5B;
       border: 1px solid #FFEB5B;
       border-radius: 3px;
-      padding: 5px 15px; }
+      padding: 15px 15px 12px; }
       .mainTitle button:hover {
         background-color: #FFEB5B;
         color: #272727;
         transition: .5s; }
+        .mainTitle button:hover img {
+          filter: none;
+          transition: .2s; }
+      .mainTitle button img {
+        filter: invert(92%) sepia(37%) saturate(1907%) hue-rotate(315deg) brightness(110%) contrast(109%);
+        height: 30px;
+        width: 30px; }
   .containerOurConcept {
     background-color: #3a3a3a;
     display: flex;
@@ -1738,6 +1764,18 @@ h1 {
     border-radius: 3px;
     margin-top: 10px; }
 
+.bonsoms1__text {
+  background-color: #dbdbdb;
+  padding: 30px 30px 10px;
+  text-align: start; }
+  .bonsoms1__text h3 {
+    font-family: "futura-medium";
+    font-size: 1.5rem; }
+  .bonsoms1__text p {
+    font-size: 1rem;
+    font-family: "futura-light";
+    margin: 0; }
+
 .cardsRoom1Bonsoms {
   display: flex;
   flex-direction: column;
@@ -1867,7 +1905,19 @@ h1 {
     #galleryRoom1Bonsoms img {
       width: 350px;
       height: 270px;
-      cursor: pointer; } }
+      cursor: pointer; }
+  .bonsoms1__text {
+    background-color: #dbdbdb;
+    padding: 30px 0 20px;
+    text-align: center; }
+    .bonsoms1__text h3 {
+      font-family: "futura-medium";
+      font-size: 1.5rem; }
+    .bonsoms1__text p {
+      font-size: 1rem;
+      font-family: "futura-light";
+      margin: 0;
+      padding: 0 120px; } }
 
 .wrapperRoom2Bonsoms {
   height: 100vh;
@@ -1906,6 +1956,18 @@ h1 {
     padding: 5px 10px;
     border-radius: 3px;
     margin-top: 10px; }
+
+.bonsoms2__text {
+  background-color: #dbdbdb;
+  padding: 30px 30px 10px;
+  text-align: start; }
+  .bonsoms2__text h3 {
+    font-family: "futura-medium";
+    font-size: 1.5rem; }
+  .bonsoms2__text p {
+    font-size: 1rem;
+    font-family: "futura-light";
+    margin: 0; }
 
 .cardsRoom2Bonsoms {
   display: flex;
@@ -2036,7 +2098,19 @@ h1 {
     #galleryRoom2Bonsoms img {
       width: 350px;
       height: 270px;
-      cursor: pointer; } }
+      cursor: pointer; }
+  .bonsoms2__text {
+    background-color: #dbdbdb;
+    padding: 30px 0 20px;
+    text-align: center; }
+    .bonsoms2__text h3 {
+      font-family: "futura-medium";
+      font-size: 1.5rem; }
+    .bonsoms2__text p {
+      font-size: 1rem;
+      font-family: "futura-light";
+      margin: 0;
+      padding: 0 120px; } }
 
 .wrapperRoom3Bonsoms {
   height: 100vh;
@@ -2075,6 +2149,18 @@ h1 {
     padding: 5px 10px;
     border-radius: 3px;
     margin-top: 10px; }
+
+.bonsoms3__text {
+  background-color: #dbdbdb;
+  padding: 30px 30px 10px;
+  text-align: start; }
+  .bonsoms3__text h3 {
+    font-family: "futura-medium";
+    font-size: 1.5rem; }
+  .bonsoms3__text p {
+    font-size: 1rem;
+    font-family: "futura-light";
+    margin: 0; }
 
 .cardsRoom3Bonsoms {
   display: flex;
@@ -2205,7 +2291,19 @@ h1 {
     #galleryRoom3Bonsoms img {
       width: 350px;
       height: 270px;
-      cursor: pointer; } }
+      cursor: pointer; }
+  .bonsoms3__text {
+    background-color: #dbdbdb;
+    padding: 30px 0 20px;
+    text-align: center; }
+    .bonsoms3__text h3 {
+      font-family: "futura-medium";
+      font-size: 1.5rem; }
+    .bonsoms3__text p {
+      font-size: 1rem;
+      font-family: "futura-light";
+      margin: 0;
+      padding: 0 120px; } }
 
 .wrapperRoom4Bonsoms {
   height: 100vh;
@@ -2244,6 +2342,18 @@ h1 {
     padding: 5px 10px;
     border-radius: 3px;
     margin-top: 10px; }
+
+.bonsoms4__text {
+  background-color: #dbdbdb;
+  padding: 30px 30px 10px;
+  text-align: start; }
+  .bonsoms4__text h3 {
+    font-family: "futura-medium";
+    font-size: 1.5rem; }
+  .bonsoms4__text p {
+    font-size: 1rem;
+    font-family: "futura-light";
+    margin: 0; }
 
 .cardsRoom4Bonsoms {
   display: flex;
@@ -2374,7 +2484,19 @@ h1 {
     #galleryRoom4Bonsoms img {
       width: 350px;
       height: 270px;
-      cursor: pointer; } }
+      cursor: pointer; }
+  .bonsoms4__text {
+    background-color: #dbdbdb;
+    padding: 30px 0 20px;
+    text-align: center; }
+    .bonsoms4__text h3 {
+      font-family: "futura-medium";
+      font-size: 1.5rem; }
+    .bonsoms4__text p {
+      font-size: 1rem;
+      font-family: "futura-light";
+      margin: 0;
+      padding: 0 120px; } }
 
 .wrapperRoom5Bonsoms {
   height: 100vh;
@@ -2413,6 +2535,18 @@ h1 {
     padding: 5px 10px;
     border-radius: 3px;
     margin-top: 10px; }
+
+.bonsoms5__text {
+  background-color: #dbdbdb;
+  padding: 30px 30px 10px;
+  text-align: start; }
+  .bonsoms5__text h3 {
+    font-family: "futura-medium";
+    font-size: 1.5rem; }
+  .bonsoms5__text p {
+    font-size: 1rem;
+    font-family: "futura-light";
+    margin: 0; }
 
 .cardsRoom5Bonsoms {
   display: flex;
@@ -2543,7 +2677,19 @@ h1 {
     #galleryRoom5Bonsoms img {
       width: 350px;
       height: 270px;
-      cursor: pointer; } }
+      cursor: pointer; }
+  .bonsoms5__text {
+    background-color: #dbdbdb;
+    padding: 30px 0 20px;
+    text-align: center; }
+    .bonsoms5__text h3 {
+      font-family: "futura-medium";
+      font-size: 1.5rem; }
+    .bonsoms5__text p {
+      font-size: 1rem;
+      font-family: "futura-light";
+      margin: 0;
+      padding: 0 120px; } }
 
 .wrapperRoom6Bonsoms {
   height: 100vh;
@@ -2582,6 +2728,18 @@ h1 {
     padding: 5px 10px;
     border-radius: 3px;
     margin-top: 10px; }
+
+.bonsoms6__text {
+  background-color: #dbdbdb;
+  padding: 30px 30px 10px;
+  text-align: start; }
+  .bonsoms6__text h3 {
+    font-family: "futura-medium";
+    font-size: 1.5rem; }
+  .bonsoms6__text p {
+    font-size: 1rem;
+    font-family: "futura-light";
+    margin: 0; }
 
 .cardsRoom6Bonsoms {
   display: flex;
@@ -2712,7 +2870,19 @@ h1 {
     #galleryRoom6Bonsoms img {
       width: 350px;
       height: 270px;
-      cursor: pointer; } }
+      cursor: pointer; }
+  .bonsoms6__text {
+    background-color: #dbdbdb;
+    padding: 30px 0 20px;
+    text-align: center; }
+    .bonsoms6__text h3 {
+      font-family: "futura-medium";
+      font-size: 1.5rem; }
+    .bonsoms6__text p {
+      font-size: 1rem;
+      font-family: "futura-light";
+      margin: 0;
+      padding: 0 120px; } }
 
 .wrapperRoom7Bonsoms {
   height: 100vh;
@@ -2751,6 +2921,18 @@ h1 {
     padding: 5px 10px;
     border-radius: 3px;
     margin-top: 10px; }
+
+.bonsoms7__text {
+  background-color: #dbdbdb;
+  padding: 30px 30px 10px;
+  text-align: start; }
+  .bonsoms7__text h3 {
+    font-family: "futura-medium";
+    font-size: 1.5rem; }
+  .bonsoms7__text p {
+    font-size: 1rem;
+    font-family: "futura-light";
+    margin: 0; }
 
 .cardsRoom7Bonsoms {
   display: flex;
@@ -2881,7 +3063,19 @@ h1 {
     #galleryRoom7Bonsoms img {
       width: 350px;
       height: 270px;
-      cursor: pointer; } }
+      cursor: pointer; }
+  .bonsoms7__text {
+    background-color: #dbdbdb;
+    padding: 30px 0 20px;
+    text-align: center; }
+    .bonsoms7__text h3 {
+      font-family: "futura-medium";
+      font-size: 1.5rem; }
+    .bonsoms7__text p {
+      font-size: 1rem;
+      font-family: "futura-light";
+      margin: 0;
+      padding: 0 120px; } }
 
 .wrapperRoom8Bonsoms {
   height: 100vh;
@@ -2920,6 +3114,18 @@ h1 {
     padding: 5px 10px;
     border-radius: 3px;
     margin-top: 10px; }
+
+.bonsoms8__text {
+  background-color: #dbdbdb;
+  padding: 30px 30px 10px;
+  text-align: start; }
+  .bonsoms8__text h3 {
+    font-family: "futura-medium";
+    font-size: 1.5rem; }
+  .bonsoms8__text p {
+    font-size: 1rem;
+    font-family: "futura-light";
+    margin: 0; }
 
 .cardsRoom8Bonsoms {
   display: flex;
@@ -3050,7 +3256,19 @@ h1 {
     #galleryRoom8Bonsoms img {
       width: 350px;
       height: 270px;
-      cursor: pointer; } }
+      cursor: pointer; }
+  .bonsoms8__text {
+    background-color: #dbdbdb;
+    padding: 30px 0 20px;
+    text-align: center; }
+    .bonsoms8__text h3 {
+      font-family: "futura-medium";
+      font-size: 1.5rem; }
+    .bonsoms8__text p {
+      font-size: 1rem;
+      font-family: "futura-light";
+      margin: 0;
+      padding: 0 120px; } }
 
 .wrapperRoom9Bonsoms {
   height: 100vh;
@@ -3089,6 +3307,18 @@ h1 {
     padding: 5px 10px;
     border-radius: 3px;
     margin-top: 10px; }
+
+.bonsoms9__text {
+  background-color: #dbdbdb;
+  padding: 30px 30px 10px;
+  text-align: start; }
+  .bonsoms9__text h3 {
+    font-family: "futura-medium";
+    font-size: 1.5rem; }
+  .bonsoms9__text p {
+    font-size: 1rem;
+    font-family: "futura-light";
+    margin: 0; }
 
 .cardsRoom9Bonsoms {
   display: flex;
@@ -3219,7 +3449,19 @@ h1 {
     #galleryRoom9Bonsoms img {
       width: 350px;
       height: 270px;
-      cursor: pointer; } }
+      cursor: pointer; }
+  .bonsoms9__text {
+    background-color: #dbdbdb;
+    padding: 30px 0 20px;
+    text-align: center; }
+    .bonsoms9__text h3 {
+      font-family: "futura-medium";
+      font-size: 1.5rem; }
+    .bonsoms9__text p {
+      font-size: 1rem;
+      font-family: "futura-light";
+      margin: 0;
+      padding: 0 120px; } }
 
 .wrapperRoom1Rossello {
   height: 100vh;
@@ -3258,6 +3500,18 @@ h1 {
     padding: 5px 10px;
     border-radius: 3px;
     margin-top: 10px; }
+
+.rossello1__text {
+  background-color: #dbdbdb;
+  padding: 30px 30px 10px;
+  text-align: start; }
+  .rossello1__text h3 {
+    font-family: "futura-medium";
+    font-size: 1.5rem; }
+  .rossello1__text p {
+    font-size: 1rem;
+    font-family: "futura-light";
+    margin: 0; }
 
 .cardsRoom1Rossello {
   display: flex;
@@ -3387,7 +3641,19 @@ h1 {
     #galleryRoom1Rossello img {
       width: 350px;
       height: 270px;
-      cursor: pointer; } }
+      cursor: pointer; }
+  .rossello1__text {
+    background-color: #dbdbdb;
+    padding: 30px 0 20px;
+    text-align: center; }
+    .rossello1__text h3 {
+      font-family: "futura-medium";
+      font-size: 1.5rem; }
+    .rossello1__text p {
+      font-size: 1rem;
+      font-family: "futura-light";
+      margin: 0;
+      padding: 0 120px; } }
 
 .wrapperRoom2Rossello {
   height: 100vh;
@@ -3426,6 +3692,18 @@ h1 {
     padding: 5px 10px;
     border-radius: 3px;
     margin-top: 10px; }
+
+.rossello2__text {
+  background-color: #dbdbdb;
+  padding: 30px 30px 10px;
+  text-align: start; }
+  .rossello2__text h3 {
+    font-family: "futura-medium";
+    font-size: 1.5rem; }
+  .rossello2__text p {
+    font-size: 1rem;
+    font-family: "futura-light";
+    margin: 0; }
 
 .cardsRoom2Rossello {
   display: flex;
@@ -3555,7 +3833,19 @@ h1 {
     #galleryRoom2Rossello img {
       width: 350px;
       height: 270px;
-      cursor: pointer; } }
+      cursor: pointer; }
+  .rossello2__text {
+    background-color: #dbdbdb;
+    padding: 30px 0 20px;
+    text-align: center; }
+    .rossello2__text h3 {
+      font-family: "futura-medium";
+      font-size: 1.5rem; }
+    .rossello2__text p {
+      font-size: 1rem;
+      font-family: "futura-light";
+      margin: 0;
+      padding: 0 120px; } }
 
 .wrapperRoom3Rossello {
   height: 100vh;
@@ -3594,6 +3884,18 @@ h1 {
     padding: 5px 10px;
     border-radius: 3px;
     margin-top: 10px; }
+
+.rossello3__text {
+  background-color: #dbdbdb;
+  padding: 30px 30px 10px;
+  text-align: start; }
+  .rossello3__text h3 {
+    font-family: "futura-medium";
+    font-size: 1.5rem; }
+  .rossello3__text p {
+    font-size: 1rem;
+    font-family: "futura-light";
+    margin: 0; }
 
 .cardsRoom3Rossello {
   display: flex;
@@ -3723,7 +4025,19 @@ h1 {
     #galleryRoom3Rossello img {
       width: 350px;
       height: 270px;
-      cursor: pointer; } }
+      cursor: pointer; }
+  .rossello3__text {
+    background-color: #dbdbdb;
+    padding: 30px 0 20px;
+    text-align: center; }
+    .rossello3__text h3 {
+      font-family: "futura-medium";
+      font-size: 1.5rem; }
+    .rossello3__text p {
+      font-size: 1rem;
+      font-family: "futura-light";
+      margin: 0;
+      padding: 0 120px; } }
 
 .wrapperRoom4Rossello {
   height: 100vh;
@@ -3762,6 +4076,18 @@ h1 {
     padding: 5px 10px;
     border-radius: 3px;
     margin-top: 10px; }
+
+.rossello4__text {
+  background-color: #dbdbdb;
+  padding: 30px 30px 10px;
+  text-align: start; }
+  .rossello4__text h3 {
+    font-family: "futura-medium";
+    font-size: 1.5rem; }
+  .rossello4__text p {
+    font-size: 1rem;
+    font-family: "futura-light";
+    margin: 0; }
 
 .cardsRoom4Rossello {
   display: flex;
@@ -3891,7 +4217,19 @@ h1 {
     #galleryRoom4Rossello img {
       width: 350px;
       height: 270px;
-      cursor: pointer; } }
+      cursor: pointer; }
+  .rossello4__text {
+    background-color: #dbdbdb;
+    padding: 30px 0 20px;
+    text-align: center; }
+    .rossello4__text h3 {
+      font-family: "futura-medium";
+      font-size: 1.5rem; }
+    .rossello4__text p {
+      font-size: 1rem;
+      font-family: "futura-light";
+      margin: 0;
+      padding: 0 120px; } }
 
 .wrapperRoom5Rossello {
   height: 100vh;
@@ -3930,6 +4268,18 @@ h1 {
     padding: 5px 10px;
     border-radius: 3px;
     margin-top: 10px; }
+
+.rossello5__text {
+  background-color: #dbdbdb;
+  padding: 30px 30px 10px;
+  text-align: start; }
+  .rossello5__text h3 {
+    font-family: "futura-medium";
+    font-size: 1.5rem; }
+  .rossello5__text p {
+    font-size: 1rem;
+    font-family: "futura-light";
+    margin: 0; }
 
 .cardsRoom5Rossello {
   display: flex;
@@ -4059,7 +4409,19 @@ h1 {
     #galleryRoom5Rossello img {
       width: 350px;
       height: 270px;
-      cursor: pointer; } }
+      cursor: pointer; }
+  .rossello5__text {
+    background-color: #dbdbdb;
+    padding: 30px 0 20px;
+    text-align: center; }
+    .rossello5__text h3 {
+      font-family: "futura-medium";
+      font-size: 1.5rem; }
+    .rossello5__text p {
+      font-size: 1rem;
+      font-family: "futura-light";
+      margin: 0;
+      padding: 0 120px; } }
 
 .wrapperRoom6Rossello {
   height: 100vh;
@@ -4098,6 +4460,18 @@ h1 {
     padding: 5px 10px;
     border-radius: 3px;
     margin-top: 10px; }
+
+.rossello6__text {
+  background-color: #dbdbdb;
+  padding: 30px 30px 10px;
+  text-align: start; }
+  .rossello6__text h3 {
+    font-family: "futura-medium";
+    font-size: 1.5rem; }
+  .rossello6__text p {
+    font-size: 1rem;
+    font-family: "futura-light";
+    margin: 0; }
 
 .cardsRoom6Rossello {
   display: flex;
@@ -4227,7 +4601,19 @@ h1 {
     #galleryRoom6Rossello img {
       width: 350px;
       height: 270px;
-      cursor: pointer; } }
+      cursor: pointer; }
+  .rossello6__text {
+    background-color: #dbdbdb;
+    padding: 30px 0 20px;
+    text-align: center; }
+    .rossello6__text h3 {
+      font-family: "futura-medium";
+      font-size: 1.5rem; }
+    .rossello6__text p {
+      font-size: 1rem;
+      font-family: "futura-light";
+      margin: 0;
+      padding: 0 120px; } }
 
 .wrapperRoom7Rossello {
   height: 100vh;
@@ -4266,6 +4652,18 @@ h1 {
     padding: 5px 10px;
     border-radius: 3px;
     margin-top: 10px; }
+
+.rossello7__text {
+  background-color: #dbdbdb;
+  padding: 30px 30px 10px;
+  text-align: start; }
+  .rossello7__text h3 {
+    font-family: "futura-medium";
+    font-size: 1.5rem; }
+  .rossello7__text p {
+    font-size: 1rem;
+    font-family: "futura-light";
+    margin: 0; }
 
 .cardsRoom7Rossello {
   display: flex;
@@ -4395,7 +4793,19 @@ h1 {
     #galleryRoom7Rossello img {
       width: 350px;
       height: 270px;
-      cursor: pointer; } }
+      cursor: pointer; }
+  .rossello7__text {
+    background-color: #dbdbdb;
+    padding: 30px 0 20px;
+    text-align: center; }
+    .rossello7__text h3 {
+      font-family: "futura-medium";
+      font-size: 1.5rem; }
+    .rossello7__text p {
+      font-size: 1rem;
+      font-family: "futura-light";
+      margin: 0;
+      padding: 0 120px; } }
 
 .bonsomsWrapper {
   height: 100vh;
