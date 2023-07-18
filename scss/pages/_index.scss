@@ -38,11 +38,12 @@
     button{
         font-family: "futura-light";
         font-size: .8rem;
+        letter-spacing: .3rem;
         background: none;
         color: $yellow;
         border: 1px solid $yellow;
         border-radius: 3px;
-        padding: 10px 10px 8px;
+        padding: 6px 15px;
         &:hover{
             background-color: $yellow;
             color: $darkgray;
@@ -541,18 +542,18 @@
             font-family: "futura-bold";
             color:$lightgraytext;
             font-size: 7.5rem;
-            padding: 10px 0 60px;
+            padding: 10px 0 40px;
         }
         button{
             align-items: center;
-            letter-spacing: .2rem;
+            letter-spacing: .3rem;
             font-family: "futura-light";
             font-size: 1.2rem;
             background: none;
             color: $yellow;
             border: 1px solid $yellow;
             border-radius: 3px;
-            padding:15px 15px 12px;
+            padding: 10px 15px;
             &:hover{
                 background-color: $yellow;
                 color: $darkgray;

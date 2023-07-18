@@ -368,11 +368,12 @@ h1 {
   .mainTitle button {
     font-family: "futura-light";
     font-size: .8rem;
+    letter-spacing: .3rem;
     background: none;
     color: #FFEB5B;
     border: 1px solid #FFEB5B;
     border-radius: 3px;
-    padding: 10px 10px 8px; }
+    padding: 6px 15px; }
     .mainTitle button:hover {
       background-color: #FFEB5B;
       color: #272727;
@@ -762,17 +763,17 @@ h1 {
       font-family: "futura-bold";
       color: #e7e7e7;
       font-size: 7.5rem;
-      padding: 10px 0 60px; }
+      padding: 10px 0 40px; }
     .mainTitle button {
       align-items: center;
-      letter-spacing: .2rem;
+      letter-spacing: .3rem;
       font-family: "futura-light";
       font-size: 1.2rem;
       background: none;
       color: #FFEB5B;
       border: 1px solid #FFEB5B;
       border-radius: 3px;
-      padding: 15px 15px 12px; }
+      padding: 10px 15px; }
       .mainTitle button:hover {
         background-color: #FFEB5B;
         color: #272727;
