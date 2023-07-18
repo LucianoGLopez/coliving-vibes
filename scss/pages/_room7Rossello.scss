@@ -1,5 +1,5 @@
 .wrapperRoom7Rossello{
-    @include wrapperRoomsRosselloMobile ((url(../img/room7Rossello/room7_1.webp)), rgb(27, 166, 27));
+    @include wrapperRoomsRosselloMobile ((url(../img/room7Rossello/room7_1.webp)), $red);
 }
 
 .rossello7__text{
@@ -44,7 +44,7 @@
 
 @media (min-width: 992px) {
     .wrapperRoom7Rossello{
-        @include wrapperRoomsRosselloDesktop ((url(../img/room7Rossello/room7_1.webp)), rgb(27, 166, 27));
+        @include wrapperRoomsRosselloDesktop ((url(../img/room7Rossello/room7_1.webp)), $red);
     }
 
     .cardsRoom7Rossello{

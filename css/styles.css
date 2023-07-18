@@ -1201,7 +1201,7 @@ h1 {
 .room7RosselloDisponibilidad {
   padding: 0 20px;
   font-size: .9rem;
-  color: #1ba61b; }
+  color: #ff3232; }
 
 .rosselloWrapper {
   height: 100vh;
@@ -4648,7 +4648,7 @@ h1 {
     color: #f6f6f6;
     font-family: "futura-medium";
     font-size: 1rem;
-    background-color: #1ba61b;
+    background-color: #ff3232;
     padding: 5px 10px;
     border-radius: 3px;
     margin-top: 10px; }
@@ -4746,7 +4746,7 @@ h1 {
       color: #f6f6f6;
       font-family: "futura-medium";
       font-size: 1.2rem;
-      background-color: #1ba61b;
+      background-color: #ff3232;
       padding: 5px 10px;
       border-radius: 3px;
       margin-top: 15px; }
@@ -5324,7 +5324,7 @@ h1 {
 
 .room1BonsomsDisponibilidad {
   padding: 0 20px;
-  color: #1ba61b;
+  color: #ff3232;
   font-size: .9rem; }
 
 .room2BonsomsDisponibilidad {
@@ -5344,7 +5344,7 @@ h1 {
 
 .room5BonsomsDisponibilidad {
   padding: 0 20px;
-  color: #1ba61b;
+  color: #ff3232;
   font-size: .9rem; }
 
 .room6BonsomsDisponibilidad {
