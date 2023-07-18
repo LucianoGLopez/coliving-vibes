@@ -31,6 +31,16 @@ h1{
         padding: 5px 5px 3px;
         background-color: $yellow;
         font-size: .8rem;
+        border: 1px solid $yellow;
+        &:hover{
+            background-color: $darkgray;
+            color: $yellow;
+            transition: .3s;
+            border: 1px solid $yellow;
+            img{
+                filter: invert(100%) sepia(48%) saturate(2845%) hue-rotate(327deg) brightness(103%) contrast(107%);
+            }
+        }
         img{
             height: 30px;
             width: 30px;
