@@ -24,10 +24,11 @@ h1 {
   .button__fixed button {
     color: #272727;
     border-radius: 3px;
-    padding: 5px 5px 3px;
+    padding: 10px 10px 5px;
     background-color: #FFEB5B;
     font-size: .8rem;
-    border: 1px solid #FFEB5B; }
+    border: 1px solid #FFEB5B;
+    text-align: start; }
     .button__fixed button:hover {
       background-color: #272727;
       color: #FFEB5B;
