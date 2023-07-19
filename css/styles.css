@@ -1515,8 +1515,7 @@ h1 {
   background-color: #f6f6f6; }
 
 .grid-item-google-calendar {
-  margin-top: -10px !important;
-  margin-bottom: 5px !important; }
+  margin-bottom: 10px !important; }
 
 .post-content {
   padding: 0 !important; }
