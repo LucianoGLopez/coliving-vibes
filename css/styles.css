@@ -1364,7 +1364,7 @@ h1 {
 .rosselloCardRooms {
   background-color: #f6f6f6;
   height: max-content;
-  width: 320px;
+  width: 340px;
   text-align: start;
   display: flex;
   flex-direction: column;
@@ -1376,7 +1376,7 @@ h1 {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
     height: auto;
-    width: 320px; }
+    width: 340px; }
   .rosselloCardRooms h4 {
     font-family: "futura-bold";
     padding: 20px 0 0 20px;
