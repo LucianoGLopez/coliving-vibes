@@ -1531,7 +1531,8 @@ h1 {
   box-shadow: none !important; }
 
 .post-content {
-  height: auto !important; }
+  height: auto !important;
+  background-color: #f6f6f6; }
 
 .sk_google_cal_grid_content {
   box-shadow: none !important;
