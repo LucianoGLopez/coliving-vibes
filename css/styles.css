@@ -1515,7 +1515,8 @@ h1 {
   background-color: #f6f6f6; }
 
 .grid-item-google-calendar {
-  margin-bottom: 10px !important; }
+  margin-top: -15px !important;
+  height: max-content !important; }
 
 .post-content {
   padding: 0 !important; }
@@ -1526,9 +1527,6 @@ h1 {
 
 .sk_google_cal_control_bar {
   display: none !important; }
-
-.sk-ww-google-calendar {
-  box-shadow: none !important; }
 
 .post-content {
   height: auto !important;

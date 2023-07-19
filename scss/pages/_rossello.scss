@@ -429,8 +429,9 @@
 }
 
 .grid-item-google-calendar{
-    // margin-top: -10px !important;
-    margin-bottom: 10px!important;
+    margin-top: -15px !important;
+    // margin-bottom: 50px !important;
+    height: max-content !important;
 }
 
 .post-content{
@@ -446,9 +447,9 @@
     display: none !important;
 }
 
-.sk-ww-google-calendar{
-    box-shadow: none !important;
-}
+// .sk-ww-google-calendar{
+//     box-shadow: none !important;
+// }
 
 .post-content{
     height: auto !important;
