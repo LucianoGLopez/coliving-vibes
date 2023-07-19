@@ -1514,9 +1514,6 @@ h1 {
   margin-left: 15px !important;
   background-color: #f6f6f6; }
 
-.grid-item-google-calendar {
-  margin-top: -10px !important; }
-
 .post-content {
   padding: 0 !important; }
 
@@ -1540,8 +1537,7 @@ h1 {
   padding: 0 !important; }
 
 .sk_google_cal_container {
-  background-color: #f6f6f6;
-  margin-bottom: -10px !important; }
+  background-color: #f6f6f6; }
 
 @media (min-width: 768px) {
   .cardsContainerRoomsRossello {
