@@ -1514,6 +1514,9 @@ h1 {
   margin-left: 15px !important;
   background-color: #f6f6f6; }
 
+.grid-item-google-calendar {
+  margin-top: -5px !important; }
+
 .post-content {
   padding: 0 !important; }
 
@@ -1801,6 +1804,8 @@ h1 {
     margin: 0 auto !important; }
   .sk_google_cal_events_container {
     height: 40px; }
+  .grid-item-google-calendar {
+    margin-top: -5px !important; }
   .sk-post-text {
     color: #272727;
     font-size: .7rem;
