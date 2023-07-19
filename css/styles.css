@@ -1540,7 +1540,8 @@ h1 {
   padding: 0 !important; }
 
 .sk_google_cal_container {
-  background-color: #f6f6f6; }
+  background-color: #f6f6f6;
+  margin-bottom: -10px !important; }
 
 @media (min-width: 768px) {
   .cardsContainerRoomsRossello {
