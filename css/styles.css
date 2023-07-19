@@ -1363,7 +1363,7 @@ h1 {
 
 .rosselloCardRooms {
   background-color: #f6f6f6;
-  height: 550px;
+  height: max-content;
   width: 320px;
   text-align: start;
   display: flex;
@@ -1485,6 +1485,62 @@ h1 {
     justify-content: center; }
     .transportRossello__map p {
       font-size: .7rem; }
+
+#textCalendar {
+  font-size: .8rem;
+  padding-left: 20px;
+  margin-bottom: -2px;
+  font-family: "futura-light";
+  color: #ff3232;
+  letter-spacing: 1px; }
+
+.sk_event_name {
+  display: none !important; }
+
+.sk_google_cal_events_holder {
+  margin: 0 auto !important; }
+
+.sk_google_cal_events_container {
+  height: 40px; }
+
+.sk-post-text {
+  color: #272727;
+  font-size: .7rem;
+  margin: 0 auto !important;
+  background-color: #f6f6f6; }
+
+.sk_event_item_detail {
+  margin: 0 auto !important;
+  margin-left: 15px !important;
+  background-color: #f6f6f6; }
+
+.grid-item-google-calendar {
+  margin-top: -10px !important; }
+
+.post-content {
+  padding: 0 !important; }
+
+.sk_google_cal_events_holder {
+  height: 50px !important;
+  background-color: #f6f6f6; }
+
+.sk_google_cal_control_bar {
+  display: none !important; }
+
+.sk-ww-google-calendar {
+  box-shadow: none !important; }
+
+.post-content {
+  height: auto !important; }
+
+.sk_google_cal_grid_content {
+  box-shadow: none !important;
+  border: none !important;
+  padding: 0 !important; }
+
+.sk_google_cal_container {
+  background-color: #f6f6f6;
+  margin-bottom: -10px !important; }
 
 @media (min-width: 768px) {
   .cardsContainerRoomsRossello {
@@ -1734,7 +1790,38 @@ h1 {
       flex-direction: column;
       justify-content: center; }
       .transportRossello__map p {
-        font-size: .7rem; } }
+        font-size: .7rem; }
+  #textCalendar {
+    font-size: .8rem;
+    padding-left: 20px;
+    margin-bottom: -2px;
+    font-family: "futura-light";
+    color: #ff3232;
+    letter-spacing: 1px; }
+  .sk_event_name {
+    display: none !important; }
+  .sk_google_cal_events_holder {
+    margin: 0 auto !important; }
+  .sk_google_cal_events_container {
+    height: 40px; }
+  .sk-post-text {
+    color: #272727;
+    font-size: .7rem;
+    margin: 0 auto !important;
+    background-color: #f6f6f6; }
+  .sk_event_item_detail {
+    margin: 0 auto !important;
+    margin-left: 15px !important;
+    background-color: #f6f6f6; }
+  .post-content {
+    padding: 0 !important; }
+  .sk_google_cal_events_holder {
+    height: 40px !important;
+    background-color: #f6f6f6; }
+  .sk_google_cal_control_bar {
+    display: none !important; }
+  .sk-ww-google-calendar {
+    box-shadow: none !important; } }
 
 .wrapperRoom1Bonsoms {
   height: 100vh;

@@ -240,7 +240,7 @@
     }
     .rosselloCardRooms{
         background-color: $light;
-        height: 550px;
+        height: max-content;
         width: 320px;
         text-align: start;
         display: flex;
@@ -391,8 +391,79 @@
             p{
                 font-size: .7rem;
             }
-        }
+        }  
     }
+// CSS GOOGLE CALENDAR
+#textCalendar{
+    font-size: .8rem;
+    padding-left: 20px;
+    margin-bottom: -2px;
+    font-family: "futura-light";
+    color: $red;
+    letter-spacing: 1px;
+}
+
+.sk_event_name{
+    display: none !important;
+}
+
+.sk_google_cal_events_holder{
+    margin: 0 auto !important;
+}
+
+.sk_google_cal_events_container{
+    height: 40px;
+}
+
+.sk-post-text{
+    color: $darkgray;
+    font-size: .7rem;
+    margin: 0 auto !important;
+    background-color: $light;
+}
+
+.sk_event_item_detail{
+    margin: 0 auto !important;
+    margin-left: 15px !important;
+    background-color: $light;
+}
+
+.grid-item-google-calendar{
+    margin-top: -10px !important;
+}
+
+.post-content{
+    padding: 0 !important;
+}
+
+.sk_google_cal_events_holder{
+    height: 50px !important;
+    background-color: $light;
+}
+
+.sk_google_cal_control_bar{
+    display: none !important;
+}
+
+.sk-ww-google-calendar{
+    box-shadow: none !important;
+}
+
+.post-content{
+    height: auto !important;
+}
+
+.sk_google_cal_grid_content{
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important;
+}
+
+.sk_google_cal_container{
+    background-color: $light;
+    margin-bottom: -10px !important;
+}
+
 
 
 
@@ -764,6 +835,59 @@
                 font-size: .7rem;
             }
         }
+    }
+
+
+    // CSS GOOGLE CALENDAR
+    #textCalendar{
+        font-size: .8rem;
+        padding-left: 20px;
+        margin-bottom: -2px;
+        font-family: "futura-light";
+        color: $red;
+        letter-spacing: 1px;
+    }
+
+    .sk_event_name{
+        display: none !important;
+    }
+
+    .sk_google_cal_events_holder{
+        margin: 0 auto !important;
+    }
+
+    .sk_google_cal_events_container{
+        height: 40px;
+    }
+
+    .sk-post-text{
+        color: $darkgray;
+        font-size: .7rem;
+        margin: 0 auto !important;
+        background-color: $light;
+    }
+
+    .sk_event_item_detail{
+        margin: 0 auto !important;
+        margin-left: 15px !important;
+        background-color: $light;
+    }
+
+    .post-content{
+        padding: 0 !important;
+    }
+
+    .sk_google_cal_events_holder{
+        height: 40px !important;
+        background-color: $light;
+    }
+
+    .sk_google_cal_control_bar{
+        display: none !important;
+    }
+
+    .sk-ww-google-calendar{
+        box-shadow: none !important;
     }
 }
 
