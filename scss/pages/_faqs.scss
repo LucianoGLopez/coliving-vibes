@@ -2,8 +2,14 @@
 .faqsMain{
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.5)),url(../img/colivingVibesNeon.jpg);
     background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size:cover;
     background-position: top;
     background-attachment: fixed;
+    -o-background-attachment: fixed;
+    -moz-background-attachment: fixed;
+    -webkit-background-attachment: fixed;
     height: max-content;
     padding-bottom: 40px;
     background-color: $gray;
