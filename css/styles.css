@@ -6065,6 +6065,9 @@ button {
 .bodyContact {
   background-color: #3a3a3a; }
 
+.titleContact a {
+  color: #272727; }
+
 .infoContact {
   background: none;
   display: flex;
