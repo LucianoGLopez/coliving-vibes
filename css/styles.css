@@ -408,14 +408,10 @@ h1 {
   .containerOurConcept img {
     border-radius: 3px;
     filter: brightness(80%); }
-  .containerOurConcept__image {
-    height: 400px;
-    width: auto;
-    padding: 0 20px; }
   .containerOurConcept__image2 {
     height: 420px;
     width: auto;
-    padding: 0 20px; }
+    margin: 0 10px; }
   .containerOurConcept button {
     font-family: "futura-light";
     font-size: .9rem;
