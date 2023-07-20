@@ -1053,8 +1053,9 @@ h1 {
   flex-direction: column-reverse;
   background-color: #FFEB5B;
   height: max-content;
+  width: 300px;
   align-items: center;
-  margin: 10px;
+  margin: 0 auto;
   padding: 10px;
   align-content: center;
   border-radius: 3px; }
@@ -1075,8 +1076,9 @@ h1 {
   flex-direction: column-reverse;
   background-color: #FFEB5B;
   height: max-content;
+  width: 300px;
+  margin: 20px auto;
   align-items: center;
-  margin: 10px;
   padding: 10px;
   border-radius: 3px; }
   .vidaSinComplicacionesCard img {
@@ -1100,8 +1102,9 @@ h1 {
   flex-direction: column-reverse;
   background-color: #FFEB5B;
   height: max-content;
+  width: 300px;
   align-items: center;
-  margin: 10px;
+  margin: 20px auto;
   padding: 10px;
   border-radius: 3px; }
   .seleccionColiversCard img {
@@ -1121,8 +1124,9 @@ h1 {
   flex-direction: column-reverse;
   background-color: #FFEB5B;
   height: max-content;
+  width: 300px;
   align-items: center;
-  margin: 10px;
+  margin: 20px auto;
   padding: 10px;
   border-radius: 3px; }
   .networkingComunidadCard img {
@@ -1146,8 +1150,9 @@ h1 {
   flex-direction: column-reverse;
   background-color: #FFEB5B;
   height: max-content;
+  width: 300px;
   align-items: center;
-  margin: 10px;
+  margin: 20px auto;
   padding: 10px;
   border-radius: 3px; }
   .mantenimientoLimpiezaCard img {
@@ -1167,8 +1172,9 @@ h1 {
   flex-direction: column-reverse;
   background-color: #FFEB5B;
   height: max-content;
+  width: 300px;
   align-items: center;
-  margin: 10px;
+  margin: 20px auto;
   padding: 10px;
   border-radius: 3px; }
   .diseñoAcogedorCard img {
