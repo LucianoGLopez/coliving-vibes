@@ -2,8 +2,7 @@
 .ourConceptMain{
     height: max-content;
     padding-top: 120px;
-    background-color: $light;
-    padding-bottom: 50px;
+    background-color: $gray;
     h1{
         text-align: center;
         font-family: "futura-bold";
@@ -32,7 +31,7 @@
 .ourConceptVideo{
     display: flex;
     flex-direction: column-reverse;
-    background-color: $light;
+    background-color: $gray;
     video{
         height: 100%;
         width: 100%;
@@ -50,56 +49,183 @@
     }
 }
 
-// INICIA HOME CARD
-.containerOurConceptHome{
+// START CARDS OUR CONCEPT
+.cardsOurConcept{
+    background-color: $gray;
+    margin-top: 30px;
+}
+// CONTENEDOR 1
+.containerCardsOurConcept1{
+    display: flex;
+    flex-direction: column;
+}
+// CARD FLEXIBILIDAD
+.flexibilidadCard{
     display: flex;
     flex-direction: column-reverse;
-    align-items: center;
+    background-color: $yellow;
     height: max-content;
-    padding: 50px 0;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    align-content: center;
     img{
-        border-radius: 3px;
-    }
-    &__image{
         height: auto;
-        width: 100%;
-        padding: 10px;
+        width: 250px;
+    }
+    &__text{
+        h2{
+            font-size: 1.5rem;
+            font-family: "futura-bold";
+        }
+        p{
+            font-family: "futura-light";
+            font-size: .9rem;
+            text-align: center;
+        }
+    }
+}
+// FIN CARD FLEXIBILIDAD
+
+// INICIA CARD VIDA SIN COMPLICACIONES
+.vidaSinComplicacionesCard{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: $yellow;
+    height: max-content;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    img{
+        height: auto;
+        width: 250px;
+    }
+    &__text{
+        h2{
+            font-size: 1.5rem;
+            font-family: "futura-bold";
+        }
+        p{
+            font-size: .9rem;
+            font-family: "futura-light";
+            text-align: center;
+        }
     }
 }
 
-// INICIA DESIGN CARD
-.containerOurConceptDesign{
+// CONTENEDOR 2
+.containerCardsOurConcept2{
+    display: flex;
+    flex-direction: column;
+}
+// SELECCION COLIVERS CARD
+.seleccionColiversCard{
     display: flex;
     flex-direction: column-reverse;
-    align-items: center;
+    background-color: $yellow;
     height: max-content;
-    background-color: $light;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
     img{
-        border-radius: 3px;
-    }
-    &__image{
         height: auto;
-        width: 100%;
-        padding: 10px;
+        width: 250px;
+    }
+    &__text{
+        h2{
+            font-size: 1.5rem;
+            font-family: "futura-bold";
+        }
+        p{
+            font-size: .9rem;
+            font-family: "futura-light";
+            text-align: center;
+        }
+    }
+}
+// NETWORKING CARD
+.networkingComunidadCard{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: $yellow;
+    height: max-content;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    img{
+        height: auto;
+        width: 250px;
+    }
+    &__text{
+        h2{
+            font-size: 1.5rem;
+            font-family: "futura-bold";
+        }
+        p{
+            font-size: .9rem;
+            font-family: "futura-light";
+            text-align: center;
+        }
     }
 }
 
-// THIRD CARD
-.containerOurConceptCommon{
+// CONTENEDOR 3
+.containerCardsOurConcept3{
+    display: flex;
+    flex-direction: column;
+}
+
+// MANTENIMIENTO Y LIMPIEZA CARD
+.mantenimientoLimpiezaCard{
     display: flex;
     flex-direction: column-reverse;
-    align-items: center;
+    background-color: $yellow;
     height: max-content;
-    padding: 50px 0;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
     img{
-        border-radius: 3px;
-    }
-    &__image{
         height: auto;
-        width: 100%;
-        padding: 10px;
+        width: 250px;
+    }
+    &__text{
+        h2{
+            font-size: 1.5rem;
+            font-family: "futura-bold";
+        }
+        p{
+            font-size: .9rem;
+            font-family: "futura-light";
+            text-align: center;
+        }
     }
 }
+// DISEÑO CARD
+.diseñoAcogedorCard{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: $yellow;
+    height: max-content;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    img{
+        height: auto;
+        width: 250px;
+    }
+    &__text{
+        h2{
+            font-size: 1.5rem;
+            font-family: "futura-bold";
+        }
+        p{
+            font-size: .9rem;
+            font-family: "futura-light";
+            text-align: center;
+        }
+    }
+}
+
 
 
 
@@ -114,8 +240,8 @@
     .ourConceptMain{
     height: max-content;
     padding-top: 150px;
-    background-color: $light;
-    padding-bottom: 50px;
+    background-color: $gray;
+    padding-bottom: 0;
     h1{
         text-align: center;
         font-family: "futura-bold";
@@ -142,7 +268,7 @@
 .ourConceptVideo{
     display: flex;
     flex-direction: column;
-    background-color: $light;
+    background-color: $gray;
     align-items: center;
     video{
         height: 550px;
@@ -159,82 +285,272 @@
     }
 }
 
-// INICIA HOME CARD
-.containerOurConceptHome{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: end;
-    align-items: center;
-    width: 70vw;
-    margin-left: 15%;
-    gap: 10px;
-    padding: 50px 0;
-    img{
-        border-radius: 3px;
-    }
-    &__image{
-        height: 250px;
-        width: auto;
-    }
-    h2{
-        text-align: center;
-        font-size: 2.5rem;
-    }
-    p{
-        padding: 0;
-    }
+// START CARDS OUR CONCEPT
+.cardsOurConcept{
+    background-color: $gray;
+    margin-top: 30px;
 }
-
-// INICIA DESIGN CARD
-.containerOurConceptDesign{
+// CONTENEDOR 1
+.containerCardsOurConcept1{
     display: flex;
     flex-direction: row;
+}
+// CARD FLEXIBILIDAD
+.flexibilidadCard{
+    display: flex;
+    flex-direction: row;
+    background-color: $yellow;
+    height: 210px;
+    width: 50%;
     align-items: center;
-    justify-content: start;
-    width: 70vw;
-    margin-left: 15%;
-    gap: 10px;
-    padding: 30px 0;
-
+    margin: 10px;
+    padding: 10px;
     img{
-        border-radius: 3px;
+        height: 160px;
+        width: 230px;
     }
-    &__image{
-        height: 250px;
-        width: auto;
-    }
-    h2{
-        text-align: center;
-        font-size: 2.5rem;
-    }
-    p{
-        padding: 0;
+    &__text{
+        h2{
+            font-size: 1.5rem;
+            font-family: "futura-bold";
+        }
+        p{
+            font-family: "futura-light";
+            font-size: .9rem;
+        }
     }
 }
+// FIN CARD FLEXIBILIDAD
 
-// THIRD CARD
-.containerOurConceptCommon{
+// INICIA CARD VIDA SIN COMPLICACIONES
+.vidaSinComplicacionesCard{
     display: flex;
     flex-direction: row-reverse;
+    background-color: $yellow;
+    height: 210px;
+    width: 50%;
     align-items: center;
-    width: 70vw;
-    margin-left: 15%;
-    padding: 50px 0;
+    margin: 10px;
+    padding: 10px;
     img{
-        border-radius: 3px;
+        height: 160px;
+        width: 230px;
     }
-    &__image{
-        height: 250px;
-        width: auto;
-    }
-    h2{
-        text-align: center;
-        font-size: 2.5rem;
-    }
-    p{
-        padding: 0;
+    &__text{
+        h2{
+            font-size: 1.5rem;
+            font-family: "futura-bold";
+        }
+        p{
+            font-size: .9rem;
+            font-family: "futura-light";
+        }
     }
 }
+
+// CONTENEDOR 2
+.containerCardsOurConcept2{
+    display: flex;
+    flex-direction: row;
+}
+// SELECCION COLIVERS CARD
+.seleccionColiversCard{
+    display: flex;
+    flex-direction: row;
+    background-color: $yellow;
+    height: 250px;
+    width: 50%;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    img{
+        height: 160px;
+        width: 230px;
+    }
+    &__text{
+        h2{
+            font-size: 1.5rem;
+            font-family: "futura-bold";
+        }
+        p{
+            font-family: "futura-light";
+            font-size: .9rem;
+        }
+    }
+}
+// NETWORKING CARD
+.networkingComunidadCard{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: $yellow;
+    height: 250px;
+    width: 50%;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    img{
+        height: 160px;
+        width: 230px;
+    }
+    &__text{
+        h2{
+            font-size: 1.5rem;
+            font-family: "futura-bold";
+        }
+        p{
+            font-family: "futura-light";
+            font-size: .9rem;
+        }
+    }
+}
+
+// CONTENEDOR 3
+.containerCardsOurConcept3{
+    display: flex;
+    flex-direction: row;
+}
+
+// MANTENIMIENTO Y LIMPIEZA CARD
+.mantenimientoLimpiezaCard{
+    display: flex;
+    flex-direction: row;
+    background-color: $yellow;
+    height: 220px;
+    width: 50%;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    img{
+        height: 160px;
+        width: 230px;
+    }
+    &__text{
+        h2{
+            font-size: 1.5rem;
+            font-family: "futura-bold";
+        }
+        p{
+            font-family: "futura-light";
+            font-size: .9rem;
+        }
+    }
+}
+// DISEÑO CARD
+.diseñoAcogedorCard{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: $yellow;
+    height: 220px;
+    width: 50%;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    img{
+        height: 160px;
+        width: 230px;
+    }
+    &__text{
+        h2{
+            font-size: 1.5rem;
+            font-family: "futura-bold";
+        }
+        p{
+            font-size: .9rem;
+            font-family: "futura-light";
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// // INICIA HOME CARD
+// .containerOurConceptHome{
+//     display: flex;
+//     flex-direction: row-reverse;
+//     justify-content: center;
+//     align-items: center;
+//     background-color: $lightgray;
+//     // height: 250px;
+//     // width: 750px;
+//     // width: 70vw;
+//     // margin-left: 15%;
+//     // gap: 10px;
+//     // padding: 50px 0;
+//     img{
+//         border-radius: 3px;
+//     }
+//     &__image{
+//         height: 250px;
+//         width: auto;
+//     }
+//     h2{
+//         text-align: center;
+//         font-size: 1.5rem;
+//     }
+//     p{
+//         // padding: 20px;
+//     }
+// }
+
+// // INICIA DESIGN CARD
+// .containerOurConceptDesign{
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: end;
+//     align-items: center;
+//     background-color: $lightgray;
+//     height: 250px;
+//     width: 50%;
+
+//     img{
+//         border-radius: 3px;
+//     }
+//     &__image{
+//         height: 250px;
+//         width: auto;
+//     }
+//     h2{
+//         text-align: center;
+//         font-size: 1.5rem;
+//     }
+//     p{
+//         // padding: 20px;
+//     }
+// }
+
+// // THIRD CARD
+// .containerOurConceptCommon{
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: end;
+//     align-items: center;
+//     background-color: $lightgray;
+//     height: 250px;
+//     width: 50%;
+//     img{
+//         border-radius: 3px;
+//     }
+//     &__image{
+//         height: 250px;
+//         width: auto;
+//     }
+//     h2{
+//         text-align: center;
+//         font-size: 1.5rem;
+//     }
+//     p{
+//         padding: 0;
+//     }
+// }
 }
 
 

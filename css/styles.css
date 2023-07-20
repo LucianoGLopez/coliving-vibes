@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -27,7 +28,7 @@ h1 {
     padding: 10px 10px 5px;
     background-color: #FFEB5B;
     font-size: .8rem;
-    border: 1px solid #FFEB5B;
+    border: 1px solid #272727;
     text-align: start; }
     .button__fixed button:hover {
       background-color: #272727;
@@ -425,8 +426,7 @@ h1 {
     padding: 5px 10px;
     margin: 0 0 20px 20px; }
     .containerOurConcept button:hover {
-      border: 1px solid #dbdbdb;
-      background-color: #dbdbdb;
+      background-color: #FFEB5B;
       color: #272727;
       transition: .2s; }
 
@@ -821,9 +821,9 @@ h1 {
       border-radius: 3px;
       padding: 5px 10px; }
       .containerOurConcept button:hover {
-        border: 1px solid #dbdbdb;
-        background-color: #dbdbdb;
+        background-color: #FFEB5B;
         color: #272727;
+        border: 1px solid #FFEB5B;
         transition: .2s; }
   .ourColivings {
     height: max-content;
@@ -1006,8 +1006,7 @@ h1 {
 .ourConceptMain {
   height: max-content;
   padding-top: 120px;
-  background-color: #f6f6f6;
-  padding-bottom: 50px; }
+  background-color: #3a3a3a; }
   .ourConceptMain h1 {
     text-align: center;
     font-family: "futura-bold";
@@ -1031,7 +1030,7 @@ h1 {
 .ourConceptVideo {
   display: flex;
   flex-direction: column-reverse;
-  background-color: #f6f6f6; }
+  background-color: #3a3a3a; }
   .ourConceptVideo video {
     height: 100%;
     width: 100%; }
@@ -1045,51 +1044,143 @@ h1 {
   .ourConceptVideo p {
     padding-left: 20px; }
 
-.containerOurConceptHome {
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: center;
-  height: max-content;
-  padding: 50px 0; }
-  .containerOurConceptHome img {
-    border-radius: 3px; }
-  .containerOurConceptHome__image {
-    height: auto;
-    width: 100%;
-    padding: 10px; }
+.cardsOurConcept {
+  background-color: #3a3a3a;
+  margin-top: 30px; }
 
-.containerOurConceptDesign {
+.containerCardsOurConcept1 {
   display: flex;
-  flex-direction: column-reverse;
-  align-items: center;
-  height: max-content;
-  background-color: #f6f6f6; }
-  .containerOurConceptDesign img {
-    border-radius: 3px; }
-  .containerOurConceptDesign__image {
-    height: auto;
-    width: 100%;
-    padding: 10px; }
+  flex-direction: column; }
 
-.containerOurConceptCommon {
+.flexibilidadCard {
   display: flex;
   flex-direction: column-reverse;
-  align-items: center;
+  background-color: #FFEB5B;
   height: max-content;
-  padding: 50px 0; }
-  .containerOurConceptCommon img {
-    border-radius: 3px; }
-  .containerOurConceptCommon__image {
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  align-content: center; }
+  .flexibilidadCard img {
     height: auto;
-    width: 100%;
-    padding: 10px; }
+    width: 250px; }
+  .flexibilidadCard__text h2 {
+    font-size: 1.5rem;
+    font-family: "futura-bold"; }
+  .flexibilidadCard__text p {
+    font-family: "futura-light";
+    font-size: .9rem;
+    text-align: center; }
+
+.vidaSinComplicacionesCard {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: #FFEB5B;
+  height: max-content;
+  align-items: center;
+  margin: 10px;
+  padding: 10px; }
+  .vidaSinComplicacionesCard img {
+    height: auto;
+    width: 250px; }
+  .vidaSinComplicacionesCard__text h2 {
+    font-size: 1.5rem;
+    font-family: "futura-bold"; }
+  .vidaSinComplicacionesCard__text p {
+    font-size: .9rem;
+    font-family: "futura-light";
+    text-align: center; }
+
+.containerCardsOurConcept2 {
+  display: flex;
+  flex-direction: column; }
+
+.seleccionColiversCard {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: #FFEB5B;
+  height: max-content;
+  align-items: center;
+  margin: 10px;
+  padding: 10px; }
+  .seleccionColiversCard img {
+    height: auto;
+    width: 250px; }
+  .seleccionColiversCard__text h2 {
+    font-size: 1.5rem;
+    font-family: "futura-bold"; }
+  .seleccionColiversCard__text p {
+    font-size: .9rem;
+    font-family: "futura-light";
+    text-align: center; }
+
+.networkingComunidadCard {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: #FFEB5B;
+  height: max-content;
+  align-items: center;
+  margin: 10px;
+  padding: 10px; }
+  .networkingComunidadCard img {
+    height: auto;
+    width: 250px; }
+  .networkingComunidadCard__text h2 {
+    font-size: 1.5rem;
+    font-family: "futura-bold"; }
+  .networkingComunidadCard__text p {
+    font-size: .9rem;
+    font-family: "futura-light";
+    text-align: center; }
+
+.containerCardsOurConcept3 {
+  display: flex;
+  flex-direction: column; }
+
+.mantenimientoLimpiezaCard {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: #FFEB5B;
+  height: max-content;
+  align-items: center;
+  margin: 10px;
+  padding: 10px; }
+  .mantenimientoLimpiezaCard img {
+    height: auto;
+    width: 250px; }
+  .mantenimientoLimpiezaCard__text h2 {
+    font-size: 1.5rem;
+    font-family: "futura-bold"; }
+  .mantenimientoLimpiezaCard__text p {
+    font-size: .9rem;
+    font-family: "futura-light";
+    text-align: center; }
+
+.diseñoAcogedorCard {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: #FFEB5B;
+  height: max-content;
+  align-items: center;
+  margin: 10px;
+  padding: 10px; }
+  .diseñoAcogedorCard img {
+    height: auto;
+    width: 250px; }
+  .diseñoAcogedorCard__text h2 {
+    font-size: 1.5rem;
+    font-family: "futura-bold"; }
+  .diseñoAcogedorCard__text p {
+    font-size: .9rem;
+    font-family: "futura-light";
+    text-align: center; }
 
 @media (min-width: 992px) {
   .ourConceptMain {
     height: max-content;
     padding-top: 150px;
-    background-color: #f6f6f6;
-    padding-bottom: 50px; }
+    background-color: #3a3a3a;
+    padding-bottom: 0; }
     .ourConceptMain h1 {
       text-align: center;
       font-family: "futura-bold";
@@ -1110,7 +1201,7 @@ h1 {
   .ourConceptVideo {
     display: flex;
     flex-direction: column;
-    background-color: #f6f6f6;
+    background-color: #3a3a3a;
     align-items: center; }
     .ourConceptVideo video {
       height: 550px;
@@ -1122,61 +1213,126 @@ h1 {
       line-height: 30px; }
     .ourConceptVideo p {
       padding: 20px 200px; }
-  .containerOurConceptHome {
+  .cardsOurConcept {
+    background-color: #3a3a3a;
+    margin-top: 30px; }
+  .containerCardsOurConcept1 {
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: end;
-    align-items: center;
-    width: 70vw;
-    margin-left: 15%;
-    gap: 10px;
-    padding: 50px 0; }
-    .containerOurConceptHome img {
-      border-radius: 3px; }
-    .containerOurConceptHome__image {
-      height: 250px;
-      width: auto; }
-    .containerOurConceptHome h2 {
-      text-align: center;
-      font-size: 2.5rem; }
-    .containerOurConceptHome p {
-      padding: 0; }
-  .containerOurConceptDesign {
+    flex-direction: row; }
+  .flexibilidadCard {
     display: flex;
     flex-direction: row;
+    background-color: #FFEB5B;
+    height: 210px;
+    width: 50%;
     align-items: center;
-    justify-content: start;
-    width: 70vw;
-    margin-left: 15%;
-    gap: 10px;
-    padding: 30px 0; }
-    .containerOurConceptDesign img {
-      border-radius: 3px; }
-    .containerOurConceptDesign__image {
-      height: 250px;
-      width: auto; }
-    .containerOurConceptDesign h2 {
-      text-align: center;
-      font-size: 2.5rem; }
-    .containerOurConceptDesign p {
-      padding: 0; }
-  .containerOurConceptCommon {
+    margin: 10px;
+    padding: 10px; }
+    .flexibilidadCard img {
+      height: 160px;
+      width: 230px; }
+    .flexibilidadCard__text h2 {
+      font-size: 1.5rem;
+      font-family: "futura-bold"; }
+    .flexibilidadCard__text p {
+      font-family: "futura-light";
+      font-size: .9rem; }
+  .vidaSinComplicacionesCard {
     display: flex;
     flex-direction: row-reverse;
+    background-color: #FFEB5B;
+    height: 210px;
+    width: 50%;
     align-items: center;
-    width: 70vw;
-    margin-left: 15%;
-    padding: 50px 0; }
-    .containerOurConceptCommon img {
-      border-radius: 3px; }
-    .containerOurConceptCommon__image {
-      height: 250px;
-      width: auto; }
-    .containerOurConceptCommon h2 {
-      text-align: center;
-      font-size: 2.5rem; }
-    .containerOurConceptCommon p {
-      padding: 0; } }
+    margin: 10px;
+    padding: 10px; }
+    .vidaSinComplicacionesCard img {
+      height: 160px;
+      width: 230px; }
+    .vidaSinComplicacionesCard__text h2 {
+      font-size: 1.5rem;
+      font-family: "futura-bold"; }
+    .vidaSinComplicacionesCard__text p {
+      font-size: .9rem;
+      font-family: "futura-light"; }
+  .containerCardsOurConcept2 {
+    display: flex;
+    flex-direction: row; }
+  .seleccionColiversCard {
+    display: flex;
+    flex-direction: row;
+    background-color: #FFEB5B;
+    height: 250px;
+    width: 50%;
+    align-items: center;
+    margin: 10px;
+    padding: 10px; }
+    .seleccionColiversCard img {
+      height: 160px;
+      width: 230px; }
+    .seleccionColiversCard__text h2 {
+      font-size: 1.5rem;
+      font-family: "futura-bold"; }
+    .seleccionColiversCard__text p {
+      font-family: "futura-light";
+      font-size: .9rem; }
+  .networkingComunidadCard {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #FFEB5B;
+    height: 250px;
+    width: 50%;
+    align-items: center;
+    margin: 10px;
+    padding: 10px; }
+    .networkingComunidadCard img {
+      height: 160px;
+      width: 230px; }
+    .networkingComunidadCard__text h2 {
+      font-size: 1.5rem;
+      font-family: "futura-bold"; }
+    .networkingComunidadCard__text p {
+      font-family: "futura-light";
+      font-size: .9rem; }
+  .containerCardsOurConcept3 {
+    display: flex;
+    flex-direction: row; }
+  .mantenimientoLimpiezaCard {
+    display: flex;
+    flex-direction: row;
+    background-color: #FFEB5B;
+    height: 220px;
+    width: 50%;
+    align-items: center;
+    margin: 10px;
+    padding: 10px; }
+    .mantenimientoLimpiezaCard img {
+      height: 160px;
+      width: 230px; }
+    .mantenimientoLimpiezaCard__text h2 {
+      font-size: 1.5rem;
+      font-family: "futura-bold"; }
+    .mantenimientoLimpiezaCard__text p {
+      font-family: "futura-light";
+      font-size: .9rem; }
+  .diseñoAcogedorCard {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #FFEB5B;
+    height: 220px;
+    width: 50%;
+    align-items: center;
+    margin: 10px;
+    padding: 10px; }
+    .diseñoAcogedorCard img {
+      height: 160px;
+      width: 230px; }
+    .diseñoAcogedorCard__text h2 {
+      font-size: 1.5rem;
+      font-family: "futura-bold"; }
+    .diseñoAcogedorCard__text p {
+      font-size: .9rem;
+      font-family: "futura-light"; } }
 
 .room1RosselloDisponibilidad {
   padding: 0 20px;
@@ -6027,9 +6183,8 @@ input[type=number]::-webkit-outer-spin-button {
       color: #272727; }
     .contactMain h3 {
       font-family: "futura-medium";
-      font-size: 1.3rem;
+      font-size: 1.2rem;
       font-weight: 300;
-      letter-spacing: .1rem;
       color: #272727; }
   .infoContact {
     background: none;

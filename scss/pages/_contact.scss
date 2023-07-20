@@ -110,23 +110,6 @@
     grid-auto-columns: 100%;
 }
 
-// .formContact__calendar{
-//     display: flex;
-//     flex-direction: column;
-//     color: black;
-//     gap: 10px;
-// }
-
-// .calendar__input{
-//     background: none;
-//     color: $darkgray;
-//     font-size: 1rem;
-//     outline: none;
-//     border: none;
-//     border-bottom: solid 1.5px $darkgray;
-//     cursor: text;
-//     padding: 15px;
-// }
 
 .form__input{
     background: none;
@@ -212,9 +195,8 @@ input[type=number]::-webkit-outer-spin-button {
     }
     h3{
         font-family: "futura-medium";
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         font-weight: 300;
-        letter-spacing: .1rem;
         color: $darkgray;
     }
 }
