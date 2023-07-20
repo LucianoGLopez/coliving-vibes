@@ -177,7 +177,7 @@ input[type=number]::-webkit-outer-spin-button {
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/contactBackground2.webp);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 110px 150px 25px;
+    padding: 120px 50px 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -207,7 +207,7 @@ input[type=number]::-webkit-outer-spin-button {
     flex-direction: column;
     justify-content: center;
     gap: 15px;
-    width: 300px;
+    width: 40%;
     &__separador{
         border-top: 1px solid $darkgray;
         height: 2px;
