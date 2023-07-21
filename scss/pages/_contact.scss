@@ -267,6 +267,13 @@ input[type=number]::-webkit-outer-spin-button {
     }
 }
 
+.titleContact{
+    a{
+        font-weight: 500;
+        color: $gray;   
+    }
+}
+
 .formContact{
     background-color: rgba(209, 209, 209, 0.368);
     backdrop-filter: blur(7px);
