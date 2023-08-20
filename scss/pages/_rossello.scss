@@ -393,7 +393,7 @@
             }
         }  
     }
-// CSS GOOGLE CALENDAR
+// // CSS GOOGLE CALENDAR
 #textCalendar{
     font-size: .8rem;
     padding-left: 20px;
@@ -402,6 +402,10 @@
     color: $red;
     letter-spacing: 1px;
 }
+
+// .sk_google_cal_view_label{
+//     visibility: hidden;
+// }
 
 .sk_event_name{
     display: none !important;

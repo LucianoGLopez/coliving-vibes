@@ -742,114 +742,23 @@
             }
         }
     }
-    // CSS GOOGLE CALENDAR
-    #textCalendarBonsoms{
-        font-size: .8rem;
-        padding-left: 20px;
-        margin-bottom: -2px;
-        font-family: "futura-light";
-        color: $red;
-        letter-spacing: 1px;
-    }
 
-    .sk_event_name{
-        display: none !important;
-    }
+}
 
-    .sk_google_cal_events_holder{
-        margin: 0 auto !important;
-    }
 
-    .sk_google_cal_events_container{
-        height: 40px;
-    }
-
-    .grid-item-google-calendar{
-        margin-top: -5px !important;
-    }
-
-    .sk-post-text{
+#enlaceRoom1Bonsoms{
+    margin: 20px auto 0;
+    font-size: .7rem;
+    font-family: "futura-light";
+    margin-left: 20px;
+    color: $darkgray;
+    text-decoration: none;
+    border: 1px solid $darkgray;
+    border-radius: 3px;
+    padding: 3px 6px;
+    font-weight: bold;
+    &:hover{
         color: $darkgray;
-        font-size: .7rem;
-        margin: 0 auto !important;
-        background-color: $light;
+        background-color: $yellow;
     }
-
-    .sk_event_item_detail{
-        margin: 0 auto !important;
-        margin-left: 15px !important;
-        background-color: $light;
-    }
-
-    .post-content{
-        padding: 0 !important;
-    }
-
-    .sk_google_cal_events_holder{
-        height: 40px !important;
-        background-color: $light;
-    }
-
-    .sk_google_cal_control_bar{
-        display: none !important;
-    }
-
-    .sk-ww-google-calendar{
-        box-shadow: none !important;
-    }
-}
-
-// DISPONIBILIDAD HABITACIONES
-.room1BonsomsDisponibilidad{
-    padding: 0 20px;
-    color: $red;
-    font-size: .9rem;
-}
-
-.room2BonsomsDisponibilidad{
-    padding: 0 20px;
-    color: $red;
-    font-size: .9rem;
-}
-
-.room3BonsomsDisponibilidad{
-    padding: 0 20px;
-    color: $red;
-    font-size: .9rem;
-}
-
-.room4BonsomsDisponibilidad{
-    padding: 0 20px;
-    color: $red;
-    font-size: .9rem;
-}
-
-.room5BonsomsDisponibilidad{
-    padding: 0 20px;
-    color: $red;
-    font-size: .9rem;
-}
-
-.room6BonsomsDisponibilidad{
-    padding: 0 20px;
-    color: $red;
-    font-size: .9rem;
-}
-
-.room7BonsomsDisponibilidad{
-    padding: 0 20px;
-    color: $red;
-    font-size: .9rem;
-}
-
-.room8BonsomsDisponibilidad{
-    padding: 0 20px;
-    color: $red;
-    font-size: .9rem;
-}
-
-.room9BonsomsDisponibilidad{
-    padding: 0 20px;
-    color: $red;
-    font-size: .9rem;
 }

@@ -88,4 +88,34 @@
             padding: 0 120px;
         }
     }
+
+    .calendarGoogleContainer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 0;
+        background-color: $lightgray;
+        h3{
+            font-family: "futura-medium";
+            font-size: 1.5rem;
+        }
+    }
+
+    .calendarGoogle{
+        margin: 0 auto;
+    }
+
+    .buttonRoom1{
+        border: 1px solid $yellow;
+        border-radius: 6px;
+        padding: 5px 10px;
+        font-family: "futura-light";
+        color: $yellow;
+        margin-top: 20px;
+        &:hover{
+            background-color: $yellow;
+            color: $darkgray;
+            transition: .2s;
+        }
+    }
 }

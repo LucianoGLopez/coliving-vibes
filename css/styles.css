@@ -2184,7 +2184,29 @@ h1 {
       font-size: 1rem;
       font-family: "futura-light";
       margin: 0;
-      padding: 0 120px; } }
+      padding: 0 120px; }
+  .calendarGoogleContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #dbdbdb; }
+    .calendarGoogleContainer h3 {
+      font-family: "futura-medium";
+      font-size: 1.5rem; }
+  .calendarGoogle {
+    margin: 0 auto; }
+  .buttonRoom1 {
+    border: 1px solid #FFEB5B;
+    border-radius: 6px;
+    padding: 5px 10px;
+    font-family: "futura-light";
+    color: #FFEB5B;
+    margin-top: 20px; }
+    .buttonRoom1:hover {
+      background-color: #FFEB5B;
+      color: #272727;
+      transition: .2s; } }
 
 .wrapperRoom2Bonsoms {
   height: 100vh;
@@ -5640,85 +5662,22 @@ h1 {
       flex-direction: column;
       justify-content: center; }
       .transportBonsoms__map p {
-        font-size: .7rem; }
-  #textCalendarBonsoms {
-    font-size: .8rem;
-    padding-left: 20px;
-    margin-bottom: -2px;
-    font-family: "futura-light";
-    color: #ff3232;
-    letter-spacing: 1px; }
-  .sk_event_name {
-    display: none !important; }
-  .sk_google_cal_events_holder {
-    margin: 0 auto !important; }
-  .sk_google_cal_events_container {
-    height: 40px; }
-  .grid-item-google-calendar {
-    margin-top: -5px !important; }
-  .sk-post-text {
+        font-size: .7rem; } }
+
+#enlaceRoom1Bonsoms {
+  margin: 20px auto 0;
+  font-size: .7rem;
+  font-family: "futura-light";
+  margin-left: 20px;
+  color: #272727;
+  text-decoration: none;
+  border: 1px solid #272727;
+  border-radius: 3px;
+  padding: 3px 6px;
+  font-weight: bold; }
+  #enlaceRoom1Bonsoms:hover {
     color: #272727;
-    font-size: .7rem;
-    margin: 0 auto !important;
-    background-color: #f6f6f6; }
-  .sk_event_item_detail {
-    margin: 0 auto !important;
-    margin-left: 15px !important;
-    background-color: #f6f6f6; }
-  .post-content {
-    padding: 0 !important; }
-  .sk_google_cal_events_holder {
-    height: 40px !important;
-    background-color: #f6f6f6; }
-  .sk_google_cal_control_bar {
-    display: none !important; }
-  .sk-ww-google-calendar {
-    box-shadow: none !important; } }
-
-.room1BonsomsDisponibilidad {
-  padding: 0 20px;
-  color: #ff3232;
-  font-size: .9rem; }
-
-.room2BonsomsDisponibilidad {
-  padding: 0 20px;
-  color: #ff3232;
-  font-size: .9rem; }
-
-.room3BonsomsDisponibilidad {
-  padding: 0 20px;
-  color: #ff3232;
-  font-size: .9rem; }
-
-.room4BonsomsDisponibilidad {
-  padding: 0 20px;
-  color: #ff3232;
-  font-size: .9rem; }
-
-.room5BonsomsDisponibilidad {
-  padding: 0 20px;
-  color: #ff3232;
-  font-size: .9rem; }
-
-.room6BonsomsDisponibilidad {
-  padding: 0 20px;
-  color: #ff3232;
-  font-size: .9rem; }
-
-.room7BonsomsDisponibilidad {
-  padding: 0 20px;
-  color: #ff3232;
-  font-size: .9rem; }
-
-.room8BonsomsDisponibilidad {
-  padding: 0 20px;
-  color: #ff3232;
-  font-size: .9rem; }
-
-.room9BonsomsDisponibilidad {
-  padding: 0 20px;
-  color: #ff3232;
-  font-size: .9rem; }
+    background-color: #FFEB5B; }
 
 .mainGallery {
   padding-top: 120px;
