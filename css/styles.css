@@ -2043,6 +2043,32 @@ h1 {
     font-family: "futura-light";
     margin: 0; }
 
+.buttonRoom1 {
+  border: 1px solid #FFEB5B;
+  border-radius: 6px;
+  padding: 5px 10px;
+  font-family: "futura-light";
+  color: #FFEB5B;
+  margin-top: 20px; }
+  .buttonRoom1:hover {
+    background-color: #FFEB5B;
+    color: #272727;
+    transition: .2s; }
+
+.calendarGoogleContainer {
+  background-color: #dbdbdb;
+  padding: 30px 0; }
+  .calendarGoogleContainer h3 {
+    text-align: center; }
+
+.calendarGoogle {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto; }
+  .calendarGoogle iframe {
+    width: auto;
+    height: 300px; }
+
 .cardsRoom1Bonsoms {
   display: flex;
   flex-direction: column;
@@ -2196,6 +2222,9 @@ h1 {
       font-size: 1.5rem; }
   .calendarGoogle {
     margin: 0 auto; }
+    .calendarGoogle iframe {
+      width: 400px;
+      height: 300px; }
   .buttonRoom1 {
     border: 1px solid #FFEB5B;
     border-radius: 6px;

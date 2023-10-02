@@ -17,6 +17,38 @@
     }
 }
 
+.buttonRoom1{
+    border: 1px solid $yellow;
+    border-radius: 6px;
+    padding: 5px 10px;
+    font-family: "futura-light";
+    color: $yellow;
+    margin-top: 20px;
+    &:hover{
+        background-color: $yellow;
+        color: $darkgray;
+        transition: .2s;
+    }
+}
+
+.calendarGoogleContainer{
+    background-color: $lightgray;
+    padding: 30px 0;
+    h3{
+        text-align: center;
+    }
+}
+
+.calendarGoogle{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    iframe{
+        width: auto;
+        height: 300px;
+    }
+}
+
 .cardsRoom1Bonsoms{
     @include pagesCardsRoomsRosselloMobile;
 }
@@ -103,6 +135,10 @@
 
     .calendarGoogle{
         margin: 0 auto;
+        iframe{
+            width: 400px;
+            height: 300px;
+        }
     }
 
     .buttonRoom1{
