@@ -100,7 +100,7 @@
                 <img src="./img/mapIcon.png" alt="">
                 <h1>COLIVING VIBES COLLBLANC</h1>
                 <a href="#ourRoomsRosselloTag">
-                    <button>
+                    <button data-section="rossello" data-value="seeRoomsButtonRossello">
                         Ver habitaciones
                     </button>
                 </a>
@@ -109,7 +109,7 @@
         
 <!-- ICONS -->
         <div class="iconsRosselloContainer">
-            <h2>¿QUÉ OFRECEMOS?</h2>
+            <h2 data-section="rossello" data-value="offerTitle">¿QUÉ OFRECEMOS?</h2>
             <div class="iconsRossello">
                 <div>
                     <img src="./img/iconsRossello/coupleIcon.png" alt="">
@@ -187,8 +187,8 @@
         </div>
         <!-- START CAROUSEL -->
         <section class="ourCommonSpaces">
-            <h2>NUESTROS ESPACIOS COMUNES</h2>
-            <p>Coliving Vibes Collblanc Barcelona ofrece un ambiente acogedor y funcional para los residentes. Desde el salón comedor donde se puede socializar y relajarse, hasta el patio y la terraza que permiten disfrutar del aire libre. Además, la lavandería y la cocina totalmente equipadas brindan comodidad y facilidad en la vida diaria de los residentes. Estas áreas promueven la interacción y el sentido de comunidad entre ellos, creando un entorno agradable y enriquecedor para vivir.
+            <h2 data-section="rossello" data-value="ourCommonSpacesTitle">NUESTROS ESPACIOS COMUNES</h2>
+            <p data-section="rossello" data-value="ourCommonSpacesText">Coliving Vibes Collblanc Barcelona ofrece un ambiente acogedor y funcional para los residentes. Desde el salón comedor donde se puede socializar y relajarse, hasta el patio y la terraza que permiten disfrutar del aire libre. Además, la lavandería y la cocina totalmente equipadas brindan comodidad y facilidad en la vida diaria de los residentes. Estas áreas promueven la interacción y el sentido de comunidad entre ellos, creando un entorno agradable y enriquecedor para vivir.
             </p>
             <div class="ourCommonSpaces__carousel">
 
@@ -298,75 +298,72 @@
 <!-- FIN CAROUSEL -->
 <!-- START TOUR VIRTUAL -->
         <section class="rosselloTourVirtual">
-            <h3>¿QUIERES ECHAR UN VISTAZO? <br> Realiza nuestro tour 3D</h3>
+            <h3 data-section="rossello" data-value="tourRosselloTitle">¿QUIERES ECHAR UN VISTAZO? <br> Realiza nuestro tour 3D</h3>
               <iframe src='https://my.matterport.com/show/?m=wu9MYq695hA' frameborder='0' allowfullscreen allow='xr-spatial-tracking'></iframe>
         </section>
 <!-- END TOUR VIRTUAL -->
 <!-- START OUR ROOMS -->
         <section class="ourRoomsRossello">
-          <h2 id="ourRoomsRosselloTag">NUESTRAS HABITACIONES</h2>
-          <h5 class="ourRoomsRossello__text">Todas nuestras habitaciones están totalmente equipadas. Cuentan con baño privado, calefacción, aire acondicionado y sistema de renovación de aire. <br> ¡Solo entra con tu maleta lista para tomarte la vida con calma!
+          <h2 id="ourRoomsRosselloTag" data-section="rossello" data-value="ourRoomsRosselloTitle">NUESTRAS HABITACIONES</h2>
+          <h5 class="ourRoomsRossello__text" data-section="rossello" data-value="ourRoomsRosselloText">Todas nuestras habitaciones están totalmente equipadas. Cuentan con baño privado, calefacción, aire acondicionado y sistema de renovación de aire. <br> ¡Solo entra con tu maleta lista para tomarte la vida con calma!
           </h5>
             <div class="cardsContainerRoomsRossello">
                 <!-- CARD ROOM 1 -->
               <div class="rosselloCardRooms">
                 <img src="./img/room1Rossello/room1_1.webp" alt="">
-                <h4>HABITACIÓN CATALUNYA</h4>
-                <!-- <h6 class="room1RosselloDisponibilidad">Disponible a partir del 01/01/24</h6> -->
-                <!-- <p id="textCalendar">No disponible (desde - hasta)</p> -->
-                <!-- <div class='sk-ww-google-calendar' data-embed-id='169175'></div> -->
-                <p class="rosselloCardRooms__text" data-section="colivings" data-value="rosselloCardIndex">Situada en la tercera planta de la casa. Amplia y luminosa habitación. La única con terraza privada.</p>
+                <h4 data-section="rossello" data-value="room1RosselloTitle">HABITACIÓN CATALUNYA</h4>
+                <p class="rosselloCardRooms__text" data-section="rossello" data-value="room1RosselloText">Situada en la tercera planta de la casa. Amplia y luminosa habitación. La única con terraza privada.</p>
                 <div class="iconsCardsRooms">
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/coupleIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon1">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons1">
                       Admite parejas
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/bedroomIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon2">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons2">
                       Cama doble
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/bathroomIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon3">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons3">
                       Baño privado
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/temperaturaIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon4">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons4">
                       Climatizador
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/deskIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon4">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons5">
                       Escritorio 
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/wardrobeIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon4">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons6">
                       Armario
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/bedlineIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon4">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons7">
                       Toallas/Ropa de cama
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/outdoorIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon4">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons8">
                       Terraza privada
                     </p>
                   </div>
                 </div>
-        <a id="enlaceRoom1Bonsoms" href="room1Rossello.html#disponibilidadRoom1Rossello">VER DISPONIBILIDAD</a>
+        <a id="enlaceRoom1Bonsoms" href="room1Rossello.html#disponibilidadRoom1Rossello" data-section="rossello" data-value="buttonDisp">VER DISPONIBILIDAD</a>
 
                 <div class="iconsCardsRoomsRossello__button">
                     <p>1050 €</p>
@@ -379,62 +376,59 @@
               <!-- CARD ROOM 2 -->
               <div class="rosselloCardRooms">
                 <img src="./img/room2Rossello/room2-2.webp" alt="">
-                <h4>HABITACIÓN TIBIDABO</h4>
-                <!-- <h6 class="room2RosselloDisponibilidad">Disponible a partir del 01/01/24</h6> -->
-                <!-- <p id="textCalendar">No disponible (desde - hasta)</p> -->
-                <!-- <div class='sk-ww-google-calendar' data-embed-id='169177'></div> -->
-                <p class="rosselloCardRooms__text" data-section="colivings" data-value="rosselloCardIndex">Situada en la segunda planta de la casa. Habitación amplia y luminosa con escritorio doble.</p>
+                <h4 data-section="rossello" data-value="room2RosselloTitle">HABITACIÓN TIBIDABO</h4>
+                <p class="rosselloCardRooms__text" data-section="rossello" data-value="room2RosselloText">Situada en la segunda planta de la casa. Habitación amplia y luminosa con escritorio doble.</p>
                 <div class="iconsCardsRooms">
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/coupleIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon1">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons1">
                       Admite parejas
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/bedroomIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon2">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons2">
                       Cama doble
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/bathroomIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon3">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons3">
                       Baño privado
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/temperaturaIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon4">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons4">
                       Climatizador
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/deskIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon4">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons5">
                       Escritorio 
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/wardrobeIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon4">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons6">
                       Armario
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/bedlineIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon4">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons7">
                       Toallas/Ropa de cama
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/tvIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon4">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons9">
                       Smart TV
                     </p>
                   </div>
                 </div>
-                <a id="enlaceRoom1Bonsoms" href="room2Rossello.html#disponibilidadRoom2Rossello">VER DISPONIBILIDAD</a>
+                <a id="enlaceRoom1Bonsoms" href="room2Rossello.html#disponibilidadRoom2Rossello" data-section="rossello" data-value="buttonDisp">VER DISPONIBILIDAD</a>
                 <div class="iconsCardsRoomsRossello__button">
                     <p>990 €</p>
                   <a href="room2Rossello.html">
@@ -447,62 +441,59 @@
               <!-- CARD ROOM 3 -->
               <div class="rosselloCardRooms">
                 <img src="./img/room3Rossello/room3_1.webp" alt="">
-                <h4>HABITACIÓN MONTJUIC</h4>
-                <!-- <h6 class="room3RosselloDisponibilidad">Disponible a partir del 31/08/23</h6> -->
-                <!-- <p id="textCalendar">No disponible (desde - hasta)</p> -->
-                <!-- <div class='sk-ww-google-calendar' data-embed-id='169178'></div> -->
-                <p class="rosselloCardRooms__text" data-section="colivings" data-value="rosselloCardIndex">Ubicada en la segunda planta de la casa. Se caracteriza por contar con dos escritorios. </p>
+                <h4 data-section="rossello" data-value="room3RosselloTitle">HABITACIÓN MONTJUIC</h4>
+                <p class="rosselloCardRooms__text" data-section="rossello" data-value="room3RosselloText">Ubicada en la segunda planta de la casa. Se caracteriza por contar con dos escritorios. </p>
                 <div class="iconsCardsRooms">
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/coupleIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon1">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons1">
                       Admite parejas
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/bedroomIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon2">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons2">
                       Cama doble
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/bathroomIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon3">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons3">
                       Baño privado
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/temperaturaIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon4">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons4">
                       Climatizador
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/deskIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon4">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room2RosselloIcons5">
                       2 escritorios 
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/wardrobeIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon4">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons6">
                       Armario
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/bedlineIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon4">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons7">
                       Toallas/Ropa de cama
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/tvIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon4">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons9">
                       Smart TV
                     </p>
                   </div>
                 </div>
-                <a id="enlaceRoom1Bonsoms" href="room3Rossello.html#disponibilidadRoom3Rossello">VER DISPONIBILIDAD</a>
+                <a id="enlaceRoom1Bonsoms" href="room3Rossello.html#disponibilidadRoom3Rossello" data-section="rossello" data-value="buttonDisp">VER DISPONIBILIDAD</a>
 
                 <div class="iconsCardsRoomsRossello__button">
                     <p>975 €</p>
@@ -516,62 +507,59 @@
               <!-- CARD ROOM 4 -->
               <div class="rosselloCardRooms">
                 <img src="./img/room4Rossello/room4_1.webp" alt="">
-                <h4>HABITACIÓN SANTS</h4>
-                <!-- <h6 class="room4RosselloDisponibilidad" >Disponible a partir del 01/01/24</h6> -->
-                <!-- <p id="textCalendar">No disponible (desde - hasta)</p> -->
-                <!-- <div class='sk-ww-google-calendar' data-embed-id='169181'></div> -->
-                <p class="rosselloCardRooms__text" data-section="colivings" data-value="rosselloCardIndex">Ubicada en la segunda planta de la casa. Cuenta con luminosas ventanas con vista a la calle.</p>
+                <h4 data-section="rossello" data-value="room4RosselloTitle">HABITACIÓN SANTS</h4>
+                <p class="rosselloCardRooms__text" data-section="rossello" data-value="room4RosselloText">Ubicada en la segunda planta de la casa. Cuenta con luminosas ventanas con vista a la calle.</p>
                 <div class="iconsCardsRooms">
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/coupleIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon1">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons1">
                       Admite parejas
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/bedroomIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon2">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons2">
                       Cama doble
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/bathroomIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon3">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons3">
                       Baño privado
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/temperaturaIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon4">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons4">
                       Climatizador
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/deskIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon4">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons5">
                       Escritorio 
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/wardrobeIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon4">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons6">
                       Armario
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/bedlineIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon4">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons7">
                       Toallas/Ropa de cama
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/tvIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon4">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons9">
                       Smart TV
                     </p>
                   </div>
                 </div>
-                <a id="enlaceRoom1Bonsoms" href="room4Rossello.html#disponibilidadRoom4Rossello">VER DISPONIBILIDAD</a>
+                <a id="enlaceRoom1Bonsoms" href="room4Rossello.html#disponibilidadRoom4Rossello" data-section="rossello" data-value="buttonDisp">VER DISPONIBILIDAD</a>
 
                 <div class="iconsCardsRoomsRossello__button">
                     <p>995 €</p>
@@ -585,63 +573,59 @@
                             <!-- CARD ROOM 5 -->
               <div class="rosselloCardRooms">
                 <img src="./img/room5Rossello/room5_1.webp" alt="">
-                <h4>HABITACIÓN FIRA</h4>
-                
-                <!-- <h6 class="room5RosselloDisponibilidad" >Disponible a partir del 04/09/23</h6> -->
-                <!-- <p id="textCalendar">No disponible (desde - hasta)</p> -->
-                <!-- <div class='sk-ww-google-calendar' data-embed-id='168962'></div> -->
-                <p class="rosselloCardRooms__text" data-section="colivings" data-value="rosselloCardIndex">Luminosa habitación ubicada en la segunda planta de la casa. Posee baño privado a escasos metros.</p>
+                <h4 data-section="rossello" data-value="room5RosselloTitle">HABITACIÓN FIRA</h4>
+                <p class="rosselloCardRooms__text" data-section="rossello" data-value="room5RosselloText">Luminosa habitación ubicada en la segunda planta de la casa. Posee baño privado a escasos metros.</p>
                 <div class="iconsCardsRooms">
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/coupleIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon1">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons1">
                       Admite parejas
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/bedroomIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon2">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons2">
                       Cama doble
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/bathroomIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon3">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons3">
                       Baño privado
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/temperaturaIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon4">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons4">
                       Climatizador
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/deskIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon4">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons5">
                       Escritorio 
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/wardrobeIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon4">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons6">
                       Armario
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/bedlineIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon4">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons7">
                       Toallas/Ropa de cama
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/tvIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon4">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons9">
                       Smart TV
                     </p>
                   </div>
                 </div>
-                <a id="enlaceRoom1Bonsoms" href="room5Rossello.html#disponibilidadRoom5Rossello">VER DISPONIBILIDAD</a>
+                <a id="enlaceRoom1Bonsoms" href="room5Rossello.html#disponibilidadRoom5Rossello" data-section="rossello" data-value="buttonDisp">VER DISPONIBILIDAD</a>
 
                 <div class="iconsCardsRoomsRossello__button">
                     <p>980 €</p>
@@ -655,63 +639,59 @@
               <!-- CARD ROOM 6 -->
               <div class="rosselloCardRooms">
                 <img src="./img/room6Rossello/room6_1.webp" alt="">
-                <h4>HABITACIÓN PEDRERA</h4>
-                <!-- <h6 class="room6RosselloDisponibilidad">Disponible a partir del 01/03/24</h6> -->
-                <!-- <p id="textCalendar">No disponible (desde - hasta)</p> -->
-                <!-- <div class='sk-ww-google-calendar' data-embed-id='169012'></div> -->
-
-                <p class="rosselloCardRooms__text" data-section="colivings" data-value="rosselloCardIndex">Ubicada en la planta baja de nuestra casa. Es una habitación luminosa, amplia y cómoda.</p>
+                <h4 data-section="rossello" data-value="room6RosselloTitle">HABITACIÓN PEDRERA</h4>
+                <p class="rosselloCardRooms__text" data-section="rossello" data-value="room5RosselloText">Ubicada en la planta baja de nuestra casa. Es una habitación luminosa, amplia y cómoda.</p>
                 <div class="iconsCardsRooms">
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/coupleIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon1">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons1">
                       Admite parejas
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/bedroomIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon2">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons2">
                       Cama doble
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/bathroomIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon3">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons3">
                       Baño privado
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/temperaturaIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon4">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons4">
                       Climatizador
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/deskIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon4">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons5">
                       Escritorio 
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/wardrobeIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon4">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons6">
                       Armario
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/bedlineIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon4">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons7">
                       Toallas/Ropa de cama
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/tvIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon4">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons9">
                       Smart TV
                     </p>
                   </div>
                 </div>
-                <a id="enlaceRoom1Bonsoms" href="room6Rossello.html#disponibilidadRoom6Rossello">VER DISPONIBILIDAD</a>
+                <a id="enlaceRoom1Bonsoms" href="room6Rossello.html#disponibilidadRoom6Rossello" data-section="rossello" data-value="buttonDisp">VER DISPONIBILIDAD</a>
 
                 <div class="iconsCardsRoomsRossello__button">
                     <p>975 €</p>
@@ -725,57 +705,53 @@
               <!-- CARD ROOM 7 -->
               <div class="rosselloCardRooms">
                 <img src="./img/room7Rossello/room7_1.webp" alt="">
-                <h4>HABITACIÓN BADAL</h4>
-                <!-- <h6 class="room7RosselloDisponibilidad">Disponible a partir del 18/07/23</h6> -->
-                <!-- <p id="textCalendar">No disponible (desde - hasta)</p> -->
-                <!-- <div class='sk-ww-google-calendar' data-embed-id='169015'></div> -->
-                
-                <p class="rosselloCardRooms__text" data-section="colivings" data-value="rosselloCardIndex">Habitación individual ubicada en la planta baja de la casa con baño privado a escasos metros. </p>
+                <h4 data-section="rossello" data-value="room7RosselloTitle">HABITACIÓN BADAL</h4>
+                <p class="rosselloCardRooms__text" data-section="rossello" data-value="room6RosselloText">Habitación individual ubicada en la planta baja de la casa con baño privado a escasos metros. </p>
                 <div class="iconsCardsRooms">
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/singleIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon1">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons10">
                       Individual
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/bedroomIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon2">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons11">
                       Cama simple
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/bathroomIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon3">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons3">
                       Baño privado
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/temperaturaIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon4">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons4">
                       Climatizador
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/deskIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon4">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons5">
                       Escritorio 
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/wardrobeIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon4">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons6">
                       Armario
                     </p>
                   </div>
                   <div class="iconsCardsRooms__text">
                     <img src="./img/iconsRossello/bedlineIcon.png" height="22px" width="22px" alt="">
-                    <p class="iconsCardsRooms__p" data-section="colivings" data-value="rosselloCardIndexIcon4">
+                    <p class="iconsCardsRooms__p" data-section="rossello" data-value="room1RosselloIcons7">
                       Toallas/Ropa de cama
                     </p>
                   </div>
                 </div>
-                <a id="enlaceRoom1Bonsoms" href="room7Rossello.html#disponibilidadRoom7Rossello">VER DISPONIBILIDAD</a>
+                <a id="enlaceRoom1Bonsoms" href="room7Rossello.html#disponibilidadRoom7Rossello" data-section="rossello" data-value="buttonDisp">VER DISPONIBILIDAD</a>
 
                 <div class="iconsCardsRoomsRossello__button">
                     <p>600 €</p>

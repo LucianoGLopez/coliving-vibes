@@ -41,11 +41,21 @@
         "requestAccess": "Request Access"
     },
     "ourConcept":{
-        "title": "Our concept",
-        "text": "Our colivings are modern and designed by professionals focused on the comfort and well-being of their residents. The design of the coliving is based on principles of order, open space and light. The common spaces, such as the kitchen, the dining room and the rest areas, are carefully designed, taking care of every detail, to promote the tranquility and well-being of our residents. Sustainability is also an integral part of our concept. The building has renewable energy systems, such as solar panels and efficient water and waste management systems.",
+        "title": "OUR CONCEPT",
+        "text": "Welcome to Coliving Vibes, where life is made easy. We offer a hassle-free coliving experience in meticulously designed spaces that feel like home. From selecting roommates to maintaining the home and purchasing basic supplies, we take care of everything. With flexible rental contracts starting at 32 days, we offer a sustainable community living model that is waiting for you. Do you want to know more about how we make life easy? Click here and discover the concept behind Coliving Vibes today!",
         "button": "SEE MORE",
-        "titleH1": "OUR CONCEPT",
-        "titleVideo": "KNOW OUR COLIVING CONCEPT",
+        "flexibilityTitle": "FLEXIBILITY",
+        "flexibilityText": "We offer flexible rental contracts starting at 32 days, adapting to the changing needs of our residents. At Coliving Vibes, life is made easy.",
+        "lifeTitle": "LIFE WITHOUT COMPLICATIONS",
+        "lifeText": "Our colivings are fully equipped and furnished, ready for modern living. You just have to unpack your bags and start enjoying.",
+        "selectionTitle": "COLIVERS SELECTION",
+        "selectionText": "We create a community of people with similar interests and lifestyles. We take care of the selection of colivers to ensure that you share your experience with like-minded people and can make lasting friendships.",
+        "networkingTitle": "NETWORKING AND COMMUNITY",
+        "networkingText": "We believe in the importance of establishing meaningful connections. Our common spaces are designed to encourage casual networking and create a vibrant and diverse community. We are proud to offer an environment where residents become one big family and shared experiences become unforgettable memories.",
+        "cleanTitle": "MAINTENANCE AND CLEANING",
+        "cleanText": "We take care of everything so you can focus on living. From cleaning common areas to purchasing basic supplies, we keep your home in perfect condition.",
+        "designTitle": "COZY DESIGN",
+        "designText": "Our spaces are designed with attention to detail to convey warmth, peace and a sense of belonging. Each corner is a reflection of functionality and comfort, offering suitable environments to rest, work, study or be creative.",
         "textVideo": "Get to know our Coliving concept. In our home you will find modern, spacious and bright spaces. Ideal for those looking for a pleasant place to spend their stay in Barcelona. Thanks to our design and furniture, you will have enough comfort and tranquility to rest, study and even work from there. The common spaces are ideal for socializing between residents or simply spending time outdoors. Committed to caring for the environment, our home has energy systems and sustainable air conditioning, water and waste management.",
         "titleHome": "HOME",
         "home": "The bases of our Colivings have been designed with every detail in mind to offer a unique and warm experience, creating a well-being, cozy and homely environment for its tenants, so that they feel immediately at ease, as if they were in their own homes.",
@@ -63,6 +73,8 @@
         "clean": "A professional cleaning service is included - Monday to Friday - to ensure that our residents enjoy a clean and tidy environment at all times. We recognize the importance of maintaining a clean and pleasant space. The service covers all the common areas of Coliving. Ensuring that these spaces are always impeccable and ready to be enjoyed by all."
     },
     "rossello":{
+        "seeRoomsButtonRossello":"See rooms",
+        "offerTitle":"WHAT WE OFFER?",
         "icon1": "Couples",
         "icon2": "7 rooms",
         "icon3": "Private bathrooms",
@@ -75,26 +87,54 @@
         "icon10": "Smart TV",
         "icon11": "WI-FI",
         "icon12": "Public transport",
-        "rosselloText": "Coliving Vibes Rosselló is located in a spacious three-story house, with bright and spacious rooms and common areas, perfect for couples or individuals seeking a comfortable stay in Barcelona. It offers 7 rooms -six doubles and one single-, all with private bathroom. The house has adjustable air conditioning to maintain a pleasant temperature. In addition, it has several common spaces, such as a modern and fully equipped kitchen, a living-dining room with Smart TV, a patio to relax outdoors and a large terrace, where there is an equipped laundry room. The cleaning of the common areas is done from Monday to Friday, however, residents will find cleaning products at their disposal at all times. Its strategic location allows easy access to several bus stops and metro lines 1, 5 and LS9, connecting the house with several key points, such as the airport and the city center.",
-        "rosselloButton": "IMAGES GALLERY",
         "buttonImages": "See more",
-        "rosselloTitleCommon": "COMMON SPACES",
-        "rosselloTextCommon": "The coliving has a wide variety of common spaces for residents to enjoy and socialize. A spacious dining room where residents can share meals together, work or simply relax. A complete and modern kitchen that has all the necessary appliances, kitchen utensils and labeled storage space so that each resident has their space, both in the pantry and in the refrigerator. An outdoor terrace and patio equipped with comfortable lounge chairs and tables perfect for relaxing, reading a book or enjoying a quiet conversation with other outdoor residents. On the terrace there is also the laundry room, which has two washing machines and a dryer, iron and ironing board. Clothes washing products are included and always available to residents. These common spaces are designed to encourage social interaction between residents, creating a welcoming community environment and providing opportunities to network with like-minded individuals.",
+        "ourCommonSpacesTitle": "OUR COMMON SPACES",
+        "ourCommonSpacesText": "Coliving Vibes Collblanc Barcelona offers a welcoming and functional environment for residents. From the living room where you can socialize and relax, to the patio and terrace where you can enjoy the outdoors. Additionally, the fully equipped laundry and kitchen provide convenience and ease in residents' daily lives. These areas promote interaction and a sense of community among them, creating a pleasant and enriching environment to live in.",
+        "tourRosselloTitle":"DO YOU WANT TO TAKE A LOOK? <br> Take our 3D tour",
+        "ourRoomsRosselloTitle":"OUR ROOMS",
+        "ourRoomsRosselloText":"All our rooms are fully equipped. They have a private bathroom, heating, air conditioning and air renewal system. <br>Just come in with your suitcase ready to take life easy!",
         "rosselloButtonCards":"CONTACT",
-        "rosselloTitleRoom1": "ROOM CATALUNYA",
-        "rosselloTextRoom1": "Room number 1 is located on the third floor of the house, like all our rooms, it is spacious and bright. It has a fully equipped private bathroom. It is equipped with a hot/cold air conditioning system and air renewal, which allows you to adjust the temperature according to your preferences and guarantees a cool and comfortable environment at all times.A special feature of this room is its private balcony.You will have your own outdoor space with a table and chairs where you can relax, enjoy the fresh air, light or sunbathe in complete privacy. In addition to these specific features, the room is furnished with a comfortable double bed, spacious closet, smart tv, desk and desk chair for your comfort and convenience.",
-        "rosselloTitleRoom2": "ROOM TIBIDABO",
-        "rosselloTextRoom2": "Room number 2 is very spacious and bright, it has two windows that allow natural light to enter, creating a bright and cozy atmosphere. It has a smart tv, a desk and a desk chair, which gives you a comfortable workspace if you need to do homework or work from home. In addition, you will find a double bed, ideal to rest and enjoy a good night's sleep, and a large closet. The room also has a fully equipped private bathroom, exclusively for your use. Likewise, like all our rooms, it has a hot/cold air conditioning system and air renewal, which allows you to adjust the temperature according to your preferences and guarantees a cool and comfortable environment at all times. The room is fully equipped with everything you need for your stay.",
-        "rosselloTitleRoom3": "ROOM MONTJUIC",
-        "rosselloTextRoom3": "Room number 3 is spacious and bright. It is equipped with a hot/cold air conditioning system, which allows you to adjust the temperature according to your preferences. It has a private bathroom fully equipped with everything you need. It has a large closet where you can store your clothes and belongings in an organized way. In addition, it has two desks, which is ideal if you need additional work space or if you share the room with your partner and you both need a place to study or work. The bed is a double, providing ample space to kick back and relax. In the room you will find a smart tv, which will allow you to enjoy entertainment in the comfort of your room. With two windows, the room will receive natural light without artificial light during the day.",
-        "rosselloTitleRoom4":"ROOM SANTS",
-        "rosselloTextRoom4": "The room number 4 of the coliving room is really spacious and bright, with features that make it very comfortable and functional. The room has two large windows facing the front that allow abundant natural light to enter, creating a bright and pleasant environment. It has a double bed, a large double desk, ideal for those who need a workspace to study or work from home, and a smart TV. Additionally, the spacious closet provides generous storage space for your clothing and personal belongings. The room is equipped with an air conditioner that offers the option of adjusting the temperature according to your preferences, both in summer and winter. This guarantees a comfortable stay at any time of the year. It has a fully equipped private bathroom.",
-        "rosselloTitleRoom5": "ROOM FIRA",
-        "rosselloTextRoom5": "Room number 5 has enough space to provide spaciousness and comfort to the residents. Natural light enters through two windows located at the front of the property, creating a bright and pleasant atmosphere. In the room you will find a double bed, which allows you to rest comfortably and enjoy a good sleep. There is also a desk, which is ideal for studying, working or doing other activities that require a dedicated workspace. A spacious closet is available in the bedroom, providing you with generous storage space for your personal belongings. It is equipped with a hot/cold air conditioner that offers the option of adjusting the temperature according to your preferences and with a smart TV. It has a private bathroom with a key located on the same floor for easy access and use.",
-        "rosselloTitleRoom6": "ROOM PEDRERA",
-        "rosselloTextRoom6": "Room number 6 is located on the ground floor of the coliving, making it a convenient and comfortable option. The room is bright and spacious. It has a hot/cold climate control, which allows you to adjust the temperature according to your preferences. The room has a fully equipped private bathroom. As for the furniture, the room is equipped with a comfortable double bed, a desk ideal for working or studying, a desk chair, a large closet which provides you with enough storage space for your personal belongings, allowing you to keep the room tidy and organized. , and smart tv for entertainment within the privacy of your room.",
-        "rosselloTitleRoom7": "ROOM BADAL",
-        "rosselloTextRoom7": "The room number 7 of the coliving is an individual option and although it is smaller in size, it is designed to provide all the necessary amenities for a comfortable stay. The room is equipped with a single bed, a closet in the room, which allows you to store your clothes and belongings in a neat and organized manner. It also has a desk and a desk chair to provide you with your space, ideal for studying or working. It is equipped with a hot/cold climate control that allows you to adjust the room temperature according to your preferences. It has a private bathroom outside the room intended exclusively for the use of the residents of room 7, it is located near the room for easy access and use.",
+        "room1RosselloTitle": "CATALUNYA ROOM",
+        "room1RosselloText": "Located on the third floor of the house. Large and bright room. The only one with a private terrace.",
+        "room1RosselloIcons1":"Allows couples",
+        "room1RosselloIcons2":"Double bed",
+        "room1RosselloIcons3":"Private bathroom",
+        "room1RosselloIcons4":"Air conditioning",
+        "room1RosselloIcons5":"Desk",
+        "room1RosselloIcons6":"Cupboard",
+        "room1RosselloIcons7":"Towels/Bedding",
+        "room1RosselloIcons8":"Private terrace",
+        "room1RosselloIcons9":"Smart TV",
+        "room1RosselloIcons10":"Single",
+        "room1RosselloIcons11":"Single bed",
+
+
+
+        "buttonDisp":"SEE AVAILABILITY",
+        "room2RosselloTitle": "TIBIDABO ROOM",
+        "room2RosselloText": "Located on the second floor of the house. Spacious and bright room with double desk.",
+        "room3RosselloTitle":"MONTJUIC ROOM",
+        "room3RosselloText": "Located on the second floor of the house. It is characterized by having two desks.",
+        "room2RosselloIcons5":"2 desks",
+        "room4RosselloTitle":"SANTS ROOM",
+        "room4RosselloText":"Located on the second floor of the house. It has bright windows overlooking the street.",
+        "room5RosselloTitle":"FIRA ROOM",
+        "room5RosselloText":"Bright room located on the second floor of the house. It has a private bathroom a few meters away.",
+        "room6RosselloTitle":"PEDRERA ROOM",
+        "room6RosselloText":"Located on the ground floor of our house. It is a bright, spacious and comfortable room.",
+        "room7RosselloTitle":"BADAL ROOM",
+        "room7RosselloText":"Single room located on the ground floor of the house with a private bathroom a few meters away.",
+
+
+
+
+
+
+
+
+
+
+        
         "nearbyTransport": "NEARBY TRANSPORT:",
         "transportBuses": "You will find different bus stops around our Coliving. Namely: 46, 52, 54, 95, L82, L85, LH1, M12, D20, among others.",
         "transportMetro": "Line 5: Badal Station just 6 minutes on foot (450m). <br> Collblanc Station just 7 minutes on foot (500m). <br>Line 1: Santa Eulália Station just 8 minutes on foot (700m ).",
@@ -149,43 +189,9 @@
         "airportBus": "You will find it in both airport terminals. Get off at Plaza Espanya and from there take the L1 metro to Sant Eulalia station, take the 'Riera Blanca' exit and walk about 10 minutes (700m) to Coliving Vibes.",
         "airportTaxi": "Ultimately you can take a taxi at the airport. The estimated time will be approximately 20 minutes."
     },
-    "galleryImages":{
-        "title": "IMAGE GALLERY",
-        "buttonRossello": "SEE GALLERY ROSSELLO",
-        "buttonBonsoms": "SEE GALLERY BONSOMS"
-    },
-    "galleryRossello":{
-        "commonSpacesTitle": "COMMON ZONES",
-        "livingRoomTitle": "LIVING ROOM",
-        "kitchenTitle": "KITCHEN",
-        "yardTitle": "YARD",
-        "terraceLaundryTitle": "TERRACE AND LAUNDRY",
-        "roomsTitle": "ROOMS",
-        "room1": "ROOM CATALUNYA",
-        "room2": "ROOM TIBIDABO",
-        "room3": "ROOM MONTJUIC",
-        "room4": "ROOM SANTS",
-        "room5": "ROOM FIRA",
-        "room6": "ROOM PEDRERA",
-        "room7": "ROOM BADAL"
-    },
-    "galleryBonsoms":{
-        "commonSpacesTitle": "COMMON ZONES",
-        "livingRoomTitle": "LIVING ROOM",
-        "kitchenTitle": "KITCHEN",
-        "yardTitle": "PATIO",
-        "bathroomLaundryTitle": "BATHROOMS AND LAUNDRY",
-        "roomsTitle": "ROOMS",
-        "room1": "ROOM 1",
-        "room2": "ROOM 2",
-        "room3": "ROOM 3",
-        "room4": "ROOM 4",
-        "room5": "ROOM 5",
-        "room6": "ROOM 6",
-        "room7": "ROOM 7",
-        "room8": "ROOM 8",
-        "room9": "ROOM 9"
-    },
+    
+
+
     "faqs":{
         "faqsTitle": "FREQUENT QUESTIONS",
         "faqsAdministrative": "ADMINISTRATIVE INFORMATION",
@@ -244,12 +250,15 @@
         "faqsAnswer24":"TAXI: If you arrive from the airport, you can take a taxi to our coliving. You will find them at the exit of both terminals (1 and 2).<br>METRO: You will find the L9 in both terminals (1 and 2). The L9 takes you directly to the Colblanc station, where you can exit and walk about 8 minutes (450m) to Coliving Vibes. <br>AEROBÚS: You will find them in both terminals. The ticket price is 5.90 EUR. Exit in floor Espanya and take the L1 metro. Exit the metro in Sant Eulalia, take the 'Riera Blanca' exit and walk about 10 minutes (700m) to Coliving Vibes.",
         "faqsAnswer25":"We apologize, but we do not have storage options available for bicycles, scooters, or any other vehicle in our convivial space. We kindly ask that you refrain from bringing bicycles or other vehicles into the building for safety reasons and to respect the space of your fellow residents."
     },
+
+
     "contact":{
         "title": "CONTACT",
-        "subtitle": "SEND US YOUR INQUIRY",
-        "phone": "Phone",
-        "rrss": "Our social networks:"
+        "text": "We love hearing from you. If you have questions, suggestions, want to learn more about possible collaborations or form an alliance with us, do not hesitate to complete the following form. We will contact you as soon as possible. Please note that this form is for general inquiries only. If you are interested in requesting a room, we invite you to fill out our 'Request to rent a room' form. This will help us process your request more efficiently. Thanks for your understanding!",
+        "rrss": "Follow us on social networks"
     },
+
+
     "footer":{
         "navHome": "Home",
         "navOurconcept": "Our concept",
