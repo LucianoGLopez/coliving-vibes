@@ -79,7 +79,7 @@
         "icon3": "Baños privados",
         "icon4": "Climatizador frio/calor",
         "icon5": "Cocina completa",
-        "icon6": "Sala de estar",
+        "icon6": "Salón",
         "icon7": "Patio y terraza",
         "icon8": "Lavandería",
         "icon9": "Servicio limpieza",
@@ -121,6 +121,66 @@
         "room6RosselloText":"Ubicada en la planta baja de nuestra casa. Es una habitación luminosa, amplia y cómoda.",
         "room7RosselloTitle":"HABITACIÓN BADAL",
         "room7RosselloText":"Habitación individual ubicada en la planta baja de la casa con baño privado a escasos metros.",
+
+
+        "1RosselloTitle":"HABITACIÓN CATALUNYA",
+        "1RosselloSubtitle":"DESCRIPCIÓN",
+        "1RosselloText":"La habitación Catalunya es una moderna habitación con baño privado en Barcelona. Además, tienes una terraza privada donde puedes disfrutar de momentos tranquilos al aire libre dentro de la privacidad de tu habitación. También cuenta con un amplio armario para mantener tus pertenencias organizadas, un escritorio para trabajar o estudiar, y smart TV para entretenimiento. Además, la habitación cuenta con climatizador frío/calor para ajustar la temperatura según tus preferencias. Es un espacio perfecto para relajarte y disfrutar de tu estancia en Barcelona.",
+        "1RosselloIconBathroom":"BAÑO PRIVADO",
+        "1RosselloTextBathroom":"Disfruta de la comodidad y privacidad de tener un amplio, cómodo y totalmente equipado baño privado en suite.",
+
+        "1RosselloIconTerrace":"TERRAZA PRIVADA",
+        "1RosselloTextTerrace":"Única habitación en poseer terraza privada para disfrutar del sol y el aire libre en la privacidad de tu habitación.",
+
+        "1RosselloIconBed":"CAMA DOBLE",
+        "1RosselloTextBed":"La habitación cuenta con una cómoda y espaciosa cama doble para que tengas el mejor descanso luego de un largo día.",
+
+        "1RosselloIconDesk":"ESCRITORIO",
+        "1RosselloTextDesk":"Cuenta con escritorio donde podrás trabajar o estudiar comodamente en la privacidad y tranquilidad de tu habitación.",
+
+        "1RosselloIconTv":"SMART TV",
+        "1RosselloTextTv":"La habitación posee Smart TV. Podrás relajarte y disfrutar de una película o de tu serie favorita en cualquier momento del día.",
+
+        "1RosselloIconAc":"CLIMATIZADOR",
+        "1RosselloTextAc":"Posee climatizador frio/calor. Podrás controlar la temperatura de tu habitación manteniendo un clima agradable todo el año.",
+
+        "1RosselloIconCupboard":"ARMARIO",
+        "1RosselloTextCupboard":"Cuenta con un amplio armario con puertas con espejo donde podrás organizar y guardar tus objetos personales.",
+
+        "1RosselloIconDoubleDesk":"DOS ESCRITORIOS",
+        "1RosselloTextDoubleDesk":"Cuenta con dos escritorios donde podrás trabajar o estudiar comodamente en la privacidad y tranquilidad de tu habitación.",
+
+        "1RosselloIconDoubleDesk2":"ESCRITORIO DOBLE",
+        "1RosselloTextDoubleDesk2":"Posee escritorio doble donde podrás trabajar o estudiar comodamente en la privacidad y tranquilidad de tu habitación.",
+
+        "1RosselloIconSingle":"INDIVIDUAL",
+        "1RosselloTextSingle":"Habitación individual que cuenta con todas las comodidades necesarias para que te sientas a gusto.",
+
+        "1RosselloIconSingleBed":"CAMA INDIVIDUAL",
+        "1RosselloTextSingleBed":"La habitación cuenta con una cómoda cama individual para que tengas el mejor descanso luego de un largo día.",
+
+
+
+
+
+        "2RosselloTitle":"HABITACIÓN TIBIDABO",
+        "2RosselloText":"La habitación Tibidabo de Coliving Vibes Collblanc es una moderna habitación con baño privado en Barcelona. Podrás disfrutar de una espaciosa cama doble para un descanso reparador, un amplio baño privado en suite, un smart TV para entretenimiento, un escritorio doble para trabajar o estudiar, una agradable iluminación natural que aporta amplitud y calidez, climatizador frio/calor para mantener la temperatura ideal y un amplio armario para almacenar tus pertenencias de manera organizada. Es un espacio cómodo y funcional, perfecto para disfrutar de una estancia agradable en Barcelona.",
+
+        "3RosselloTitle":"HABITACIÓN MONTJUIC",
+        "3RosselloText":"La habitación Montjuic de Coliving Vibes Collblanc es una moderna y luminosa habitación con baño privado en Barcelona. Ofrece una experiencia moderna y funcional. Cuenta con una cómoda cama doble, dos escritorios para trabajar o estudiar a gusto en la comodidad de la habitación, baño privado en suit, smart TV, iluminación natural, climatizador frío/calor, un espacioso armario y un zapatero. Tendrás todo lo necesario para disfrutar de una estancia cómoda y productiva. Es un espacio ideal para aquellos que necesitan un ambiente propicio para trabajar, estudiar o llevar a cabo proyectos creativos en Barcelona.",
+
+        "4RosselloTitle":"HABITACIÓN SANTS",
+        "4RosselloText":"La habitación Sants de Coliving Vibes Collblanc es una moderna, amplia y luminosa habitación con baño privado en Barcelona. Esta habitación ofrece un espacio generoso para tu comodidad. Cuenta con una cómoda cama doble, baño en suite, escritorio doble, smart TV, excelente iluminación natural, climatizador frío/calor y un amplio armario. Tendrás todo lo necesario para una estancia cómoda y productiva. Disfruta de la amplitud y luminosidad de esta habitación en el coliving mientras trabajas, estudias o simplemente te relajas.",
+
+        "5RosselloTitle":"HABITACIÓN FIRA",
+        "5RosselloText":"La habitación Fira de Coliving Vibes Collblanc es una moderna y luminosa habitación con baño privado en Barcelona. Cuenta con una cómoda cama doble, escritorio doble para trabajar o estudiar comodamente, smart TV, excelente iluminación natural, climatizador frío/calor y un amplio armario. Tendrás todo lo necesario para una estancia cómoda y productiva. Cuenta con baño privado a escasos metros, bien equipado, con llave propia de uso exclusivo para esta habitación en particular. Disfruta de la amplitud y luminosidad de esta habitación mientras te relajas, trabajas o estudias.",
+
+        "6RosselloTitle":"HABITACIÓN PEDRERA",
+        "6RosselloText":"La habitación Pedrera de Coliving Vibes Collblanc es una moderna, amplia y luminosa habitación con baño privado en Barcelona. Ofrece una experiencia funcional en la comodidad de la planta baja. La habitación cuenta con una cómoda cama doble, un amplio baño en suite, un gran escritorio para trabajar o estudiar a gusto, smart TV, iluminación natural, climatizador frío/calor y un práctico armario. Disfruta de la comodidad de estar en la planta baja, en un espacio luminoso y acogedor para relajarte, trabajar o estudiar.",
+
+        "7RosselloTitle":"HABITACIÓN BADAL",
+        "7RosselloText":"La habitación Badal de Coliving Vibes Collblanc es una moderna habitación con baño privado en Barcelona. Acogedora habitación individual perfecta para aquellos que buscan privacidad y comodidad. Cuenta con una cómoda cama individual para un descanso reparador, un escritorio para trabajar o estudiar, armario para organizar tus pertenencias y climatizador frio/calor para mantener la temperatura ideal. Cuenta con un amplio y moderno baño privado con llave a escasos metros de la habitación. Disfruta de la tranquilidad y privacidad de esta habitación, con todas las comodidades necesarias para una estancia productiva en Coliving Vibes Collblanc.",
+
 
 
         "nearbyTransport": "TRANSPORTES CERCANOS:",

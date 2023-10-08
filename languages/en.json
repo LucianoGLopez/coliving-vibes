@@ -125,9 +125,60 @@
         "room7RosselloTitle":"BADAL ROOM",
         "room7RosselloText":"Single room located on the ground floor of the house with a private bathroom a few meters away.",
 
+        "1RosselloTitle":"CATALUNYA ROOM",
+        "1RosselloSubtitle":"DESCRIPTION",
+        "1RosselloText":"The Catalunya room is a modern room with a private bathroom in Barcelona. Additionally, you have a private terrace where you can enjoy quiet moments outdoors within the privacy of your room. It also has a large closet to keep your belongings organized, a desk for working or studying, and a smart TV for entertainment. In addition, the room has hot/cold air conditioning to adjust the temperature according to your preferences. It is a perfect space to relax and enjoy your stay in Barcelona.",
+        "1RosselloIconBathroom":"PRIVATE BATHROOM",
+        "1RosselloTextBathroom":"Enjoy the comfort and privacy of having a large, comfortable and fully equipped private en-suite bathroom.",
+
+        "1RosselloIconTerrace":"PRIVATE TERRACE",
+        "1RosselloTextTerrace":"The only room to have a private terrace to enjoy the sun and the outdoors in the privacy of your room.",
+
+        "1RosselloIconBed":"DOUBLE BED",
+        "1RosselloTextBed":"The room has a comfortable and spacious double bed so you can have the best rest after a long day.",
+
+        "1RosselloIconDesk":"DESK",
+        "1RosselloTextDesk":"It has a desk where you can work or study comfortably in the privacy and tranquility of your room.",
+
+        "1RosselloIconTv":"SMART TV",
+        "1RosselloTextTv":"The room has Smart TV. You can relax and enjoy a movie or your favorite series at any time of the day.",
+
+        "1RosselloIconAc":"AIR CONDITIONER",
+        "1RosselloTextAc":"It has hot/cold air conditioning. You will be able to control the temperature of your room, maintaining a pleasant climate all year round.",
+
+        "1RosselloIconCupboard":"CUPBOARD",
+        "1RosselloTextCupboard":"It has a large closet with mirrored doors where you can organize and store your personal items.",
+
+        "1RosselloIconDoubleDesk":"TWO DESKS",
+        "1RosselloTextDoubleDesk":"It has two desks where you can work or study comfortably in the privacy and tranquility of your room.",
+
+        "1RosselloIconDoubleDesk2":"DOUBLE DESK",
+        "1RosselloTextDoubleDesk2":"It has a double desk where you can work or study comfortably in the privacy and tranquility of your room.",
+
+        "1RosselloIconSingle":"SINGLE",
+        "1RosselloTextSingle":"Single room that has all the necessary amenities to make you feel comfortable.",
+
+        "1RosselloIconSingleBed":"SINGLE BED",
+        "1RosselloTextSingleBed":"The room has a comfortable single bed so you can have the best rest after a long day.",
 
 
+        "2RosselloTitle":"TIBIDABO ROOM",
+        "2RosselloText":"The Tibidabo room by Coliving Vibes Collblanc is a modern room with a private bathroom in Barcelona. You can enjoy a spacious double bed for a restful rest, a large private en-suite bathroom, a smart TV for entertainment, a double desk for working or studying, pleasant natural lighting that provides spaciousness and warmth, hot/cold air conditioning to maintain the ideal temperature and a large closet to store your belongings in an organized way. It is a comfortable and functional space, perfect for enjoying a pleasant stay in Barcelona.",
 
+        "3RosselloTitle":"MONTJUIC ROOM",
+        "3RosselloText":"The Montjuic room by Coliving Vibes Collblanc is a modern and bright room with a private bathroom in Barcelona. Offers a modern and functional experience. It has a comfortable double bed, two desks to work or study comfortably in the comfort of the room, a private en-suite bathroom, smart TV, natural lighting, hot/cold air conditioning, a spacious closet and a shoe rack. You will have everything you need to enjoy a comfortable and productive stay. It is an ideal space for those who need a conducive environment to work, study or carry out creative projects in Barcelona.",
+
+        "4RosselloTitle":"SANTS ROOM",
+        "4RosselloText":"The Sants room by Coliving Vibes Collblanc is a modern, spacious and bright room with a private bathroom in Barcelona. This room offers generous space for your comfort. It has a comfortable double bed, en-suite bathroom, double desk, smart TV, excellent natural lighting, hot/cold air conditioning and a large closet. You will have everything you need for a comfortable and productive stay. Enjoy the spaciousness and light of this coliving room while you work, study or simply relax.",
+
+        "5RosselloTitle":"FIRA ROOM",
+        "5RosselloText":"The Fira room by Coliving Vibes Collblanc is a modern and bright room with a private bathroom in Barcelona. It has a comfortable double bed, double desk to work or study comfortably, smart TV, excellent natural lighting, hot/cold air conditioning and a large closet. You will have everything you need for a comfortable and productive stay. It has a private bathroom a few meters away, well equipped, with its own key for exclusive use for this particular room. Enjoy the spaciousness and light of this room while you relax, work or study.",
+
+        "6RosselloTitle":"PEDRERA ROOM",
+        "6RosselloText":"The Pedrera room by Coliving Vibes Collblanc is a modern, spacious and bright room with a private bathroom in Barcelona. Offers a functional experience in the comfort of the ground floor. The room has a comfortable double bed, a large en-suite bathroom, a large desk to work or study at ease, smart TV, natural lighting, hot/cold air conditioning and a practical wardrobe. Enjoy the comfort of being on the ground floor, in a bright and welcoming space to relax, work or study.",
+
+        "7RosselloTitle":"BADAL ROOM",
+        "7RosselloText":"The Badal room by Coliving Vibes Collblanc is a modern room with a private bathroom in Barcelona. Cozy single room perfect for those looking for privacy and comfort. It has a comfortable single bed for a restful rest, a desk to work or study, a closet to organize your belongings and hot/cold air conditioning to maintain the ideal temperature. It has a large and modern private bathroom with a lock just a few meters from the room. Enjoy the tranquility and privacy of this room, with all the necessary amenities for a productive stay at Coliving Vibes Collblanc.",
 
 
 
