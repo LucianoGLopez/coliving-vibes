@@ -2,6 +2,9 @@
     "wrapper":{
         "button": "CONTACT"
     },
+    "button":{
+        "buttonFixed":"REQUEST A ROOM"
+    },
     "colivings":{
         "title": "OUR COLIVINGS",
         "subtitle": "Know our properties and rooms",
