@@ -1,5 +1,5 @@
 .wrapperRoom1Bonsoms{
-    @include wrapperRoomsRosselloMobile ((url(../img/bonsoms/room1Bonsoms/room1_1.jpg)), $green);
+    @include wrapperRoomsRosselloMobile ((url(../img/bonsoms/room1Bonsoms/room1_1.webp)), $green);
 }
 
 .bonsoms1__text{
@@ -76,7 +76,7 @@
 
 @media (min-width: 992px) {
     .wrapperRoom1Bonsoms{
-        @include wrapperRoomsRosselloDesktop ((url(../img/bonsoms/room1Bonsoms/room1_3.jpg)), $green);
+        @include wrapperRoomsRosselloDesktop ((url(../img/bonsoms/room1Bonsoms/room1_3.webp)), $green);
     }
 
     .cardsRoom1Bonsoms{

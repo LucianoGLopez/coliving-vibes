@@ -48,7 +48,7 @@
 // ROSSELLO WRAPPER
 .rosselloWrapper{
         height: 100vh;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/portada1.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/portada1.webp);
         background-size: cover;
         background-position: center;
         display: flex;
@@ -484,25 +484,11 @@
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // ROSSELLO DESKTOP
 @media (min-width: 992px) {
     .rosselloWrapper{
         height: 100vh;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/portada1.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/portada1.webp);
         background-size: cover;
         background-position: center;
         display: flex;

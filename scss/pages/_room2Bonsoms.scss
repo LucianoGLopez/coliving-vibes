@@ -1,5 +1,5 @@
 .wrapperRoom2Bonsoms{
-    @include wrapperRoomsRosselloMobile ((url(../img/bonsoms/room2Bonsoms/room2_1.jpg)), rgb(255, 50, 50));
+    @include wrapperRoomsRosselloMobile ((url(../img/bonsoms/room2Bonsoms/room2_1.webp)), rgb(255, 50, 50));
 }
 
 .bonsoms2__text{
@@ -44,7 +44,7 @@
 
 @media (min-width: 992px) {
     .wrapperRoom2Bonsoms{
-        @include wrapperRoomsRosselloDesktop ((url(../img/bonsoms/room2Bonsoms/room2_1.jpg)), rgb(255, 50, 50));
+        @include wrapperRoomsRosselloDesktop ((url(../img/bonsoms/room2Bonsoms/room2_1.webp)), rgb(255, 50, 50));
     }
 
     .cardsRoom2Bonsoms{

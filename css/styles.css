@@ -1386,7 +1386,7 @@ h1 {
 
 .rosselloWrapper {
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/portada1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/portada1.webp);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -1722,7 +1722,7 @@ h1 {
 @media (min-width: 992px) {
   .rosselloWrapper {
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/portada1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/portada1.webp);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -1999,7 +1999,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room1Bonsoms/room1_1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room1Bonsoms/room1_1.webp);
   background-size: cover;
   background-position: center;
   padding-top: 50px;
@@ -2123,7 +2123,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room1Bonsoms/room1_3.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room1Bonsoms/room1_3.webp);
     background-size: cover;
     background-position: center;
     padding-top: 50px;
@@ -2243,7 +2243,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room2Bonsoms/room2_1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room2Bonsoms/room2_1.webp);
   background-size: cover;
   background-position: center;
   padding-top: 50px;
@@ -2341,7 +2341,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room2Bonsoms/room2_1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room2Bonsoms/room2_1.webp);
     background-size: cover;
     background-position: center;
     padding-top: 50px;
@@ -2436,7 +2436,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room3Bonsoms/room3_1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room3Bonsoms/room3_1.webp);
   background-size: cover;
   background-position: center;
   padding-top: 50px;
@@ -2534,7 +2534,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room3Bonsoms/room3_1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room3Bonsoms/room3_1.webp);
     background-size: cover;
     background-position: center;
     padding-top: 50px;
@@ -2629,7 +2629,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room4Bonsoms/room4_1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room4Bonsoms/room4_1.webp);
   background-size: cover;
   background-position: center;
   padding-top: 50px;
@@ -2727,7 +2727,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room4Bonsoms/room4_1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room4Bonsoms/room4_1.webp);
     background-size: cover;
     background-position: center;
     padding-top: 50px;
@@ -2822,7 +2822,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room5Bonsoms/room4_1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room5Bonsoms/room4_1.webp);
   background-size: cover;
   background-position: center;
   padding-top: 50px;
@@ -2920,7 +2920,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room5Bonsoms/room5_1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room5Bonsoms/room5_1.webp);
     background-size: cover;
     background-position: center;
     padding-top: 50px;
@@ -3015,7 +3015,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room6Bonsoms/room6_1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room6Bonsoms/room6_1.webp);
   background-size: cover;
   background-position: center;
   padding-top: 50px;
@@ -3113,7 +3113,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room6Bonsoms/room6_1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room6Bonsoms/room6_1.webp);
     background-size: cover;
     background-position: center;
     padding-top: 50px;
@@ -3208,7 +3208,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room7Bonsoms/room7_2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room7Bonsoms/room7_2.webp);
   background-size: cover;
   background-position: center;
   padding-top: 50px;
@@ -3306,7 +3306,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room7Bonsoms/room7_2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room7Bonsoms/room7_2.webp);
     background-size: cover;
     background-position: center;
     padding-top: 50px;
@@ -3401,7 +3401,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room8Bonsoms/room8_1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room8Bonsoms/room8_1.webp);
   background-size: cover;
   background-position: center;
   padding-top: 50px;
@@ -3499,7 +3499,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room8Bonsoms/room8_1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room8Bonsoms/room8_1.webp);
     background-size: cover;
     background-position: center;
     padding-top: 50px;
@@ -3594,7 +3594,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room9Bonsoms/room9_1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room9Bonsoms/room9_1.webp);
   background-size: cover;
   background-position: center;
   padding-top: 50px;
@@ -3692,7 +3692,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room9Bonsoms/room9_1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bonsoms/room9Bonsoms/room9_1.webp);
     background-size: cover;
     background-position: center;
     padding-top: 50px;
@@ -5127,7 +5127,7 @@ h1 {
 
 .bonsomsWrapper {
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/bonsoms/livingRoom/livingRoom_1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/bonsoms/livingRoom/livingRoom_1.webp);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -5433,7 +5433,7 @@ h1 {
 @media (min-width: 992px) {
   .bonsomsWrapper {
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/bonsoms/livingRoom/livingRoom_1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/bonsoms/livingRoom/livingRoom_1.webp);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -5952,7 +5952,7 @@ button {
       border-radius: 100%; } }
 
 .faqsMain {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.5)), url(../img/colivingVibesNeon.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.5)), url(../img/colivingVibesNeon.webp);
   background-size: cover;
   background-position: top;
   background-attachment: fixed;
@@ -6000,7 +6000,7 @@ button {
 
 @media (min-width: 992px) {
   .faqsMain {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../img/colivingVibesNeon.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../img/colivingVibesNeon.webp);
     background-size: cover;
     background-attachment: fixed;
     height: max-content;
@@ -6041,7 +6041,7 @@ button {
 .contactMain {
   height: max-content;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/backgroundGallery.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/backgroundGallery.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
